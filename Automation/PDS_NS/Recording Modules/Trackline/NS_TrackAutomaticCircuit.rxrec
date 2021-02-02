@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="ca0d4ed5-440e-4254-a098-848139cb41a0"
+mode="Global"
+rxversion="8.3">
+	<name>
+		NS_TrackAutomaticCircuit
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="NS_TrackAutomaticCircuit"
+	namespace="PDS_NS.Recording_Modules.Trackline">
+	</codegen>
+	<variables>
+		<var
+		id="b6a68d15-fee3-4523-88eb-7f65907ab915"
+		name="TrackSectionId">
+			41402
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="GeneralUtilities"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="RightClickAndWaitForWithRetry"
+		namespace="PDS_CORE.Code_Utils"
+		optional="False"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="d1bb7607-1618-439e-9421-b94d878073de">
+				<argument
+				argname="button"
+				id="ef3bc6f9-9fac-48e3-9a82-c36713d513bc">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="7b505261-7671-4e8a-9c99-93a99aa66733"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@type='Jtlr_TracklineWindow']/container[@type='JScrollPane']/container[@name='viewport']/container[@type='Jtlr_JLayeredPane']/container/element[@type='Jtlr_TrackSectionSymbol' and @id=$TrackSectionId]/../../../../../container[@type='JScrollPane']/container[@name='viewport']/container[@type='Jtlr_JLayeredPane']/container/element[@type='Jtlr_TrackSectionSymbol' and @id=$TrackSectionId]
+						</path>
+					</info>
+				</argument>
+				<argument
+				argname="waitFor"
+				id="aa3501d8-c789-4489-9a06-a04c0c7f5cf4">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="263b9121-1347-40fe-9470-b538ba3ed421"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@type='Jtlr_TracklineWindow']/container[@type='JScrollPane']/container[@name='viewport']/container[@type='Jtlr_JLayeredPane']/container/element[@type='Jtlr_TrackSectionSymbol' and @id=$TrackSectionId]/../../../../../../form[@processname='PDS']/contextmenu[@visible='True']/menuitem[@text='Automatic']
+						</path>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		classname="GeneralUtilities"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="ClickAndWaitForNotExistWithRetry"
+		namespace="PDS_CORE.Code_Utils"
+		optional="False"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="5025ffa5-679c-41e8-a5b8-deb483bb45c6">
+				<argument
+				argname="buttonInfo"
+				id="5621856e-fd4f-4636-85e0-36b4c59e4a4c">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="263b9121-1347-40fe-9470-b538ba3ed421"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@type='Jtlr_TracklineWindow']/container[@type='JScrollPane']/container[@name='viewport']/container[@type='Jtlr_JLayeredPane']/container/element[@type='Jtlr_TrackSectionSymbol' and @id=$TrackSectionId]/../../../../../../form[@processname='PDS']/contextmenu[@visible='True']/menuitem[@text='Automatic']
+						</path>
+					</info>
+				</argument>
+				<argument
+				argname="waitFor"
+				id="72eeb099-4ea6-4fde-8466-b97174eff0aa">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="05d79d71-0ecb-4384-86f7-09db03dc0ead"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@type='Jtlr_TracklineWindow']/container[@type='JScrollPane']/container[@name='viewport']/container[@type='Jtlr_JLayeredPane']/container/element[@type='Jtlr_TrackSectionSymbol' and @id=$TrackSectionId]/../../../../../../form[@processname='PDS']/contextmenu[@visible='True']/menuitem[@text='Automatic']/../../../form[@processname='PDS']/contextmenu[@visible='True']/menuitem[@text='Circuit(s)']
+						</path>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		classname="GeneralUtilities"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="clickItemIfItExists"
+		namespace="PDS_CORE.Code_Utils"
+		optional="False"
+		varname="">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="39e5e165-bde7-4892-ba2e-5533980de6b3">
+				<argument
+				argname="item"
+				id="6a045cbd-e030-43bb-accd-1e40d1b65e6a">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="05d79d71-0ecb-4384-86f7-09db03dc0ead"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@type='Jtlr_TracklineWindow']/container[@type='JScrollPane']/container[@name='viewport']/container[@type='Jtlr_JLayeredPane']/container/element[@type='Jtlr_TrackSectionSymbol' and @id=$TrackSectionId]/../../../../../../form[@processname='PDS']/contextmenu[@visible='True']/menuitem[@text='Automatic']/../../../form[@processname='PDS']/contextmenu[@visible='True']/menuitem[@text='Circuit(s)']
+						</path>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="99db1ee9-18b9-40fb-9aa1-f8be4efc8d38"
+	name="Trackline_Repo"
+	relativepath="..\..\Trackline_Repo.rxrep"
+	rxversion="8.3">
+		<codegen
+		classname="Trackline_Repo"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="a7f431f9-6ac1-4a74-9611-247a94487456"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		NS_TrackAutomaticCircuit.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

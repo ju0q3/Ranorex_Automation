@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="5af7da60-38e5-4565-91d4-56b8e1453f97"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="NS_ApplyTerritoryTransfer"
+	namespace="PDS_NS.Recording_Modules.TerritoryTransfer">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="GeneralUtilities"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="ClickAndWaitForNotExistWithRetry"
+		namespace="PDS_CORE.Code_Utils"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="7d0cbd62-327c-4cb1-818a-015ec1fdea06">
+				<argument
+				argname="buttonInfo"
+				id="fd353ef0-4c94-4010-b27a-8f24bfaed6b3">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="e1d14ced-a24d-42d7-922b-3ba7dbf28ddf"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/form[@title='Territory Transfer']/container[@type='JPanel']/container[@type='JPanel']/button[@name='_OKBtn']
+						</path>
+					</info>
+				</argument>
+				<argument
+				argname="waitFor"
+				id="2b60f2ad-44a3-48bc-a961-5ade63843947">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="e0b9920c-c2b6-479b-af90-ed264b56df7b"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/form[@title='Territory Transfer']
+						</path>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message="Applying Territory Requests"
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="90f591fe-28fa-42f5-8f71-9c846c1411b4">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	id="0aca848b-fcfe-4ac6-a0b1-4563d872cf78"
+	name="TerritoryTransfer_Repo"
+	relativepath="..\..\TerritoryTransfer_Repo.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="TerritoryTransfer_Repo"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="246b357a-1299-440e-8112-36417b270800"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		NS_ApplyTerritoryTransfer.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

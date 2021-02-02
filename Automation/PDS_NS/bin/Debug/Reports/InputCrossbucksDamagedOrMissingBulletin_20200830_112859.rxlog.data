@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="28.94s"
+		durationms="28941"
+		type="root"
+		rid="19f9aed62394e692"
+		totalerrorcount="1"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="stelab"
+		rxversion="9.3.1.0"
+		host="GAATLENPTCW473W"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="8/30/2020 11:29:07 AM"
+		timestampiso="2020-08-30T15:29:07"
+		endtime="8/30/2020 11:29:36 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="InputCrossbucksDamagedOrMissingBulletin">
+		<detail>
+			InputCrossbucksDamagedOrMissingBulletin
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.610"
+			timeRelativeToTestModuleStartTime="00:08.610"
+			timeWallClock="11:29:16"
+			time="00:08.610"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>bulletinSeed, district, dotCrossingId, effectiveTimeDifference, reportedBy, expectedFeedback, pressComplete, closeBulletinRelayForm
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.564"
+			timeRelativeToTestModuleStartTime="00:12.564"
+			timeWallClock="11:29:20"
+			time="00:12.564"
+			level="Info"
+			category="User">
+			<message>
+				Test Suite parameter 'RapidClick' not found.  Defaulting to false.  Error : Object reference not set to an instance of an object.
+			</message>
+			<metainfo
+				codefile="c:\Ranorex\Automation\PDS_CORE\Code_Utils\GeneralUtilities.cs"
+				codeline="1404"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.573"
+			timeRelativeToTestModuleStartTime="00:15.573"
+			timeWallClock="11:29:23"
+			time="00:15.573"
+			level="Info"
+			category="TestStep">
+			<message>
+				Selecting District {AGS North}.
+			</message>
+			<metainfo
+				codefile="c:\Ranorex\Automation\PDS_NS\UserCodeCollections\NS_InputBulletins.cs"
+				codeline="51"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.043"
+			timeRelativeToTestModuleStartTime="00:18.043"
+			timeWallClock="11:29:25"
+			time="00:18.043"
+			level="Info"
+			category="TestStep">
+			<message>
+				Selecting Bulletin Type {Crossbucks Damaged or Missing}.
+			</message>
+			<metainfo
+				codefile="c:\Ranorex\Automation\PDS_NS\UserCodeCollections\NS_InputBulletins.cs"
+				codeline="64"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.620"
+			timeRelativeToTestModuleStartTime="00:23.620"
+			timeWallClock="11:29:31"
+			time="00:23.620"
+			level="Warn"
+			category="Java AWT/Swing">
+			<message>
+				UI elements in your 'Java AWT/Swing' AUT can’t be identified because it couldn’t be instrumented automatically. Restart all Ranorex tools and the AUT with the same privileges, preferably as an administrator.<br/>Process: (pid 0)<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="JavaAwtWindow"
+				showInProgressDialog="False"
+				codefile="c:\Ranorex\Automation\PDS_NS\UserCodeCollections\NS_InputBulletins.cs"
+				codeline="2873"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:28.944"
+			timeRelativeToTestModuleStartTime="00:28.944"
+			timeWallClock="11:29:36"
+			time="00:28.944"
+			level="Error"
+			category="Module">
+			<message>
+				The test run has been aborted by the user.
+			</message>
+			<metainfo
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

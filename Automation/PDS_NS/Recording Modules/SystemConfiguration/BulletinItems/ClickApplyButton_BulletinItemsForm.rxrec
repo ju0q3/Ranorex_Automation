@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="04447f9b-9b00-484c-b1c9-70f427a16f5a"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ClickApplyButton_BulletinItemsForm"
+	namespace="PDS_NS.Recording_Modules.SystemConfiguration.BulletinItems">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="GeneralUtilities"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="ClickAndWaitForFormTitleWithRetry"
+		namespace="PDS_CORE.Code_Utils"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="f41ef6bd-d0ee-42d4-aac3-e11841d61460">
+				<argument
+				argname="buttonInfo"
+				id="53f11f63-437e-47ec-a46e-c2d601e97499">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="4540483b-edba-4d43-80b3-cedc5357cc77"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/form[@title~'^Bulletin\ Item\ Type\ Config']/container[@name='_mainPanel']/container[@name='_buttonsPanel']/button[@name='_applyBtn']
+						</path>
+					</info>
+				</argument>
+				<argument
+				argname="waitFor"
+				id="894d57eb-f047-4589-9a3d-3ff7cd1edf90">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						Bulletin Item Type Configuration
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="59cf7e7b-82fc-4f0f-8567-2623525b7725"
+	name="SystemConfiguration_Repo"
+	relativepath="..\..\..\SystemConfiguration_Repo.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="SystemConfiguration_Repo"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="f30ceac8-82bc-4d8e-a8c6-d9e7258878f0"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ClickApplyButton_BulletinItemsForm.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

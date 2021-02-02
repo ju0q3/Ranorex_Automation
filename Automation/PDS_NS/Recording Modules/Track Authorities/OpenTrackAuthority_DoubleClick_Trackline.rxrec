@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="87b01a43-e9c1-40e6-bbfc-6f613ecedc58"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenTrackAuthority_DoubleClick_Trackline"
+	namespace="PDS_NS.Recording_Modules.Track_Authorities">
+	</codegen>
+	<variables>
+		<var
+		id="ac684d40-4902-4fd5-a986-8902c9185b14"
+		name="authoritySeed">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="NS_Authorities"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="NS_OpenAuthority_Trackline"
+		namespace="PDS_NS.UserCodeCollections"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="b42a6473-2c9e-4800-ba94-24602d2093d1">
+				<argument
+				argname="authoritySeed"
+				id="50946ba3-895c-443a-ae37-22f3d0eafa77"
+				variable="authoritySeed">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="81af6446-71fa-4977-9bd0-411f88dc55ba"
+	name="PDS_NSRepository"
+	relativepath="..\..\PDS_NSRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="PDS_NSRepository"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="b2ba234a-2e7c-4852-8e7f-adb8693853b7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenTrackAuthority_DoubleClick_Trackline.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

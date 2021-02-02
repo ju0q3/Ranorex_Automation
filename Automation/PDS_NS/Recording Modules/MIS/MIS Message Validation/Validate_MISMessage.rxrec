@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="8d016a5f-11ab-458d-ac62-f4e3d603c60c"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Validate_MISMessage"
+	namespace="PDS_NS.Recording_Modules.MIS.MIS_Message_Validation">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="81af6446-71fa-4977-9bd0-411f88dc55ba"
+	name="PDS_NSRepository"
+	relativepath="..\..\..\PDS_NSRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="PDS_NSRepository"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="b2ba234a-2e7c-4852-8e7f-adb8693853b7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Validate_MISMessage.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

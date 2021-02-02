@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="b49b5971-f370-48d9-abd5-dd8fedb2b1f4"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="DelaySeconds"
+	namespace="PDS_NS.Recording_Modules.Miscellaneous">
+	</codegen>
+	<variables>
+		<var
+		id="e2453ac8-1cec-48f1-b831-e0511975151b"
+		name="numberOfSeconds">
+			0
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="DelaySeconds"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="DelaySecondsFunction"
+		namespace="PDS_NS.Recording_Modules.Miscellaneous"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="2dd56de0-ce2c-4d3f-8574-63a1c55eb283">
+				<argument
+				argname="numberOfSeconds"
+				id="4e23cd6e-f401-4a24-b511-5e6c621305f5"
+				variable="numberOfSeconds">
+					<argvaluetype>
+						System.Int32
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="81af6446-71fa-4977-9bd0-411f88dc55ba"
+	name="PDS_NSRepository"
+	relativepath="..\..\PDS_NSRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="PDS_NSRepository"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="b2ba234a-2e7c-4852-8e7f-adb8693853b7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		DelaySeconds.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

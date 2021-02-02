@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="480d569d-a146-4c83-9d64-568086b3a061"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ValidateCreateTrackAuthorityFormOpen"
+	namespace="PDS_NS.Recording_Modules.Track_Authorities">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="Exists"
+		duration="1000ms"
+		enabled="True"
+		optional="True"
+		searchpropertyid="0ab887e7-8dee-460f-aa26-3d398006eab3">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="cc5c7ff7-c419-409d-8afe-99fe5b4c5d4f"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'^Create\ Track\ Authority\ ']
+				</path>
+			</info>
+			<matchname>
+				(Choose)
+			</matchname>
+			<matchvalue>
+				yourValue
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="48711a70-4260-48d9-b9be-f4c41f092706"
+	name="TrackAuthorities_Repo"
+	relativepath="..\..\TrackAuthorities_Repo.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="TrackAuthorities_Repo"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="1a7686ed-edee-41c2-9630-14a987ef7356"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ValidateCreateTrackAuthorityFormOpen.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,24 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="Chaitanya.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="Chaitanya.rxtst" />
+    <Element value="Test_Execution.rxtst" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <fileNames value="" />
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="PTC_Lab_Automation.Recording_Modules.OnBoardActions.ValidateBulletinText_WithoutPrompt.ValidateBulletinTextWithoutPrompt_OnBoard(String ocrText, String functionalArea, String zoom, String validateExists)" />
+      <Element value="PTC_Lab_Automation.Recording_Modules.OnBoardActions.ValidateBulletinText_WithoutPrompt.ValidateBulletinTextWithoutPrompt_OnBoard(String ocrText, String functionalArea, String zoom, String validateExists)" />
+      <Element value="PTC_Lab_Automation.Recording_Modules.LogManagerActions.HornLogAction.HornLogAction_OnBoard(String action)" />
+      <Element value="PTC_Lab_Automation.Recording_Modules.FieldSimulatorActions.StartFieldSimulatorAndConfigureScenarioDefaults.StartFieldSimulatorAndConfigureScenarioDefaults_FieldSimulator(String fileName, String scenario)" />
+      <Element value="PTC_Lab_Automation.Recording_Modules.MotionControlActions.TopBannerWaitRemoval.TopBannerWaitRemoval_OnBoard(String topBanner, String secondsWait)" />
+      <Element value="PTC_Lab_Automation.Recording_Modules.OnBoardActions.SelectNSLoco.SelectNSLoco_OnBoard()" />
+    </Array>
+  </Properties>
+</Properties>

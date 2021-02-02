@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="42265e25-a7b1-4c9a-852e-a8b5774dc9cf"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CheckQ"
+	namespace="PDS_CORE.Recording_Modules">
+	</codegen>
+	<variables>
+		<var
+		id="8842254c-36e1-4dc7-9612-1d4a4e9337d1"
+		name="serverLabel">
+			CN-PDS_2018-03-13-1200
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="CheckQ"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="CheckQueue"
+		namespace="PDS_CORE.Recording_Modules"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="1dbf8c25-dd36-4caa-9fc6-94422373551b">
+				<argument
+				argname="labelName"
+				id="21c90842-90a5-470c-8722-0fd7975d4b62"
+				variable="serverLabel">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="0f6d1030-1109-45c8-82fb-eea738840ef0"
+	name="PDS_CORERepository"
+	relativepath="..\PDS_CORERepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="PDS_CORERepository"
+		namespace="PDS_CORE">
+		</codegen>
+		<rootfolder
+		id="5a3e11ed-7012-4569-a9b8-11892349cf95"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CheckQ.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

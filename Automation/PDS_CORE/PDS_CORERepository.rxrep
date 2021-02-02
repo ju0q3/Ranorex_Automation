@@ -1,0 +1,268 @@
+﻿<repository
+id="0f6d1030-1109-45c8-82fb-eea738840ef0"
+name="PDS_CORERepository"
+rxversion="9.0">
+	<codegen
+	classname="PDS_CORERepository"
+	namespace="PDS_CORE">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="5a3e11ed-7012-4569-a9b8-11892349cf95"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		capname="form"
+		id="d436e7e2-745b-4eed-b86b-22d6e6cf6873"
+		isrooted="True"
+		name="TrackLineWindow"
+		refimgid="e560b4b3-56a0-4554-9d08-70f6b684dff8"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="text,javaelement"
+			capname="unknown"
+			id="40d36ae7-31a3-4bce-b8be-1df9972b2d64"
+			name="TrackSection"
+			searchtimeout="30000ms">
+				/form[@title~$window or @class='SunAwtWindow']//element[@symbolid=$tdmsID]
+			</item>
+			<basepath>
+				/form[@title~$window or @class='SunAwtWindow']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAEOSURBVDhPrZGxagJBFEXvL/gXEvAPBFOl0spf
+2AVrm4BVirUQq1ha2IQUgkWIVZoQsLQT/Q2Jnd31PfdN3o4rKpJhD+zMu/fswkAXKc8dHMu6zg1v
+wernBZvNwx/bbaU0V6xeFvT7MkzkTSdHUr49gvvfOGf1WDAeg/M5mCTgZAI2m2AmfEssE/a7C4LV
+CqxWweXSQ4F2OxdMRRbOrO6C4RAcDDxwyss7+Pzhe6u7oFYDGw0PnIJPISvswwoHVwWzK4JWC+z1
+PBChsSfIlfqZ1V2gqGQ0yglnXxp5FeR6d5duQdGbqNfBxSKn0wHTFPzRWCGnWD0WKPoV/dX1Gux2
+41kRq5cFt2L1fxDcv4ADh4I8ll4nl+sAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="b4281c28-a28e-4728-9183-c404b70cb760"
+		isrooted="True"
+		name="Form_WarningBox"
+		refpath="/form[@title='Warning']"
+		searchtimeout="3000ms"
+		usecache="False">
+			<item
+			addcaps="titlebar,accessible"
+			capname="titlebar"
+			id="5a6c1c54-f6d1-4391-8e66-fed0cf296353"
+			name="titlebar"
+			refimgid="b046436a-3935-4f25-b9f4-ba47be95d9f0"
+			searchtimeout="3000ms">
+				/form[@title='Warning']//titlebar[@accessiblerole='TitleBar']
+			</item>
+			<item
+			addcaps="text,javaelement"
+			capname="text"
+			id="11067891-3394-4f36-9a12-4a9ac13806fe"
+			name="textLabel"
+			refimgid="81fcac53-402c-4f00-a901-eedb8d25b392"
+			searchtimeout="3000ms">
+				/form[@title='Warning']//text[@name='OptionPane.label']
+			</item>
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="b79db27e-0f61-4033-88af-78215f8b09e5"
+			name="buttonYes"
+			refimgid="e0b10df7-0eb2-4d6d-877f-8ebe444fdf33"
+			searchtimeout="3000ms">
+				/form[@title='Warning']//button[@text='Yes']
+			</item>
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="4649f730-0df8-45ab-8a7f-c3ca8a247a63"
+			name="buttonNo"
+			refimgid="46d00cb3-3141-4b59-b061-e3f9b2aa23a7"
+			searchtimeout="3000ms">
+				/form[@title='Warning']//button[@text='No']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="eba1427a-edf5-432c-ade2-676f04adb8d9"
+			name="Close"
+			refimgid="e0721627-3c64-40bc-97f4-4cd5fcb584ce"
+			searchtimeout="3000ms">
+				/form[@title='Warning']//button[@accessiblename='Close']
+			</item>
+			<basepath>
+				/form[@title='Warning']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAIYSURBVDhPlZFJa5NRFIbvD3DnzrX0D7hxk4U7
+d+7EYqMIolkUqUULbW2poRojthSM7SI0VcEBLU2ERiWlCKXYRrIRkpCYoUmauZkgE5l4zXskwYAF
+u3j47hmec4dPrdmdOot937Vm38dJ+OM4dcr8adfl+RVGtVpFvV7/J5VKZSBmLx26ann9G/L5PNrt
+NjqdzgDMUS75d9FsNgfydOiqpXcO5HI5tFqtASiUy2Xkt54ht3hedv27ToeuMr6yI5PJoNFoDFAq
+lZD9asTRoyEUi0Uc/XTIkF6dDl2lN1uRSqVQq9X6cOf0tgmZ2TNSS2/qkZ0fknyvh3m6atr0HvF4
+XIo9uHtm6nT/21uTXg8duurewmtEo9F+A+H9Mk/PST59/5TE5PDwEMlkEoVCQWp01ajBjHA4LK/K
+e4VCIYG5uP4sIrY5WVOeWHoDo2UDsVgMwWAQdNXNOZME2WxWpg9PmaCdWYHu8SquTr+QmGvzuqNf
+f2Kxwufzga7STi7C7/fLo3AX8mXnBz7vOAXb9vcue/AFQiJdn13pnsIKj8cDuuryuAFer1cehUQi
+EdyeN+PK5HMMd+GXMfPXZpZhWN2QtdvtBl11afQhAoGAnODg4ECuwxMdRyKRkF46dNXFWw9ETKfT
++Li1B8PLTdxZeHssfCv+ETp01YUbE9EPNrsM4OT/gUPo0FUa7ZhOM3LXpRkZx8noOtox3W+2QEFu
+Et1VDAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,javaelement,nativewindow"
+		capname="form"
+		id="cf1ec31f-307e-4aaa-b689-24d9c42d4614"
+		isrooted="True"
+		name="NetworkLogon"
+		refpath="/form[@title='Network Logon']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="text,javaelement"
+			capname="text"
+			id="703bf3a1-5bf6-4bcd-afab-f6a6bc988b16"
+			name="Icon"
+			refpath="/form[@title='Network Logon']/text[1]"
+			searchtimeout="30000ms">
+				/form[@title='Network Logon']/text[1]
+			</item>
+			<item
+			addcaps="text,javaelement"
+			capname="text"
+			id="cb9c2bf4-f94e-496a-b167-5e0079d6286b"
+			name="UserID"
+			refpath="/form[@title='Network Logon']/text[@name='USER_ID']"
+			searchtimeout="30000ms">
+				/form[@title='Network Logon']/text[@name='USER_ID']
+			</item>
+			<item
+			addcaps="text,javaelement"
+			capname="text"
+			id="d9427b68-9e57-417c-9ed9-2a296406e2a4"
+			name="Role"
+			refpath="/form[@title='Network Logon']/text[@name='USER_ROLE_ID']"
+			searchtimeout="30000ms">
+				/form[@title='Network Logon']/text[@name='USER_ROLE_ID']
+			</item>
+			<item
+			addcaps="text,javaelement"
+			capname="text"
+			id="8d2bc506-fd76-440f-82b8-710715779af0"
+			name="Password"
+			refpath="/form[@title='Network Logon']/text[@name='PWD_ID']"
+			searchtimeout="30000ms">
+				/form[@title='Network Logon']/text[@name='PWD_ID']
+			</item>
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="fd90a44f-322a-46b7-a24d-a5cea2917bfe"
+			name="Logon"
+			searchtimeout="30000ms">
+				/form[@title='Network Logon']//button[@name='defaultButton']
+			</item>
+			<item
+			addcaps="button,javaelement"
+			capname="button"
+			id="a7dd2964-a825-4c08-8b6c-7e4159edbdec"
+			name="Cancel"
+			searchtimeout="30000ms">
+				/form[@title='Network Logon']//button[@name='_cancel']
+			</item>
+			<item
+			addcaps="text,javaelement"
+			capname="text"
+			id="04b00ce0-f4cf-402a-9c4e-b96d878badec"
+			name="MessageField"
+			searchtimeout="30000ms">
+				/form[@title='Network Logon']//text[@name='messageField']
+			</item>
+			<item
+			addcaps="menuitem,accessible"
+			capname="menuitem"
+			id="6bfc00e3-06a0-4ce1-9c38-2717a89abc58"
+			name="System"
+			searchtimeout="30000ms">
+				/form[@title='Network Logon']//menuitem[@accessiblename='System']
+			</item>
+			<item
+			addcaps="menubar,accessible"
+			capname="menubar"
+			id="cec03c0b-521e-4b0b-a05e-391f9ce8a222"
+			name="System1"
+			refpath="/form[@title='Network Logon']/menubar[@accessiblename='System']"
+			searchtimeout="30000ms">
+				/form[@title='Network Logon']/menubar[@accessiblename='System']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="1709ce33-1367-46a1-8460-f0b962604be6"
+			name="Minimize"
+			refpath="/form[@title='Network Logon']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Minimize']"
+			searchtimeout="30000ms">
+				/form[@title='Network Logon']/?/?/button[@accessiblename='Minimize']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="4267ae44-4305-40a3-b317-59d56cd2e922"
+			name="Maximize"
+			refpath="/form[@title='Network Logon']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Maximize']"
+			searchtimeout="30000ms">
+				/form[@title='Network Logon']/?/?/button[@accessiblename='Maximize']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="20ef3e76-6d97-4e9c-91f2-f5d8ca2b6e39"
+			name="Close"
+			refpath="/form[@title='Network Logon']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Close']"
+			searchtimeout="30000ms">
+				/form[@title='Network Logon']/?/?/button[@accessiblename='Close']
+			</item>
+			<item
+			addcaps="titlebar,accessible"
+			capname="titlebar"
+			id="651dfbab-8cf9-43cf-a65e-264462c9895e"
+			name="Titlebar"
+			refpath="/form[@title='Network Logon']/titlebar[@accessiblerole='TitleBar']"
+			searchtimeout="30000ms">
+				/form[@title='Network Logon']/titlebar[@accessiblerole='TitleBar']
+			</item>
+			<basepath>
+				/form[@title='Network Logon']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAE2SURBVDhPYxiUQACIHZAwacBAien82ile/zcv
+TPi/qFr+P1CoHyJDHNh/Z63F//WtCv9fnsr6/+5aA8wQolyyH4jfv7lUiWIAyCVAcbwGCCgrK59f
+v379f2NjY7hGGJ6bzwkyoACIz4PUysrKFoAwSCMMOPT39/8/dOjQ/zlz5vyPdeWFG3Jvo/3/W3uS
+wN5QU1P7r6end37ZsmX/QRioDx42DjNnzvzf1tYGxiBJkEs0NTX/8/Ly/gd5CRQuVoaS/3k5GcHy
+IMuqqqreA/UagA2oqan5f/LkSTA+c+bMf5B3YAakRRmCDXh+LPm/iSoz2HAQhmmGgX6QISCXgLwD
+ChOoOAgY9DX4vAcZAnINNEywBios4YAwKDEhAwOYS/AZQAiAXVIWzE62ASAA8jc2Fw4YYGAAAJ7I
+xFO0Za1QAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+		<var
+		id="ff2511ac-6a46-412b-a410-b9a8b458d66d"
+		name="window">
+			Desk 05: McComb 1-CrstlSprngs
+		</var>
+		<var
+		id="e3289fb1-2aec-44f2-a7c1-fbc9a8513dbd"
+		name="tdmsID">
+			1219019
+		</var>
+	</variables>
+</repository>

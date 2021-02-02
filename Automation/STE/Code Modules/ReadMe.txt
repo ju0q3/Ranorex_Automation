@@ -1,0 +1,1 @@
+﻿This folder is to hold recording modules recorded by testers and refined to be used by test scripts.

@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="a4db1c71-cb09-4cc5-8868-4b2a91cec507"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ControlRequestList_ValidateFeedback_NS"
+	namespace="PDS_NS.Recording_Modules.TerritoryTransfer">
+	</codegen>
+	<variables>
+		<var
+		id="64593127-1f8d-407d-850f-d708777aebd7"
+		name="expectedFeedback">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="NS_TerritoryTransfer_Validations"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="NS_ValidateFeedback_ControlRequestList"
+		namespace="PDS_NS.CodeUtils"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="ab67acfd-acdb-4d6b-a9e6-d3f7811aad43">
+				<argument
+				argname="expectedFeedback"
+				id="1ae3d6d6-a3e3-4968-adfc-54eae2ebb6a7"
+				variable="expectedFeedback">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="81af6446-71fa-4977-9bd0-411f88dc55ba"
+	name="PDS_NSRepository"
+	relativepath="..\..\PDS_NSRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="PDS_NSRepository"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="b2ba234a-2e7c-4852-8e7f-adb8693853b7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ControlRequestList_ValidateFeedback_NS.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

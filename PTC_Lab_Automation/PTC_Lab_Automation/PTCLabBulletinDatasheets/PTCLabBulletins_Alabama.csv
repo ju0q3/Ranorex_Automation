@@ -1,0 +1,17 @@
+﻿test,district,milepost1,milepost2,tracks,maximumSpeed,account,issuedBy,effectiveTimeDifference,untilTimeDifference,expectedFeedback,pressComplete,closeBulletinRelayForm,direction1,direction2
+FQ.05.04.002,AGS North,AG46,AG47,MAIN,35,AUTOMATION,AUTOMATION,,,,True,True,,
+FQ.05.06.001.E,AGS North,AG46,AG47,MAIN,35,AUTOMATION,AUTOMATION,,,,True,True,,
+FQ.05.06.001.E,AGS North,AG46,AG47,MAIN,,AUTOMATION,AUTOMATION,,,,True,True,Northbound,Southbound
+FQ.05.06.003.A,AGS North,AG48,,,,,AUTOMATION,,,,True,True,,
+FQ.05.06.004,AGS North,AG48,,,,,AUTOMATION,,,,True,True,,
+FQ.05.06.004.C,AGS North,AG48,,,,,AUTOMATION,,,,True,True,,
+FQ.05.06.004.D,AGS North,AG48,,,,,AUTOMATION,,,,True,True,,
+FQ.05.06.005.A,AGS North,AG46,,MAIN,,AUTOMATION,AUTOMATION,,,,True,True,,
+FQ.05.06.005.B,AGS North,AG46,AG47,MAIN,,AUTOMATION,AUTOMATION,,,,True,True,,
+EE.05.06.008,AGS North,AG46,AG49,MAIN,35,AUTOMATION,AUTOMATION,,,,True,True,,
+FQ.05.06.007,AGS North,AG46,,MAIN,35,AUTOMATION,AUTOMATION,,,,True,True,,
+EE.05.06.016,AGS North,AG46,AG47,MAIN,,AUTOMATION,AUTOMATION,,,,True,True,Northbound,Southbound
+Q.05.06.010.A,AGS North,AG46,AG47,MAIN,40,AUTOMATION,AUTOMATION,,,,True,True,Northbound,Southbound
+Q.05.06.01,AGS North,AG46,AG47,MAIN,40,AUTOMATION,AUTOMATION,,,,True,True,Northbound,Southbound
+Demo_Test,AGS North,AG40,AG47,MAIN,40,Test,Ashish,2,6,,True,True,,
+Demo_Test,AGS North,AG41,AG48,MAIN,40,Test,Ashish,2,6,,True,True,,

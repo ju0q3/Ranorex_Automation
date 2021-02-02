@@ -1,0 +1,1076 @@
+computer,user,division,territories
+MLBLOAD01,avonly1,div1,Desk 10: Bessemer
+MLBLOAD02,avonly2,div1,DESK 99
+TMSDV092,avonly3,div1,Desk 08: Holly
+TMSDV093,avonly4,div1,Desk 08: Shore Line
+TMSDV081,avonly5,div1,Desk 08: Flint
+TMSDV083,avonly6,div1,Desk 16: Missabe 1
+TMSST002,avonly7,div1,Desk 16: Missabe 1:2
+TMSST003,avonly8,div1,Desk 16: Missabe 1:3
+TMSST004,avonly9,div1,Desk 16: Missabe 2
+TMSST005,avonly10,div1,Desk 16: Missabe 2:2
+TMSST006,avonly11,div1,Desk 16: Missabe 2:3
+TMSST007,avonly12,div1,Desk 12: Wis Subs
+TMSST009,avonly13,div1,Desk 12: Wis Subs:2
+TMSST010,avonly14,div1,Desk 12: Wis Subs:3
+TMSST011,avonly15,div1,Desk 08: FltRck MtClmns
+TMSST012,avonly16,div1,Desk 16: Rainy
+TMSMP013,avonly17,div1,Desk 16: Rainy:2
+TMSMP014,avonly18,div1,Desk 16: Rainy:3
+TMSMP015,avonly19,div1,Desk 16: Rainy:4
+TMSMP016,avonly20,div1,Desk 12: Neenah
+TMSMP017,avonly21,div1,Desk 12: Neenah:2
+TMSMP018,avonly22,div1,Desk 12: Neenah:3
+TMSMP019,avonly23,div1,Desk 12: Neenah:4
+TMSSP020,avonly24,div1,Desk 12: Wis Subs:4
+TMSSP021,avonly25,div1,Desk 16: Superior 3
+TMSSP022,avonly26,div1,Desk 16: Superior 3:2
+TMSSP023,avonly27,div1,Desk 15: Waukesha 1
+TMSSP024,avonly28,div1,Desk 15: Waukesha 2
+TMSIN025,avonly29,div1,Desk 15: Waukesha 3
+TMSIN026,avonly30,div1,Desk 15: Waukesha 1:2
+TMSIN027,avonly31,div1,Desk 15: Waukesha 1:3
+TMSIN028,avonly32,div1,Desk 15: Waukesha 1:4
+TMSIN029,avonly33,div1,Desk 15: Waukesha 1:5
+TMSIN030,avonly34,div1,Desk 15: Waukesha 2:2
+TMSIN031,avonly35,div1,Desk 15: Waukesha 2:3
+TMSIN032,avonly36,div1,Desk 15: Waukesha 2:4
+TMSIN033,avonly37,div1,Desk 15: Waukesha 3:2
+TMSIN034,avonly38,div1,Desk 13: Superior 2
+TMSIN035,avonly39,div1,Desk 13: Superior 2:2
+TMSIN036,avonly40,div1,Desk 13: Superior 2:3
+TMSIN037,avonly41,div1,Desk 13: Superior 2:4
+TMSIN038,avonly42,div1,Desk 13: Superior 1
+TMSIN039,avonly43,div1,Desk 13: Superior 1:2
+TMSIN040,avonly44,div1,Desk 13: Superior 1:3
+TMSIN041,avonly45,div1,Desk 13: Superior 1:4
+TMSIN042,avonly46,div1,Desk 01: Joliet
+TMSIN043,avonly47,div1,Desk 01: Joliet:2
+TMSIN044,avonly48,div1,Desk 01: Joliet:3
+TMSIN045,avonly49,div1,Desk 02: Champaign
+TMSIN046,avonly50,div1,Desk 02: Champaign:2
+TMSIN047,avonly51,div1,Desk 02: Champaign:3
+TMSNS048,avonly52,div1,Desk 02: Champaign Blu
+TMSNS049,avonly53,div1,Desk 02: Champaign Blu:2
+TMSNS050,avonly54,div1,Desk 02: Champaign Blu:3
+TMSPR051,avonly55,div1,Desk 13: Valley
+TMSPR052,avonly56,div1,Desk 13: West Valley
+TMSPR053,avonly57,div1,Desk 13: Barron
+TMSDV054,avonly58,div1,Desk 13: Dresser
+TMSDV055,avonly59,div1,Desk 13: Minneapolis
+TMSDV056,avonly60,div1,Desk 13: Minneapolis:2
+TMSDV057,avonly61,div1,Desk 13: Minneapolis:3
+TMSDV058,avonly62,div1,Desk 02: Gilman
+TMSDV059,avonly63,div1,Desk 02: Gilman:2
+TMSDV060,avonly64,div1,Desk 02: Gilman:3
+T10008680,avonly65,div1,Desk 02: Gilman:4
+T10008682,avonly66,div1,Desk 10: Lakefront
+TMSDV063,avonly67,div1,Desk 10: Matteson 2
+TMSDV064,avonly68,div1,Desk 10: South Bend 2
+TMSDV065,avonly69,div1,Desk 10: South Bend
+TMSDV066,avonly70,div1,Desk 10: Griffith
+TMSDV067,avonly71,div1,Desk 11: Leithton
+TMSDV068,avonly72,div1,Desk 11: Matteson 1
+T10008686,avonly73,div1,Desk 11: Illinois River
+TMSDV070,avonly74,div1,Desk 04: Yazoo 1
+GEHRE071,avonly75,div1,Desk 04: Yazoo 1:2
+GEHRE072,avonly76,div1,Desk 04: Yazoo 1:3
+TMSSP075,avonly77,div1,Desk 04: Yazoo 2
+TMSSP076,avonly78,div1,Desk 04: Yazoo 2:2
+TMSSP077,avonly79,div1,Desk 04: Yazoo 2:3
+TMSSP078,avonly80,div1,Desk 04: Fulton
+TMSSP079,avonly81,div1,Desk 04: Fulton:2
+GW0225,avonly82,div1,Desk 04: Fulton:3
+FLMEL001WK,avonly83,div1,Desk 04: Fulton Memphis
+TMSSP074,avonly84,div1,Desk 04: Fulton Memphis:2
+FLMEL002WK,avonly85,div1,Desk 04: Fulton Memphis:3
+TMSDV071,avonly86,div1,Desk 04: Canton
+TMSDV072,avonly87,div1,Desk 03: Bluford 2
+TMSDV073,avonly88,div1,Desk 03: Bluford 2:2
+STEDEV6,avonly89,div1,Desk 03: Bluford 1
+UTCSGA001,avonly90,div1,Desk 03: Bluford 1:2
+UTCSGA002,avonly91,div1,Desk 03: Bluford 1:3
+UTCSGA003,avonly92,div1,Desk 03: St Louis
+UTCSGA004,avonly93,div1,Desk 03: St Louis:2
+UTCSGA005,avonly94,div1,Desk 03: Centralia 1
+UTCSGA006,avonly95,div1,Desk 03: Centralia 1:2
+UTCSGA007,avonly96,div1,Desk 03: Centralia 1:3
+UTCSGA008,avonly97,div1,Desk 03: Centralia 2
+UTCSGA009,avonly98,div1,Desk 03: Centralia 2:2
+UTCSGA010,avonly99,div1,Desk 03: Centralia 2:3
+UTCSGA011,avonly100,div1,Desk 03: Sparta
+UTCSGA012,avonly101,div1,  Desk 02: Chicago
+TMSDV089,avonly102,div1,  Desk 02: Chicago:2
+GETSGS11883,avonly103,div1,  Desk 02: Chicago:3
+UTCSSIM1,avonly104,div1,  Desk 05: McComb 2
+UTCSSIM2,avonly105,div1,  Desk 05: McComb 2:2
+TMSDV086,avonly106,div1,  Desk 05: McComb 2:3
+TMSDV085,avonly107,div1,  Desk 05: McComb 1:2
+TMSDV084,avonly108,div1,  Desk 05: McComb 1:3
+T10024570,avonly109,div1,  Desk 05: McComb 1
+G2UA7021T8NE,avonly110,div1,  Desk 06: Baton Rouge
+T10008657,avonly111,div1,  Desk 06: Baton Rouge:2
+TMSDV096,avonly112,div1,  Desk 06: Baton Rouge:3
+TMSDV047,avonly113,div1,  Desk 06: Baton Rouge:4
+TMSLP108,avonly114,div1,  Desk 05: Beaumont
+TMSDV050,avonly115,div1,  Desk 05: Beaumont: 2
+TMSDV087,avonly116,div1,  Desk 05: Beaumont: 3
+TMSDV130,avonly117,div1,Desk 10: Bessemer
+TMSDV131,avonly118,div1,DESK 99
+TMSDV132,avonly119,div1,Desk 08: Holly
+TMSDMO002,avonly120,div1,Desk 08: Shore Line
+TMSDMO003,avonly121,div1,Desk 08: Flint
+T10008658,avonly122,div1,Desk 16: Missabe 1
+T10008655,avonly123,div1,Desk 16: Missabe 1:2
+T10008660,avonly124,div1,Desk 16: Missabe 1:3
+T10008663,avonly125,div1,Desk 16: Missabe 2
+T10008684,avonly126,div1,Desk 16: Missabe 2:2
+T10008662,avonly127,div1,Desk 16: Missabe 2:3
+T10008665,avonly128,div1,Desk 12: Wis Subs
+T10008654,avonly129,div1,Desk 12: Wis Subs:2
+T10008687,avonly130,div1,Desk 12: Wis Subs:3
+T10008683,avonly131,div1,Desk 08: FltRck MtClmns
+T10008677,avonly132,div1,Desk 16: Rainy
+TMSDV061,avonly133,div1,Desk 16: Rainy:2
+TMSDV062,avonly134,div1,Desk 16: Rainy:3
+TMSDV069,avonly135,div1,Desk 16: Rainy:4
+TMSDV095,avonly136,div1,Desk 12: Neenah
+TMSPC123,avonly137,div1,Desk 12: Neenah:2
+TMSDV099,avonly138,div1,Desk 12: Neenah:3
+TMSDV097,avonly139,div1,Desk 12: Neenah:4
+TMSDV146,avonly140,div1,Desk 12: Wis Subs:4
+T10014472,avonly141,div1,Desk 16: Superior 3
+T10020490,avonly142,div1,Desk 16: Superior 3:2
+T00534210,avonly143,div1,Desk 15: Waukesha 1
+T10010452,avonly144,div1,Desk 15: Waukesha 2
+T00509081,avonly145,div1,Desk 15: Waukesha 3
+T10021008,avonly146,div1,Desk 15: Waukesha 1:2
+T10021022,avonly147,div1,Desk 15: Waukesha 1:3
+T10021015,avonly148,div1,Desk 15: Waukesha 1:4
+T10021020,avonly149,div1,Desk 15: Waukesha 1:5
+T10021016,avonly150,div1,Desk 15: Waukesha 2:2
+T10021021,avonly151,div1,Desk 15: Waukesha 2:3
+T10021014,avonly152,div1,Desk 15: Waukesha 2:4
+T10021011,avonly153,div1,Desk 15: Waukesha 3:2
+TMSST008,avonly154,div1,Desk 13: Superior 2
+TMSST001,avonly155,div1,Desk 13: Superior 2:2
+TMSDV127,avonly156,div1,Desk 13: Superior 2:3
+FLMLBTNUTCR251W,avonly157,div1,Desk 13: Superior 2:4
+FLMLBGEUTCP464W,avonly158,div1,Desk 13: Superior 1
+FLMLBTNUTCP083W,avonly159,div1,Desk 13: Superior 1:2
+TMSGRO02,avonly160,div1,Desk 13: Superior 1:3
+TMSGRO03,avonly161,div1,Desk 13: Superior 1:4
+TMSGRO05,avonly162,div1,Desk 01: Joliet
+MLBRDC66,avonly163,div1,Desk 01: Joliet:2
+T10030945,avonly164,div1,Desk 01: Joliet:3
+T10023128,avonly165,div1,Desk 02: Champaign
+T10023129,avonly166,div1,Desk 02: Champaign:2
+T10023140,avonly167,div1,Desk 02: Champaign:3
+T10023131,avonly168,div1,Desk 02: Champaign Blu
+T10023132,avonly169,div1,Desk 02: Champaign Blu:2
+T10023133,avonly170,div1,Desk 02: Champaign Blu:3
+T10023138,avonly171,div1,Desk 13: Valley
+T10023134,avonly172,div1,Desk 13: West Valley
+GWO210,avonly173,div1,Desk 13: Barron
+GWO213,avonly174,div1,Desk 13: Dresser
+MLBRDC41,avonly175,div1,Desk 13: Minneapolis
+MLBRDC42,avonly176,div1,Desk 13: Minneapolis:2
+MLBRDC43,avonly177,div1,Desk 13: Minneapolis:3
+MLBRDC44,avonly178,div1,Desk 02: Gilman
+DEVATLDISP1,avonly179,div1,Desk 02: Gilman:2
+DEVATLDISP2,avonly180,div1,Desk 02: Gilman:3
+DEVATLSUPERV1,avonly181,div1,Desk 02: Gilman:4
+DEVATLSIGTECH1,avonly182,div1,Desk 10: Lakefront
+G2UA7152PG8E,avonly183,div1,Desk 10: Matteson 2
+G60S2062E,avonly184,div1,Desk 10: South Bend 2
+G55LXZF2E,avonly185,div1,Desk 10: South Bend
+G7DRV1G2E,avonly186,div1,Desk 10: Griffith
+G7H9XRF2E,avonly187,div1,Desk 11: Leithton
+G2UA7242BH4E,avonly188,div1,Desk 11: Matteson 1
+G8G3FN72E,avonly189,div1,Desk 11: Illinois River
+T10035027,avonly190,div1,Desk 04: Yazoo 1
+MLBPDS08,avonly191,div1,Desk 04: Yazoo 1:2
+T10025035,avonly192,div1,Desk 04: Yazoo 1:3
+G3DTT7H2E,avonly193,div1,Desk 04: Yazoo 2
+G43S9362E,avonly194,div1,Desk 04: Yazoo 2:2
+G2UA6122JL4E,avonly195,div1,Desk 04: Yazoo 2:3
+G62C0462E,avonly196,div1,Desk 04: Fulton
+GCRM79H2E,avonly197,div1,Desk 04: Fulton:2
+GBJG70G2E,avonly198,div1,Desk 04: Fulton:3
+T10025199,avonly199,div1,Desk 04: Fulton Memphis
+T10031846,avonly200,div1,Desk 04: Fulton Memphis:2
+G2UA6100VF9E,avonly201,div1,Desk 04: Fulton Memphis:3
+GD54F9H2E,avonly202,div1,Desk 04: Canton
+G7NYV1G2E,avonly203,div1,Desk 03: Bluford 2
+G2FCDH72E,avonly204,div1,Desk 03: Bluford 2:2
+T10045972,avonly205,div1,Desk 03: Bluford 1
+MLBRDC46,avonly206,div1,Desk 03: Bluford 1:2
+G2UA6021FNTE,avonly207,div1,Desk 03: Bluford 1:3
+GBTNBBG2E,avonly208,div1,Desk 03: St Louis
+GGVCPPF2E,avonly209,div1,Desk 03: St Louis:2
+G5QL7Z52E,avonly210,div1,Desk 03: Centralia 1
+G7MR6Y52E,avonly211,div1,Desk 03: Centralia 1:2
+G2UA60228LNE,avonly212,div1,Desk 03: Centralia 1:3
+G9G8VF72E,avonly213,div1,Desk 03: Centralia 2
+G5LZ2MC2E,avonly214,div1,Desk 03: Centralia 2:2
+G5TBJM32E,avonly215,div1,Desk 03: Centralia 2:3
+GGFZHM32E,avonly216,div1,Desk 03: Sparta
+GHJR3ZF2E,avonly217,div1,  Desk 02: Chicago
+G2UA334211XE,avonly218,div1,  Desk 02: Chicago:2
+GCZ5Y9H2E,avonly219,div1,  Desk 02: Chicago:3
+T00890138,avonly220,div1,  Desk 05: McComb 2
+T10031719,avonly221,div1,  Desk 05: McComb 2:2
+G92M0J72E,avonly222,div1,  Desk 05: McComb 2:3
+T10045839,avonly223,div1,  Desk 05: McComb 1:2
+GPF0Z2KHEE,avonly224,div1,  Desk 05: McComb 1:3
+GD7J1Q32E,avonly225,div1,  Desk 05: McComb 1
+T10027119,avonly226,div1,  Desk 06: Baton Rouge
+T10025675,avonly227,div1,  Desk 06: Baton Rouge:2
+G2UA6481ZFME,avonly228,div1,  Desk 06: Baton Rouge:3
+GBJPYR32E,avonly229,div1,  Desk 06: Baton Rouge:4
+G2UA32521LSE,avonly230,div1,  Desk 05: Beaumont
+T00845219,avonly231,div1,  Desk 05: Beaumont: 2
+T10032921,avonly232,div1,  Desk 05: Beaumont: 3
+GGKPYRD2E,avonly233,div1,Desk 10: Bessemer
+T10030937,avonly234,div1,DESK 99
+T20021525,avonly235,div1,Desk 08: Holly
+T20030937,avonly236,div1,Desk 08: Shore Line
+MLBPDS18,avonly237,div1,Desk 08: Flint
+T10021464,avonly238,div1,Desk 16: Missabe 1
+G2UA6292ZMJE,avonly239,div1,Desk 16: Missabe 1:2
+MLBRDC80,avonly240,div1,Desk 16: Missabe 1:3
+MLBRDC19,avonly241,div1,Desk 16: Missabe 2
+T10045290,avonly242,div1,Desk 16: Missabe 2:2
+GGNB2Y52E,avonly243,div1,Desk 16: Missabe 2:3
+G7HT79H2E,avonly244,div1,Desk 12: Wis Subs
+G2UA4420RRJE,avonly245,div1,Desk 12: Wis Subs:2
+GDVNCJC2E,avonly246,div1,Desk 12: Wis Subs:3
+G57SK8H2E,avonly247,div1,Desk 08: FltRck MtClmns
+G1P3S462E,avonly248,div1,Desk 16: Rainy
+G2UA6392V8KE,avonly249,div1,Desk 16: Rainy:2
+G2UA529253TE,avonly250,div1,Desk 16: Rainy:3
+G71BQP32E,avonly251,div1,Desk 16: Rainy:4
+G75089H2E,avonly252,div1,Desk 12: Neenah
+G3M7ZG72E,avonly253,div1,Desk 12: Neenah:2
+G2UA6181MM4E,avonly254,div1,Desk 12: Neenah:3
+MLBRDC99,avonly255,div1,Desk 12: Neenah:4
+MLBRDC111,avonly256,div1,Desk 12: Wis Subs:4
+MLBRDC112,avonly257,div1,Desk 16: Superior 3
+MLBRDC113,avonly258,div1,Desk 16: Superior 3:2
+MLBRDC114,avonly259,div1,Desk 15: Waukesha 1
+MLBRDC115,avonly260,div1,Desk 15: Waukesha 2
+MLBRDC116,avonly261,div1,Desk 15: Waukesha 3
+MLBRDC117,avonly262,div1,Desk 15: Waukesha 1:2
+MLBRDC118,avonly263,div1,Desk 15: Waukesha 1:3
+MLBRDC119,avonly264,div1,Desk 15: Waukesha 1:4
+MLBRDC120,avonly265,div1,Desk 15: Waukesha 1:5
+MLBRDC121,avonly266,div1,Desk 15: Waukesha 2:2
+MLBRDC122,avonly267,div1,Desk 15: Waukesha 2:3
+MLBRDC123,avonly268,div1,Desk 15: Waukesha 2:4
+MLBRDC124,avonly269,div1,Desk 15: Waukesha 3:2
+MLBRDC125,avonly270,div1,Desk 13: Superior 2
+MLBRDC126,avonly271,div1,Desk 13: Superior 2:2
+MLBRDC127,avonly272,div1,Desk 13: Superior 2:3
+MLBRDC128,avonly273,div1,Desk 13: Superior 2:4
+MLBRDC129,avonly274,div1,Desk 13: Superior 1
+G2UA4101YLNE,avonly275,div1,Desk 13: Superior 1:2
+G2UA10916MSE,avonly276,div1,Desk 13: Superior 1:3
+G2UA6222NNRE,avonly277,div1,Desk 13: Superior 1:4
+GPF0X37CCE,avonly278,div1,Desk 01: Joliet
+GC49F9H2E,avonly279,div1,Desk 01: Joliet:2
+POSITION:G8TJ61G2E,avonly280,div1,Desk 01: Joliet:3
+G9RP89H2E,avonly281,div1,Desk 02: Champaign
+G2UA6242S97E,avonly282,div1,Desk 02: Champaign:2
+GPC04TDAAE,avonly283,div1,Desk 02: Champaign:3
+G2UA5161V9FE,avonly284,div1,Desk 02: Champaign Blu
+T10031125,avonly285,div1,Desk 02: Champaign Blu:2
+MLBRDC54,avonly286,div1,Desk 02: Champaign Blu:3
+MLBRDC55,avonly287,div1,Desk 13: Valley
+G3T879H2E,avonly288,div1,Desk 13: West Valley
+G5CG6456RJYE,avonly289,div1,Desk 13: Barron
+G47FVZ52E,avonly290,div1,Desk 13: Dresser
+G5PB8Z52E,avonly291,div1,Desk 13: Minneapolis
+GCB0MQ72E,avonly292,div1,Desk 13: Minneapolis:2
+G3LLWYF2E,avonly293,div1,Desk 13: Minneapolis:3
+G2UA7301XRME,avonly294,div1,Desk 02: Gilman
+G2UA6100VFQE,avonly295,div1,Desk 02: Gilman:2
+MLBALAKSHMAXP01,avonly296,div1,Desk 02: Gilman:3
+G821RQ32E,avonly297,div1,Desk 02: Gilman:4
+G68MHM32E,avonly298,div1,Desk 10: Lakefront
+T00851497,avonly299,div1,Desk 10: Matteson 2
+T10037079,avonly300,div1,Desk 10: South Bend 2
+T00773615,avonly301,div1,Desk 10: South Bend
+T10026592,avonly302,div1,Desk 10: Griffith
+T00759488,avonly303,div1,Desk 11: Leithton
+T00883776,avonly304,div1,Desk 11: Matteson 1
+T10023188,avonly305,div1,Desk 11: Illinois River
+G187DP72E,avonly306,div1,Desk 04: Yazoo 1
+G4HHR3H2E,avonly307,div1,Desk 04: Yazoo 1:2
+G2UA4031PR2E,avonly308,div1,Desk 04: Yazoo 1:3
+G2UA72526N8E,avonly309,div1,Desk 04: Yazoo 2
+T10021012,avonly310,div1,Desk 04: Yazoo 2:2
+G2UA6373J06E,avonly311,div1,Desk 04: Yazoo 2:3
+T00812198,avonly312,div1,Desk 04: Fulton
+GDFD9H2E ,avonly313,div1,Desk 04: Fulton:2
+T10029932,avonly314,div1,Desk 04: Fulton:3
+T10038292,avonly315,div1,Desk 04: Fulton Memphis
+T10030927,avonly316,div1,Desk 04: Fulton Memphis:2
+GB82BJB2E,avonly317,div1,Desk 04: Fulton Memphis:3
+T10031320,avonly318,div1,Desk 04: Canton
+G60HMM32E,avonly319,div1,Desk 03: Bluford 2
+G7TD2H72E,avonly320,div1,Desk 03: Bluford 2:2
+G1CGN3G2E,avonly321,div1,Desk 03: Bluford 1
+T10021482,avonly322,div1,Desk 03: Bluford 1:2
+T00815584,avonly323,div1,Desk 03: Bluford 1:3
+MLB-HMORGAN-QTP,avonly324,div1,Desk 03: St Louis
+G2UA71420LHE,avonly325,div1,Desk 03: St Louis:2
+G2UA7042SLWE,avonly326,div1,Desk 03: Centralia 1
+T10038291,avonly327,div1,Desk 03: Centralia 1:2
+GF7SKZ52E,avonly328,div1,Desk 03: Centralia 1:3
+G102D9H2E,avonly329,div1,Desk 03: Centralia 2
+G5CG7165C5WE,avonly330,div1,Desk 03: Centralia 2:2
+G2UA7301XQVE,avonly331,div1,Desk 03: Centralia 2:3
+G5CG6432F5JE,avonly332,div1,Desk 03: Sparta
+T10045635,avonly333,div1,  Desk 02: Chicago
+GB91RP32E,avonly334,div1,  Desk 02: Chicago:2
+T00936603,avonly335,div1,  Desk 02: Chicago:3
+G2UA7011Z22E,avonly336,div1,  Desk 05: McComb 2
+G2Y1D9H2E,avonly337,div1,  Desk 05: McComb 2:2
+GCNDJTF2E,avonly338,div1,  Desk 05: McComb 2:3
+GCSP89H2E,avonly339,div1,  Desk 05: McComb 1:2
+G2UA7102LN6E,avonly340,div1,  Desk 05: McComb 1:3
+G2UA6292ZMNE,avonly341,div1,  Desk 05: McComb 1
+G2UA6090PFPE,avonly342,div1,  Desk 06: Baton Rouge
+G2UA7202MS1E,avonly343,div1,  Desk 06: Baton Rouge:2
+T00851688,avonly344,div1,  Desk 06: Baton Rouge:3
+T10037903,avonly345,div1,  Desk 06: Baton Rouge:4
+G6XN7Q72E,avonly346,div1,  Desk 05: Beaumont
+T10045807,avonly347,div1,  Desk 05: Beaumont: 2
+G5CG7183K1R,avonly348,div1,  Desk 05: Beaumont: 3
+G2UA6402TC8E,avonly349,div1,Desk 10: Bessemer
+T10036424,avonly350,div1,DESK 99
+G5CG6230ZFYE,avonly351,div1,Desk 08: Holly
+T10034600,avonly352,div1,Desk 08: Shore Line
+GD2DBP72E,avonly353,div1,Desk 08: Flint
+GR909Y18EE,avonly354,div1,Desk 16: Missabe 1
+G2UA51311DNE,avonly355,div1,Desk 16: Missabe 1:2
+GH4ZSR22E,avonly356,div1,Desk 16: Missabe 1:3
+G2UA4032Q55E,avonly357,div1,Desk 16: Missabe 2
+T00795345,avonly358,div1,Desk 16: Missabe 2:2
+T10035384,avonly359,div1,Desk 16: Missabe 2:3
+G2UA5062M18E,avonly360,div1,Desk 12: Wis Subs
+G3011HH2E,avonly361,div1,Desk 12: Wis Subs:2
+T10045852,avonly362,div1,Desk 12: Wis Subs:3
+G1WDZG72E,avonly363,div1,Desk 08: FltRck MtClmns
+T10025060,avonly364,div1,Desk 16: Rainy
+T10023487,avonly365,div1,Desk 16: Rainy:2
+T00676923,avonly366,div1,Desk 16: Rainy:3
+G87G79H2E,avonly367,div1,Desk 16: Rainy:4
+G8F0PPF2E,avonly368,div1,Desk 12: Neenah
+G2UA3340WQME,avonly369,div1,Desk 12: Neenah:2
+G5CG6270JWRE,avonly370,div1,Desk 12: Neenah:3
+G2XNZBG2E,avonly371,div1,Desk 12: Neenah:4
+G2UA6101H51E,avonly372,div1,Desk 12: Wis Subs:4
+G2JZYR32E,avonly373,div1,Desk 16: Superior 3
+G2UA7021TB7E,avonly374,div1,Desk 16: Superior 3:2
+GDS48Z52E,avonly375,div1,Desk 15: Waukesha 1
+T00883783,avonly376,div1,Desk 15: Waukesha 2
+G2UA4290Y70E,avonly377,div1,Desk 15: Waukesha 3
+GDXN5M72E,avonly378,div1,Desk 15: Waukesha 1:2
+G2UA6471Q2JE,avonly379,div1,Desk 15: Waukesha 1:3
+T10034752,avonly380,div1,Desk 15: Waukesha 1:4
+G6ZXX3H2E,avonly381,div1,Desk 15: Waukesha 1:5
+G75NFF72E,avonly382,div1,Desk 15: Waukesha 2:2
+T10029787,avonly383,div1,Desk 15: Waukesha 2:3
+T10031804,avonly384,div1,Desk 15: Waukesha 2:4
+GC10FR72E,avonly385,div1,Desk 15: Waukesha 3:2
+T00810061,avonly386,div1,Desk 13: Superior 2
+G2UA70515SQE,avonly387,div1,Desk 13: Superior 2:2
+GJWVLHC2E,avonly388,div1,Desk 13: Superior 2:3
+G5FRLYF2E,avonly389,div1,Desk 13: Superior 2:4
+G2X541G2E,avonly390,div1,Desk 13: Superior 1
+G29B8NC2E,avonly391,div1,Desk 13: Superior 1:2
+GJ3Z5BG2E,avonly392,div1,Desk 13: Superior 1:3
+G2UA72526LLE,avonly393,div1,Desk 13: Superior 1:4
+T00795804,avonly394,div1,Desk 01: Joliet
+G8WB7Q32E,avonly395,div1,Desk 01: Joliet:2
+G2UA6421L3WE,avonly396,div1,Desk 01: Joliet:3
+G2UA60326X5E,avonly397,div1,Desk 02: Champaign
+GBGM7K72E,avonly398,div1,Desk 02: Champaign:2
+G2UA70515TJE,avonly399,div1,Desk 02: Champaign:3
+G2UA553107QE,avonly400,div1,Desk 02: Champaign Blu
+T00773615,avonly401,div1,Desk 10: South Bend
+T10026592,avonly402,div1,Desk 10: Griffith
+T00759488,avonly403,div1,Desk 11: Leithton
+T00883776,avonly404,div1,Desk 11: Matteson 1
+T10023188,avonly405,div1,Desk 11: Illinois River
+G187DP72E,avonly406,div1,Desk 04: Yazoo 1
+G4HHR3H2E,avonly407,div1,Desk 04: Yazoo 1:2
+G2UA4031PR2E,avonly408,div1,Desk 04: Yazoo 1:3
+G2UA72526N8E,avonly409,div1,Desk 04: Yazoo 2
+T10021012,avonly410,div1,Desk 04: Yazoo 2:2
+G2UA6373J06E,avonly411,div1,Desk 04: Yazoo 2:3
+T00812198,avonly412,div1,Desk 04: Fulton
+GDFD9H2E ,avonly413,div1,Desk 04: Fulton:2
+T10029932,avonly414,div1,Desk 04: Fulton:3
+T10038292,avonly415,div1,Desk 04: Fulton Memphis
+T10030927,avonly416,div1,Desk 04: Fulton Memphis:2
+GB82BJB2E,avonly417,div1,Desk 04: Fulton Memphis:3
+T10031320,avonly418,div1,Desk 04: Canton
+G60HMM32E,avonly419,div1,Desk 03: Bluford 2
+G7TD2H72E,avonly420,div1,Desk 03: Bluford 2:2
+G1CGN3G2E,avonly421,div1,Desk 03: Bluford 1
+T10021482,avonly422,div1,Desk 03: Bluford 1:2
+T00815584,avonly423,div1,Desk 03: Bluford 1:3
+MLB-HMORGAN-QTP,avonly424,div1,Desk 03: St Louis
+G2UA71420LHE,avonly425,div1,Desk 03: St Louis:2
+G2UA7042SLWE,avonly426,div1,Desk 03: Centralia 1
+T10038291,avonly427,div1,Desk 03: Centralia 1:2
+GF7SKZ52E,avonly428,div1,Desk 03: Centralia 1:3
+G102D9H2E,avonly429,div1,Desk 03: Centralia 2
+G5CG7165C5WE,avonly430,div1,Desk 03: Centralia 2:2
+G2UA7301XQVE,avonly431,div1,Desk 03: Centralia 2:3
+G5CG6432F5JE,avonly432,div1,Desk 03: Sparta
+T10045635,avonly433,div1,  Desk 02: Chicago
+GB91RP32E,avonly434,div1,  Desk 02: Chicago:2
+T00936603,avonly435,div1,  Desk 02: Chicago:3
+G2UA7011Z22E,avonly436,div1,  Desk 05: McComb 2
+G2Y1D9H2E,avonly437,div1,  Desk 05: McComb 2:2
+GCNDJTF2E,avonly438,div1,  Desk 05: McComb 2:3
+GCSP89H2E,avonly439,div1,  Desk 05: McComb 1:2
+G2UA7102LN6E,avonly440,div1,  Desk 05: McComb 1:3
+G2UA6292ZMNE,avonly441,div1,  Desk 05: McComb 1
+G2UA6090PFPE,avonly442,div1,  Desk 06: Baton Rouge
+G2UA7202MS1E,avonly443,div1,  Desk 06: Baton Rouge:2
+T00851688,avonly444,div1,  Desk 06: Baton Rouge:3
+T10037903,avonly445,div1,  Desk 06: Baton Rouge:4
+G6XN7Q72E,avonly446,div1,  Desk 05: Beaumont
+T10045807,avonly447,div1,  Desk 05: Beaumont: 2
+G5CG7183K1R,avonly448,div1,  Desk 05: Beaumont: 3
+G2UA6402TC8E,avonly449,div1,Desk 10: Bessemer
+T10036424,avonly450,div1,DESK 99
+G5CG6230ZFYE,avonly451,div1,Desk 08: Holly
+T10034600,avonly452,div1,Desk 08: Shore Line
+GD2DBP72E,avonly453,div1,Desk 08: Flint
+GR909Y18EE,avonly454,div1,Desk 16: Missabe 1
+G2UA51311DNE,avonly455,div1,Desk 16: Missabe 1:2
+GH4ZSR22E,avonly456,div1,Desk 16: Missabe 1:3
+G2UA4032Q55E,avonly457,div1,Desk 16: Missabe 2
+T00795345,avonly458,div1,Desk 16: Missabe 2:2
+T10035384,avonly459,div1,Desk 16: Missabe 2:3
+G2UA5062M18E,avonly460,div1,Desk 12: Wis Subs
+G3011HH2E,avonly461,div1,Desk 12: Wis Subs:2
+T10045852,avonly462,div1,Desk 12: Wis Subs:3
+G1WDZG72E,avonly463,div1,Desk 08: FltRck MtClmns
+T10025060,avonly464,div1,Desk 16: Rainy
+T10023487,avonly465,div1,Desk 16: Rainy:2
+T00676923,avonly466,div1,Desk 16: Rainy:3
+G87G79H2E,avonly467,div1,Desk 16: Rainy:4
+G8F0PPF2E,avonly468,div1,Desk 12: Neenah
+G2UA3340WQME,avonly469,div1,Desk 12: Neenah:2
+G5CG6270JWRE,avonly470,div1,Desk 12: Neenah:3
+G2XNZBG2E,avonly471,div1,Desk 12: Neenah:4
+G2UA6101H51E,avonly472,div1,Desk 12: Wis Subs:4
+G2JZYR32E,avonly473,div1,Desk 16: Superior 3
+G2UA7021TB7E,avonly474,div1,Desk 16: Superior 3:2
+GDS48Z52E,avonly475,div1,Desk 15: Waukesha 1
+T00883783,avonly476,div1,Desk 15: Waukesha 2
+G2UA4290Y70E,avonly477,div1,Desk 15: Waukesha 3
+GDXN5M72E,avonly478,div1,Desk 15: Waukesha 1:2
+G2UA6471Q2JE,avonly479,div1,Desk 15: Waukesha 1:3
+T10034752,avonly480,div1,Desk 15: Waukesha 1:4
+G6ZXX3H2E,avonly481,div1,Desk 15: Waukesha 1:5
+G75NFF72E,avonly482,div1,Desk 15: Waukesha 2:2
+T10029787,avonly483,div1,Desk 15: Waukesha 2:3
+T10031804,avonly484,div1,Desk 15: Waukesha 2:4
+GC10FR72E,avonly485,div1,Desk 15: Waukesha 3:2
+T00810061,avonly486,div1,Desk 13: Superior 2
+G2UA70515SQE,avonly487,div1,Desk 13: Superior 2:2
+GJWVLHC2E,avonly488,div1,Desk 13: Superior 2:3
+G5FRLYF2E,avonly489,div1,Desk 13: Superior 2:4
+G2X541G2E,avonly490,div1,Desk 13: Superior 1
+G29B8NC2E,avonly491,div1,Desk 13: Superior 1:2
+GJ3Z5BG2E,avonly492,div1,Desk 13: Superior 1:3
+G2UA72526LLE,avonly493,div1,Desk 13: Superior 1:4
+T00795804,avonly494,div1,Desk 01: Joliet
+G8WB7Q32E,avonly495,div1,Desk 01: Joliet:2
+G2UA6421L3WE,avonly496,div1,Desk 01: Joliet:3
+G2UA60326X5E,avonly497,div1,Desk 02: Champaign
+GBGM7K72E,avonly498,div1,Desk 02: Champaign:2
+G2UA70515TJE,avonly499,div1,Desk 02: Champaign:3
+G2UA553107QE,avonly500,div1,Desk 02: Champaign Blu
+MLBLOAD01,acdisp1,div1,Desk 10: Bessemer
+MLBLOAD02,acdisp2,div1,DESK 99
+TMSDV092,acdisp3,div1,Desk 08: Holly
+TMSDV093,acdisp4,div1,Desk 08: Shore Line
+TMSDV081,acdisp5,div1,Desk 08: Flint
+TMSDV083,acdisp6,div1,Desk 16: Missabe 1
+TMSST002,acdisp7,div1,Desk 16: Missabe 1:2
+TMSST003,acdisp8,div1,Desk 16: Missabe 1:3
+TMSST004,acdisp9,div1,Desk 16: Missabe 2
+TMSST005,acdisp10,div1,Desk 16: Missabe 2:2
+TMSST006,acdisp11,div1,Desk 16: Missabe 2:3
+TMSST007,acdisp12,div1,Desk 12: Wis Subs
+TMSST009,acdisp13,div1,Desk 12: Wis Subs:2
+TMSST010,acdisp14,div1,Desk 12: Wis Subs:3
+TMSST011,acdisp15,div1,Desk 08: FltRck MtClmns
+TMSST012,acdisp16,div1,Desk 16: Rainy
+TMSMP013,acdisp17,div1,Desk 16: Rainy:2
+TMSMP014,acdisp18,div1,Desk 16: Rainy:3
+TMSMP015,acdisp19,div1,Desk 16: Rainy:4
+TMSMP016,acdisp20,div1,Desk 12: Neenah
+TMSMP017,acdisp21,div1,Desk 12: Neenah:2
+TMSMP018,acdisp22,div1,Desk 12: Neenah:3
+TMSMP019,acdisp23,div1,Desk 12: Neenah:4
+TMSSP020,acdisp24,div1,Desk 12: Wis Subs:4
+TMSSP021,acdisp25,div1,Desk 16: Superior 3
+TMSSP022,andisp1,div1,Desk 16: Superior 3:2
+TMSSP023,andisp2,div1,Desk 15: Waukesha 1
+TMSSP024,andisp3,div1,Desk 15: Waukesha 2
+TMSIN025,andisp4,div1,Desk 15: Waukesha 3
+TMSIN026,andisp5,div1,Desk 15: Waukesha 1:2
+TMSIN027,andisp6,div1,Desk 15: Waukesha 1:3
+TMSIN028,andisp7,div1,Desk 15: Waukesha 1:4
+TMSIN029,andisp8,div1,Desk 15: Waukesha 1:5
+TMSIN030,andisp9,div1,Desk 15: Waukesha 2:2
+TMSIN031,andisp10,div1,Desk 15: Waukesha 2:3
+TMSIN032,andisp11,div1,Desk 15: Waukesha 2:4
+TMSIN033,andisp12,div1,Desk 15: Waukesha 3:2
+TMSIN034,andisp13,div1,Desk 13: Superior 2
+TMSIN035,andisp14,div1,Desk 13: Superior 2:2
+TMSIN036,andisp15,div1,Desk 13: Superior 2:3
+TMSIN037,andisp16,div1,Desk 13: Superior 2:4
+TMSIN038,andisp17,div1,Desk 13: Superior 1
+TMSIN039,andisp18,div1,Desk 13: Superior 1:2
+TMSIN040,andisp19,div1,Desk 13: Superior 1:3
+TMSIN041,andisp20,div1,Desk 13: Superior 1:4
+TMSIN042,andisp21,div1,Desk 01: Joliet
+TMSIN043,andisp22,div1,Desk 01: Joliet:2
+TMSIN044,andisp23,div1,Desk 01: Joliet:3
+TMSIN045,andisp24,div1,Desk 02: Champaign
+TMSIN046,andisp25,div1,Desk 02: Champaign:2
+TMSIN047,acands1,div1,Desk 02: Champaign:3
+TMSNS048,acands2,div1,Desk 02: Champaign Blu
+TMSNS049,acands3,div1,Desk 02: Champaign Blu:2
+TMSNS050,acands4,div1,Desk 02: Champaign Blu:3
+TMSPR051,acands5,div1,Desk 13: Valley
+TMSPR052,acands6,div1,Desk 13: West Valley
+TMSPR053,acands7,div1,Desk 13: Barron
+TMSDV054,acands8,div1,Desk 13: Dresser
+TMSDV055,acands9,div1,Desk 13: Minneapolis
+TMSDV056,acands10,div1,Desk 13: Minneapolis:2
+TMSDV057,acands11,div1,Desk 13: Minneapolis:3
+TMSDV058,acands12,div1,Desk 02: Gilman
+TMSDV059,acands13,div1,Desk 02: Gilman:2
+TMSDV060,acands14,div1,Desk 02: Gilman:3
+T10008680,acands15,div1,Desk 02: Gilman:4
+T10008682,acands16,div1,Desk 10: Lakefront
+TMSDV063,acands17,div1,Desk 10: Matteson 2
+TMSDV064,acands18,div1,Desk 10: South Bend 2
+TMSDV065,acands19,div1,Desk 10: South Bend
+TMSDV066,acands20,div1,Desk 10: Griffith
+TMSDV067,acands21,div1,Desk 11: Leithton
+TMSDV068,acands22,div1,Desk 11: Matteson 1
+T10008686,acands23,div1,Desk 11: Illinois River
+TMSDV070,acands24,div1,Desk 04: Yazoo 1
+GEHRE071,acands25,div1,Desk 04: Yazoo 1:2
+GEHRE072,atcsadm1,div1,Desk 04: Yazoo 1:3
+TMSSP075,atcsadm2,div1,Desk 04: Yazoo 2
+TMSSP076,atcsadm3,div1,Desk 04: Yazoo 2:2
+TMSSP077,atcsadm4,div1,Desk 04: Yazoo 2:3
+TMSSP078,atcsadm5,div1,Desk 04: Fulton
+TMSSP079,atcsadm6,div1,Desk 04: Fulton:2
+GW0225,atcsadm7,div1,Desk 04: Fulton:3
+FLMEL001WK,atcsadm8,div1,Desk 04: Fulton Memphis
+TMSSP074,atcsadm9,div1,Desk 04: Fulton Memphis:2
+FLMEL002WK,atcsadm10,div1,Desk 04: Fulton Memphis:3
+TMSDV071,atcsadm11,div1,Desk 04: Canton
+TMSDV072,atcsadm12,div1,Desk 03: Bluford 2
+TMSDV073,atcsadm13,div1,Desk 03: Bluford 2:2
+STEDEV6,atcsadm14,div1,Desk 03: Bluford 1
+UTCSGA001,atcsadm15,div1,Desk 03: Bluford 1:2
+UTCSGA002,atcsadm16,div1,Desk 03: Bluford 1:3
+UTCSGA003,atcsadm17,div1,Desk 03: St Louis
+UTCSGA004,atcsadm18,div1,Desk 03: St Louis:2
+UTCSGA005,atcsadm19,div1,Desk 03: Centralia 1
+UTCSGA006,atcsadm20,div1,Desk 03: Centralia 1:2
+UTCSGA007,atcsadm21,div1,Desk 03: Centralia 1:3
+UTCSGA008,atcsadm22,div1,Desk 03: Centralia 2
+UTCSGA009,atcsadm23,div1,Desk 03: Centralia 2:2
+UTCSGA010,atcsadm24,div1,Desk 03: Centralia 2:3
+UTCSGA011,atcsadm25,div1,Desk 03: Sparta
+UTCSGA012,amob1,div1,  Desk 02: Chicago
+TMSDV089,amob2,div1,  Desk 02: Chicago:2
+GETSGS11883,amob3,div1,  Desk 02: Chicago:3
+UTCSSIM1,amob4,div1,  Desk 05: McComb 2
+UTCSSIM2,amob5,div1,  Desk 05: McComb 2:2
+TMSDV086,amob6,div1,  Desk 05: McComb 2:3
+TMSDV085,amob7,div1,  Desk 05: McComb 1:2
+TMSDV084,amob8,div1,  Desk 05: McComb 1:3
+T10024570,amob9,div1,  Desk 05: McComb 1
+G2UA7021T8NE,amob10,div1,  Desk 06: Baton Rouge
+T10008657,amob11,div1,  Desk 06: Baton Rouge:2
+TMSDV096,amob12,div1,  Desk 06: Baton Rouge:3
+TMSDV047,amob13,div1,  Desk 06: Baton Rouge:4
+TMSLP108,amob14,div1,  Desk 05: Beaumont
+TMSDV050,amob15,div1,  Desk 05: Beaumont: 2
+TMSDV087,amob16,div1,  Desk 05: Beaumont: 3
+TMSDV130,amob17,div1,Desk 10: Bessemer
+TMSDV131,amob18,div1,DESK 99
+TMSDV132,amob19,div1,Desk 08: Holly
+TMSDMO002,amob20,div1,Desk 08: Shore Line
+TMSDMO003,amob21,div1,Desk 08: Flint
+T10008658,amob22,div1,Desk 16: Missabe 1
+T10008655,amob23,div1,Desk 16: Missabe 1:2
+T10008660,amob24,div1,Desk 16: Missabe 1:3
+T10008663,amob25,div1,Desk 16: Missabe 2
+T10008684,amob26,div1,Desk 16: Missabe 2:2
+T10008662,amob27,div1,Desk 16: Missabe 2:3
+T10008665,amob28,div1,Desk 12: Wis Subs
+T10008654,amob29,div1,Desk 12: Wis Subs:2
+T10008687,amob30,div1,Desk 12: Wis Subs:3
+T10008683,amob31,div1,Desk 08: FltRck MtClmns
+T10008677,amob32,div1,Desk 16: Rainy
+TMSDV061,amob33,div1,Desk 16: Rainy:2
+TMSDV062,amob34,div1,Desk 16: Rainy:3
+TMSDV069,amob35,div1,Desk 16: Rainy:4
+TMSDV095,amob36,div1,Desk 12: Neenah
+TMSPC123,amob37,div1,Desk 12: Neenah:2
+TMSDV099,amob38,div1,Desk 12: Neenah:3
+TMSDV097,amob39,div1,Desk 12: Neenah:4
+TMSDV146,amob40,div1,Desk 12: Wis Subs:4
+T10014472,amob41,div1,Desk 16: Superior 3
+T10020490,amob42,div1,Desk 16: Superior 3:2
+T00534210,amob43,div1,Desk 15: Waukesha 1
+T10010452,amob44,div1,Desk 15: Waukesha 2
+T00509081,amob45,div1,Desk 15: Waukesha 3
+T10021008,amob46,div1,Desk 15: Waukesha 1:2
+T10021022,amob47,div1,Desk 15: Waukesha 1:3
+T10021015,amob48,div1,Desk 15: Waukesha 1:4
+T10021020,amob49,div1,Desk 15: Waukesha 1:5
+T10021016,amob50,div1,Desk 15: Waukesha 2:2
+T10021021,amob51,div1,Desk 15: Waukesha 2:3
+T10021014,amob52,div1,Desk 15: Waukesha 2:4
+T10021011,amob53,div1,Desk 15: Waukesha 3:2
+TMSST008,amob54,div1,Desk 13: Superior 2
+TMSST001,amob55,div1,Desk 13: Superior 2:2
+TMSDV127,amob56,div1,Desk 13: Superior 2:3
+FLMLBTNUTCR251W,amob57,div1,Desk 13: Superior 2:4
+FLMLBGEUTCP464W,amob58,div1,Desk 13: Superior 1
+FLMLBTNUTCP083W,amob59,div1,Desk 13: Superior 1:2
+TMSGRO02,amob60,div1,Desk 13: Superior 1:3
+TMSGRO03,amob61,div1,Desk 13: Superior 1:4
+TMSGRO05,amob62,div1,Desk 01: Joliet
+MLBRDC66,amob63,div1,Desk 01: Joliet:2
+T10030945,amob64,div1,Desk 01: Joliet:3
+T10023128,amob65,div1,Desk 02: Champaign
+T10023129,amob66,div1,Desk 02: Champaign:2
+T10023140,amob67,div1,Desk 02: Champaign:3
+T10023131,amob68,div1,Desk 02: Champaign Blu
+T10023132,amob69,div1,Desk 02: Champaign Blu:2
+T10023133,amob70,div1,Desk 02: Champaign Blu:3
+T10023138,amob71,div1,Desk 13: Valley
+T10023134,amob72,div1,Desk 13: West Valley
+GWO210,amob73,div1,Desk 13: Barron
+GWO213,amob74,div1,Desk 13: Dresser
+MLBRDC41,amob75,div1,Desk 13: Minneapolis
+MLBLOAD01,asdisp1,div1,Desk 10: Bessemer
+MLBLOAD02,asdisp2,div1,DESK 99
+TMSDV092,asdisp3,div1,Desk 08: Holly
+TMSDV093,asdisp4,div1,Desk 08: Shore Line
+TMSDV081,asdisp5,div1,Desk 08: Flint
+TMSDV083,asdisp6,div1,Desk 16: Missabe 1
+TMSST002,asdisp7,div1,Desk 16: Missabe 1:2
+TMSST003,asdisp8,div1,Desk 16: Missabe 1:3
+TMSST004,asdisp9,div1,Desk 16: Missabe 2
+TMSST005,asdisp10,div1,Desk 16: Missabe 2:2
+TMSST006,asdisp11,div1,Desk 16: Missabe 2:3
+TMSST007,asdisp12,div1,Desk 12: Wis Subs
+TMSST009,asdisp13,div1,Desk 12: Wis Subs:2
+TMSST010,asdisp14,div1,Desk 12: Wis Subs:3
+TMSST011,asdisp15,div1,Desk 08: FltRck MtClmns
+TMSST012,asdisp16,div1,Desk 16: Rainy
+TMSMP013,asdisp17,div1,Desk 16: Rainy:2
+TMSMP014,asdisp18,div1,Desk 16: Rainy:3
+TMSMP015,asdisp19,div1,Desk 16: Rainy:4
+TMSMP016,asdisp20,div1,Desk 12: Neenah
+TMSMP017,asdisp21,div1,Desk 12: Neenah:2
+TMSMP018,asdisp22,div1,Desk 12: Neenah:3
+TMSMP019,asdisp23,div1,Desk 12: Neenah:4
+TMSSP020,asdisp24,div1,Desk 12: Wis Subs:4
+TMSSP021,asdisp25,div1,Desk 16: Superior 3
+TMSSP022,asdisp26,div1,Desk 16: Superior 3:2
+TMSSP023,asdisp27,div1,Desk 15: Waukesha 1
+TMSSP024,asdisp28,div1,Desk 15: Waukesha 2
+TMSIN025,asdisp29,div1,Desk 15: Waukesha 3
+TMSIN026,asdisp30,div1,Desk 15: Waukesha 1:2
+TMSIN027,asdisp31,div1,Desk 15: Waukesha 1:3
+TMSIN028,asdisp32,div1,Desk 15: Waukesha 1:4
+TMSIN029,asdisp33,div1,Desk 15: Waukesha 1:5
+TMSIN030,asdisp34,div1,Desk 15: Waukesha 2:2
+TMSIN031,asdisp35,div1,Desk 15: Waukesha 2:3
+TMSIN032,asdisp36,div1,Desk 15: Waukesha 2:4
+TMSIN033,asdisp37,div1,Desk 15: Waukesha 3:2
+TMSIN034,asdisp38,div1,Desk 13: Superior 2
+TMSIN035,asdisp39,div1,Desk 13: Superior 2:2
+TMSIN036,asdisp40,div1,Desk 13: Superior 2:3
+TMSIN037,asdisp41,div1,Desk 13: Superior 2:4
+TMSIN038,asdisp42,div1,Desk 13: Superior 1
+TMSIN039,asdisp43,div1,Desk 13: Superior 1:2
+TMSIN040,asdisp44,div1,Desk 13: Superior 1:3
+TMSIN041,asdisp45,div1,Desk 13: Superior 1:4
+TMSIN042,asdisp46,div1,Desk 01: Joliet
+TMSIN043,asdisp47,div1,Desk 01: Joliet:2
+TMSIN044,asdisp48,div1,Desk 01: Joliet:3
+TMSIN045,asdisp49,div1,Desk 02: Champaign
+TMSIN046,asdisp50,div1,Desk 02: Champaign:2
+TMSIN047,asdisp51,div1,Desk 02: Champaign:3
+TMSNS048,asdisp52,div1,Desk 02: Champaign Blu
+TMSNS049,asdisp53,div1,Desk 02: Champaign Blu:2
+TMSNS050,asdisp54,div1,Desk 02: Champaign Blu:3
+TMSPR051,asdisp55,div1,Desk 13: Valley
+TMSPR052,asdisp56,div1,Desk 13: West Valley
+TMSPR053,asdisp57,div1,Desk 13: Barron
+TMSDV054,asdisp58,div1,Desk 13: Dresser
+TMSDV055,asdisp59,div1,Desk 13: Minneapolis
+TMSDV056,asdisp60,div1,Desk 13: Minneapolis:2
+TMSDV057,asdisp61,div1,Desk 13: Minneapolis:3
+TMSDV058,asdisp62,div1,Desk 02: Gilman
+TMSDV059,asdisp63,div1,Desk 02: Gilman:2
+TMSDV060,asdisp64,div1,Desk 02: Gilman:3
+T10008680,asdisp65,div1,Desk 02: Gilman:4
+T10008682,asdisp66,div1,Desk 10: Lakefront
+TMSDV063,asdisp67,div1,Desk 10: Matteson 2
+TMSDV064,asdisp68,div1,Desk 10: South Bend 2
+TMSDV065,asdisp69,div1,Desk 10: South Bend
+TMSDV066,asdisp70,div1,Desk 10: Griffith
+TMSDV067,asdisp71,div1,Desk 11: Leithton
+TMSDV068,asdisp72,div1,Desk 11: Matteson 1
+T10008686,asdisp73,div1,Desk 11: Illinois River
+TMSDV070,asdisp74,div1,Desk 04: Yazoo 1
+GEHRE071,asdisp75,div1,Desk 04: Yazoo 1:2
+GEHRE072,asdisp76,div1,Desk 04: Yazoo 1:3
+TMSSP075,asdisp77,div1,Desk 04: Yazoo 2
+TMSSP076,asdisp78,div1,Desk 04: Yazoo 2:2
+TMSSP077,asdisp79,div1,Desk 04: Yazoo 2:3
+TMSSP078,asdisp80,div1,Desk 04: Fulton
+TMSSP079,asdisp81,div1,Desk 04: Fulton:2
+GW0225,asdisp82,div1,Desk 04: Fulton:3
+FLMEL001WK,asdisp83,div1,Desk 04: Fulton Memphis
+TMSSP074,asdisp84,div1,Desk 04: Fulton Memphis:2
+FLMEL002WK,asdisp85,div1,Desk 04: Fulton Memphis:3
+TMSDV071,asdisp86,div1,Desk 04: Canton
+TMSDV072,asdisp87,div1,Desk 03: Bluford 2
+TMSDV073,asdisp88,div1,Desk 03: Bluford 2:2
+STEDEV6,asdisp89,div1,Desk 03: Bluford 1
+UTCSGA001,asdisp90,div1,Desk 03: Bluford 1:2
+UTCSGA002,asdisp91,div1,Desk 03: Bluford 1:3
+UTCSGA003,asdisp92,div1,Desk 03: St Louis
+UTCSGA004,asdisp93,div1,Desk 03: St Louis:2
+UTCSGA005,asdisp94,div1,Desk 03: Centralia 1
+UTCSGA006,asdisp95,div1,Desk 03: Centralia 1:2
+UTCSGA007,asdisp96,div1,Desk 03: Centralia 1:3
+UTCSGA008,asdisp97,div1,Desk 03: Centralia 2
+UTCSGA009,asdisp98,div1,Desk 03: Centralia 2:2
+UTCSGA010,asdisp99,div1,Desk 03: Centralia 2:3
+UTCSGA011,asdisp100,div1,Desk 03: Sparta
+UTCSGA012,asdisp101,div1,  Desk 02: Chicago
+TMSDV089,asdisp102,div1,  Desk 02: Chicago:2
+GETSGS11883,asdisp103,div1,  Desk 02: Chicago:3
+UTCSSIM1,asdisp104,div1,  Desk 05: McComb 2
+UTCSSIM2,asdisp105,div1,  Desk 05: McComb 2:2
+TMSDV086,asdisp106,div1,  Desk 05: McComb 2:3
+TMSDV085,asdisp107,div1,  Desk 05: McComb 1:2
+TMSDV084,asdisp108,div1,  Desk 05: McComb 1:3
+T10024570,asdisp109,div1,  Desk 05: McComb 1
+G2UA7021T8NE,asdisp110,div1,  Desk 06: Baton Rouge
+T10008657,asdisp111,div1,  Desk 06: Baton Rouge:2
+TMSDV096,asdisp112,div1,  Desk 06: Baton Rouge:3
+TMSDV047,asdisp113,div1,  Desk 06: Baton Rouge:4
+TMSLP108,asdisp114,div1,  Desk 05: Beaumont
+TMSDV050,asdisp115,div1,  Desk 05: Beaumont: 2
+TMSDV087,asdisp116,div1,  Desk 05: Beaumont: 3
+TMSDV130,asdisp117,div1,Desk 10: Bessemer
+TMSDV131,asdisp118,div1,DESK 99
+TMSDV132,asdisp119,div1,Desk 08: Holly
+TMSDMO002,asdisp120,div1,Desk 08: Shore Line
+TMSDMO003,asdisp121,div1,Desk 08: Flint
+T10008658,asdisp122,div1,Desk 16: Missabe 1
+T10008655,asdisp123,div1,Desk 16: Missabe 1:2
+T10008660,asdisp124,div1,Desk 16: Missabe 1:3
+T10008663,asdisp125,div1,Desk 16: Missabe 2
+T10008684,asdisp126,div1,Desk 16: Missabe 2:2
+T10008662,asdisp127,div1,Desk 16: Missabe 2:3
+T10008665,asdisp128,div1,Desk 12: Wis Subs
+T10008654,asdisp129,div1,Desk 12: Wis Subs:2
+T10008687,asdisp130,div1,Desk 12: Wis Subs:3
+T10008683,asdisp131,div1,Desk 08: FltRck MtClmns
+T10008677,asdisp132,div1,Desk 16: Rainy
+TMSDV061,asdisp133,div1,Desk 16: Rainy:2
+TMSDV062,asdisp134,div1,Desk 16: Rainy:3
+TMSDV069,asdisp135,div1,Desk 16: Rainy:4
+TMSDV095,asdisp136,div1,Desk 12: Neenah
+TMSPC123,asdisp137,div1,Desk 12: Neenah:2
+TMSDV099,asdisp138,div1,Desk 12: Neenah:3
+TMSDV097,asdisp139,div1,Desk 12: Neenah:4
+TMSDV146,asdisp140,div1,Desk 12: Wis Subs:4
+T10014472,asdisp141,div1,Desk 16: Superior 3
+T10020490,asdisp142,div1,Desk 16: Superior 3:2
+T00534210,asdisp143,div1,Desk 15: Waukesha 1
+T10010452,asdisp144,div1,Desk 15: Waukesha 2
+T00509081,asdisp145,div1,Desk 15: Waukesha 3
+T10021008,asdisp146,div1,Desk 15: Waukesha 1:2
+T10021022,asdisp147,div1,Desk 15: Waukesha 1:3
+T10021015,asdisp148,div1,Desk 15: Waukesha 1:4
+T10021020,asdisp149,div1,Desk 15: Waukesha 1:5
+T10021016,asdisp150,div1,Desk 15: Waukesha 2:2
+T10021021,asdisp151,div1,Desk 15: Waukesha 2:3
+T10021014,asdisp152,div1,Desk 15: Waukesha 2:4
+T10021011,asdisp153,div1,Desk 15: Waukesha 3:2
+TMSST008,asdisp154,div1,Desk 13: Superior 2
+TMSST001,asdisp155,div1,Desk 13: Superior 2:2
+TMSDV127,asdisp156,div1,Desk 13: Superior 2:3
+FLMLBTNUTCR251W,asdisp157,div1,Desk 13: Superior 2:4
+FLMLBGEUTCP464W,asdisp158,div1,Desk 13: Superior 1
+FLMLBTNUTCP083W,asdisp159,div1,Desk 13: Superior 1:2
+TMSGRO02,asdisp160,div1,Desk 13: Superior 1:3
+TMSGRO03,asdisp161,div1,Desk 13: Superior 1:4
+TMSGRO05,asdisp162,div1,Desk 01: Joliet
+MLBRDC66,asdisp163,div1,Desk 01: Joliet:2
+T10030945,asdisp164,div1,Desk 01: Joliet:3
+T10023128,asdisp165,div1,Desk 02: Champaign
+T10023129,asdisp166,div1,Desk 02: Champaign:2
+T10023140,asdisp167,div1,Desk 02: Champaign:3
+T10023131,asdisp168,div1,Desk 02: Champaign Blu
+T10023132,asdisp169,div1,Desk 02: Champaign Blu:2
+T10023133,asdisp170,div1,Desk 02: Champaign Blu:3
+T10023138,asdisp171,div1,Desk 13: Valley
+T10023134,asdisp172,div1,Desk 13: West Valley
+GWO210,asdisp173,div1,Desk 13: Barron
+GWO213,asdisp174,div1,Desk 13: Dresser
+MLBRDC41,asdisp175,div1,Desk 13: Minneapolis
+MLBRDC42,asdisp176,div1,Desk 13: Minneapolis:2
+MLBRDC43,asdisp177,div1,Desk 13: Minneapolis:3
+MLBRDC44,asdisp178,div1,Desk 02: Gilman
+DEVATLDISP1,asdisp179,div1,Desk 02: Gilman:2
+DEVATLDISP2,asdisp180,div1,Desk 02: Gilman:3
+DEVATLSUPERV1,asdisp181,div1,Desk 02: Gilman:4
+DEVATLSIGTECH1,asdisp182,div1,Desk 10: Lakefront
+G2UA7152PG8E,asdisp183,div1,Desk 10: Matteson 2
+G60S2062E,asdisp184,div1,Desk 10: South Bend 2
+G55LXZF2E,asdisp185,div1,Desk 10: South Bend
+G7DRV1G2E,asdisp186,div1,Desk 10: Griffith
+G7H9XRF2E,asdisp187,div1,Desk 11: Leithton
+G2UA7242BH4E,asdisp188,div1,Desk 11: Matteson 1
+G8G3FN72E,asdisp189,div1,Desk 11: Illinois River
+T10035027,asdisp190,div1,Desk 04: Yazoo 1
+MLBPDS08,asdisp191,div1,Desk 04: Yazoo 1:2
+T10025035,asdisp192,div1,Desk 04: Yazoo 1:3
+G3DTT7H2E,asdisp193,div1,Desk 04: Yazoo 2
+G43S9362E,asdisp194,div1,Desk 04: Yazoo 2:2
+G2UA6122JL4E,asdisp195,div1,Desk 04: Yazoo 2:3
+G62C0462E,asdisp196,div1,Desk 04: Fulton
+GCRM79H2E,asdisp197,div1,Desk 04: Fulton:2
+GBJG70G2E,asdisp198,div1,Desk 04: Fulton:3
+T10025199,asdisp199,div1,Desk 04: Fulton Memphis
+T10031846,asdisp200,div1,Desk 04: Fulton Memphis:2
+G2UA6100VF9E,asdisp201,div1,Desk 04: Fulton Memphis:3
+GD54F9H2E,asdisp202,div1,Desk 04: Canton
+G7NYV1G2E,asdisp203,div1,Desk 03: Bluford 2
+G2FCDH72E,asdisp204,div1,Desk 03: Bluford 2:2
+T10045972,asdisp205,div1,Desk 03: Bluford 1
+MLBRDC46,asdisp206,div1,Desk 03: Bluford 1:2
+G2UA6021FNTE,asdisp207,div1,Desk 03: Bluford 1:3
+GBTNBBG2E,asdisp208,div1,Desk 03: St Louis
+GGVCPPF2E,asdisp209,div1,Desk 03: St Louis:2
+G5QL7Z52E,asdisp210,div1,Desk 03: Centralia 1
+G7MR6Y52E,asdisp211,div1,Desk 03: Centralia 1:2
+G2UA60228LNE,asdisp212,div1,Desk 03: Centralia 1:3
+G9G8VF72E,asdisp213,div1,Desk 03: Centralia 2
+G5LZ2MC2E,asdisp214,div1,Desk 03: Centralia 2:2
+G5TBJM32E,asdisp215,div1,Desk 03: Centralia 2:3
+GGFZHM32E,asdisp216,div1,Desk 03: Sparta
+GHJR3ZF2E,asdisp217,div1,  Desk 02: Chicago
+G2UA334211XE,asdisp218,div1,  Desk 02: Chicago:2
+GCZ5Y9H2E,asdisp219,div1,  Desk 02: Chicago:3
+T00890138,asdisp220,div1,  Desk 05: McComb 2
+T10031719,asdisp221,div1,  Desk 05: McComb 2:2
+G92M0J72E,asdisp222,div1,  Desk 05: McComb 2:3
+T10045839,asdisp223,div1,  Desk 05: McComb 1:2
+GPF0Z2KHEE,asdisp224,div1,  Desk 05: McComb 1:3
+GD7J1Q32E,asdisp225,div1,  Desk 05: McComb 1
+T10027119,asdisp226,div1,  Desk 06: Baton Rouge
+T10025675,asdisp227,div1,  Desk 06: Baton Rouge:2
+G2UA6481ZFME,asdisp228,div1,  Desk 06: Baton Rouge:3
+GBJPYR32E,asdisp229,div1,  Desk 06: Baton Rouge:4
+G2UA32521LSE,asdisp230,div1,  Desk 05: Beaumont
+T00845219,asdisp231,div1,  Desk 05: Beaumont: 2
+T10032921,asdisp232,div1,  Desk 05: Beaumont: 3
+GGKPYRD2E,asdisp233,div1,Desk 10: Bessemer
+T10030937,asdisp234,div1,DESK 99
+T20021525,asdisp235,div1,Desk 08: Holly
+T20030937,asdisp236,div1,Desk 08: Shore Line
+MLBPDS18,asdisp237,div1,Desk 08: Flint
+T10021464,asdisp238,div1,Desk 16: Missabe 1
+G2UA6292ZMJE,asdisp239,div1,Desk 16: Missabe 1:2
+MLBRDC80,asdisp240,div1,Desk 16: Missabe 1:3
+MLBRDC19,asdisp241,div1,Desk 16: Missabe 2
+T10045290,asdisp242,div1,Desk 16: Missabe 2:2
+GGNB2Y52E,asdisp243,div1,Desk 16: Missabe 2:3
+G7HT79H2E,asdisp244,div1,Desk 12: Wis Subs
+G2UA4420RRJE,asdisp245,div1,Desk 12: Wis Subs:2
+GDVNCJC2E,asdisp246,div1,Desk 12: Wis Subs:3
+G57SK8H2E,asdisp247,div1,Desk 08: FltRck MtClmns
+G1P3S462E,asdisp248,div1,Desk 16: Rainy
+G2UA6392V8KE,asdisp249,div1,Desk 16: Rainy:2
+G2UA529253TE,asdisp250,div1,Desk 16: Rainy:3
+G71BQP32E,asdisp251,div1,Desk 16: Rainy:4
+G75089H2E,asdisp252,div1,Desk 12: Neenah
+G3M7ZG72E,asdisp253,div1,Desk 12: Neenah:2
+G2UA6181MM4E,asdisp254,div1,Desk 12: Neenah:3
+MLBRDC99,asdisp255,div1,Desk 12: Neenah:4
+MLBRDC111,asdisp256,div1,Desk 12: Wis Subs:4
+MLBRDC112,asdisp257,div1,Desk 16: Superior 3
+MLBRDC113,asdisp258,div1,Desk 16: Superior 3:2
+MLBRDC114,asdisp259,div1,Desk 15: Waukesha 1
+MLBRDC115,asdisp260,div1,Desk 15: Waukesha 2
+MLBRDC116,asdisp261,div1,Desk 15: Waukesha 3
+MLBRDC117,asdisp262,div1,Desk 15: Waukesha 1:2
+MLBRDC118,asdisp263,div1,Desk 15: Waukesha 1:3
+MLBRDC119,asdisp264,div1,Desk 15: Waukesha 1:4
+MLBRDC120,asdisp265,div1,Desk 15: Waukesha 1:5
+MLBRDC121,asdisp266,div1,Desk 15: Waukesha 2:2
+MLBRDC122,asdisp267,div1,Desk 15: Waukesha 2:3
+MLBRDC123,asdisp268,div1,Desk 15: Waukesha 2:4
+MLBRDC124,asdisp269,div1,Desk 15: Waukesha 3:2
+MLBRDC125,asdisp270,div1,Desk 13: Superior 2
+MLBRDC126,asdisp271,div1,Desk 13: Superior 2:2
+MLBRDC127,asdisp272,div1,Desk 13: Superior 2:3
+MLBRDC128,asdisp273,div1,Desk 13: Superior 2:4
+MLBRDC129,asdisp274,div1,Desk 13: Superior 1
+G2UA4101YLNE,asdisp275,div1,Desk 13: Superior 1:2
+G2UA10916MSE,asdisp276,div1,Desk 13: Superior 1:3
+G2UA6222NNRE,asdisp277,div1,Desk 13: Superior 1:4
+GPF0X37CCE,asdisp278,div1,Desk 01: Joliet
+GC49F9H2E,asdisp279,div1,Desk 01: Joliet:2
+POSITION:G8TJ61G2E,asdisp280,div1,Desk 01: Joliet:3
+G9RP89H2E,asdisp281,div1,Desk 02: Champaign
+G2UA6242S97E,asdisp282,div1,Desk 02: Champaign:2
+GPC04TDAAE,asdisp283,div1,Desk 02: Champaign:3
+G2UA5161V9FE,asdisp284,div1,Desk 02: Champaign Blu
+T10031125,asdisp285,div1,Desk 02: Champaign Blu:2
+MLBRDC54,asdisp286,div1,Desk 02: Champaign Blu:3
+MLBRDC55,asdisp287,div1,Desk 13: Valley
+G3T879H2E,asdisp288,div1,Desk 13: West Valley
+G5CG6456RJYE,asdisp289,div1,Desk 13: Barron
+G47FVZ52E,asdisp290,div1,Desk 13: Dresser
+G5PB8Z52E,asdisp291,div1,Desk 13: Minneapolis
+GCB0MQ72E,asdisp292,div1,Desk 13: Minneapolis:2
+G3LLWYF2E,asdisp293,div1,Desk 13: Minneapolis:3
+G2UA7301XRME,asdisp294,div1,Desk 02: Gilman
+G2UA6100VFQE,asdisp295,div1,Desk 02: Gilman:2
+MLBALAKSHMAXP01,asdisp296,div1,Desk 02: Gilman:3
+G821RQ32E,asdisp297,div1,Desk 02: Gilman:4
+G68MHM32E,asdisp298,div1,Desk 10: Lakefront
+T00851497,asdisp299,div1,Desk 10: Matteson 2
+T10037079,asdisp300,div1,Desk 10: South Bend 2
+T00773615,asdisp301,div1,Desk 10: South Bend
+T10026592,asdisp302,div1,Desk 10: Griffith
+T00759488,asdisp303,div1,Desk 11: Leithton
+T00883776,asdisp304,div1,Desk 11: Matteson 1
+T10023188,asdisp305,div1,Desk 11: Illinois River
+G187DP72E,asdisp306,div1,Desk 04: Yazoo 1
+G4HHR3H2E,asdisp307,div1,Desk 04: Yazoo 1:2
+G2UA4031PR2E,asdisp308,div1,Desk 04: Yazoo 1:3
+G2UA72526N8E,asdisp309,div1,Desk 04: Yazoo 2
+T10021012,asdisp310,div1,Desk 04: Yazoo 2:2
+G2UA6373J06E,asdisp311,div1,Desk 04: Yazoo 2:3
+T00812198,asdisp312,div1,Desk 04: Fulton
+GDFD9H2E ,asdisp313,div1,Desk 04: Fulton:2
+T10029932,asdisp314,div1,Desk 04: Fulton:3
+T10038292,asdisp315,div1,Desk 04: Fulton Memphis
+T10030927,asdisp316,div1,Desk 04: Fulton Memphis:2
+GB82BJB2E,asdisp317,div1,Desk 04: Fulton Memphis:3
+T10031320,asdisp318,div1,Desk 04: Canton
+G60HMM32E,asdisp319,div1,Desk 03: Bluford 2
+G7TD2H72E,asdisp320,div1,Desk 03: Bluford 2:2
+G1CGN3G2E,asdisp321,div1,Desk 03: Bluford 1
+T10021482,asdisp322,div1,Desk 03: Bluford 1:2
+T00815584,asdisp323,div1,Desk 03: Bluford 1:3
+MLB-HMORGAN-QTP,asdisp324,div1,Desk 03: St Louis
+G2UA71420LHE,asdisp325,div1,Desk 03: St Louis:2
+G2UA7042SLWE,asdisp326,div1,Desk 03: Centralia 1
+T10038291,asdisp327,div1,Desk 03: Centralia 1:2
+GF7SKZ52E,asdisp328,div1,Desk 03: Centralia 1:3
+G102D9H2E,asdisp329,div1,Desk 03: Centralia 2
+G5CG7165C5WE,asdisp330,div1,Desk 03: Centralia 2:2
+G2UA7301XQVE,asdisp331,div1,Desk 03: Centralia 2:3
+G5CG6432F5JE,asdisp332,div1,Desk 03: Sparta
+T10045635,asdisp333,div1,  Desk 02: Chicago
+GB91RP32E,asdisp334,div1,  Desk 02: Chicago:2
+T00936603,asdisp335,div1,  Desk 02: Chicago:3
+G2UA7011Z22E,asdisp336,div1,  Desk 05: McComb 2
+G2Y1D9H2E,asdisp337,div1,  Desk 05: McComb 2:2
+GCNDJTF2E,asdisp338,div1,  Desk 05: McComb 2:3
+GCSP89H2E,asdisp339,div1,  Desk 05: McComb 1:2
+G2UA7102LN6E,asdisp340,div1,  Desk 05: McComb 1:3
+G2UA6292ZMNE,asdisp341,div1,  Desk 05: McComb 1
+G2UA6090PFPE,asdisp342,div1,  Desk 06: Baton Rouge
+G2UA7202MS1E,asdisp343,div1,  Desk 06: Baton Rouge:2
+T00851688,asdisp344,div1,  Desk 06: Baton Rouge:3
+T10037903,asdisp345,div1,  Desk 06: Baton Rouge:4
+G6XN7Q72E,asdisp346,div1,  Desk 05: Beaumont
+T10045807,asdisp347,div1,  Desk 05: Beaumont: 2
+G5CG7183K1R,asdisp348,div1,  Desk 05: Beaumont: 3
+G2UA6402TC8E,asdisp349,div1,Desk 10: Bessemer
+T10036424,asdisp350,div1,DESK 99
+G5CG6230ZFYE,asdisp351,div1,Desk 08: Holly
+T10034600,asdisp352,div1,Desk 08: Shore Line
+GD2DBP72E,asdisp353,div1,Desk 08: Flint
+GR909Y18EE,asdisp354,div1,Desk 16: Missabe 1
+G2UA51311DNE,asdisp355,div1,Desk 16: Missabe 1:2
+GH4ZSR22E,asdisp356,div1,Desk 16: Missabe 1:3
+G2UA4032Q55E,asdisp357,div1,Desk 16: Missabe 2
+T00795345,asdisp358,div1,Desk 16: Missabe 2:2
+T10035384,asdisp359,div1,Desk 16: Missabe 2:3
+G2UA5062M18E,asdisp360,div1,Desk 12: Wis Subs
+G3011HH2E,asdisp361,div1,Desk 12: Wis Subs:2
+T10045852,asdisp362,div1,Desk 12: Wis Subs:3
+G1WDZG72E,asdisp363,div1,Desk 08: FltRck MtClmns
+T10025060,asdisp364,div1,Desk 16: Rainy
+T10023487,asdisp365,div1,Desk 16: Rainy:2
+T00676923,asdisp366,div1,Desk 16: Rainy:3
+G87G79H2E,asdisp367,div1,Desk 16: Rainy:4
+G8F0PPF2E,asdisp368,div1,Desk 12: Neenah
+G2UA3340WQME,asdisp369,div1,Desk 12: Neenah:2
+G5CG6270JWRE,asdisp370,div1,Desk 12: Neenah:3
+G2XNZBG2E,asdisp371,div1,Desk 12: Neenah:4
+G2UA6101H51E,asdisp372,div1,Desk 12: Wis Subs:4
+G2JZYR32E,asdisp373,div1,Desk 16: Superior 3
+G2UA7021TB7E,asdisp374,div1,Desk 16: Superior 3:2
+GDS48Z52E,asdisp375,div1,Desk 15: Waukesha 1
+T00883783,asdisp376,div1,Desk 15: Waukesha 2
+G2UA4290Y70E,asdisp377,div1,Desk 15: Waukesha 3
+GDXN5M72E,asdisp378,div1,Desk 15: Waukesha 1:2
+G2UA6471Q2JE,asdisp379,div1,Desk 15: Waukesha 1:3
+T10034752,asdisp380,div1,Desk 15: Waukesha 1:4
+G6ZXX3H2E,asdisp381,div1,Desk 15: Waukesha 1:5
+G75NFF72E,asdisp382,div1,Desk 15: Waukesha 2:2
+T10029787,asdisp383,div1,Desk 15: Waukesha 2:3
+T10031804,asdisp384,div1,Desk 15: Waukesha 2:4
+GC10FR72E,asdisp385,div1,Desk 15: Waukesha 3:2
+T00810061,asdisp386,div1,Desk 13: Superior 2
+G2UA70515SQE,asdisp387,div1,Desk 13: Superior 2:2
+GJWVLHC2E,asdisp388,div1,Desk 13: Superior 2:3
+G5FRLYF2E,asdisp389,div1,Desk 13: Superior 2:4
+G2X541G2E,asdisp390,div1,Desk 13: Superior 1
+G29B8NC2E,asdisp391,div1,Desk 13: Superior 1:2
+GJ3Z5BG2E,asdisp392,div1,Desk 13: Superior 1:3
+G2UA72526LLE,asdisp393,div1,Desk 13: Superior 1:4
+T00795804,asdisp394,div1,Desk 01: Joliet
+G8WB7Q32E,asdisp395,div1,Desk 01: Joliet:2
+G2UA6421L3WE,asdisp396,div1,Desk 01: Joliet:3
+G2UA60326X5E,asdisp397,div1,Desk 02: Champaign
+GBGM7K72E,asdisp398,div1,Desk 02: Champaign:2
+G2UA70515TJE,asdisp399,div1,Desk 02: Champaign:3
+G2UA553107QE,asdisp400,div1,Desk 02: Champaign Blu

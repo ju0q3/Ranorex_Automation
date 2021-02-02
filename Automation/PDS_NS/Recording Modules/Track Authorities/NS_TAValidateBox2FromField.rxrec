@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="03dfc0ef-46f1-41fb-8d64-fca420f4deaa"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="NS_TAValidateBox2FromField"
+	namespace="PDS_NS.Recording_Modules.Track_Authorities">
+	</codegen>
+	<variables>
+		<var
+		id="3f8cc7f7-b516-4b53-8111-7a4bed6813a9"
+		name="expectedFrom">
+		</var>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="True"
+		searchpropertyid="43f0de9c-d3cb-42a9-85b2-df5648c12814">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="expectedFrom">
+				</binding>
+			</bindings>
+			<info
+			id="64b57d65-ea38-4c27-9e76-f91fcc5a6cd0"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'^Create\ Track\ Authority\ ']/container[@name='MovementAuthorityPanel']/container[@name='CreatePnl']/container[@name='Proceed1']/combobox[@name='Proceed1Between']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				yourValue
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="48711a70-4260-48d9-b9be-f4c41f092706"
+	name="TrackAuthorities_Repo"
+	relativepath="..\..\TrackAuthorities_Repo.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="TrackAuthorities_Repo"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="1a7686ed-edee-41c2-9630-14a987ef7356"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		NS_TAValidateBox2FromField.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

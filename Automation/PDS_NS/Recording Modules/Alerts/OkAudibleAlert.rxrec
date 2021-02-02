@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="a2d46318-2818-4dd0-9e1a-47c4326ac246"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OkAudibleAlert"
+	namespace="PDS_NS.Recording_Modules.Alerts">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<invokeactionrecorditem
+		action="Activate"
+		enabled="True"
+		optional="False"
+		searchpropertyid="0c0fa866-9223-46c0-bfa3-a9abcdbb9132">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="72f9b767-7fd6-42df-9e6b-774fd0e6d563"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title='Audible Alert Checkout']
+				</path>
+			</info>
+			<arguments
+			id="b77b161e-4138-4878-8ee9-64e4db6f2f03">
+			</arguments>
+		</invokeactionrecorditem>
+		<userrecorditem
+		classname="GeneralUtilities"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="ClickAndWaitForNotExistWithRetry"
+		namespace="PDS_CORE.Code_Utils"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="0c4faacf-4c63-4fc1-8074-11433b41b3ef">
+				<argument
+				argname="buttonInfo"
+				id="09557cf1-63b9-44f7-a3b8-114ecc424a43">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="0ac90ef8-0283-4ced-b687-4a092ea125d2"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title='Audible Alert Checkout']/container/container/button[@text='OK']
+						</path>
+					</info>
+				</argument>
+				<argument
+				argname="waitFor"
+				id="dd70e511-9e61-4eeb-9541-324b1a6b02c3">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="72f9b767-7fd6-42df-9e6b-774fd0e6d563"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title='Audible Alert Checkout']
+						</path>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="61c843f1-c7dd-48e5-8383-a6ffc9697d2d"
+	name="Miscellaneous_Repo"
+	relativepath="..\..\Miscellaneous_Repo.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="Miscellaneous_Repo"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="02b42b52-11c6-41c2-b272-79d288ba9f56"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OkAudibleAlert.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

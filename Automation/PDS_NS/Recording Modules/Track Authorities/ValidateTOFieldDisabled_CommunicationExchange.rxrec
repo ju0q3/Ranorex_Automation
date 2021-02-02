@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="6ec55169-8540-4443-ac86-c2d6a068eddf"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ValidateTOFieldDisabled_CommunicationExchange"
+	namespace="PDS_NS.Recording_Modules.Track_Authorities">
+	</codegen>
+	<variables>
+		<var
+		id="1c2d29c1-88e3-4217-8403-e25ae27d309e"
+		name="closeForms">
+			False
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="NS_Authorities"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="NS_ValidateAuthorityTOFieldIsDisabled_IssueTrackAuthority"
+		namespace="PDS_NS.UserCodeCollections"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="00a2bfe7-8b68-4433-84da-e9733f5d0887">
+				<argument
+				argname="closeForms"
+				id="1a0b9610-e34c-4b09-ae67-cc3382020d83"
+				variable="closeForms">
+					<argvaluetype>
+						System.Boolean
+					</argvaluetype>
+					<argvalue>
+						False
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="81af6446-71fa-4977-9bd0-411f88dc55ba"
+	name="PDS_NSRepository"
+	relativepath="..\..\PDS_NSRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="PDS_NSRepository"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="b2ba234a-2e7c-4852-8e7f-adb8693853b7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ValidateTOFieldDisabled_CommunicationExchange.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="bd85ed68-5329-49c1-acb3-d54d5c417d6b"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenSystemConfig_PositiveTrainControl"
+	namespace="PDS_NS.Recording_Modules.SystemConfiguration">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="GeneralUtilities"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="LeftClickAndWaitForWithRetry"
+		namespace="PDS_CORE.Code_Utils"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="7571c405-6b10-4fe7-875e-18e0fa5693fa">
+				<argument
+				argname="button"
+				id="97762261-407a-44c9-bd1c-dc00de604322">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="ebcc5661-a6b4-4d8c-a779-545344796572"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/form[@title~'^Precision\ Dispatch\ System']/menubar[@name='menuBar']/menuitem[@name='system.manager.menu']
+						</path>
+					</info>
+				</argument>
+				<argument
+				argname="waitFor"
+				id="d46e1b96-f505-4982-8d33-c9de07ecc3d2">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="24fd5755-9277-4264-92eb-74e24d766fce"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/form[@title~'^Precision\ Dispatch\ System']/../form[@processname='PDS']/contextmenu[@type='JPopupMenu' and @visible='True']/menuitem[@text='Positive Train Control (PTC)...']
+						</path>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		classname="GeneralUtilities"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="ClickAndWaitForFormTitleWithRetry"
+		namespace="PDS_CORE.Code_Utils"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="aa213b81-fba6-408a-948c-2d56c92e6784">
+				<argument
+				argname="buttonInfo"
+				id="9d4521e6-4af5-49a5-b45b-02145b204295">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="24fd5755-9277-4264-92eb-74e24d766fce"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/form[@title~'^Precision\ Dispatch\ System']/../form[@processname='PDS']/contextmenu[@type='JPopupMenu' and @visible='True']/menuitem[@text='Positive Train Control (PTC)...']
+						</path>
+					</info>
+				</argument>
+				<argument
+				argname="waitFor"
+				id="6fb8df6f-2f69-450b-9fa2-b22cf8dadd37">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						Positive Train Control
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="2aa0b673-65d7-4970-a404-1a79ff55af9d"
+	name="MainMenu_Repo"
+	relativepath="..\..\MainMenu_Repo.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="MainMenu_Repo"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="cd97920f-bb3b-4f03-8b97-6746b0095627"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenSystemConfig_PositiveTrainControl.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

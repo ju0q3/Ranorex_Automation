@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="7a07f15f-7262-450f-9c35-661637a65282"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ClickFBA_ResetButton"
+	namespace="PDS_NS.Recording_Modules.Track_Authorities">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="28c4e2f5-42ae-495a-8ee5-534dcec44244"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="36582b14-a395-4e37-8aa7-cee1ef9b68a5"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'^Create\ Track\ Authority\ ']/container/toolbar[@name='ToolBarPanel']/button[@name='ToolBarResetButton']
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="48711a70-4260-48d9-b9be-f4c41f092706"
+	name="TrackAuthorities_Repo"
+	relativepath="..\..\TrackAuthorities_Repo.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="TrackAuthorities_Repo"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="1a7686ed-edee-41c2-9630-14a987ef7356"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ClickFBA_ResetButton.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

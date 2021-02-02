@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="fee67ad6-8662-4625-8769-2aedb3ff8e05"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="tweakForCnDb"
+	namespace="PDS_CORE.Recording_Modules">
+	</codegen>
+	<variables>
+		<var
+		id="29224b36-91ba-4781-ad4f-35fabac25e4c"
+		name="label">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="tweakForCnDb"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="tweakForCnDbFunction"
+		namespace="PDS_CORE.Recording_Modules"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="1e107aac-26f8-429a-8240-cb5c1af7c17f">
+				<argument
+				argname="label"
+				id="d4e21184-663f-4dca-9c7f-9f9fccb1dc33"
+				variable="label">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="0f6d1030-1109-45c8-82fb-eea738840ef0"
+	name="PDS_CORERepository"
+	relativepath="..\PDS_CORERepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="PDS_CORERepository"
+		namespace="PDS_CORE">
+		</codegen>
+		<rootfolder
+		id="5a3e11ed-7012-4569-a9b8-11892349cf95"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		tweakForCnDb.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

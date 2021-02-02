@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="31915755-2bc8-4f1e-9ba2-cb41e955fd82"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ClickOKButton_BulletinItemsForm"
+	namespace="PDS_NS.Recording_Modules.SystemConfiguration.BulletinItems">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="GeneralUtilities"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="ClickAndWaitForNotExistWithRetry"
+		namespace="PDS_CORE.Code_Utils"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="a8baf8ac-dd8c-4f6a-bac3-dc55b34f5abe">
+				<argument
+				argname="buttonInfo"
+				id="2fffa224-87be-4e3f-9c72-99d1fc74951c">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="13f3c8a1-57c6-417f-aef9-dc83231470fa"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/form[@title~'^Bulletin\ Item\ Type\ Config']/container[@name='_mainPanel']/container[@name='_buttonsPanel']/button[@name='_okBtn']
+						</path>
+					</info>
+				</argument>
+				<argument
+				argname="waitFor"
+				id="abe1c2f9-4bad-4eb2-b241-e0372eb15f0b">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="b0892c09-f479-417e-83e8-6df93f07b4a5"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/form[@title~'^Bulletin\ Item\ Type\ Config']
+						</path>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="59cf7e7b-82fc-4f0f-8567-2623525b7725"
+	name="SystemConfiguration_Repo"
+	relativepath="..\..\..\SystemConfiguration_Repo.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="SystemConfiguration_Repo"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="f30ceac8-82bc-4d8e-a8c6-d9e7258878f0"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ClickOKButton_BulletinItemsForm.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

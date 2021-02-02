@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{3E5F4A0A-B165-481C-A627-6AB3FC64A45F}</ProjectGuid>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Oracle</RootNamespace>
+    <AssemblyName>Oracle</AssemblyName>
+    <RanorexVersion>9.0</RanorexVersion>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <projectdefaultrepository>0ff95e06-c72e-499f-b19a-7316ec724cf1</projectdefaultrepository>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <NoWin32Manifest>False</NoWin32Manifest>
+    <SignAssembly>False</SignAssembly>
+    <DelaySign>False</DelaySign>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <NoStdLib>False</NoStdLib>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseIntermediateOutputPath>obj\</BaseIntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <BaseAddress>4194304</BaseAddress>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Oracle.ManagedDataAccess">
+      <HintPath>..\packages\Oracle.ManagedDataAccess.12.2.1100\lib\net40\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data">
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing">
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+    </Reference>
+    <Reference Include="System.Xml">
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>b27ed17d-23b2-404c-8224-4074f7ebf534</id>
+    </Compile>
+    <Compile Include="Code Modules\OracleTest.cs">
+      <id>39171cdc-bc8a-41ff-b7d5-e4c372ff6f10</id>
+    </Compile>
+    <Compile Include="Code Utils\ADMSEnvironment.cs">
+      <id>1ea44f59-db1c-4063-9aee-1833c3dbbc75</id>
+    </Compile>
+    <Compile Include="Code Utils\CDMSActions.cs">
+      <id>8b12d2d8-e00b-4e00-9d8e-e8353d4e7815</id>
+    </Compile>
+    <Compile Include="Code Utils\CDMSEnvironment.cs">
+      <id>8da1327c-98da-430b-9e93-d1eea3e88cf1</id>
+    </Compile>
+    <Compile Include="Code Utils\DataCoverageUtils.cs">
+      <id>72966adf-da29-4ebf-98a3-f152580d8b47</id>
+    </Compile>
+    <Compile Include="Code Utils\DataLoader.cs">
+      <id>839caa7e-1cdc-4047-902c-387f5f4f4adc</id>
+    </Compile>
+    <Compile Include="Code Utils\DispatchEnrichmentNetworkMap.cs">
+      <id>275676a5-691c-4802-9f77-d08b62a63b0b</id>
+    </Compile>
+    <Compile Include="Code Utils\DispatchRouteEnrichmentMap.cs">
+      <id>958dff82-5e5f-4a99-8ba9-00f0ae4cb70e</id>
+    </Compile>
+    <Compile Include="Code Utils\MPDMEnvironment.cs">
+      <id>ac4047e0-24d6-4bb5-b065-bfb74a832493</id>
+    </Compile>
+    <Compile Include="Code Utils\OracleConnection.cs">
+      <id>e48638ba-07c4-4cdf-9e42-bc573c14cb4e</id>
+    </Compile>
+    <Compile Include="Code Utils\TDMSActions.cs">
+      <id>f8172dc1-f83d-42bf-94d0-c6521ca32f59</id>
+    </Compile>
+    <Compile Include="Code Utils\TDMSDataGenerationUtility.cs">
+      <id>ffec202c-4ca2-460a-97ec-1288bea522b7</id>
+    </Compile>
+    <Compile Include="Code Utils\TDMSData_Device.cs">
+      <id>814566eb-d2f1-4679-9481-509a81c0df6a</id>
+    </Compile>
+    <Compile Include="Code Utils\TDMSData_FBAcs.cs">
+      <id>f41f7c90-b698-4b10-b7ee-830aa2a45741</id>
+    </Compile>
+    <Compile Include="Code Utils\TDMSData_PSS.cs">
+      <id>80c17776-a30f-4e20-8dbb-3362e1c83c63</id>
+    </Compile>
+    <Compile Include="Code Utils\TDMSEnvironment.cs">
+      <id>95f8d800-66c8-4be0-8bc0-a2b11de16070</id>
+    </Compile>
+    <Compile Include="OracleRepository.cs">
+      <BoundTo>0ff95e06-c72e-499f-b19a-7316ec724cf1</BoundTo>
+      <DependentUpon>OracleRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>2f5aa86b-af64-4c08-86e6-44d6dbb9438c</id>
+    </Compile>
+    <Compile Include="Recording Modules\MPDM_UpdateObstructionTimeInterval.cs">
+      <BoundTo>0331f302-dff6-4b6a-9778-e35b462d3a4f</BoundTo>
+      <DependentUpon>MPDM_UpdateObstructionTimeInterval.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>178f0d59-4a26-47aa-be12-fe6f400f16f7</id>
+    </Compile>
+    <Compile Include="Recording Modules\MPDM_UpdateObstructionTimeInterval.UserCode.cs">
+      <BoundTo>0331f302-dff6-4b6a-9778-e35b462d3a4f</BoundTo>
+      <DependentUpon>MPDM_UpdateObstructionTimeInterval.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ac5c95e8-b139-4227-9ec5-82837d243d2f</id>
+    </Compile>
+    <Compile Include="Recording Modules\MPDM_AddExtendFromLocationDistance.cs">
+      <BoundTo>a34f215d-f781-4f5c-98dd-068e79cc9820</BoundTo>
+      <DependentUpon>MPDM_AddExtendFromLocationDistance.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>47bf446f-55f0-4553-87ee-265a481bf308</id>
+    </Compile>
+    <Compile Include="Recording Modules\MPDM_AddExtendFromLocationDistance.UserCode.cs">
+      <BoundTo>a34f215d-f781-4f5c-98dd-068e79cc9820</BoundTo>
+      <DependentUpon>MPDM_AddExtendFromLocationDistance.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>bb343041-5fb3-42e5-8772-edcc14b77168</id>
+    </Compile>
+    <Compile Include="Recording Modules\MPDM_RemoveExtendFromLocationDistance.cs">
+      <BoundTo>d0d673e0-5e66-4c01-9b68-8c5fa81338d4</BoundTo>
+      <DependentUpon>MPDM_RemoveExtendFromLocationDistance.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d098b12f-a525-4323-a857-fe6cb701f532</id>
+    </Compile>
+    <Compile Include="Recording Modules\MPDM_RemoveExtendFromLocationDistance.UserCode.cs">
+      <BoundTo>d0d673e0-5e66-4c01-9b68-8c5fa81338d4</BoundTo>
+      <DependentUpon>MPDM_RemoveExtendFromLocationDistance.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>02541f57-db8e-464a-bea3-bc00e6bde898</id>
+    </Compile>
+    <Compile Include="Recording Modules\MPDM_UpdateExtendFromLocationDistance.cs">
+      <BoundTo>43213689-7990-4f20-9418-35d68c004e0a</BoundTo>
+      <DependentUpon>MPDM_UpdateExtendFromLocationDistance.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>6f861cfe-60e1-4e7f-b236-774126e72a03</id>
+    </Compile>
+    <Compile Include="Recording Modules\MPDM_UpdateExtendFromLocationDistance.UserCode.cs">
+      <BoundTo>43213689-7990-4f20-9418-35d68c004e0a</BoundTo>
+      <DependentUpon>MPDM_UpdateExtendFromLocationDistance.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>da7e238d-75cb-49bb-8812-f9345a52e62a</id>
+    </Compile>
+    <Compile Include="Recording Modules\MPDM_UpdateSuggestionEndTimeInterval.cs">
+      <BoundTo>ce28992d-0ef0-434c-827f-311326cb6d1e</BoundTo>
+      <DependentUpon>MPDM_UpdateSuggestionEndTimeInterval.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fac6ee89-e5fc-4706-adb1-b0e98021bf7a</id>
+    </Compile>
+    <Compile Include="Recording Modules\MPDM_UpdateSuggestionEndTimeInterval.UserCode.cs">
+      <BoundTo>ce28992d-0ef0-434c-827f-311326cb6d1e</BoundTo>
+      <DependentUpon>MPDM_UpdateSuggestionEndTimeInterval.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e81811ce-11c7-4f73-b733-507fb216025b</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <id>866a02b5-6dcb-4dc1-a49b-32b59d499052</id>
+    </None>
+    <None Include="Code Modules\ReadMe.txt">
+      <id>15756ed3-bf6b-48f7-888f-afef5f23d852</id>
+    </None>
+    <None Include="Code Utils\ReadMe.txt">
+      <id>e3f2fb63-e393-48ca-a7e8-8cfed0883d5e</id>
+    </None>
+    <None Include="OracleRepository.rximg">
+      <BoundTo>0ff95e06-c72e-499f-b19a-7316ec724cf1</BoundTo>
+      <DependentUpon>OracleRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>97525437-dd52-4d79-bd48-28549072ecce</id>
+    </None>
+    <None Include="OracleRepository.rxrep">
+      <id>0ff95e06-c72e-499f-b19a-7316ec724cf1</id>
+      <repoid>e0967212-fd93-40e3-94c9-6f0bb4829596</repoid>
+      <reporootid>63500b55-1d86-4d47-af2b-759c6148417a</reporootid>
+    </None>
+    <None Include="packages.config">
+      <id>1cc942ef-2e0b-42e1-8de9-8d0f13ad2f34</id>
+    </None>
+    <None Include="Recording Modules\MPDM_AddExtendFromLocationDistance.rxrec">
+      <BoundTo>0ff95e06-c72e-499f-b19a-7316ec724cf1</BoundTo>
+      <id>a34f215d-f781-4f5c-98dd-068e79cc9820</id>
+      <recordtableid>4cc2b9e2-0e28-4a10-86a0-1759eb768a3b</recordtableid>
+    </None>
+    <None Include="Recording Modules\MPDM_RemoveExtendFromLocationDistance.rxrec">
+      <BoundTo>0ff95e06-c72e-499f-b19a-7316ec724cf1</BoundTo>
+      <id>d0d673e0-5e66-4c01-9b68-8c5fa81338d4</id>
+      <recordtableid>456400de-9a89-48e7-ac38-9e61b909df48</recordtableid>
+    </None>
+    <None Include="Recording Modules\MPDM_UpdateExtendFromLocationDistance.rxrec">
+      <BoundTo>0ff95e06-c72e-499f-b19a-7316ec724cf1</BoundTo>
+      <id>43213689-7990-4f20-9418-35d68c004e0a</id>
+      <recordtableid>9386be7d-e4a4-4c48-8fb2-471ee56c6bf2</recordtableid>
+    </None>
+    <None Include="Recording Modules\MPDM_UpdateObstructionTimeInterval.rxrec">
+      <BoundTo>0ff95e06-c72e-499f-b19a-7316ec724cf1</BoundTo>
+      <id>0331f302-dff6-4b6a-9778-e35b462d3a4f</id>
+      <recordtableid>d384475b-afb5-4c3c-b48f-ae410554af59</recordtableid>
+    </None>
+    <None Include="Recording Modules\MPDM_UpdateSuggestionEndTimeInterval.rxrec">
+      <id>ce28992d-0ef0-434c-827f-311326cb6d1e</id>
+      <recordtableid>d58b22ff-9eeb-4a77-a0a8-8c966bfa8c7b</recordtableid>
+      <BoundTo>0ff95e06-c72e-499f-b19a-7316ec724cf1</BoundTo>
+    </None>
+    <None Include="Recording Modules\ReadMe.txt">
+      <id>4cd26f46-fe9f-4dd8-ba20-26979e802507</id>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Oracle.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>e224b28f-698b-4bee-b495-43848b9da2d4</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Code Modules">
+      <id>b7fcd22b-53b1-4d3f-9880-01f93dd047a4</id>
+    </Folder>
+    <Folder Include="Code Utils">
+      <id>e8c0feef-7d94-4f26-a007-b7c9e84f269e</id>
+    </Folder>
+    <Folder Include="Recording Modules">
+      <id>3db89873-004c-4db7-8e1d-9d5bfe211c90</id>
+    </Folder>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Env\Env.csproj">
+      <Project>{63995F2D-9C74-47C3-94B2-7553E78DFF2B}</Project>
+      <Name>Env</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets">
+  </Import>
+  <Import Condition="Exists('$(RanorexTargetsPath)')" Project="$(RanorexTargetsPath)">
+  </Import>
+</Project>

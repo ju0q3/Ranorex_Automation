@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="7696f394-2fd5-41f8-b561-39affccc020b"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="WaitTime"
+	namespace="PDS_CORE.Recording_Modules.Utilities">
+	</codegen>
+	<variables>
+		<var
+		id="1d4a2563-76fa-417e-ac22-af1b42eaf7bd"
+		name="waitTime">
+			2m
+		</var>
+	</variables>
+	<recorditems>
+		<explicitdelayitem
+		duration="120000ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Duration"
+				variable="waitTime">
+				</binding>
+			</bindings>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	id="0f6d1030-1109-45c8-82fb-eea738840ef0"
+	name="PDS_CORERepository"
+	relativepath="..\..\PDS_CORERepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="PDS_CORERepository"
+		namespace="PDS_CORE">
+		</codegen>
+		<rootfolder
+		id="5a3e11ed-7012-4569-a9b8-11892349cf95"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		WaitTime.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

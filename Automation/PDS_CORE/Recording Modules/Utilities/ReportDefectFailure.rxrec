@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="87b7c239-1afb-4e00-bbc5-1d6412c12f46"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ReportDefectFailure"
+	namespace="PDS_CORE.Recording_Modules.Utilities">
+	</codegen>
+	<variables>
+		<var
+		id="0cbbd750-607d-44c5-8f98-906f46454c89"
+		name="FailureText">
+		</var>
+	</variables>
+	<recorditems>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Failure;120"
+		searchpropertyid="cad41aeb-3545-4593-9431-f3e21fc9a3fb">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="FailureText">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	id="0f6d1030-1109-45c8-82fb-eea738840ef0"
+	name="PDS_CORERepository"
+	relativepath="..\..\PDS_CORERepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="PDS_CORERepository"
+		namespace="PDS_CORE">
+		</codegen>
+		<rootfolder
+		id="5a3e11ed-7012-4569-a9b8-11892349cf95"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ReportDefectFailure.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

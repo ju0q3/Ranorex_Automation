@@ -1,0 +1,6 @@
+﻿test,district,milepost1,milepost2,tracks,maximumSpeed,account,issuedBy,effectiveTimeDifference,untilTimeDifference,expectedFeedback,pressComplete,closeBulletinRelayForm,direction1,direction2
+EE.05.01.004,Valdosta,,,,,,AUTOMATION,,,,True,True,,
+EE.05.04.002,Valdosta,175G,176G,MAIN,10,AUTOMATION,AUTOMATION,,,,True,True,,
+EE.05.06.025,Valdosta,,,,,,Jackson,,,,True,True,,
+EE.05.06.055,Valdosta,,,,,,Jackson,,,,True,True,,
+EE.00.00.001,sd,sad,,,,,,,,,,,,

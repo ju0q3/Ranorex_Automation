@@ -1,0 +1,21 @@
+﻿<repository
+id="e0967212-fd93-40e3-94c9-6f0bb4829596"
+name="OracleRepository"
+rxversion="9.0">
+	<codegen
+	classname="OracleRepository"
+	namespace="Oracle">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="63500b55-1d86-4d47-af2b-759c6148417a"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="2.27s"
+		durationms="2269"
+		type="root"
+		rid="c71b2a8a509e348"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="stelab"
+		rxversion="9.3.1.0"
+		host="GAATLENPTCW473W"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="8/4/2020 1:03:56 PM"
+		timestampiso="2020-08-04T17:03:56"
+		endtime="8/4/2020 1:03:58 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.240"
+			timeRelativeToTestModuleStartTime="00:02.240"
+			timeWallClock="13:03:58"
+			time="00:02.240"
+			level="Failure"
+			category="Licensing">
+			<message>
+				The License Manager '10.92.19.100' was contacted, but no suitable license was available. Please add additional licenses to your License Manager or wait until licenses become available.
+			</message>
+			<metainfo
+				loglvl="Failure">
+			</metainfo>
+		</item>
+	</activity>
+</report>

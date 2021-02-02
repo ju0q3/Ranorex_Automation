@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="c9f1560c-3d90-4877-925c-26d15869024f"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="PTC_CompleteOkTrackAuthorityForms"
+	namespace="PDS_NS.Recording_Modules.Track_Authorities.PTC">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="GeneralUtilities"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="ClickAndWaitForNotExistWithRetry"
+		namespace="PDS_CORE.Code_Utils"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="d9ce37b1-022d-408c-810e-9bbfa8b2b20b">
+				<argument
+				argname="buttonInfo"
+				id="076aa13c-41dc-4517-903f-8f01d12b5805">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="6541dcea-f034-4880-9b8e-8719c3ce718e"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/form[@title~'^Communication\ Exchange\ Tr' or @title~'^OK\ Track\ Authority\ ' or @title~'Active\ Track\ Authority\ ' or @title~'^Release\ Pending\ Track\ Aut']/container[@name='MovementAuthorityPanel']/container[@name='ButtonPnl']/button[@name='VoiceButton' and @visible='True']
+						</path>
+					</info>
+				</argument>
+				<argument
+				argname="waitFor"
+				id="ccd0bba5-115f-4ba3-8429-31ffb742f140">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="6541dcea-f034-4880-9b8e-8719c3ce718e"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/form[@title~'^Communication\ Exchange\ Tr' or @title~'^OK\ Track\ Authority\ ' or @title~'Active\ Track\ Authority\ ' or @title~'^Release\ Pending\ Track\ Aut']/container[@name='MovementAuthorityPanel']/container[@name='ButtonPnl']/button[@name='VoiceButton' and @visible='True']
+						</path>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		classname="GeneralUtilities"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="ClickAndWaitForNotExistWithRetry"
+		namespace="PDS_CORE.Code_Utils"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="d9ce37b1-022d-408c-810e-9bbfa8b2b20b">
+				<argument
+				argname="buttonInfo"
+				id="076aa13c-41dc-4517-903f-8f01d12b5805">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="2e7e081b-811a-49f8-b593-449179df7ea7"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/form[@title~'^Communication\ Exchange\ Tr' or @title~'^OK\ Track\ Authority\ ' or @title~'Active\ Track\ Authority\ ' or @title~'^Release\ Pending\ Track\ Aut']/container[@name='MovementAuthorityPanel']/container[@name='ButtonPnl']/button[@name='AcknowledgeButton' and @visible='True']
+						</path>
+					</info>
+				</argument>
+				<argument
+				argname="waitFor"
+				id="ccd0bba5-115f-4ba3-8429-31ffb742f140">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="cfed13df-eeb3-4a6a-9337-3929d6a8fa4c"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/form[@title~'^Communication\ Exchange\ Tr' or @title~'^OK\ Track\ Authority\ ' or @title~'Active\ Track\ Authority\ ' or @title~'^Release\ Pending\ Track\ Aut']
+						</path>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="48711a70-4260-48d9-b9be-f4c41f092706"
+	name="TrackAuthorities_Repo"
+	relativepath="..\..\..\TrackAuthorities_Repo.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="TrackAuthorities_Repo"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="1a7686ed-edee-41c2-9630-14a987ef7356"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		PTC_CompleteOkTrackAuthorityForms.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

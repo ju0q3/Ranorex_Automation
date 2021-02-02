@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="375f5ad4-9f2d-4ace-9b16-e2eabc9dd7da"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ValidateColor"
+	namespace="PTC_Lab_Automation.Recording_Modules.OnBoardActions">
+	</codegen>
+	<variables>
+		<var
+		id="89b2bbbf-f473-4f5e-bf59-f1e4a0819151"
+		name="color">
+		</var>
+		<var
+		id="0ad8feac-2c2a-4a27-8149-764306b428a7"
+		name="colorExists">
+		</var>
+	</variables>
+	<recorditems>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message="Not implemented yet"
+		optional="False"
+		reportlevel="Failure;120"
+		searchpropertyid="41848d5e-1710-4cfe-842f-5258266fd965">
+			<comment>
+				Not implemented yet
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	id="e44994df-4fbc-4c80-8a3c-599d87a51678"
+	name="Test_ExecutionRepository"
+	relativepath="..\..\Test ExecutionRepository.rxrep">
+		<codegen
+		classname="Test_ExecutionRepository"
+		namespace="PTC_Lab_Automation">
+		</codegen>
+		<rootfolder
+		id="dab857d6-db00-487f-8fdd-61a5ad3edc4e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ValidateColor.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

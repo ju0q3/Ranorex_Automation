@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<repository
+id="ac0af7e3-d049-440b-9267-c0e33365543a"
+name="EnvRepository"
+rxversion="9.0">
+	<codegen
+	classname="EnvRepository"
+	namespace="Env">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="1486a1a1-03e0-4ac7-b844-f147e94c990c"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

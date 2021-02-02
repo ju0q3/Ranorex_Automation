@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="9.9s"
+		durationms="9902"
+		type="root"
+		rid="132412f625ac3d7"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="212719544"
+		rxversion="9.2.0.0"
+		host="G60RZNQ2E"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="1/6/2020 9:49:59 PM"
+		timestampiso="2020-01-07T02:49:59"
+		endtime="1/6/2020 9:50:09 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.837"
+			timeRelativeToTestModuleStartTime="00:09.837"
+			timeWallClock="21:50:09"
+			time="00:09.837"
+			level="Info"
+			category="User">
+			<message>
+				1/1/0001 12:00:00 AM
+			</message>
+			<metainfo
+				codefile="c:\GE_DEV\janus\Automation\PDS_NS\Recording Modules\Recording1.UserCode.cs"
+				codeline="44"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.857"
+			timeRelativeToTestModuleStartTime="00:09.857"
+			timeWallClock="21:50:09"
+			time="00:09.857"
+			level="Info"
+			category="User">
+			<message>
+				1/1/0001 12:00:00 AM
+			</message>
+			<metainfo
+				codefile="c:\GE_DEV\janus\Automation\PDS_NS\Recording Modules\Recording1.UserCode.cs"
+				codeline="52"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

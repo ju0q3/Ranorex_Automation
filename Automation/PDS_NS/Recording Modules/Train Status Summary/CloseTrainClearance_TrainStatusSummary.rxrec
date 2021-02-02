@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="fb1187d0-3cea-4131-9551-de755a90b626"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseTrainClearance_TrainStatusSummary"
+	namespace="PDS_NS.Recording_Modules.Train_Status_Summary">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="NS_TrainClearance_Validations"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="NS_CloseTrainClearance_TrainStatusSummary"
+		namespace="PDS_NS.UserCodeCollections"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="d19ed019-3b4a-4e3d-a093-d2c5b2d56d96">
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="81af6446-71fa-4977-9bd0-411f88dc55ba"
+	name="PDS_NSRepository"
+	relativepath="..\..\PDS_NSRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="PDS_NSRepository"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="b2ba234a-2e7c-4852-8e7f-adb8693853b7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseTrainClearance_TrainStatusSummary.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

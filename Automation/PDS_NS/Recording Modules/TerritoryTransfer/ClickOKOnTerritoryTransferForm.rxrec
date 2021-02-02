@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="af425571-c8c2-4462-b7fa-766736976f0c"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ClickOKOnTerritoryTransferForm"
+	namespace="PDS_NS.Recording_Modules.TerritoryTransfer">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<invokeactionrecorditem
+		action="Activate"
+		enabled="True"
+		optional="False"
+		searchpropertyid="44f53f5f-669e-4543-b561-c7f1e8513c4c">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="e0b9920c-c2b6-479b-af90-ed264b56df7b"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title='Territory Transfer']
+				</path>
+			</info>
+			<arguments
+			id="4cec755a-b074-47fd-9f33-c36cc4c65796">
+			</arguments>
+		</invokeactionrecorditem>
+		<userrecorditem
+		classname="GeneralUtilities"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="ClickAndWaitForNotExistWithRetry"
+		namespace="PDS_CORE.Code_Utils"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="9c5347f8-7382-40ab-abf2-6f6af6a30eea">
+				<argument
+				argname="buttonInfo"
+				id="b08f50d9-c6ad-4e99-8ad9-3a07ce664f95">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="e1d14ced-a24d-42d7-922b-3ba7dbf28ddf"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title='Territory Transfer']/container[@type='JPanel']/container[@type='JPanel']/button[@name='_OKBtn']
+						</path>
+					</info>
+				</argument>
+				<argument
+				argname="waitFor"
+				id="a745cbfb-4f90-4021-87de-2ad0d754a9d5">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="e0b9920c-c2b6-479b-af90-ed264b56df7b"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title='Territory Transfer']
+						</path>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="0aca848b-fcfe-4ac6-a0b1-4563d872cf78"
+	name="TerritoryTransfer_Repo"
+	relativepath="..\..\TerritoryTransfer_Repo.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="TerritoryTransfer_Repo"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="246b357a-1299-440e-8112-36417b270800"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ClickOKOnTerritoryTransferForm.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

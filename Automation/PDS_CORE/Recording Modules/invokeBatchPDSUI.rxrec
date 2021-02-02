@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="1d2ad918-770e-4087-8e69-52d7cedac925"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="invokeBatchPDSUI"
+	namespace="PDS_CORE.Recording_Modules">
+	</codegen>
+	<variables>
+		<var
+		id="c66ed243-1755-4601-ae90-6e22c061f356"
+		name="batchFileType">
+			PDS
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="invokePDSUI"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="invokeBatPDSUI"
+		namespace="PDS_CORE.Code_Utils"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="86ffbcba-d9ad-41a8-b69c-187ed949c38f">
+				<argument
+				argname="waitFor"
+				id="ff29a296-4160-461e-84bf-068160ff980d">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="cf1ec31f-307e-4aaa-b689-24d9c42d4614"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title='Network Logon']
+						</path>
+					</info>
+				</argument>
+				<argument
+				argname="batType"
+				id="43c406ef-a8df-47fa-880d-4802c91945bb"
+				variable="batchFileType">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						PDS
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="0f6d1030-1109-45c8-82fb-eea738840ef0"
+	name="PDS_CORERepository"
+	relativepath="..\PDS_CORERepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="PDS_CORERepository"
+		namespace="PDS_CORE">
+		</codegen>
+		<rootfolder
+		id="5a3e11ed-7012-4569-a9b8-11892349cf95"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		invokeBatchPDSUI.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

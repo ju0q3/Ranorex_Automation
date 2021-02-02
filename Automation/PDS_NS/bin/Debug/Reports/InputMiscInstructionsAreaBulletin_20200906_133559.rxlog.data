@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="23.27s"
+		durationms="23272"
+		type="root"
+		rid="10b36dc684afbd6a"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="stelab"
+		rxversion="9.3.1.0"
+		host="GAATLENPTCW473W"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="9/6/2020 1:36:05 PM"
+		timestampiso="2020-09-06T17:36:05"
+		endtime="9/6/2020 1:36:28 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="InputMiscInstructionsAreaBulletin">
+		<detail>
+			InputMiscInstructionsAreaBulletin
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.293"
+			timeRelativeToTestModuleStartTime="00:09.293"
+			timeWallClock="13:36:14"
+			time="00:09.293"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>district, milepost1, milepost2, miscInstructions, effectiveTimeDifference, untilTimeDifference, expectedFeedback, bulletinSeed, pressComplete, issuedBy
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.716"
+			timeRelativeToTestModuleStartTime="00:12.716"
+			timeWallClock="13:36:18"
+			time="00:12.716"
+			level="Info"
+			category="User">
+			<message>
+				Test Suite parameter 'RapidClick' not found.  Defaulting to false.  Error : Object reference not set to an instance of an object.
+			</message>
+			<metainfo
+				codefile="c:\Ranorex\Automation\PDS_CORE\Code_Utils\GeneralUtilities.cs"
+				codeline="1404"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.264"
+			timeRelativeToTestModuleStartTime="00:15.264"
+			timeWallClock="13:36:20"
+			time="00:15.264"
+			level="Info"
+			category="TestStep">
+			<message>
+				Selecting District {AGS North}.
+			</message>
+			<metainfo
+				codefile="c:\Ranorex\Automation\PDS_NS\UserCodeCollections\NS_InputBulletins.cs"
+				codeline="52"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.226"
+			timeRelativeToTestModuleStartTime="00:17.226"
+			timeWallClock="13:36:22"
+			time="00:17.226"
+			level="Info"
+			category="TestStep">
+			<message>
+				Selecting Bulletin Type {Misc Instructions - Area}.
+			</message>
+			<metainfo
+				codefile="c:\Ranorex\Automation\PDS_NS\UserCodeCollections\NS_InputBulletins.cs"
+				codeline="65"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.273"
+			timeRelativeToTestModuleStartTime="00:23.273"
+			timeWallClock="13:36:28"
+			time="00:23.273"
+			level="Info"
+			category="User">
+			<message>
+				PressComplete set to false so ending here.
+			</message>
+			<metainfo
+				codefile="c:\Ranorex\Automation\PDS_NS\UserCodeCollections\NS_InputBulletins.cs"
+				codeline="7217"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

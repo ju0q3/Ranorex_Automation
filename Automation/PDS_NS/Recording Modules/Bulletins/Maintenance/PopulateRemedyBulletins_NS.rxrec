@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="5a2a0582-9c47-4d37-b30e-29e0d79803f1"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="PopulateRemedyBulletins_NS"
+	namespace="PDS_NS.Recording_Modules.Bulletins.Maintenance">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="PopulateRemedyBulletins_NS"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="NS_PopulateRemedyBulletins"
+		namespace="PDS_NS.Recording_Modules.Bulletins.Maintenance"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="117f855b-7d47-4b77-b5b4-aa2c24a6ce73">
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="81af6446-71fa-4977-9bd0-411f88dc55ba"
+	name="PDS_NSRepository"
+	relativepath="..\..\..\PDS_NSRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="PDS_NSRepository"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="b2ba234a-2e7c-4852-8e7f-adb8693853b7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		PopulateRemedyBulletins_NS.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,1719 @@
+﻿<repository
+id="2ee21c92-bf85-492d-9be2-c3cfcdcd0fbf"
+name="Playback_Repo"
+rxversion="9.0">
+	<codegen
+	classname="Playback_Repo"
+	namespace="PDS_NS">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="e773b86d-d27b-4690-b251-7419720bed35"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		capname="form"
+		id="8f8f60a1-2a39-470f-9298-f19a88948bec"
+		isrooted="True"
+		name="Playback_Setup"
+		searchtimeout="3000ms"
+		usecache="True">
+			<folder
+			capname="unknown"
+			id="c70cf4a0-dc68-49a4-8c48-64bc988d02a0"
+			isrooted="False"
+			name="WindowControls"
+			searchtimeout="0ms">
+				<item
+				capname="button"
+				id="5669da92-fc5e-4d66-9868-3c0d72d65066"
+				name="Minimize"
+				refimgid="c2d593a2-189b-436e-b8b5-60ae96437418"
+				searchtimeout="3000ms">
+					/form[@title='Setup Properties']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Minimize']
+				</item>
+				<item
+				capname="button"
+				id="a76c7fd2-ac0e-4af7-9226-f8a5f1a73012"
+				name="Maximize"
+				searchtimeout="3000ms">
+					/form[@title='Setup Properties']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Maximize']
+				</item>
+				<item
+				capname="button"
+				id="379313bb-b8d8-4e8c-a33b-455b66ecfa88"
+				name="Close"
+				searchtimeout="3000ms">
+					/form[@title='Setup Properties']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Close']
+				</item>
+			</folder>
+			<folder
+			capname="menubar"
+			id="bae5ef12-f7ef-40fa-8c57-489f4e6cb0c9"
+			isrooted="True"
+			name="MainMenuBar"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="menuitem"
+				id="0204cbd1-7df3-4df1-bb02-8139a1fa5fd0"
+				name="FileButton"
+				searchtimeout="3000ms">
+					/form[@title='Setup Properties']/menubar[@name='menuBar']/menuitem[@text='File']
+				</item>
+				<basepath>
+					/form[@title='Setup Properties']/menubar[@name='menuBar']
+				</basepath>
+			</folder>
+			<folder
+			capname="contextmenu"
+			id="c866e677-bec9-474e-aa6f-b579e5fd638f"
+			isrooted="True"
+			name="FileMenu"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="menuitem"
+				id="2a6467a7-20f3-460d-9293-87502d5a43db"
+				name="Close"
+				searchtimeout="3000ms">
+					/form[@title='Setup Properties']/contextmenu[@type='JPopupMenu' and @visible='True']/menuitem[@text='Close']
+				</item>
+				<basepath>
+					/form[@title='Setup Properties']/contextmenu[@type='JPopupMenu' and @visible='True']
+				</basepath>
+			</folder>
+			<folder
+			capname="toolbar"
+			id="a85d030a-5e1c-417c-bceb-4bea903b5b41"
+			isrooted="True"
+			name="RibbonMenu"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="button"
+				id="e78af2d8-79da-4f94-9ff7-fa7e31595ac4"
+				name="SaveConfiguration"
+				searchtimeout="3000ms">
+					/form[@title='Setup Properties']/toolbar[@type='SwankyToolbar']/button[@text='Save Configuration']
+				</item>
+				<item
+				capname="button"
+				id="9ec1cdaf-dfea-4450-a5c0-f36c6f2a31a7"
+				name="LoadConfiguration"
+				searchtimeout="3000ms">
+					/form[@title='Setup Properties']/toolbar[@type='SwankyToolbar']/button[@text='Load Configuration']
+				</item>
+				<item
+				capname="button"
+				id="18bb852c-4e5f-46d8-a40a-0e0bd3ef9de1"
+				name="HelpTopics"
+				searchtimeout="3000ms">
+					/form[@title='Setup Properties']/toolbar[@type='SwankyToolbar']/button[3]
+				</item>
+				<basepath>
+					/form[@title='Setup Properties']/toolbar[@type='SwankyToolbar']
+				</basepath>
+			</folder>
+			<folder
+			capname="container"
+			id="897ab90f-98f2-4054-9351-b6071826d5f7"
+			isrooted="True"
+			name="ADMSContainer"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="radiobutton"
+				id="9602950d-753a-40cb-b9d4-c1037198a6bf"
+				name="Operational"
+				searchtimeout="3000ms">
+					/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='ADMS']/radiobutton[@name='operationalDatabase']
+				</item>
+				<item
+				capname="radiobutton"
+				id="173249cb-476a-4749-b073-047cf0f5d5f2"
+				name="OfflineDatabase"
+				searchtimeout="3000ms">
+					/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='ADMS']/radiobutton[@name='nonOperationalDatabase']
+				</item>
+				<item
+				capname="text"
+				id="5da0cc67-85f0-40c2-ba77-713db50d1d71"
+				name="DatabaseUserText"
+				searchtimeout="3000ms">
+					/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='ADMS']/text[@name='userTextField']
+				</item>
+				<item
+				capname="text"
+				id="710d97df-bc8d-4d80-83e6-427a7d37d5f5"
+				name="PasswordText"
+				searchtimeout="3000ms">
+					/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='ADMS']/text[@name='passwordTextField']
+				</item>
+				<item
+				capname="text"
+				id="f9c0cfae-da1b-4722-a8b0-bcfbd93df6dd"
+				name="DataSourceText"
+				searchtimeout="3000ms">
+					/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='ADMS']/text[@name='jdbcConnectString']
+				</item>
+				<item
+				capname="text"
+				id="faa138fe-06b3-4d7f-a0ce-b02de8af4952"
+				name="ConnectedStatusText"
+				searchtimeout="3000ms">
+					/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='ADMS']/text[@name='currentLabel']
+				</item>
+				<item
+				capname="button"
+				id="a588f321-67e7-4232-b3b0-c7b94c9f8682"
+				name="ConnectButton"
+				searchtimeout="3000ms">
+					/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='ADMS']/button[@text='Connect']
+				</item>
+				<basepath>
+					/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='ADMS']
+				</basepath>
+			</folder>
+			<folder
+			capname="container"
+			id="1439df68-198e-430c-87bd-d4b965102b2d"
+			isrooted="True"
+			name="TDMSContainer"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="radiobutton"
+				id="130d663f-068f-4bb0-bc49-4345e54c0dc9"
+				name="Operational"
+				searchtimeout="3000ms">
+					/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='TDMS']/radiobutton[@name='operationalDatabase']
+				</item>
+				<item
+				capname="radiobutton"
+				id="0719786c-700e-43ef-a21e-303d8bc19f55"
+				name="OfflineDatabase"
+				searchtimeout="3000ms">
+					/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='TDMS']/radiobutton[@name='nonOperationalDatabase']
+				</item>
+				<item
+				capname="text"
+				id="9bd6b304-804b-411e-81aa-dcaeaa7c4d62"
+				name="DatabaseUserText"
+				searchtimeout="3000ms">
+					/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='TDMS']/text[@name='userTextField']
+				</item>
+				<item
+				capname="text"
+				id="4f9b603b-1059-48c4-84e3-a70b2d3fa34e"
+				name="PasswordText"
+				searchtimeout="3000ms">
+					/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='TDMS']/text[@name='passwordTextField']
+				</item>
+				<item
+				capname="text"
+				id="4a086515-ea10-4733-8b2e-f67c04f0e62f"
+				name="DataSourceText"
+				searchtimeout="3000ms">
+					/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='TDMS']/text[@name='jdbcConnectString']
+				</item>
+				<item
+				capname="text"
+				id="83c88077-b4fe-4dc4-a00f-c1a87f157eb9"
+				name="ConnectedStatusText"
+				searchtimeout="3000ms">
+					/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='TDMS']/text[@name='currentLabel']
+				</item>
+				<item
+				capname="button"
+				id="a557c0d9-630d-4053-a1a8-d7641ffd8603"
+				name="ConnectButton"
+				searchtimeout="3000ms">
+					/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='TDMS']/button[@text='Connect']
+				</item>
+				<basepath>
+					/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='TDMS']
+				</basepath>
+			</folder>
+			<folder
+			capname="container"
+			id="dd6847e8-9ec1-4258-a4a3-e62a69990a91"
+			isrooted="True"
+			name="LabelsAppliedContainer"
+			searchtimeout="3000ms"
+			usecache="False">
+				<folder
+				capname="table"
+				id="d7ecb3a0-8db4-4b02-8967-14e761bd5c15"
+				isrooted="True"
+				name="LabelsAppliedTable"
+				searchtimeout="3000ms"
+				usecache="False">
+					<folder
+					capname="row"
+					id="c516dd93-0a69-48e4-af57-89a8d9993cd6"
+					isrooted="True"
+					name="LabelsAppliedRowByIndex"
+					searchtimeout="3000ms"
+					usecache="False">
+						<item
+						capname="cell"
+						id="a0ea6cd8-e908-4410-a785-fb5459266b11"
+						name="Label"
+						searchtimeout="3000ms">
+							/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='Labels Applied']/container[@name='viewport']/table[@type='JTable']/row[@index=$LabelsAppliedIndex]/cell[@columnindex='0']
+						</item>
+						<item
+						capname="cell"
+						id="85f6e464-83ad-4936-8220-ba637aed4393"
+						name="TimeApplied"
+						searchtimeout="3000ms">
+							/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='Labels Applied']/container[@name='viewport']/table[@type='JTable']/row[@index=$LabelsAppliedIndex]/cell[@columnindex='1']
+						</item>
+						<basepath>
+							/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='Labels Applied']/container[@name='viewport']/table[@type='JTable']/row[@index=$LabelsAppliedIndex]
+						</basepath>
+					</folder>
+					<folder
+					capname="unknown"
+					id="b98badc7-05f9-4119-82d6-005ae1b45144"
+					isrooted="True"
+					name="LabelsAppliedRowByLabel"
+					searchtimeout="3000ms"
+					usecache="False">
+						<item
+						capname="cell"
+						id="b40b96d0-8c5e-4552-9c82-d119a1b864dd"
+						name="TimeApplied"
+						searchtimeout="3000ms">
+							/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='Labels Applied']/container[@name='viewport']/table[@type='JTable']/row/cell[@text=$Label]/../cell[@columnindex='1']
+						</item>
+						<basepath>
+							/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='Labels Applied']/container[@name='viewport']/table[@type='JTable']/row/cell[@text=$Label]/..
+						</basepath>
+					</folder>
+					<basepath>
+						/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='Labels Applied']/container[@name='viewport']/table[@type='JTable']
+					</basepath>
+				</folder>
+				<basepath>
+					/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='Labels Applied']
+				</basepath>
+			</folder>
+			<folder
+			capname="container"
+			id="f4491332-590b-41f2-a8c3-3ea260dea009"
+			isrooted="True"
+			name="PlaybackPeriodContainer"
+			searchtimeout="3000ms"
+			usecache="False">
+				<folder
+				capname="container"
+				id="d795d6b3-bb1f-4372-bd3a-31c9807ec0d8"
+				isrooted="True"
+				name="CalendarObject"
+				searchtimeout="3000ms"
+				usecache="False">
+					<folder
+					capname="unknown"
+					id="f81bd717-751c-44c3-9e20-9df0fcdf535a"
+					isrooted="False"
+					name="Month"
+					searchtimeout="0ms">
+						<item
+						capname="combobox"
+						id="f8142b8f-9f85-45eb-9d8d-ad5bc50078e7"
+						name="MonthMenuButton"
+						searchtimeout="3000ms">
+							/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='Playback Period']/container[@type='JPanel']/container[@name='PlaybackPeriodCalendar']/container[@name='monthYearPanel']/container[@name='JMonthChooser']/text[@name='spinner']/combobox[@name='comboBox']
+						</item>
+						<folder
+						capname="list"
+						id="8b3a2904-7956-4bdb-befe-704f0ad34833"
+						isrooted="True"
+						name="MonthMenuList"
+						searchtimeout="3000ms"
+						usecache="False">
+							<item
+							capname="listitem"
+							id="39bf5933-42a4-49a8-a0b0-45309016c0fd"
+							name="Janurary"
+							searchtimeout="3000ms">
+								/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='Playback Period']/container[@type='JPanel']/container[@name='PlaybackPeriodCalendar']/../../../../contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='January']
+							</item>
+							<item
+							capname="listitem"
+							id="53522e22-7830-437c-8db1-2f96af7c7992"
+							name="February"
+							searchtimeout="3000ms">
+								/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='Playback Period']/container[@type='JPanel']/container[@name='PlaybackPeriodCalendar']/../../../../contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='February']
+							</item>
+							<item
+							capname="listitem"
+							id="4de80e8c-4b17-46ae-a21a-230e01534f62"
+							name="March"
+							searchtimeout="3000ms">
+								/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='Playback Period']/container[@type='JPanel']/container[@name='PlaybackPeriodCalendar']/../../../../contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='March']
+							</item>
+							<item
+							capname="listitem"
+							id="19cccb10-9bf6-4778-b856-5e7368217386"
+							name="April"
+							searchtimeout="3000ms">
+								/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='Playback Period']/container[@type='JPanel']/container[@name='PlaybackPeriodCalendar']/../../../../contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='April']
+							</item>
+							<item
+							capname="listitem"
+							id="b3cb805b-8ea8-4fb0-afd2-706cacf406c0"
+							name="May"
+							searchtimeout="3000ms">
+								/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='Playback Period']/container[@type='JPanel']/container[@name='PlaybackPeriodCalendar']/../../../../contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='May']
+							</item>
+							<item
+							capname="listitem"
+							id="2d291ed9-f685-43bd-8812-69865d91e518"
+							name="June"
+							searchtimeout="3000ms">
+								/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='Playback Period']/container[@type='JPanel']/container[@name='PlaybackPeriodCalendar']/../../../../contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='June']
+							</item>
+							<item
+							capname="listitem"
+							id="92b53dfa-b3c0-4b45-888f-839684247383"
+							name="July"
+							searchtimeout="3000ms">
+								/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='Playback Period']/container[@type='JPanel']/container[@name='PlaybackPeriodCalendar']/../../../../contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='July']
+							</item>
+							<item
+							capname="listitem"
+							id="c01bd94a-2db9-4f5b-a586-39e843986131"
+							name="August"
+							searchtimeout="3000ms">
+								/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='Playback Period']/container[@type='JPanel']/container[@name='PlaybackPeriodCalendar']/../../../../contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='August']
+							</item>
+							<item
+							capname="listitem"
+							id="d85abb4b-4c14-42c2-9e4e-463a5bf8c0a6"
+							name="September"
+							searchtimeout="3000ms">
+								/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='Playback Period']/container[@type='JPanel']/container[@name='PlaybackPeriodCalendar']/../../../../contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='September']
+							</item>
+							<item
+							capname="listitem"
+							id="aef203e8-907c-424d-96db-d09083a0cbf0"
+							name="October"
+							searchtimeout="3000ms">
+								/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='Playback Period']/container[@type='JPanel']/container[@name='PlaybackPeriodCalendar']/../../../../contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='October']
+							</item>
+							<item
+							capname="listitem"
+							id="d27bffbe-738f-487d-ae4a-2188e6c572db"
+							name="November"
+							searchtimeout="3000ms">
+								/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='Playback Period']/container[@type='JPanel']/container[@name='PlaybackPeriodCalendar']/../../../../contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='November']
+							</item>
+							<item
+							capname="listitem"
+							id="7b0b112c-31b2-4f94-b845-a0af89ed0dcd"
+							name="December"
+							searchtimeout="3000ms">
+								/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='Playback Period']/container[@type='JPanel']/container[@name='PlaybackPeriodCalendar']/../../../../contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='December']
+							</item>
+							<basepath>
+								/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='Playback Period']/container[@type='JPanel']/container[@name='PlaybackPeriodCalendar']/../../../../contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']
+							</basepath>
+						</folder>
+						<item
+						capname="button"
+						id="f4c3cdc1-0b44-4542-ad87-ff6539434480"
+						name="NextButton"
+						searchtimeout="3000ms">
+							/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='Playback Period']/container[@type='JPanel']/container[@name='PlaybackPeriodCalendar']/container[@name='monthYearPanel']/container[@name='JMonthChooser']/text[@name='spinner']/button[@name='Spinner.nextButton']
+						</item>
+						<item
+						capname="button"
+						id="986da4c5-c212-43dc-888e-6ca9815ca147"
+						name="PreviousButton"
+						searchtimeout="3000ms">
+							/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='Playback Period']/container[@type='JPanel']/container[@name='PlaybackPeriodCalendar']/container[@name='monthYearPanel']/container[@name='JMonthChooser']/text[@name='spinner']/button[@name='Spinner.previousButton']
+						</item>
+					</folder>
+					<folder
+					capname="unknown"
+					id="a2b1fc5e-92b8-4993-aee1-1698200766c7"
+					isrooted="False"
+					name="Year"
+					searchtimeout="0ms">
+						<item
+						capname="text"
+						id="b57e065a-08d4-49d5-9089-ee8661d277a7"
+						name="YearText"
+						searchtimeout="3000ms">
+							/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='Playback Period']/container[@type='JPanel']/container[@name='PlaybackPeriodCalendar']/container[@name='monthYearPanel']/container[@name='JYearChooser']/text[@type='JSpinField$1']/text[@type='JTextField']
+						</item>
+						<item
+						capname="button"
+						id="ff9f47bd-71ee-46ec-af66-c75907651d1f"
+						name="NextButton"
+						searchtimeout="3000ms">
+							/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='Playback Period']/container[@type='JPanel']/container[@name='PlaybackPeriodCalendar']/container[@name='monthYearPanel']/container[@name='JYearChooser']/text[@type='JSpinField$1']/button[@name='Spinner.nextButton']
+						</item>
+						<item
+						capname="button"
+						id="8ec620d9-75b5-404c-b0df-9f075ad7bf0a"
+						name="PreviousButton"
+						searchtimeout="3000ms">
+							/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='Playback Period']/container[@type='JPanel']/container[@name='PlaybackPeriodCalendar']/container[@name='monthYearPanel']/container[@name='JYearChooser']/text[@type='JSpinField$1']/button[@name='Spinner.previousButton']
+						</item>
+					</folder>
+					<folder
+					capname="unknown"
+					id="818a366c-b7b9-4d04-9492-4326a27c0074"
+					isrooted="False"
+					name="Day"
+					searchtimeout="0ms">
+						<item
+						capname="button"
+						id="be832b34-4d21-486b-9667-dc0f7b14d05d"
+						name="Day"
+						searchtimeout="3000ms">
+							/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='Playback Period']/container[@type='JPanel']/container[@name='PlaybackPeriodCalendar']/container[@name='JDayChooser']/container[@name='dayPanel']/button[@text=$Day]
+						</item>
+					</folder>
+					<basepath>
+						/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='Playback Period']/container[@type='JPanel']/container[@name='PlaybackPeriodCalendar']
+					</basepath>
+				</folder>
+				<folder
+				capname="unknown"
+				id="36a27984-4f6c-4c79-8df1-3217f1310c5f"
+				isrooted="False"
+				name="Start"
+				searchtimeout="0ms">
+					<item
+					capname="text"
+					id="d05f0888-053e-46e4-b7c1-ee91c10e6ecb"
+					name="StartText"
+					searchtimeout="3000ms">
+						/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='Playback Period']/container[@type='JPanel']/text[@name='StartTime']/container[@name='editor']/text[@name='Spinner.formattedTextField']
+					</item>
+					<item
+					capname="button"
+					id="69bbf6ff-d66f-4ee4-8660-80a4438983a3"
+					name="NextButton"
+					searchtimeout="3000ms">
+						/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='Playback Period']/container[@type='JPanel']/text[@name='StartTime']/button[@name='Spinner.nextButton']
+					</item>
+					<item
+					capname="button"
+					id="b6415738-d4fd-427b-bf73-64edfce374e8"
+					name="PreviousButton"
+					searchtimeout="3000ms">
+						/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='Playback Period']/container[@type='JPanel']/text[@name='StartTime']/button[@name='Spinner.previousButton']
+					</item>
+				</folder>
+				<item
+				capname="checkbox"
+				id="fc1ee5b1-9a10-4b79-b654-1118dd3ab4ba"
+				name="GMT"
+				searchtimeout="3000ms">
+					/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='Playback Period']/container[@type='JPanel']/checkbox[@text='GMT']
+				</item>
+				<item
+				capname="text"
+				id="c3f250a4-e15a-429f-a960-bcb1272c26c4"
+				name="StartDateText"
+				searchtimeout="3000ms">
+					/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='Playback Period']/container[@type='JPanel']/text[3]
+				</item>
+				<item
+				capname="slider"
+				id="a7904d39-c72b-47ec-9a4a-94d47ffbba60"
+				name="EndDateSlider"
+				searchtimeout="3000ms">
+					/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='Playback Period']/container[@type='JPanel']/slider[@name='PlaybackDuration']
+				</item>
+				<item
+				capname="text"
+				id="3696291d-90a3-4e64-9d52-64721fc4ef37"
+				name="EndDateText"
+				searchtimeout="3000ms">
+					/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='Playback Period']/container[@type='JPanel']/text[5]
+				</item>
+				<item
+				capname="text"
+				id="b6250e89-0be3-4b8c-ba9c-3d3fab7f2b49"
+				name="LabelInEffectAtStart"
+				searchtimeout="3000ms">
+					/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='Playback Period']/container[@type='JPanel']/text[@caption='No Data']
+				</item>
+				<basepath>
+					/form[@title='Setup Properties']/container[@type='JPanel']/container[@accessiblename='Playback Period']
+				</basepath>
+			</folder>
+			<folder
+			capname="unknown"
+			id="fbcc0726-ff72-4744-9aae-d1822753ec6f"
+			isrooted="False"
+			name="Division"
+			searchtimeout="0ms">
+				<item
+				capname="combobox"
+				id="e77305ac-b7eb-4280-b970-d8da5701b425"
+				name="DivisionMenuButton"
+				searchtimeout="3000ms">
+					/form[@title='Setup Properties']/container[@type='JPanel']/container/combobox[@name='DivisionComboBox']
+				</item>
+				<folder
+				capname="list"
+				id="4832bd37-9849-43ea-809f-d62d39d9d001"
+				isrooted="True"
+				name="DivisionMenuList"
+				searchtimeout="3000ms"
+				usecache="False">
+					<item
+					capname="listitem"
+					id="d8e617db-056f-47c7-b945-08126fff4d8d"
+					name="DivisionListItem"
+					searchtimeout="3000ms">
+						/form[@title='Setup Properties']/contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text=$Division]
+					</item>
+					<basepath>
+						/form[@title='Setup Properties']/contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']
+					</basepath>
+				</folder>
+			</folder>
+			<folder
+			capname="list"
+			id="7a62a87e-9499-4cd3-b701-3f7410f07aed"
+			isrooted="True"
+			name="AvailableTerritoriesList"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="listitem"
+				id="0c22fede-9860-4ad4-b479-3e8935aabb5e"
+				name="TerritoryListItem"
+				searchtimeout="3000ms">
+					/form[@title='Setup Properties']/container[@type='JPanel']/container[@name='AvailableTerritoriesScrollPane']/container[@name='viewport']/list[@name='AvailableTerritoriesList']/listitem[@text=$Territory]
+				</item>
+				<basepath>
+					/form[@title='Setup Properties']/container[@type='JPanel']/container[@name='AvailableTerritoriesScrollPane']/container[@name='viewport']/list[@name='AvailableTerritoriesList']
+				</basepath>
+			</folder>
+			<folder
+			capname="list"
+			id="93c0ece1-386b-4fcf-add0-1fdcac0be805"
+			isrooted="True"
+			name="SelectedTerritoriesList"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="listitem"
+				id="53dd7a5a-0995-4b20-b415-7dcd6f018e8b"
+				name="TerritoryListItem"
+				searchtimeout="3000ms">
+					/form[@title='Setup Properties']/container[@type='JPanel']/container[@name='SelectedTerritoriesScrollPane']/container[@name='viewport']/list[@name='SelectedTerritoriesList']/listitem[@text=$Territory]
+				</item>
+				<basepath>
+					/form[@title='Setup Properties']/container[@type='JPanel']/container[@name='SelectedTerritoriesScrollPane']/container[@name='viewport']/list[@name='SelectedTerritoriesList']
+				</basepath>
+			</folder>
+			<item
+			capname="button"
+			id="37af1103-80a6-401b-bd33-c9ac4a48c5fc"
+			name="MoveRightButton"
+			searchtimeout="3000ms">
+				/form[@title='Setup Properties']/container[@type='JPanel']/button[@text='&gt;']
+			</item>
+			<item
+			capname="button"
+			id="22b30f71-fc83-4c90-bab1-aaf21c4b6ed4"
+			name="MoveLeftButton"
+			searchtimeout="3000ms">
+				/form[@title='Setup Properties']/container[@type='JPanel']/button[@text='&lt;']
+			</item>
+			<item
+			capname="button"
+			id="bee19fcb-c7ec-46d2-8df3-9c742049d9fc"
+			name="MoveAllLeftButton"
+			searchtimeout="3000ms">
+				/form[@title='Setup Properties']/container[@type='JPanel']/button[@text='&lt;&lt;']
+			</item>
+			<item
+			capname="button"
+			id="2e26bcbb-8ad1-409e-9f4e-fb044a212f9d"
+			name="OkButton"
+			searchtimeout="3000ms">
+				/form[@title='Setup Properties']/container[@type='JPanel']/container/container[@type='UIJPanel']/button[@name='OkButton']
+			</item>
+			<item
+			capname="button"
+			id="e9a5ef66-e4be-4ac2-9353-d46431ad9841"
+			name="CancelButton"
+			searchtimeout="3000ms">
+				/form[@title='Setup Properties']/container[@type='JPanel']/container/container[@type='UIJPanel']/button[@name='CancelButton']
+			</item>
+			<item
+			capname="text"
+			id="4cde4e4b-1644-4aee-8994-71d810327fb0"
+			name="Feedback"
+			searchtimeout="3000ms">
+				/form[@title='Setup Properties']/container/text[4]
+			</item>
+			<folder
+			capname="form"
+			id="07b62f24-868c-4244-9318-4430b17f9a7d"
+			isrooted="True"
+			name="Save_Playback_Configuration"
+			searchtimeout="3000ms"
+			usecache="False">
+				<folder
+				capname="unknown"
+				id="9d2cacd0-c958-44b8-9163-0273d3c6b573"
+				isrooted="False"
+				name="WindowControls"
+				searchtimeout="0ms">
+					<item
+					capname="button"
+					id="b03b3f40-7474-42f7-ad60-45535e0d9e75"
+					name="Close"
+					searchtimeout="3000ms">
+						/form[@title='Setup Properties']/../form[@title='Save Playback Configuration']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Close']
+					</item>
+				</folder>
+				<folder
+				capname="container"
+				id="30c582f0-c7a9-4f3a-872d-e8181bb29edb"
+				isrooted="True"
+				name="MenuBar"
+				searchtimeout="3000ms"
+				usecache="False">
+					<folder
+					capname="unknown"
+					id="871ee075-8080-4840-89f7-0b3bb28fe144"
+					isrooted="False"
+					name="SaveIn"
+					searchtimeout="0ms">
+						<item
+						capname="combobox"
+						id="a800e42a-916c-4685-9875-0e92af0d5470"
+						name="SaveInText"
+						searchtimeout="3000ms">
+							/form[@title='Setup Properties']/../form[@title='Save Playback Configuration']/element[@type='JFileChooser']/container/combobox[@accessiblename='Save In:']
+						</item>
+						<item
+						capname="button"
+						id="9739779a-e8e8-4045-ab0e-85ef41e958cf"
+						name="SaveInButton"
+						searchtimeout="3000ms">
+							/form[@title='Setup Properties']/../form[@title='Save Playback Configuration']/element[@type='JFileChooser']/container/combobox[@accessiblename='Save In:']/button
+						</item>
+					</folder>
+					<item
+					capname="button"
+					id="b9c23c67-cd32-4321-8f28-ec0d0783956e"
+					name="ButtonUpButton"
+					searchtimeout="3000ms">
+						/form[@title='Setup Properties']/../form[@title='Save Playback Configuration']/element[@type='JFileChooser']/container/container[@type='JPanel']/button[@accessiblename='Up']
+					</item>
+					<item
+					capname="button"
+					id="2211c71f-1e4e-4fe5-bada-b4bc221efaed"
+					name="HomeButton"
+					searchtimeout="3000ms">
+						/form[@title='Setup Properties']/../form[@title='Save Playback Configuration']/element[@type='JFileChooser']/container/container[@type='JPanel']/button[@text='']
+					</item>
+					<item
+					capname="button"
+					id="e50635ec-3b87-4596-9257-663ab0597b9d"
+					name="NewFolderButton"
+					searchtimeout="3000ms">
+						/form[@title='Setup Properties']/../form[@title='Save Playback Configuration']/element[@type='JFileChooser']/container/container[@type='JPanel']/button[@accessiblename='New Folder']
+					</item>
+					<item
+					capname="checkbox"
+					id="064ecae5-e645-4232-a4e0-4d3be53d55ce"
+					name="ListCheckbox"
+					searchtimeout="3000ms">
+						/form[@title='Setup Properties']/../form[@title='Save Playback Configuration']/element[@type='JFileChooser']/container/container[@type='JPanel']/checkbox[@accessiblename='List']
+					</item>
+					<basepath>
+						/form[@title='Setup Properties']/../form[@title='Save Playback Configuration']/element[@type='JFileChooser']/container
+					</basepath>
+				</folder>
+				<item
+				capname="checkbox"
+				id="58aca988-287a-4b24-b740-6a7ad83c56f2"
+				name="DetailsCheckbox"
+				searchtimeout="3000ms">
+					/form[@title='Setup Properties']/../form[@title='Save Playback Configuration']/element[@type='JFileChooser']/container/container[@type='JPanel']/checkbox[@accessiblename='Details']
+				</item>
+				<item
+				capname="text"
+				id="28aac32f-e0f3-4c4f-8ea9-2db666585ad7"
+				name="FileNameText"
+				searchtimeout="3000ms">
+					/form[@title='Setup Properties']/../form[@title='Save Playback Configuration']/element/container/container/text[@type='MetalFileChooserUI$3']
+				</item>
+				<item
+				capname="button"
+				id="12480907-a45e-4da5-abf8-7ff39a649433"
+				name="SaveButton"
+				searchtimeout="3000ms">
+					/form[@title='Setup Properties']/../form[@title='Save Playback Configuration']/element/container/container/button[@name='defaultButton']
+				</item>
+				<item
+				capname="button"
+				id="3b89f52d-3f4c-4f83-a2ad-24b99f741415"
+				name="CancelButton"
+				searchtimeout="3000ms">
+					/form[@title='Setup Properties']/../form[@title='Save Playback Configuration']/element/container/container/button[@text='Cancel']
+				</item>
+				<folder
+				capname="unknown"
+				id="9e3103f6-647d-46f7-b3b1-093814532f7c"
+				isrooted="False"
+				name="FileOfType"
+				searchtimeout="0ms">
+					<item
+					capname="combobox"
+					id="43ef3276-2a94-4efa-b247-8bf63555c3fe"
+					name="FileOfTypeText"
+					searchtimeout="3000ms">
+						/form[@title='Setup Properties']/../form[@title='Save Playback Configuration']/element/container/container/combobox[@accessiblename='Files of Type:']
+					</item>
+					<item
+					capname="button"
+					id="12ba1c2a-7926-4071-82bb-814dcd0b766b"
+					name="FileOfTypeButton"
+					searchtimeout="3000ms">
+						/form[@title='Setup Properties']/../form[@title='Save Playback Configuration']/element/container/container/combobox[@accessiblename='Files of Type:']/button[@text='']
+					</item>
+				</folder>
+				<basepath>
+					/form[@title='Setup Properties']/../form[@title='Save Playback Configuration']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="506624a8-8d80-4837-b850-38c5b973a83f"
+			isrooted="True"
+			name="Load_Playback_Configuration"
+			searchtimeout="3000ms"
+			usecache="False">
+				<folder
+				capname="unknown"
+				id="7fc4f114-e182-4fbe-b5c5-dc3c84ce3d6a"
+				isrooted="False"
+				name="WindowControls"
+				searchtimeout="0ms">
+					<item
+					capname="button"
+					id="b225e930-f981-4ab6-9951-6b93c322dee6"
+					name="Close"
+					searchtimeout="3000ms">
+						/form[@title='Setup Properties']/../form[@title='Load Playback Configuration']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Close']
+					</item>
+				</folder>
+				<folder
+				capname="container"
+				id="625e6aa3-cb69-4e2b-a57b-33706b3204e1"
+				isrooted="True"
+				name="MenuBar"
+				searchtimeout="3000ms"
+				usecache="False">
+					<folder
+					capname="unknown"
+					id="416d2066-50de-454f-b8f9-f4ba6f2233e0"
+					isrooted="False"
+					name="SaveIn"
+					searchtimeout="0ms">
+						<item
+						capname="combobox"
+						id="fd856087-e4b1-43a8-ab26-e9f77bc3f2f6"
+						name="LookInText"
+						searchtimeout="3000ms">
+							/form[@title='Setup Properties']/../form[@title='Load Playback Configuration']/element[@type='JFileChooser']/container/combobox[@accessiblename='Look In:']
+						</item>
+						<item
+						capname="button"
+						id="e3c622a0-0faa-4265-9bbd-8431f4291829"
+						name="LookInButton"
+						searchtimeout="3000ms">
+							/form[@title='Setup Properties']/../form[@title='Load Playback Configuration']/element[@type='JFileChooser']/container/combobox[@accessiblename='Look In:']/button
+						</item>
+					</folder>
+					<item
+					capname="button"
+					id="b999124b-0d56-49a6-ac09-a76ad1b7d155"
+					name="ButtonUpButton"
+					searchtimeout="3000ms">
+						/form[@title='Setup Properties']/../form[@title='Load Playback Configuration']/element[@type='JFileChooser']/container/container[@type='JPanel']/button[@accessiblename='Up']
+					</item>
+					<item
+					capname="button"
+					id="0a73d690-c732-48cc-935a-e8e28427f6c8"
+					name="HomeButton"
+					searchtimeout="3000ms">
+						/form[@title='Setup Properties']/../form[@title='Load Playback Configuration']/element[@type='JFileChooser']/container/container[@type='JPanel']/button[@text='']
+					</item>
+					<item
+					capname="button"
+					id="ddcf9912-472c-4bbb-b11d-d42e44984f3c"
+					name="NewFolderButton"
+					searchtimeout="3000ms">
+						/form[@title='Setup Properties']/../form[@title='Load Playback Configuration']/element[@type='JFileChooser']/container/container[@type='JPanel']/button[@accessiblename='New Folder']
+					</item>
+					<item
+					capname="checkbox"
+					id="4ab6ee03-81e0-4f90-8b29-343b1c7d6078"
+					name="ListCheckbox"
+					searchtimeout="3000ms">
+						/form[@title='Setup Properties']/../form[@title='Load Playback Configuration']/element[@type='JFileChooser']/container/container[@type='JPanel']/checkbox[@accessiblename='List']
+					</item>
+					<basepath>
+						/form[@title='Setup Properties']/../form[@title='Load Playback Configuration']/element[@type='JFileChooser']/container
+					</basepath>
+				</folder>
+				<item
+				capname="checkbox"
+				id="fc353795-fc57-4e3f-a30f-143e247bed9e"
+				name="DetailsCheckbox"
+				searchtimeout="3000ms">
+					/form[@title='Setup Properties']/../form[@title='Load Playback Configuration']/element[@type='JFileChooser']/container/container[@type='JPanel']/checkbox[@accessiblename='Details']
+				</item>
+				<item
+				capname="text"
+				id="19d45aad-88a9-498c-b261-0991d2b183d0"
+				name="FileNameText"
+				searchtimeout="3000ms">
+					/form[@title='Setup Properties']/../form[@title='Load Playback Configuration']/element/container/container/text[@type='MetalFileChooserUI$3']
+				</item>
+				<item
+				capname="button"
+				id="bc4593a0-4b11-4f71-9614-97875b0a7308"
+				name="OpenButton"
+				searchtimeout="3000ms">
+					/form[@title='Setup Properties']/../form[@title='Load Playback Configuration']/element/container/container/button[@name='defaultButton']
+				</item>
+				<item
+				capname="button"
+				id="ed0509ca-d332-4b32-9880-019b9fdcdbdc"
+				name="CancelButton"
+				searchtimeout="3000ms">
+					/form[@title='Setup Properties']/../form[@title='Load Playback Configuration']/element/container/container/button[@text='Cancel']
+				</item>
+				<basepath>
+					/form[@title='Setup Properties']/../form[@title='Load Playback Configuration']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title='Setup Properties']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="bd194a82-4317-488d-bf05-170473684886"
+		isrooted="True"
+		name="Territory_Has_No_View"
+		searchtimeout="3000ms"
+		usecache="True">
+			<folder
+			capname="unknown"
+			id="d98626c5-ca58-44f9-80e3-23a2d2b0c4cd"
+			isrooted="False"
+			name="WindowControls"
+			searchtimeout="0ms">
+				<item
+				capname="button"
+				id="35bc96f7-7d91-411c-b085-ea69ce2b5915"
+				name="Close"
+				searchtimeout="3000ms">
+					/form[@title='Territory Has No View']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Close']
+				</item>
+			</folder>
+			<item
+			capname="text"
+			id="6e3b18b2-68ac-4923-9cbd-6f54ee3d3400"
+			name="Text1"
+			searchtimeout="3000ms">
+				/form[@title='Territory Has No View']/container[@type='JOptionPane']/container/container[@name='OptionPane.realBody']/container[@name='OptionPane.body']/text[1]
+			</item>
+			<item
+			capname="text"
+			id="05b6bc49-0efe-4ab8-bd10-5651cf7d83db"
+			name="Text2"
+			searchtimeout="3000ms">
+				/form[@title='Territory Has No View']/container[@type='JOptionPane']/container/container[@name='OptionPane.realBody']/container[@name='OptionPane.body']/text[2]
+			</item>
+			<folder
+			capname="unknown"
+			id="654d930e-c450-481e-a349-57137f9c9f0f"
+			isrooted="False"
+			name="Territory"
+			searchtimeout="0ms">
+				<item
+				capname="combobox"
+				id="e37512d7-73ae-41d0-8e18-56a83a5fbe4a"
+				name="TerritoryMenuItem"
+				searchtimeout="3000ms">
+					/form[@title='Territory Has No View']/container[@type='JOptionPane']/container/container[@name='OptionPane.realBody']/container[@name='OptionPane.body']/combobox[@name='OptionPane.comboBox']
+				</item>
+				<folder
+				capname="list"
+				id="02c08672-1ff8-4c16-853c-2282d0c343d7"
+				isrooted="True"
+				name="TerritoryMenuList"
+				searchtimeout="3000ms"
+				usecache="False">
+					<item
+					capname="listitem"
+					id="598dab96-6fc5-4887-b270-8106e900df84"
+					name="TerritoryListItem"
+					searchtimeout="3000ms">
+						/form[@title='Territory Has No View']/contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text=$Territory]
+					</item>
+					<basepath>
+						/form[@title='Territory Has No View']/contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']
+					</basepath>
+				</folder>
+			</folder>
+			<item
+			capname="button"
+			id="e004e3a5-d043-4145-85cb-11abf26aab25"
+			name="OkButton"
+			searchtimeout="3000ms">
+				/form[@title='Territory Has No View']/container[@type='JOptionPane']/container[@name='OptionPane.buttonArea']/button[@text='OK']
+			</item>
+			<item
+			capname="button"
+			id="8bae9f70-4c34-465a-b6bb-074c3c1e3943"
+			name="CancelButton"
+			searchtimeout="3000ms">
+				/form[@title='Territory Has No View']/container[@type='JOptionPane']/container[@name='OptionPane.buttonArea']/button[@text='Cancel']
+			</item>
+			<basepath>
+				/form[@title='Territory Has No View']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="7087d267-8f4b-474c-a7b1-46d9a5cdcb57"
+		isrooted="True"
+		name="Cannot_Perform_Payback"
+		searchtimeout="3000ms"
+		usecache="True">
+			<folder
+			capname="unknown"
+			id="d6e86a5c-3695-4fb2-82c5-bc6b4ccdf348"
+			isrooted="False"
+			name="WindowControls"
+			searchtimeout="0ms">
+				<item
+				capname="button"
+				id="65c3638c-187c-4872-8806-837f6bd8ed79"
+				name="Close"
+				searchtimeout="3000ms">
+					/form[@title='Cannot Perform Playback']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Close']
+				</item>
+			</folder>
+			<item
+			capname="button"
+			id="65d21edb-aa9a-4383-a98b-33d42b58197c"
+			name="OkButton"
+			searchtimeout="3000ms">
+				/form[@title='Cannot Perform Playback']/container[@type='JOptionPane']/container[@name='OptionPane.buttonArea']/button[@text='OK']
+			</item>
+			<basepath>
+				/form[@title='Cannot Perform Playback']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="ca6aaca5-604b-4bb5-942e-d783193fd8f5"
+		isrooted="True"
+		name="Save_Configuration"
+		searchtimeout="3000ms"
+		usecache="True">
+			<folder
+			capname="unknown"
+			id="c6c7a867-764c-4924-925f-bdeed7d2580d"
+			isrooted="False"
+			name="WindowControls"
+			searchtimeout="0ms">
+				<item
+				capname="button"
+				id="305e641d-baec-4e6e-bf6a-17f8d641edaf"
+				name="Close"
+				searchtimeout="3000ms">
+					/form[@title='Save Configuration?']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Close']
+				</item>
+			</folder>
+			<item
+			capname="button"
+			id="0fc905f7-9bf8-4392-9bbc-40d15bab1a97"
+			name="YesButton"
+			searchtimeout="3000ms">
+				/form[@title='Save Configuration?']/container[@type='JOptionPane']/container[@name='OptionPane.buttonArea']/button[@text='Yes']
+			</item>
+			<item
+			capname="button"
+			id="4eaebee4-12c8-44a4-aeaf-c2efd1988cb6"
+			name="NoButton"
+			searchtimeout="3000ms">
+				/form[@title='Save Configuration?']/container[@type='JOptionPane']/container[@name='OptionPane.buttonArea']/button[@text='No']
+			</item>
+			<basepath>
+				/form[@title='Save Configuration?']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="94a057e3-b7c5-4aa3-bebf-9f46dba2e3c1"
+		isrooted="True"
+		name="Playback_Controller"
+		refimgid="1525345b-61e2-48cc-8fe0-1909634177cd"
+		searchtimeout="3000ms"
+		usecache="True">
+			<folder
+			capname="unknown"
+			id="3a494d5d-5274-4164-9aae-48d6f7662998"
+			isrooted="False"
+			name="WindowControls"
+			searchtimeout="0ms">
+				<item
+				addcaps="button,accessible"
+				capname="button"
+				id="03f40520-efb2-463b-9184-cb0e8eaa5924"
+				name="Minimize"
+				refimgid="a077be3f-ce66-40ff-b979-7b265dedc048"
+				searchtimeout="30000ms">
+					/form[@title='Playback Controller']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Minimize']
+				</item>
+				<item
+				addcaps="button,accessible"
+				capname="button"
+				id="9e0b3d2b-4a2b-4cee-89a3-a4e408541707"
+				name="Maximize"
+				refimgid="51eb6729-cdfa-4875-8359-8b0038f849a5"
+				searchtimeout="30000ms">
+					/form[@title='Playback Controller']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Maximize']
+				</item>
+				<item
+				addcaps="button,accessible"
+				capname="button"
+				id="083a36fd-afe5-4797-84f5-b2792d0050b7"
+				name="Close"
+				refimgid="a61033e2-3c30-4aee-9704-ee57481260f8"
+				searchtimeout="30000ms">
+					/form[@title='Playback Controller']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Close']
+				</item>
+			</folder>
+			<folder
+			capname="menubar"
+			id="27c4d442-4548-4080-a78f-1b0a971ecc8c"
+			isrooted="True"
+			name="MainMenuBar"
+			refimgid="0396fc9e-f8ad-4713-bf4a-c422808bf35d"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				addcaps="menuitem,javaelement"
+				capname="menuitem"
+				id="0178c147-2a93-48bd-91d9-9b1c4a00426e"
+				name="FileButton"
+				refimgid="7d300895-a6b1-4c20-a176-557863158a51"
+				searchtimeout="3000ms">
+					/form[@title='Playback Controller']/menubar[@name='menuBar']/menuitem[@text='File']
+				</item>
+				<basepath>
+					/form[@title='Playback Controller']/menubar[@name='menuBar']
+				</basepath>
+			</folder>
+			<folder
+			capname="contextmenu"
+			id="bb75e9be-12fc-44e6-8858-d20ec5d03f51"
+			isrooted="True"
+			name="FileMenu"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				addcaps="menuitem,javaelement"
+				capname="menuitem"
+				id="aaf42241-e00a-4079-9b83-6bb050c7e1c2"
+				name="SaveSession"
+				refimgid="6c1baa1e-532c-41cb-8177-afe65e575301"
+				searchtimeout="3000ms">
+					/form[@title='Playback Controller']/contextmenu[@type='JPopupMenu' and @visible='True']/menuitem[@text='Save Session']
+				</item>
+				<item
+				addcaps="menuitem,javaelement"
+				capname="menuitem"
+				id="bf628968-d790-4d78-9531-0d60617874db"
+				name="DumpEventsAsXML"
+				refimgid="e4677b69-2ff6-4081-b12a-9064f2a1ff5f"
+				searchtimeout="3000ms">
+					/form[@title='Playback Controller']/contextmenu[@type='JPopupMenu' and @visible='True']/menuitem[@text='Dump events as XML']
+				</item>
+				<item
+				addcaps="menuitem,javaelement"
+				capname="menuitem"
+				id="0678d7fc-94c1-4698-adbe-7fba289ce8d2"
+				name="DumpAsHTML"
+				refimgid="8197d326-4ed4-4091-a12c-d3a9d5a262ed"
+				searchtimeout="3000ms">
+					/form[@title='Playback Controller']/contextmenu[@type='JPopupMenu' and @visible='True']/menuitem[@text='Dump as HTML']
+				</item>
+				<item
+				addcaps="menuitem,javaelement"
+				capname="menuitem"
+				id="dca59da9-0903-4e6d-84cf-d4ee23dcf776"
+				name="ClearAllBreakpoints"
+				refimgid="ee28c2cd-510d-4e23-a98e-31247ea45bae"
+				searchtimeout="3000ms">
+					/form[@title='Playback Controller']/contextmenu[@type='JPopupMenu' and @visible='True']/menuitem[@text='Clear All Breakpoints']
+				</item>
+				<basepath>
+					/form[@title='Playback Controller']/contextmenu[@type='JPopupMenu' and @visible='True']
+				</basepath>
+			</folder>
+			<folder
+			capname="toolbar"
+			id="c7199781-1c3b-4b07-b122-fb275b44f5fe"
+			isrooted="True"
+			name="HelpBar"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="button"
+				id="3539b76f-6c77-4405-b597-846066e1a4ef"
+				name="HelpTopic"
+				searchtimeout="3000ms">
+					/form[@title='Playback Controller']/container[@type='JPanel']/toolbar[@type='SwankyToolbar']/button[@type='JButton']
+				</item>
+				<basepath>
+					/form[@title='Playback Controller']/container[@type='JPanel']/toolbar[@type='SwankyToolbar']
+				</basepath>
+			</folder>
+			<folder
+			capname="container"
+			id="51ad6ad6-595f-4e93-9872-c186b9477c50"
+			isrooted="True"
+			name="PlaybackPeriod"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="text"
+				id="dbee6341-537e-4320-8ef0-c4adb6a572b7"
+				name="Start"
+				searchtimeout="3000ms">
+					/form[@title='Playback Controller']/container[@type='JPanel']/container[@accessiblename='Playback Period']/container[@type='JPanel'][1]/text
+				</item>
+				<item
+				capname="text"
+				id="da4988a1-fecd-437a-90fa-aa24095e5807"
+				name="End"
+				searchtimeout="3000ms">
+					/form[@title='Playback Controller']/container[@type='JPanel']/container[@accessiblename='Playback Period']/container[@type='JPanel'][2]/text
+				</item>
+				<basepath>
+					/form[@title='Playback Controller']/container[@type='JPanel']/container[@accessiblename='Playback Period']
+				</basepath>
+			</folder>
+			<item
+			capname="checkbox"
+			id="d6188be8-9dfc-4c45-9136-db047d5bec70"
+			name="CheckbBoxGMT"
+			refimgid="6a672a1d-12e3-4387-b1b2-bbd85708e801"
+			searchtimeout="3000ms">
+				/form[@title='Playback Controller']/container[@type='JPanel']/checkbox[@text='GMT']
+			</item>
+			<item
+			capname="text"
+			id="a8453fcf-40dc-441a-b5e3-a9e07e4ccddd"
+			name="PlaybackTime"
+			refimgid="5c67acbe-b5d0-4df2-902f-8e283a5e0055"
+			searchtimeout="3000ms">
+				/form[@title='Playback Controller']/container[@type='JPanel']/container[@accessiblename='Playback Time']/container[@name='viewport']/text
+			</item>
+			<item
+			capname="text"
+			id="1dd7017c-7525-46d8-8561-9c1d0d0385e5"
+			name="TimeToNextEvent"
+			searchtimeout="3000ms">
+				/form[@title='Playback Controller']/container[@type='JPanel']/container[@accessiblename='Time To Next Event']/container[@name='viewport']/text
+			</item>
+			<item
+			capname="text"
+			id="2d4b8a39-b5d9-4b88-895f-90362d09b42c"
+			name="ScaleFactor"
+			searchtimeout="3000ms">
+				/form[@title='Playback Controller']/container[@type='JPanel']/container[@accessiblename='Scale Factor']/container[@name='viewport']/text
+			</item>
+			<folder
+			capname="table"
+			id="639772a7-bf5a-418b-a625-3ce0b0023861"
+			isrooted="True"
+			name="EventGroupTable"
+			searchtimeout="3000ms"
+			usecache="False">
+				<folder
+				capname="row"
+				id="3b66e55b-7878-4a7f-849f-589330703367"
+				isrooted="True"
+				name="EventGroupTablebyRow"
+				searchtimeout="3000ms"
+				usecache="False">
+					<item
+					capname="cell"
+					id="1cfd6201-eb74-470c-ab23-3ea669e59507"
+					name="Breakpoint"
+					searchtimeout="3000ms">
+						/form[@title='Playback Controller']/container/container/container[@name='viewport']/table[@type='EventGroupTable'][1]/row[@index=$EventGroupRowIndex]/cell[@columnindex='0']
+					</item>
+					<item
+					capname="cell"
+					id="1ae087a8-8247-4cf0-966d-d62d54cf5191"
+					name="Action"
+					searchtimeout="3000ms">
+						/form[@title='Playback Controller']/container/container/container[@name='viewport']/table[@type='EventGroupTable'][1]/row[@index=$EventGroupRowIndex]/cell[@columnindex='1']
+					</item>
+					<item
+					capname="cell"
+					id="96f59fa3-254c-4d8b-a84d-268eb989ebea"
+					name="Description"
+					searchtimeout="3000ms">
+						/form[@title='Playback Controller']/container/container/container[@name='viewport']/table[@type='EventGroupTable'][1]/row[@index=$EventGroupRowIndex]/cell[@columnindex='2']
+					</item>
+					<item
+					capname="cell"
+					id="fa286328-aa3c-4752-8e76-e539605121ef"
+					name="Time"
+					searchtimeout="3000ms">
+						/form[@title='Playback Controller']/container/container/container[@name='viewport']/table[@type='EventGroupTable'][1]/row[@index=$EventGroupRowIndex]/cell[@columnindex='3']
+					</item>
+					<item
+					capname="cell"
+					id="8c5b5abb-4bb5-4a2e-ab25-9c7eb64ff513"
+					name="Form"
+					searchtimeout="3000ms">
+						/form[@title='Playback Controller']/container/container/container[@name='viewport']/table[@type='EventGroupTable'][1]/row[@index=$EventGroupRowIndex]/cell[@columnindex='4']
+					</item>
+					<item
+					capname="cell"
+					id="007e16aa-7b5d-47e2-ac09-30f27e21b796"
+					name="User"
+					searchtimeout="3000ms">
+						/form[@title='Playback Controller']/container/container/container[@name='viewport']/table[@type='EventGroupTable'][1]/row[@index=$EventGroupRowIndex]/cell[@columnindex='5']
+					</item>
+					<basepath>
+						/form[@title='Playback Controller']/container/container/container[@name='viewport']/table[@type='EventGroupTable'][1]/row[@index=$EventGroupRowIndex]
+					</basepath>
+				</folder>
+				<item
+				capname="column"
+				id="c6ed45bb-97c8-4aeb-a2fc-ba03469e3e47"
+				name="BreakpointColumn"
+				searchtimeout="3000ms">
+					/form[@title='Playback Controller']/container/container/container[@name='viewport']/table[@type='EventGroupTable'][1]/column[@text='Breakpoint']
+				</item>
+				<item
+				capname="column"
+				id="51145bbe-2906-4276-b549-3fedd4835343"
+				name="ActionColumn"
+				searchtimeout="3000ms">
+					/form[@title='Playback Controller']/container/container/container[@name='viewport']/table[@type='EventGroupTable'][1]/column[@text='Action']
+				</item>
+				<item
+				capname="column"
+				id="f15e2e26-4306-4b32-9966-f9cc58213a0f"
+				name="DescriptionColumn"
+				searchtimeout="3000ms">
+					/form[@title='Playback Controller']/container/container/container[@name='viewport']/table[@type='EventGroupTable'][1]/column[@text='Description']
+				</item>
+				<item
+				capname="column"
+				id="5a6fa3fb-7176-4896-936b-9ffb8d3ea3fb"
+				name="TimeColumn"
+				searchtimeout="3000ms">
+					/form[@title='Playback Controller']/container/container/container[@name='viewport']/table[@type='EventGroupTable'][1]/column[@text='Time']
+				</item>
+				<item
+				capname="column"
+				id="296415a5-a9c2-4320-adca-8a752b8108f4"
+				name="FormColumn"
+				searchtimeout="3000ms">
+					/form[@title='Playback Controller']/container/container/container[@name='viewport']/table[@type='EventGroupTable'][1]/column[@text='Form']
+				</item>
+				<item
+				capname="column"
+				id="3f4fb466-7ef0-4897-93a4-a93e9c2bda8d"
+				name="UserColumn"
+				searchtimeout="3000ms">
+					/form[@title='Playback Controller']/container/container/container[@name='viewport']/table[@type='EventGroupTable'][1]/column[@text='User']
+				</item>
+				<basepath>
+					/form[@title='Playback Controller']/container/container/container[@name='viewport']/table[@type='EventGroupTable'][1]
+				</basepath>
+			</folder>
+			<folder
+			capname="table"
+			id="613b7aa1-efda-4e50-96db-b849ca6f6284"
+			isrooted="True"
+			name="EventGroupTable2"
+			searchtimeout="3000ms"
+			usecache="False">
+				<folder
+				capname="row"
+				id="b2f85de3-d323-44ec-be99-00fe54a674f8"
+				isrooted="True"
+				name="EventGroupTablebyRow"
+				searchtimeout="3000ms"
+				usecache="False">
+					<item
+					capname="cell"
+					id="e911f5d2-7843-4363-ba68-afd416c5f320"
+					name="Breakpoint"
+					searchtimeout="3000ms">
+						/form[@title='Playback Controller']/container/container/container[@name='viewport']/table[@type='EventGroupTable'][2]/row[@index=$EventGroupRowIndex]/cell[@columnindex='0']
+					</item>
+					<item
+					capname="cell"
+					id="cef0b02a-a50c-458d-895d-030c9edb8109"
+					name="Action"
+					searchtimeout="3000ms">
+						/form[@title='Playback Controller']/container/container/container[@name='viewport']/table[@type='EventGroupTable'][2]/row[@index=$EventGroupRowIndex]/cell[@columnindex='1']
+					</item>
+					<item
+					capname="cell"
+					id="50cfb461-de5f-4c4b-a854-bc02e1d48a8b"
+					name="Description"
+					searchtimeout="3000ms">
+						/form[@title='Playback Controller']/container/container/container[@name='viewport']/table[@type='EventGroupTable'][2]/row[@index=$EventGroupRowIndex]/cell[@columnindex='2']
+					</item>
+					<item
+					capname="cell"
+					id="dd11d8ee-5940-4903-9145-bb948bffa644"
+					name="Time"
+					searchtimeout="3000ms">
+						/form[@title='Playback Controller']/container/container/container[@name='viewport']/table[@type='EventGroupTable'][2]/row[@index=$EventGroupRowIndex]/cell[@columnindex='3']
+					</item>
+					<item
+					capname="cell"
+					id="e963c98b-d547-47f0-9e8d-cdb913aa213d"
+					name="Form"
+					searchtimeout="3000ms">
+						/form[@title='Playback Controller']/container/container/container[@name='viewport']/table[@type='EventGroupTable'][2]/row[@index=$EventGroupRowIndex]/cell[@columnindex='4']
+					</item>
+					<item
+					capname="cell"
+					id="9f265cef-2b78-4f2f-87c8-ca94dd726627"
+					name="User"
+					searchtimeout="3000ms">
+						/form[@title='Playback Controller']/container/container/container[@name='viewport']/table[@type='EventGroupTable'][2]/row[@index=$EventGroupRowIndex]/cell[@columnindex='5']
+					</item>
+					<basepath>
+						/form[@title='Playback Controller']/container/container/container[@name='viewport']/table[@type='EventGroupTable'][2]/row[@index=$EventGroupRowIndex]
+					</basepath>
+				</folder>
+				<item
+				capname="column"
+				id="40177dd7-b3e4-465a-8dd2-16a856a1960e"
+				name="BreakpointColumn"
+				searchtimeout="3000ms">
+					/form[@title='Playback Controller']/container/container/container[@name='viewport']/table[@type='EventGroupTable'][2]/column[@text='Breakpoint']
+				</item>
+				<item
+				capname="column"
+				id="1299db23-c6c8-4134-848b-348c628495d1"
+				name="ActionColumn"
+				searchtimeout="3000ms">
+					/form[@title='Playback Controller']/container/container/container[@name='viewport']/table[@type='EventGroupTable'][2]/column[@text='Action']
+				</item>
+				<item
+				capname="column"
+				id="653cc382-4628-44e9-a215-89f306e70d11"
+				name="DescriptionColumn"
+				searchtimeout="3000ms">
+					/form[@title='Playback Controller']/container/container/container[@name='viewport']/table[@type='EventGroupTable'][2]/column[@text='Description']
+				</item>
+				<item
+				capname="column"
+				id="8d363557-6dc7-445c-bdd7-0bfd58395235"
+				name="TimeColumn"
+				searchtimeout="3000ms">
+					/form[@title='Playback Controller']/container/container/container[@name='viewport']/table[@type='EventGroupTable'][2]/column[@text='Time']
+				</item>
+				<item
+				capname="column"
+				id="a2b50aa0-c0de-4b12-a5dc-59d6d88ebf2b"
+				name="FormColumn"
+				searchtimeout="3000ms">
+					/form[@title='Playback Controller']/container/container/container[@name='viewport']/table[@type='EventGroupTable'][2]/column[@text='Form']
+				</item>
+				<item
+				capname="column"
+				id="7577604b-9ec2-40cd-9bb4-96a1b1def43b"
+				name="UserColumn"
+				searchtimeout="3000ms">
+					/form[@title='Playback Controller']/container/container/container[@name='viewport']/table[@type='EventGroupTable'][2]/column[@text='User']
+				</item>
+				<basepath>
+					/form[@title='Playback Controller']/container/container/container[@name='viewport']/table[@type='EventGroupTable'][2]
+				</basepath>
+			</folder>
+			<item
+			capname="button"
+			id="a9449627-a8fa-4ab4-8df1-66312031ec63"
+			name="RestartButton"
+			searchtimeout="3000ms">
+				/form[@title='Playback Controller']/container[@type='JPanel']/container[@type='UIJPanel']/container/button[1]
+			</item>
+			<item
+			capname="button"
+			id="0262a365-92f3-4748-b4f9-f58ee5650307"
+			name="DecreaseSpeedButton"
+			searchtimeout="3000ms">
+				/form[@title='Playback Controller']/container[@type='JPanel']/container[@type='UIJPanel']/container/button[2]
+			</item>
+			<item
+			capname="button"
+			id="3d0892d3-44fe-4c01-8734-3c3330079558"
+			name="PreviousEventButton"
+			searchtimeout="3000ms">
+				/form[@title='Playback Controller']/container[@type='JPanel']/container[@type='UIJPanel']/container/button[3]
+			</item>
+			<item
+			capname="button"
+			id="9e17f333-f715-4cb1-a713-fe77d23ab2f3"
+			name="PauseButton"
+			searchtimeout="3000ms">
+				/form[@title='Playback Controller']/container[@type='JPanel']/container[@type='UIJPanel']/container/button[4]
+			</item>
+			<item
+			capname="button"
+			id="a6a55c44-45b5-4533-8d6d-08aa3bb54b58"
+			name="PlayButton"
+			searchtimeout="3000ms">
+				/form[@title='Playback Controller']/container[@type='JPanel']/container[@type='UIJPanel']/container/button[5]
+			</item>
+			<item
+			capname="button"
+			id="339946ae-374d-445e-b51f-ff3fa5f1d053"
+			name="NextEventButton"
+			searchtimeout="3000ms">
+				/form[@title='Playback Controller']/container[@type='JPanel']/container[@type='UIJPanel']/container/button[6]
+			</item>
+			<item
+			capname="button"
+			id="54f01496-68db-407c-9597-639a9daa597c"
+			name="IncreaseSpeedButton"
+			searchtimeout="3000ms">
+				/form[@title='Playback Controller']/container[@type='JPanel']/container[@type='UIJPanel']/container/button[7]
+			</item>
+			<folder
+			capname="form"
+			id="e288db68-b66f-4b31-b1bc-f14f0fb1c055"
+			isrooted="True"
+			name="Save_Form"
+			searchtimeout="3000ms"
+			usecache="False">
+				<folder
+				capname="unknown"
+				id="daf33e83-af09-44ef-be77-1544196788a0"
+				isrooted="False"
+				name="WindowControls"
+				searchtimeout="0ms">
+					<item
+					capname="button"
+					id="8c49a0fd-51a0-41d5-8ee0-acbf84056f9e"
+					name="close"
+					searchtimeout="3000ms">
+						/form[@title='Playback Controller']/../form[@title='Save']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Close']
+					</item>
+				</folder>
+				<folder
+				capname="container"
+				id="a4c534cc-853d-41aa-999a-de8633414884"
+				isrooted="True"
+				name="MenuBar"
+				searchtimeout="3000ms"
+				usecache="False">
+					<folder
+					capname="unknown"
+					id="68d343f2-d0c1-4b2e-b06e-54a0ecc6d885"
+					isrooted="False"
+					name="SaveIn"
+					searchtimeout="0ms">
+						<item
+						capname="combobox"
+						id="6096cebf-2c3e-431f-aba4-07135f68659b"
+						name="SaveInText"
+						searchtimeout="3000ms">
+							/form[@title='Playback Controller']/../form[@title='Save']/element[@type='JFileChooser']/container/combobox[@accessiblename='Save In:']
+						</item>
+						<item
+						capname="button"
+						id="8ea5154c-4894-46d2-b57b-65cfa6a02ba8"
+						name="SaveInButton"
+						searchtimeout="3000ms">
+							/form[@title='Playback Controller']/../form[@title='Save']/element[@type='JFileChooser']/container/combobox[@accessiblename='Save In:']/button
+						</item>
+					</folder>
+					<item
+					capname="button"
+					id="1561883b-b29d-449c-9b1d-87a315eb344e"
+					name="BottumUpButton"
+					searchtimeout="3000ms">
+						/form[@title='Playback Controller']/../form[@title='Save']/element[@type='JFileChooser']/container/container[@type='JPanel']/button[@accessiblename='Up']
+					</item>
+					<item
+					capname="button"
+					id="1d2bafde-f60d-4cfb-9f0b-5d2b0475930c"
+					name="HomeButton"
+					searchtimeout="3000ms">
+						/form[@title='Playback Controller']/../form[@title='Save']/element[@type='JFileChooser']/container/container[@type='JPanel']/button[@text='']
+					</item>
+					<item
+					capname="button"
+					id="7b970d18-577e-4ea1-83ea-1859326687b9"
+					name="NewFolderButton"
+					searchtimeout="3000ms">
+						/form[@title='Playback Controller']/../form[@title='Save']/element[@type='JFileChooser']/container/container[@type='JPanel']/button[@accessiblename='New Folder']
+					</item>
+					<item
+					capname="checkbox"
+					id="44aaec43-0675-4948-ac1d-f68fa958cfba"
+					name="ListCheckbox"
+					searchtimeout="3000ms">
+						/form[@title='Playback Controller']/../form[@title='Save']/element[@type='JFileChooser']/container/container[@type='JPanel']/checkbox[@accessiblename='List']
+					</item>
+					<item
+					capname="checkbox"
+					id="7c78cb16-8f7b-4190-9597-e35923a8e16c"
+					name="DetailsCheckbox"
+					searchtimeout="3000ms">
+						/form[@title='Playback Controller']/../form[@title='Save']/element[@type='JFileChooser']/container/container[@type='JPanel']/checkbox[@accessiblename='Details']
+					</item>
+					<basepath>
+						/form[@title='Playback Controller']/../form[@title='Save']/element[@type='JFileChooser']/container
+					</basepath>
+				</folder>
+				<item
+				capname="text"
+				id="c3fd8edc-1ea1-4f5b-8b63-6af684d84f81"
+				name="FileNameText"
+				searchtimeout="3000ms">
+					/form[@title='Playback Controller']/../form[@title='Save']/element/container/container/text[@type='MetalFileChooserUI$3']
+				</item>
+				<folder
+				capname="unknown"
+				id="61f74505-c711-4667-93b3-9d44e3675173"
+				isrooted="False"
+				name="FilesOfType"
+				searchtimeout="0ms">
+					<item
+					capname="combobox"
+					id="6ab35da9-b5b1-4603-8d0e-2ebab7b4f9db"
+					name="FilesOfTypeText"
+					searchtimeout="3000ms">
+						/form[@title='Playback Controller']/../form[@title='Save']/element/container/container/combobox[@accessiblename='Files of Type:']
+					</item>
+					<item
+					capname="button"
+					id="e29bab20-1fb5-4231-9ae3-4beea7c8e291"
+					name="FilesOfTypeButton"
+					searchtimeout="3000ms">
+						/form[@title='Playback Controller']/../form[@title='Save']/element/container/container/combobox[@accessiblename='Files of Type:']/button
+					</item>
+				</folder>
+				<item
+				capname="button"
+				id="cc66df3d-c3db-4600-bb7a-5acec9401b4a"
+				name="SaveButton"
+				searchtimeout="3000ms">
+					/form[@title='Playback Controller']/../form[@title='Save']/element/container/container/button[@name='defaultButton']
+				</item>
+				<item
+				capname="button"
+				id="a35217d0-29c0-4701-9c10-3a6fe6796cd2"
+				name="CancelButton"
+				searchtimeout="3000ms">
+					/form[@title='Playback Controller']/../form[@title='Save']/element/container/container/button[@text='Cancel']
+				</item>
+				<basepath>
+					/form[@title='Playback Controller']/../form[@title='Save']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="21c3afcd-2104-492e-85ef-361f0508cdcc"
+			isrooted="True"
+			name="Loading_Data"
+			searchtimeout="3000ms"
+			usecache="False">
+				<basepath>
+					/form[@title='Playback Controller']/../form[@title='Loading Data...']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="ff08e515-da04-416a-b5f6-3ac4562fab72"
+			isrooted="True"
+			name="Cannot_Perform_Playback"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="button"
+				id="3836bdd4-7fb2-4594-9021-045019e6eeed"
+				name="OkButton"
+				searchtimeout="3000ms">
+					/form[@title='Playback Controller']/../form[@title='Cannot Perform Playback']/container/container[@name='OptionPane.buttonArea']/button[@name='OptionPane.button']
+				</item>
+				<basepath>
+					/form[@title='Playback Controller']/../form[@title='Cannot Perform Playback']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title='Playback Controller']
+			</basepath>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+		<var
+		id="0f73e7bf-31ce-4c45-b02f-a65915885bf6"
+		name="LabelsAppliedIndex">
+			0
+		</var>
+		<var
+		id="e9be4e6b-84ef-4400-9e4d-7599312449dd"
+		name="Label">
+		</var>
+		<var
+		id="fb404b00-b5dc-44ca-8158-e831f96c9379"
+		name="Day">
+			1
+		</var>
+		<var
+		id="556f4578-6a69-4b1d-91fa-20279a01fa72"
+		name="Division">
+		</var>
+		<var
+		id="0ae5d4fe-58a8-4325-adf2-678afd282a17"
+		name="Territory">
+		</var>
+		<var
+		id="5d611573-ae02-49c9-99c1-fe3748705014"
+		name="EventGroupRowIndex">
+			0
+		</var>
+		<var
+		id="7677465c-0092-464b-8193-dc2a9f4ccec4"
+		name="Documents">
+		</var>
+	</variables>
+</repository>

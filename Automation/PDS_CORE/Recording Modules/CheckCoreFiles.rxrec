@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="142bea8a-3a22-4499-882d-6c9bef4e89bf"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CheckCoreFiles"
+	namespace="PDS_CORE.Recording_Modules">
+	</codegen>
+	<variables>
+		<var
+		id="21da9675-9f68-430d-986c-c838c2aab3fa"
+		name="serverLabel">
+			CN-PDS_2018-03-13-1200
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		autogenmethod="True"
+		classname="CheckCore"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="CheckCore"
+		namespace="PDS_CORE.Recording_Modules"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="c07dd459-4f6c-4d5e-a5ca-b3fdb32418df">
+				<argument
+				argname="labelName"
+				id="dce26dcb-56f8-4277-800e-7e17c2ebee78"
+				variable="serverLabel">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="0f6d1030-1109-45c8-82fb-eea738840ef0"
+	name="PDS_CORERepository"
+	relativepath="..\PDS_CORERepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="PDS_CORERepository"
+		namespace="PDS_CORE">
+		</codegen>
+		<rootfolder
+		id="5a3e11ed-7012-4569-a9b8-11892349cf95"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CheckCoreFiles.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

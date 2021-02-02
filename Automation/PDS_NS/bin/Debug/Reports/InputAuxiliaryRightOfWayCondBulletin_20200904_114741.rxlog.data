@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="16.57s"
+		durationms="16571"
+		type="root"
+		rid="a6e89e6a5b6f7db"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="stelab"
+		rxversion="9.3.1.0"
+		host="GAATLENPTCW473W"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="9/4/2020 11:47:47 AM"
+		timestampiso="2020-09-04T15:47:47"
+		endtime="9/4/2020 11:48:04 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="InputAuxiliaryRightOfWayCondBulletin">
+		<detail>
+			InputAuxiliaryRightOfWayCondBulletin
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.556"
+			timeRelativeToTestModuleStartTime="00:07.556"
+			timeWallClock="11:47:55"
+			time="00:07.556"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>bulletinSeed, district, milepost, instructions, issuedBy, effectiveTimeDifference, untilTimeDifference, expectedFeedback, pressComplete
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.528"
+			timeRelativeToTestModuleStartTime="00:11.528"
+			timeWallClock="11:47:59"
+			time="00:11.528"
+			level="Info"
+			category="TestStep">
+			<message>
+				Selecting Bulletin Type {Auxiliary - Right of Way Cond.}.
+			</message>
+			<metainfo
+				codefile="c:\Ranorex\Automation\PDS_NS\UserCodeCollections\NS_InputBulletins.cs"
+				codeline="65"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.625"
+			timeRelativeToTestModuleStartTime="00:11.625"
+			timeWallClock="11:47:59"
+			time="00:11.625"
+			level="Info"
+			category="User">
+			<message>
+				Test Suite parameter 'RapidClick' not found.  Defaulting to false.  Error : Object reference not set to an instance of an object.
+			</message>
+			<metainfo
+				codefile="c:\Ranorex\Automation\PDS_CORE\Code_Utils\GeneralUtilities.cs"
+				codeline="1404"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.963"
+			timeRelativeToTestModuleStartTime="00:12.963"
+			timeWallClock="11:48:00"
+			time="00:12.963"
+			level="Info"
+			category="User">
+			<message>
+				Index: 9
+			</message>
+			<metainfo
+				codefile="c:\Ranorex\Automation\PDS_NS\UserCodeCollections\NS_InputBulletins.cs"
+				codeline="68"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.571"
+			timeRelativeToTestModuleStartTime="00:16.571"
+			timeWallClock="11:48:04"
+			time="00:16.571"
+			level="Info"
+			category="User">
+			<message>
+				PressComplete set to false so ending here.
+			</message>
+			<metainfo
+				codefile="c:\Ranorex\Automation\PDS_NS\UserCodeCollections\NS_InputBulletins.cs"
+				codeline="1700"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

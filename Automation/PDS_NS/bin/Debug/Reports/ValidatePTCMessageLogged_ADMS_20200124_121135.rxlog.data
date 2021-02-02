@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="9.06s"
+		durationms="9055"
+		type="root"
+		rid="fd1b45ff946c960"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="212719544"
+		rxversion="9.2.0.0"
+		host="G60RZNQ2E"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="3840x1080"
+		timestamp="1/24/2020 12:11:43 PM"
+		timestampiso="2020-01-24T17:11:43"
+		endtime="1/24/2020 12:11:52 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ValidatePTCMessageLogged_ADMS">
+		<detail>
+			ValidatePTCMessageLogged_ADMS
+		</detail>
+		<errormessage>
+			Object reference not set to an instance of an object.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.815"
+			timeRelativeToTestModuleStartTime="00:08.815"
+			timeWallClock="12:11:51"
+			time="00:08.815"
+			level="Warn"
+			category="Data"
+			errimg="images_Validate_1baa80a6\Validate_1baa80a6_c25031a4_trace.jpg"
+			errthumb="images_Validate_1baa80a6\Validate_1baa80a6_c25031a4_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>ptcMessageId
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.901"
+			timeRelativeToTestModuleStartTime="00:08.901"
+			timeWallClock="12:11:52"
+			time="00:08.901"
+			level="Info"
+			category="TestStep"
+			errimg="images_Validate_1baa80a6\Validate_1baa80a6_beee095b_trace.jpg"
+			errthumb="images_Validate_1baa80a6\Validate_1baa80a6_beee095b_trace_thumb.jpg">
+			<message>
+				Validating that PTC message '' has been logged in ADMS
+			</message>
+			<metainfo
+				codefile="c:\GE_DEV\janus\Automation\Oracle\Code Utils\ADMSEnvironment.cs"
+				codeline="163"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.922"
+			timeRelativeToTestModuleStartTime="00:08.922"
+			timeWallClock="12:11:52"
+			time="00:08.922"
+			level="Error"
+			category="Module"
+			errimg="images_Validate_1baa80a6\Validate_1baa80a6_beee095b_trace.jpg"
+			errthumb="images_Validate_1baa80a6\Validate_1baa80a6_beee095b_trace_thumb.jpg">
+			<message>
+				Object reference not set to an instance of an object.
+			</message>
+			<metainfo
+				stacktrace="   at Oracle.Code_Utils.ADMSEnvironment.Validate_PTCMessageLogged_ADMS(String ptcMessageId) in c:\GE_DEV\janus\Automation\Oracle\Code Utils\ADMSEnvironment.cs:line 170
+   at PDS_NS.Recording_Modules.Database.ValidatePTCMessageLogged_ADMS.Ranorex.Core.Testing.ITestModule.Run() in c:\GE_DEV\janus\Automation\PDS_NS\Recording Modules\Database\ValidatePTCMessageLogged_ADMS.cs:line 95
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\GE_DEV\janus\Automation\Oracle\Code Utils\ADMSEnvironment.cs"
+				codeline="170"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

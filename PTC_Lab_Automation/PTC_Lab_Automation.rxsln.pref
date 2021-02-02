@@ -1,0 +1,21 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>{908DFD02-C599-4E8B-901D-40165C650B65}</string>
+      <string>0d6c2f12-bb53-4599-90ad-748b72c1dd89</string>
+      <string>179b5619-908f-43b6-a955-33d13a046cd6</string>
+      <string>e14879f1-9cad-48bf-a381-2ceceb36db85</string>
+      <string>{E73041DC-39C5-4AB0-8EF2-289A0442B35F}</string>
+      <string>b3903f0b-b213-42ae-934d-af0143a72410</string>
+      <string>16809449-ead2-4d71-976e-0fcee412c1ff</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution PTC_Lab_Automation[OnBoard[Recording Modules[InitializeLogAgent.rxrec[]MainOnBoardLoop.rxrec[]TestFunc.rxrec[]]UserCodeCollections[]]PDS_NS[Recording Modules[Track Authorities[]]]PTCLab_Test_Execution[]]]&#xD;&#xA;Solution PTC_Lab_Automation\PTCLab_Test_Execution\Chaitanya.rxtst&#xD;&#xA;Solution PTC_Lab_Automation\PTCLab_Test_Execution" />
+  <StartupProject value="{0D4F245A-29D1-4E63-A3E1-5C8D6DBBEFFA}" />
+</Properties>

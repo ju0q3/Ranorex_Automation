@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="045e3395-0d9b-4d30-9425-2646007eeba9"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ClickTransmitControlRequestList"
+	namespace="PDS_NS.Recording_Modules.Trackline">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="ee454333-2471-4628-81f1-2f0887807059"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="d3ee4200-48ab-455c-aca8-3e945b039359"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@type='Jtlr_TracklineWindow']/container[@type='JPanel']/container[@type='JScrollPane']/container[@name='viewport']/toolbar[@type='SwankyToolbar']/button[7]
+				</path>
+			</info>
+		</mouseitem>
+		<explicitdelayitem
+		duration="500ms"
+		enabled="True"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</explicitdelayitem>
+	</recorditems>
+	<repository
+	id="99db1ee9-18b9-40fb-9aa1-f8be4efc8d38"
+	name="Trackline_Repo"
+	relativepath="..\..\Trackline_Repo.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="Trackline_Repo"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="a7f431f9-6ac1-4a74-9611-247a94487456"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ClickTransmitControlRequestList.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

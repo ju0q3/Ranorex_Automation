@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="f7837a19-fae6-4e2b-8389-d98e45b0c3f2"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="PopupForUserBOSValidations"
+	namespace="PTC_Lab_Automation.Recording_Modules.LogManagerActions">
+	</codegen>
+	<variables>
+		<var
+		id="f08cb2d0-7da0-4f12-b0ee-7775e3da45e3"
+		name="userComments">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="PopupForUserBOSValidations"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="popupforBOSValidations"
+		namespace="PTC_Lab_Automation.Recording_Modules.LogManagerActions"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="67150236-aa52-40d1-9875-ac5d186e180b">
+				<argument
+				argname="userComments"
+				id="1306c867-04d3-4311-8e0e-814661e7e05e"
+				variable="userComments">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="e44994df-4fbc-4c80-8a3c-599d87a51678"
+	name="Test_ExecutionRepository"
+	relativepath="..\..\Test ExecutionRepository.rxrep">
+		<codegen
+		classname="Test_ExecutionRepository"
+		namespace="PTC_Lab_Automation">
+		</codegen>
+		<rootfolder
+		id="dab857d6-db00-487f-8fdd-61a5ad3edc4e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		PopupForUserBOSValidations.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

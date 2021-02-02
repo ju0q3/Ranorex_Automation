@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="4d3ccd62-4c80-44f6-a5d4-3c6e008930c6"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenAuthorityFormFromMainMenu"
+	namespace="PDS_NS.Recording_Modules.Track_Authorities">
+	</codegen>
+	<variables>
+		<var
+		id="56e3e78f-7ea6-4c22-a9b9-6bf521c26c02"
+		name="authorityType">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="NS_Authorities"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="NS_OpenAuthorityForm_MainMenu"
+		namespace="PDS_NS.UserCodeCollections"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="f76a4892-1bef-4612-8563-ed42fa297b15">
+				<argument
+				argname="authorityType"
+				id="3a8ed11e-6298-4b41-877e-6afa2afdaeab"
+				variable="authorityType">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="2aa0b673-65d7-4970-a404-1a79ff55af9d"
+	name="MainMenu_Repo"
+	relativepath="..\..\MainMenu_Repo.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="MainMenu_Repo"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="cd97920f-bb3b-4f03-8b97-6746b0095627"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenAuthorityFormFromMainMenu.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

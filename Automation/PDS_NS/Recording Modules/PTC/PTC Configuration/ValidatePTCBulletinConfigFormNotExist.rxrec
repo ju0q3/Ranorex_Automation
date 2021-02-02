@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="9b107988-bbd1-462c-97d4-e7fbb8e3b32d"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ValidatePTCBulletinConfigFormNotExist"
+	namespace="PDS_NS.Recording_Modules.PTC.PTC_Configuration">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="NotExists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="e225189f-db8b-451d-a44a-d398390e9c53">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="297b2eb9-a4f6-4e92-954c-0373faac1a2a"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/form[@title~'^Positive\ Train\ Control\ \(P']/container[@name='_optimizedTrainControlForm']/container[@name='configTab']/tabpage[@title='Bulletin Configuration']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				yourtext
+			</matchvalue>
+		</validationitem>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="e24378f1-9746-4112-afa1-d62aae4ee432"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="25ccac2b-5c07-4440-acf8-88e0cba874a5"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/form[@title~'^Positive\ Train\ Control\ \(P']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Close']
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="59cf7e7b-82fc-4f0f-8567-2623525b7725"
+	name="SystemConfiguration_Repo"
+	relativepath="..\..\..\SystemConfiguration_Repo.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="SystemConfiguration_Repo"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="f30ceac8-82bc-4d8e-a8c6-d9e7258878f0"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ValidatePTCBulletinConfigFormNotExist.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

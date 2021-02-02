@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="5268f345-a45d-4407-9a14-e55ab0a050bb"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OverridePressureBrakePipe"
+	namespace="PTC_Lab_Automation.Recording_Modules">
+	</codegen>
+	<variables>
+		<var
+		id="bfb08363-50f2-4291-9f42-8a399b58120f"
+		name="checkBrakePipe">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="OverridePressureBrakePipe"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="OverridePressureBrake_MotionControl"
+		namespace="PTC_Lab_Automation.Recording_Modules"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="44a01623-5e14-44b3-8829-3b8e23ff2d9c">
+				<argument
+				argname="checkBrakePipe"
+				id="b300243a-4807-49bd-93e5-099c53c7e225"
+				variable="checkBrakePipe">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="e44994df-4fbc-4c80-8a3c-599d87a51678"
+	name="Test_ExecutionRepository"
+	relativepath="..\Test ExecutionRepository.rxrep">
+		<codegen
+		classname="Test_ExecutionRepository"
+		namespace="PTC_Lab_Automation">
+		</codegen>
+		<rootfolder
+		id="dab857d6-db00-487f-8fdd-61a5ad3edc4e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OverridePressureBrakePipe.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

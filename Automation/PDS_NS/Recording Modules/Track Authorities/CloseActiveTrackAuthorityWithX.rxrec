@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="efe3f3f0-9bb9-4f3c-9e6d-b81ef1d439b1"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseActiveTrackAuthorityWithX"
+	namespace="PDS_NS.Recording_Modules.Track_Authorities">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="GeneralUtilities"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="ClickAndWaitForNotExistWithRetry"
+		namespace="PDS_CORE.Code_Utils"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="fdccea3e-529e-4d1e-898d-0c2447bf4a5b">
+				<argument
+				argname="buttonInfo"
+				id="be2e9f18-0fa2-4037-b5ce-b10405830064">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="5f68ae52-1807-4008-baac-b97be89a2315"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/form[@title~'^Communication\ Exchange\ Tr' or @title~'^OK\ Track\ Authority\ ' or @title~'Active\ Track\ Authority\ ' or @title~'^Release\ Pending\ Track\ Aut' or @title~'^Update\ Pending\ Track\ Auth' or @title~'^Create\ Track\ Authority\ ']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Close']
+						</path>
+					</info>
+				</argument>
+				<argument
+				argname="waitFor"
+				id="c9b2b2d0-3bec-45ce-a058-081fcb9727c9">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="cfed13df-eeb3-4a6a-9337-3929d6a8fa4c"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/form[@title~'^Communication\ Exchange\ Tr' or @title~'^OK\ Track\ Authority\ ' or @title~'Active\ Track\ Authority\ ' or @title~'^Release\ Pending\ Track\ Aut' or @title~'^Update\ Pending\ Track\ Auth' or @title~'^Create\ Track\ Authority\ ']
+						</path>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="48711a70-4260-48d9-b9be-f4c41f092706"
+	name="TrackAuthorities_Repo"
+	relativepath="..\..\TrackAuthorities_Repo.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="TrackAuthorities_Repo"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="1a7686ed-edee-41c2-9630-14a987ef7356"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseActiveTrackAuthorityWithX.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

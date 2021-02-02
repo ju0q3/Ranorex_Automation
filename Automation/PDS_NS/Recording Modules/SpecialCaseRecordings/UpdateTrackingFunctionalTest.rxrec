@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="d58cf5c9-7e0a-415e-bb84-3ae7c113c60d"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="UpdateTrackingFunctionalTest"
+	namespace="PDS_NS.Recording_Modules.SpecialCaseRecordings">
+	</codegen>
+	<variables>
+		<var
+		id="9182d4c3-dc8b-4d7f-8341-06e5e6dbbcc6"
+		name="iterations">
+			2
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="UpdateTrackingFunctionalTest"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="TestStuff"
+		namespace="PDS_NS.Recording_Modules.SpecialCaseRecordings"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="4bd1aab9-31fa-4199-85e4-2ae64aae6e83">
+				<argument
+				argname="iterations"
+				id="6cf00125-38b5-45c7-86b0-46f7590f4937"
+				variable="iterations">
+					<argvaluetype>
+						System.Int32
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="81af6446-71fa-4977-9bd0-411f88dc55ba"
+	name="PDS_NSRepository"
+	relativepath="..\..\PDS_NSRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="PDS_NSRepository"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="b2ba234a-2e7c-4852-8e7f-adb8693853b7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		UpdateTrackingFunctionalTest.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

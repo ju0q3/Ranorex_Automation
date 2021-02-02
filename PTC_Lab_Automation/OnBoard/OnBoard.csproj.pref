@@ -1,0 +1,18 @@
+﻿<Properties>
+  <Array name="active" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="OnBoard.UserCodeCollections.OnBoardFunctions.TelnetIntoCDUsAndReset_OnBoard()" />
+      <Element value="OnBoard.UserCodeCollections.MotionControl.MPWait_MotionControl(String milePost, String direction)" />
+      <Element value="OnBoard.UserCodeCollections.OnBoardFunctions.ValidateFenceColor_OnBoard(String milePost, String milePostOffset, String direction, String fenceOrTrackPositions, String color)" />
+      <Element value="OnBoard.UserCodeCollections.FieldSimulator.SetFTTDevice_FieldSimulator(String wiu, String deviceType, String device, String state)" />
+      <Element value="OnBoard.UserCodeCollections.OnBoardFunctions.SelectNSLoco_OnBoard()" />
+      <Element value="OnBoard.UserCodeCollections.OnBoardFunctions.executeITCMCommand(String command)" />
+    </Array>
+  </Properties>
+</Properties>

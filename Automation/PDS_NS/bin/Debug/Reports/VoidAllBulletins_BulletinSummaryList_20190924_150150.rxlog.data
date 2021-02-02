@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="85491d2270ccee7"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="503036149"
+		rxversion="9.1.1.0"
+		host="GPF1QMD4CE"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="5520x1200"
+		timestamp="9/24/2019 3:01:56 PM"
+		timestampiso="2019-09-24T19:01:56"
+		endtime="9/24/2019 3:02:04 PM"
+		timeoutfactor="1"
+		module="VoidAllBulletins_BulletinSummaryList">
+		<detail>
+			VoidAllBulletins_BulletinSummaryList
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.920"
+			timeRelativeToTestModuleStartTime="00:05.920"
+			timeWallClock="15:02:02"
+			time="00:05.920"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>closeForms
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.506"
+			timeRelativeToTestModuleStartTime="00:08.506"
+			timeWallClock="15:02:04"
+			time="00:08.506"
+			level="Info"
+			category="User">
+			<message>
+				Found 2 bulletins in the list to remove
+			</message>
+			<metainfo
+				codefile="c:\Github\janus\Automation\PDS_NS\UserCodeCollections\NS_Bulletin.cs"
+				codeline="469"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

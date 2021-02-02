@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="86c426fb-3319-475f-9582-2caa54a17bdf"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Click_Pause_MonitorControlPointCommunicationForm"
+	namespace="PDS_NS.Recording_Modules.Trackline">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="530d2236-6b4b-411f-a98f-048f7325f354"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="673d4eef-910d-4983-974e-1cc1b6093eca"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/form[@type='Jtlr_TracklineWindow']/../form[@title~'^Monitor\ Control\ Point\ Com']/container/container[@name='bottomButtonPanel']/button[@name='pauseMonitoringButton']
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="99db1ee9-18b9-40fb-9aa1-f8be4efc8d38"
+	name="Trackline_Repo"
+	relativepath="..\..\Trackline_Repo.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="Trackline_Repo"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="a7f431f9-6ac1-4a74-9611-247a94487456"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Click_Pause_MonitorControlPointCommunicationForm.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

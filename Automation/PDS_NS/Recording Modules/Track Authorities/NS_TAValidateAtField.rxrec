@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="62660e7c-4a0d-48f7-804c-a9b1c539538b"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="NS_TAValidateAtField"
+	namespace="PDS_NS.Recording_Modules.Track_Authorities">
+	</codegen>
+	<variables>
+		<var
+		id="724c12e5-3112-4dc5-8feb-4c922ba07e0f"
+		name="expectedAt">
+			yourValue
+		</var>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="True"
+		searchpropertyid="0fda5a5e-eae2-4474-a8bf-fad6b02cba94">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="expectedAt">
+				</binding>
+			</bindings>
+			<info
+			id="bc8d2204-56c9-4308-a172-120c8ab8264a"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'^Create\ Track\ Authority\ ']/container[@name='MovementAuthorityPanel']/container[@name='CreatePnl']/container[@name='AddresseeAndNumberPnl']/container[@name='_addresseePnl']/combobox[@name='AddresseeLocation']/text[@name='AddresseeLocation_EditorComponent']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				yourValue
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="48711a70-4260-48d9-b9be-f4c41f092706"
+	name="TrackAuthorities_Repo"
+	relativepath="..\..\TrackAuthorities_Repo.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="TrackAuthorities_Repo"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="1a7686ed-edee-41c2-9630-14a987ef7356"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		NS_TAValidateAtField.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

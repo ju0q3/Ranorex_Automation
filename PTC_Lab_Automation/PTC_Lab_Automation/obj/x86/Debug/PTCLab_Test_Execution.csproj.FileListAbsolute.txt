@@ -1,0 +1,9 @@
+C:\GE_DEV\janus\PTC_Lab_Automation\PTC_Lab_Automation\bin\Debug\Test_Execution.rxtst
+C:\GE_DEV\janus\PTC_Lab_Automation\PTC_Lab_Automation\bin\Debug\PTCLab_Test_Execution.exe.config
+C:\GE_DEV\janus\PTC_Lab_Automation\PTC_Lab_Automation\bin\Debug\PTCLab_Test_Execution.xml
+C:\GE_DEV\janus\PTC_Lab_Automation\PTC_Lab_Automation\bin\Debug\PTCLab_Test_Execution.exe
+C:\GE_DEV\janus\PTC_Lab_Automation\PTC_Lab_Automation\bin\Debug\PTCLab_Test_Execution.pdb
+C:\GE_DEV\janus\PTC_Lab_Automation\PTC_Lab_Automation\bin\Debug\Ranorex.Core.Resolver.dll
+C:\GE_DEV\janus\PTC_Lab_Automation\PTC_Lab_Automation\obj\x86\Debug\PTCLab_Test_Execution.csprojResolveAssemblyReference.cache
+C:\GE_DEV\janus\PTC_Lab_Automation\PTC_Lab_Automation\obj\x86\Debug\PTCLab_Test_Execution.exe
+C:\GE_DEV\janus\PTC_Lab_Automation\PTC_Lab_Automation\obj\x86\Debug\PTCLab_Test_Execution.pdb

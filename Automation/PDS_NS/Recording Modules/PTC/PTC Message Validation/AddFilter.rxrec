@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="5e307daf-f655-4f64-b181-7afd7cf46ab1"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="AddFilter"
+	namespace="PDS_NS.Recording_Modules.PTC.PTC_Message_Validation">
+	</codegen>
+	<variables>
+		<var
+		id="160df5c9-0bef-44da-8b0f-14fbc83f41d9"
+		name="filter">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="ReceivePTCFileCollection_NS"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="addValueToFilters"
+		namespace="STE.Code_Utils"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="956dacf3-83f4-4207-941a-c00aa5dde6fd">
+				<argument
+				argname="val"
+				id="8f28375a-1aab-4f83-9581-489304b4eefb"
+				variable="filter">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="81af6446-71fa-4977-9bd0-411f88dc55ba"
+	name="PDS_NSRepository"
+	relativepath="..\..\..\PDS_NSRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="PDS_NSRepository"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="b2ba234a-2e7c-4852-8e7f-adb8693853b7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		AddFilter.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

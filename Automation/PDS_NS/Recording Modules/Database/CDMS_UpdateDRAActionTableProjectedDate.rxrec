@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="b636da83-c623-4c74-b12a-bc0daee7e054"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CDMS_UpdateDRAActionTableProjectedDate"
+	namespace="PDS_NS.Recording_Modules.Database">
+	</codegen>
+	<variables>
+		<var
+		id="063f3740-e83c-4f1b-b4cf-daa5922e58a6"
+		name="trainSeed">
+		</var>
+		<var
+		id="6fd69ea8-b29d-4a1a-adbc-6874d23dfcba"
+		name="fromOpsta">
+		</var>
+		<var
+		id="373622e8-6caf-4f98-970f-87f62eaf1bcd"
+		name="toOpsta">
+		</var>
+		<var
+		id="44cb1123-1a67-460c-8b54-063f79422524"
+		name="tomorrowDate">
+			False
+		</var>
+		<var
+		id="a7360a86-d105-4c00-a521-2b511b2a2f4c"
+		name="yesterdayDate">
+			False
+		</var>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="81af6446-71fa-4977-9bd0-411f88dc55ba"
+	name="PDS_NSRepository"
+	relativepath="..\..\PDS_NSRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="PDS_NSRepository"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="b2ba234a-2e7c-4852-8e7f-adb8693853b7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CDMS_UpdateDRAActionTableProjectedDate.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

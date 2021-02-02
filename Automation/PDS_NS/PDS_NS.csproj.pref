@@ -1,0 +1,18 @@
+﻿<Properties>
+  <Array name="active" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections">
+      <Element value="PDS_NS.UserCodeCollections.NS_Oracle.NS_OracleValidation.NS_ValidateDC_ENED_ABF_OTC_MESSAGE_ADMS(String trainSymbolTrainSeed, String originDateTrainSeed, String minutesBeforeNow, String expectedCount, Boolean validateExists)" />
+      <Element value="PDS_NS.UserCodeCollections.NS_InputBulletins.NS_InputPTCDivisionMessageBulletin(String bulletinSeed, String district, String division, String message, String issuedBy, String effectiveTimeDifference, String expectedFeedback, Boolean pressComplete)" />
+      <Element value="PDS_NS.UserCodeCollections.NS_InputBulletins.NS_InputPTCDistrictMessageBulletin(String bulletinSeed, String district, String messageDistrict, String message, String issuedBy, String effectiveTimeDifference, String untilTimeDifference, String expectedFeedback, Boolean pressComplete)" />
+      <Element value="PDS_NS.UserCodeCollections.NS_InputBulletins.NS_InputTestDemoBulletin(String test1, String test2)" />
+      <Element value="PDS_NS.UserCodeCollections.NS_InputBulletins.NS_InputFuelConservationDirectiveNSBulletin(String bulletinSeed, String district, String districtInput, String milepost1, String milepost2, String maxTonnage, String EW, String H5, String coalGrain, String freight, String imml, String ip, String maximumPoweredAxles, String eachDirection, String trailingTonnage, String currentMaximumPower, String r5, String accurateLoco, String ipTrains, String effectiveTimeDifference, String expectedFeedback, Boolean pressComplete, Boolean closeBulletinRelayForm)" />
+      <Element value="PDS_NS.UserCodeCollections.NS_InputBulletins.NS_InputFuelConservationDirectiveEWBulletin(String bulletinSeed, String district, String districtInput, String milepost1, String milepost2, String maxTonnage, String EW, String H5, String coalGrain, String freight, String imml, String ip, String maximumPoweredAxles, String eachDirection, String trailingTonnage, String currentMaximumPower, String r5, String accurateLoco, String ipTrains, String effectiveTimeDifference, String expectedFeedback, Boolean pressComplete, Boolean closeBulletinRelayForm)" />
+    </Array>
+  </Properties>
+</Properties>

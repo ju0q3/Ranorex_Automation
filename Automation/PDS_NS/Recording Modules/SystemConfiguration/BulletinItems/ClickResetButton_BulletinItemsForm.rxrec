@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="60a366aa-3240-4a84-a913-3bddf4c42159"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ClickResetButton_BulletinItemsForm"
+	namespace="PDS_NS.Recording_Modules.SystemConfiguration.BulletinItems">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="583722d5-a719-4e74-82cd-4dad9ac5530e"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="fbdbc40a-c8f7-496d-930d-ca73c135b1bf"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/form[@title~'^Bulletin\ Item\ Type\ Config']/container[@name='_mainPanel']/container[@name='_buttonsPanel']/button[@name='_resetBtn']
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="59cf7e7b-82fc-4f0f-8567-2623525b7725"
+	name="SystemConfiguration_Repo"
+	relativepath="..\..\..\SystemConfiguration_Repo.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="SystemConfiguration_Repo"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="f30ceac8-82bc-4d8e-a8c6-d9e7258878f0"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ClickResetButton_BulletinItemsForm.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

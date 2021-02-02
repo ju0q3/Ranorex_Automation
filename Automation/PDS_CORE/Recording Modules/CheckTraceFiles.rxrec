@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="d51ec511-06f8-4d72-8172-3b474cbefbaf"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CheckTraceFiles"
+	namespace="PDS_CORE.Recording_Modules">
+	</codegen>
+	<variables>
+		<var
+		id="0d9d5712-08b5-4d28-bfe5-ce0bdef58d63"
+		name="serverLabel">
+			CN-PDS_2018-03-13-1200
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="CheckTraceFiles"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="CheckTrace"
+		namespace="PDS_CORE.Recording_Modules"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="8a41495c-d868-41a5-92a1-8b210fa84bc2">
+				<argument
+				argname="labelName"
+				id="5f0758da-48b7-4f93-947a-bcda8bee99ba"
+				variable="serverLabel">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="0f6d1030-1109-45c8-82fb-eea738840ef0"
+	name="PDS_CORERepository"
+	relativepath="..\PDS_CORERepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="PDS_CORERepository"
+		namespace="PDS_CORE">
+		</codegen>
+		<rootfolder
+		id="5a3e11ed-7012-4569-a9b8-11892349cf95"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CheckTraceFiles.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

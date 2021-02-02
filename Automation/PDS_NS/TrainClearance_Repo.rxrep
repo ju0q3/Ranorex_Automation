@@ -1,0 +1,2683 @@
+﻿<repository
+id="01309a07-4725-4c92-a121-d28d64c6b794"
+name="TrainClearance_Repo"
+rxversion="9.0">
+	<codegen
+	classname="TrainClearance_Repo"
+	namespace="PDS_NS">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="723c489e-9e0e-4b57-a80a-30afe38e8b1e"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		capname="form"
+		id="6ebca664-5415-48c5-aa16-8c3376a21815"
+		isrooted="True"
+		name="Train_Clearance"
+		searchtimeout="3000ms"
+		usecache="True">
+			<folder
+			capname="unknown"
+			id="797456b2-2f20-4fc3-a0d7-d7bcdc5d677a"
+			isrooted="False"
+			name="WindowControls"
+			searchtimeout="0ms">
+				<item
+				capname="button"
+				id="a41378ea-f623-4f4a-aa78-0c9ef70e9c1d"
+				name="Minimize"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Minimize']
+				</item>
+				<item
+				capname="button"
+				id="50a0e038-7e96-4f8c-9e8a-6ced45198c77"
+				name="Maximize"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Maximize']
+				</item>
+				<item
+				capname="button"
+				id="bf903ba9-9530-4120-bc83-f730d0947110"
+				name="Close"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Close']
+				</item>
+			</folder>
+			<folder
+			capname="menubar"
+			id="1ef9b569-8f2c-4304-b29a-29d6776b7e80"
+			isrooted="True"
+			name="MainMenuBar"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="menuitem"
+				id="b778f256-5286-45a7-864f-9c74c728dd89"
+				name="FileButton"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/menubar[@name='menuBar']/menuitem[@text='File']
+				</item>
+				<basepath>
+					/form[@title='Train Clearance']/menubar[@name='menuBar']
+				</basepath>
+			</folder>
+			<folder
+			capname="contextmenu"
+			id="15ea1640-531e-4417-9774-aa6c555cee01"
+			isrooted="True"
+			name="FileMenu"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="menuitem"
+				id="572b04fa-d178-4cef-89a9-54b3f0daceee"
+				name="Close"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/contextmenu[@type='JPopupMenu' and @visible='True']/menuitem[@text='Close']
+				</item>
+				<basepath>
+					/form[@title='Train Clearance']/contextmenu[@type='JPopupMenu' and @visible='True']
+				</basepath>
+			</folder>
+			<folder
+			capname="toolbar"
+			id="cbb58d24-0e80-4a68-8580-91bec29f3dc3"
+			isrooted="True"
+			name="RibbonMenu"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="button"
+				id="6f08fed8-3b6c-4c20-b4c4-d6863a3b24d8"
+				name="MakeCurrent"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/toolbar[@name='toolBar']/button[@name='_makeCurrentBtn']
+				</item>
+				<item
+				capname="button"
+				id="ead6da25-4b4b-4ee7-8269-59de35196ad0"
+				name="Associate"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/toolbar[@name='toolBar']/button[@name='_associateBtn']
+				</item>
+				<item
+				capname="button"
+				id="b547b94e-2c5f-4dd0-925a-1b402afac6d6"
+				name="HelpTopics"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/toolbar[@name='toolBar']/button[3]
+				</item>
+				<basepath>
+					/form[@title='Train Clearance']/toolbar[@name='toolBar']
+				</basepath>
+			</folder>
+			<item
+			capname="text"
+			id="b32c0e0c-86e3-4ae1-aa4e-04864adea770"
+			name="TrainIDText"
+			searchtimeout="3000ms">
+				/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@name='_trainClearanceFieldsPnl']/text[@name='_trainIdField']
+			</item>
+			<item
+			capname="text"
+			id="2bb02e1b-f0f9-49bb-ab09-14e12bfa0314"
+			name="CrewOrigin"
+			searchtimeout="3000ms">
+				/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@name='_trainClearanceFieldsPnl']/text[@name='_crewOriginData']
+			</item>
+			<item
+			capname="text"
+			id="2e536bda-a32b-446b-96a2-05147980984c"
+			name="CrewOriginPassCount"
+			searchtimeout="3000ms">
+				/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@name='_trainClearanceFieldsPnl']/text[@name='_originPassCntData']
+			</item>
+			<item
+			capname="text"
+			id="afccf570-feee-415f-81ac-b08f4f3c5b9f"
+			name="CrewDestination"
+			searchtimeout="3000ms">
+				/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@name='_trainClearanceFieldsPnl']/text[@name='_crewDestinationData']
+			</item>
+			<item
+			capname="text"
+			id="c1df608d-bee3-43c6-8182-08ad9cee038b"
+			name="CrewDestinationPassCount"
+			searchtimeout="3000ms">
+				/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@name='_trainClearanceFieldsPnl']/text[@name='_destinationPassCntData']
+			</item>
+			<folder
+			capname="container"
+			id="bb2504dd-c734-4eee-80d0-cf21ebab0f43"
+			isrooted="True"
+			name="TrainClearanceTabs"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="tabpage"
+				id="4c37841f-3d7c-41b9-9536-e102e014fedf"
+				name="TrainClearance"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Clearance']/tabpage[@title='Train Clearance']
+				</item>
+				<item
+				capname="tabpage"
+				id="de6a213d-8a7a-4a6f-856a-85f94092a2cb"
+				name="TrainSheetSummary"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Clearance']/tabpage[@title='Train Sheet Summary']
+				</item>
+				<basepath>
+					/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Clearance']
+				</basepath>
+			</folder>
+			<folder
+			capname="unknown"
+			id="2ae2fec4-8b14-4bf7-8d0b-12366854e433"
+			isrooted="False"
+			name="TrainClearance"
+			searchtimeout="0ms">
+				<folder
+				capname="container"
+				id="6001ddcb-536f-4cb9-993d-07bb8bf59d31"
+				isrooted="True"
+				name="TrainClearanceHtml"
+				searchtimeout="3000ms"
+				usecache="False">
+					<item
+					capname="webelement"
+					id="3df1e6e0-7e47-4838-acdd-974c1875a537"
+					name="TrainClearanceText"
+					searchtimeout="30000ms">
+						/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Clearance']/container[@name='_trainClearanceTab']/container[@name='_dataPnl']/container[@name='_bulletinDetailsPnl']/container[@name='viewport']/container[@caption~'^&lt;html&gt;']/body/table[2]/tr[1]/td[1]/tag[@innertext&gt;'I have Train Clearance number']
+					</item>
+					<folder
+					capname="unknown"
+					id="7b008887-706d-4129-8081-697c92c021db"
+					isrooted="True"
+					name="TrainClearanceBulletinItemByBulletinNumber"
+					searchtimeout="3000ms"
+					usecache="False">
+						<item
+						capname="webelement"
+						id="0dd1045f-9969-4828-ac53-6f3caa92a07a"
+						name="BulletinNumber"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Clearance']/container[@name='_trainClearanceTab']/container[@name='_dataPnl']/container[@name='_bulletinDetailsPnl']/container[@name='viewport']/container[@caption~'^&lt;html&gt;']/body/table/tr/td[1]/tag[@innertext!~'Train Clearance' and @innertext~$BulletinNumber+'$']/../../td[1]/tag
+						</item>
+						<item
+						capname="webelement"
+						id="d019b499-cb64-4f7c-9052-831f95a293c7"
+						name="BulletinLimits"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Clearance']/container[@name='_trainClearanceTab']/container[@name='_dataPnl']/container[@name='_bulletinDetailsPnl']/container[@name='viewport']/container[@caption~'^&lt;html&gt;']/body/table/tr/td[1]/tag[@innertext!~'Train Clearance' and @innertext~$BulletinNumber+'$']/../../td[2]/tag
+						</item>
+						<item
+						capname="webelement"
+						id="9db3e5c5-81dd-4bcb-a1a8-4de413a2afbd"
+						name="BulletinText"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Clearance']/container[@name='_trainClearanceTab']/container[@name='_dataPnl']/container[@name='_bulletinDetailsPnl']/container[@name='viewport']/container[@caption~'^&lt;html&gt;']/body/table/tr/td[1]/tag[@innertext!~'Train Clearance' and @innertext~$BulletinNumber+'$']/../../td[3]/tag
+						</item>
+						<item
+						capname="webelement"
+						id="052a2d8f-d836-4db0-8842-c2269dfa5df0"
+						name="ListNumber"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Clearance']/container[@name='_trainClearanceTab']/container[@name='_dataPnl']/container[@name='_bulletinDetailsPnl']/container[@name='viewport']/container[@caption~'^&lt;html&gt;']/body/table/tr/td[1]/tag[@innertext!~'Train Clearance' and @innertext~$BulletinNumber+'$']/../../td[4]/tag
+						</item>
+						<basepath>
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Clearance']/container[@name='_trainClearanceTab']/container[@name='_dataPnl']/container[@name='_bulletinDetailsPnl']/container[@name='viewport']/container[@caption~'^&lt;html&gt;']/body/table/tr/td[1]/tag[@innertext!~'Train Clearance' and @innertext~$BulletinNumber+'$']/../..
+						</basepath>
+					</folder>
+					<folder
+					capname="trtag"
+					id="7b85a8e2-79e0-49a5-b43d-c37f76ae98bb"
+					isrooted="True"
+					name="TrainClearanceBulletinItemByIndex"
+					searchtimeout="3000ms"
+					usecache="False">
+						<item
+						capname="webelement"
+						id="d6cf9580-9762-4525-a7c1-ed7064bdf44c"
+						name="BulletinNumber"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Clearance']/container[@name='_trainClearanceTab']/container[@name='_dataPnl']/container[@name='_bulletinDetailsPnl']/container[@name='viewport']/container[@caption~'^&lt;html&gt;']/body/table[$BulletinIndex]/tr/td[1]/tag
+						</item>
+						<item
+						capname="webelement"
+						id="2b1305dc-f3f2-4b40-9bbc-86f6cb1b3c69"
+						name="BulletinLimits"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Clearance']/container[@name='_trainClearanceTab']/container[@name='_dataPnl']/container[@name='_bulletinDetailsPnl']/container[@name='viewport']/container[@caption~'^&lt;html&gt;']/body/table[$BulletinIndex]/tr/td[2]/tag
+						</item>
+						<item
+						capname="webelement"
+						id="ae3506b8-825b-4f02-a970-df827e679737"
+						name="BulletinText"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Clearance']/container[@name='_trainClearanceTab']/container[@name='_dataPnl']/container[@name='_bulletinDetailsPnl']/container[@name='viewport']/container[@caption~'^&lt;html&gt;']/body/table[$BulletinIndex]/tr/td[3]/tag
+						</item>
+						<item
+						capname="webelement"
+						id="94faa9b0-3089-4aab-9cf6-d54e9467c637"
+						name="ListNumber"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Clearance']/container[@name='_trainClearanceTab']/container[@name='_dataPnl']/container[@name='_bulletinDetailsPnl']/container[@name='viewport']/container[@caption~'^&lt;html&gt;']/body/table[$BulletinIndex]/tr/td[4]/tag
+						</item>
+						<basepath>
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Clearance']/container[@name='_trainClearanceTab']/container[@name='_dataPnl']/container[@name='_bulletinDetailsPnl']/container[@name='viewport']/container[@caption~'^&lt;html&gt;']/body/table[$BulletinIndex]/tr
+						</basepath>
+					</folder>
+					<basepath>
+						/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Clearance']/container[@name='_trainClearanceTab']/container[@name='_dataPnl']/container[@name='_bulletinDetailsPnl']/container[@name='viewport']/container[@caption~'^&lt;html&gt;']
+					</basepath>
+				</folder>
+				<item
+				capname="button"
+				id="dac34dcb-3da8-40c1-b401-fe5b0bc42142"
+				name="ChangeRouteButton"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Clearance']/container[@name='_trainClearanceTab']/container[@name='_dataPnl']/container[@name='_buttonsPnl']/button[@name='_routeBtn']
+				</item>
+				<item
+				capname="button"
+				id="e2760a33-0bb0-491d-a01d-0e46ae9a5912"
+				name="IssueTrainClearance"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Clearance']/container[@name='_trainClearanceTab']/container[@name='_dataPnl']/container[@name='_buttonsPnl']/button[@name='_issueTrainClearanceBtn']
+				</item>
+				<item
+				capname="button"
+				id="c66fd5bb-4a67-4ee1-9cee-a8caea2232ed"
+				name="PrintButton"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@name='_buttonsPnl']/button[@name='_printBtn']
+				</item>
+				<item
+				capname="button"
+				id="b712d4b7-e1e8-4ae9-8fbf-3da43be1f744"
+				name="CancelButton"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@name='_buttonsPnl']/button[@name='_cancelBtn']
+				</item>
+				<item
+				capname="button"
+				id="30f9b68d-3f2f-4d95-bf3d-96b1a509545d"
+				name="ResetButton"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@name='_buttonsPnl']/button[@name='_resetBtn']
+				</item>
+			</folder>
+			<folder
+			capname="unknown"
+			id="b6503f84-c9e5-4019-8aa0-44db306860a3"
+			isrooted="False"
+			name="TrainSheetSummary"
+			searchtimeout="0ms">
+				<item
+				capname="text"
+				id="e5f9d1f1-42a2-4b8c-a82e-f4f4a82421d4"
+				name="Date"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container/text[@name='_creationDate']
+				</item>
+				<item
+				capname="text"
+				id="47b72f21-f0ba-48f2-a0da-cb67d2d1c74c"
+				name="Time"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container/text[@name='_creationTime']
+				</item>
+				<item
+				capname="text"
+				id="11ad3b0b-e811-4d3c-8147-9f10e87a8296"
+				name="Train"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container/text[@name='_trainID']
+				</item>
+				<item
+				capname="text"
+				id="36fa2f2a-0bf5-449f-a115-65e839341646"
+				name="Called"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container/text[@name='_crewCalled']
+				</item>
+				<item
+				capname="text"
+				id="fd78a85b-d8a1-446c-9a90-c33c56b6ec1a"
+				name="Destination"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container/text[@name='_destination']
+				</item>
+				<folder
+				capname="table"
+				id="c60b9f5b-d073-44cd-a6eb-2ebaf4d2b5ac"
+				isrooted="True"
+				name="CrewTable"
+				searchtimeout="3000ms"
+				usecache="False">
+					<folder
+					capname="row"
+					id="c2b14678-acfc-44d4-b945-23b9af7518b6"
+					isrooted="True"
+					name="CrewRowByCrewIndex"
+					searchtimeout="3000ms"
+					usecache="False">
+						<item
+						capname="cell"
+						id="cb0507e1-0e57-4481-ac73-768e5fb3ed59"
+						name="TrainsheetCrewButton"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container[@accessiblename='Current']/container/container[@name='viewport']/table[@type='UIJTable'][1]/row[@index=$CrewIndex]/cell[@columnindex='0']
+						</item>
+						<item
+						capname="cell"
+						id="f9c688c6-a3f3-4394-9574-783b8f556970"
+						name="Position"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container[@accessiblename='Current']/container/container[@name='viewport']/table[@type='UIJTable'][1]/row[@index=$CrewIndex]/cell[@columnindex='1']
+						</item>
+						<item
+						capname="cell"
+						id="96d8a5b9-3200-4e52-999b-bc9fe31638c4"
+						name="Name"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container[@accessiblename='Current']/container/container[@name='viewport']/table[@type='UIJTable'][1]/row[@index=$CrewIndex]/cell[@columnindex='2']
+						</item>
+						<item
+						capname="cell"
+						id="992ecd98-d2b9-4aed-a0a8-341770393eaa"
+						name="TimeOnDuty"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container[@accessiblename='Current']/container/container[@name='viewport']/table[@type='UIJTable'][1]/row[@index=$CrewIndex]/cell[@columnindex='3']
+						</item>
+						<item
+						capname="cell"
+						id="95bd711a-675a-4376-a948-eaa0b7c05057"
+						name="N12HrLimit"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container[@accessiblename='Current']/container/container[@name='viewport']/table[@type='UIJTable'][1]/row[@index=$CrewIndex]/cell[@columnindex='4']
+						</item>
+						<basepath>
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container[@accessiblename='Current']/container/container[@name='viewport']/table[@type='UIJTable'][1]/row[@index=$CrewIndex]
+						</basepath>
+					</folder>
+					<folder
+					capname="unknown"
+					id="0da1468e-0292-47a9-8776-124fd8016dc5"
+					isrooted="True"
+					name="CrewRowByCrewName"
+					searchtimeout="3000ms"
+					usecache="False">
+						<item
+						capname="cell"
+						id="374d85e9-df2e-4319-a074-b08128356266"
+						name="TrainsheetCrewButton"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container[@accessiblename='Current']/container/container[@name='viewport']/table[@type='UIJTable'][1]/row/cell[@columnindex='2' and @text~$CrewName]/../cell[@columnindex='0']
+						</item>
+						<item
+						capname="cell"
+						id="c3876b7f-8c51-41e7-b384-def98322c0f9"
+						name="Position"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container[@accessiblename='Current']/container/container[@name='viewport']/table[@type='UIJTable'][1]/row/cell[@columnindex='2' and @text~$CrewName]/../cell[@columnindex='1']
+						</item>
+						<item
+						capname="cell"
+						id="e199eec7-74a9-4cd5-a90e-c5124fe7f5fc"
+						name="Name"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container[@accessiblename='Current']/container/container[@name='viewport']/table[@type='UIJTable'][1]/row/cell[@columnindex='2' and @text~$CrewName]/../cell[@columnindex='2']
+						</item>
+						<item
+						capname="cell"
+						id="1db5be31-f1cd-407b-bed0-1eac8bd71566"
+						name="TimeOnDuty"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container[@accessiblename='Current']/container/container[@name='viewport']/table[@type='UIJTable'][1]/row/cell[@columnindex='2' and @text~$CrewName]/../cell[@columnindex='3']
+						</item>
+						<item
+						capname="cell"
+						id="df437688-f67c-42e9-8b52-cc9902768dce"
+						name="N12HrLimit"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container[@accessiblename='Current']/container/container[@name='viewport']/table[@type='UIJTable'][1]/row/cell[@columnindex='2' and @text~$CrewName]/../cell[@columnindex='4']
+						</item>
+						<basepath>
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container[@accessiblename='Current']/container/container[@name='viewport']/table[@type='UIJTable'][1]/row/cell[@columnindex='2' and @text~$CrewName]/..
+						</basepath>
+					</folder>
+					<basepath>
+						/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container[@accessiblename='Current']/container/container[@name='viewport']/table[@type='UIJTable'][1]
+					</basepath>
+				</folder>
+				<folder
+				capname="table"
+				id="7d1aa5e7-9139-4732-b1bd-498e04bc7518"
+				isrooted="True"
+				name="TrainTable"
+				searchtimeout="3000ms"
+				usecache="False">
+					<folder
+					capname="row"
+					id="054a9313-bcbc-4820-bdfc-0735398d80d6"
+					isrooted="True"
+					name="TrainRowByTrainIndex"
+					searchtimeout="3000ms"
+					usecache="False">
+						<item
+						capname="cell"
+						id="82eb2e33-d4dd-4af9-a70b-ef1feca6a6eb"
+						name="TrainsheetTrainButton"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container[@accessiblename='Current']/container/container[@name='viewport']/table[@type='UIJTable'][2]/row[@index=$TrainIndex]/cell[@columnindex='0']
+						</item>
+						<item
+						capname="cell"
+						id="7a04bb2b-60b5-4b3c-8108-c50f4b4b8e43"
+						name="Loads"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container[@accessiblename='Current']/container/container[@name='viewport']/table[@type='UIJTable'][2]/row[@index=$TrainIndex]/cell[@columnindex='1']
+						</item>
+						<item
+						capname="cell"
+						id="941e56e1-1f59-4de4-91df-0b94dbe15981"
+						name="Empties"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container[@accessiblename='Current']/container/container[@name='viewport']/table[@type='UIJTable'][2]/row[@index=$TrainIndex]/cell[@columnindex='2']
+						</item>
+						<item
+						capname="cell"
+						id="6e346801-dff1-4edb-9ce0-bf9d07e1b83e"
+						name="Tons"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container[@accessiblename='Current']/container/container[@name='viewport']/table[@type='UIJTable'][2]/row[@index=$TrainIndex]/cell[@columnindex='3']
+						</item>
+						<item
+						capname="cell"
+						id="44f0e7e5-0d19-49de-bbb3-cd53c1fb0c52"
+						name="Feet"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container[@accessiblename='Current']/container/container[@name='viewport']/table[@type='UIJTable'][2]/row[@index=$TrainIndex]/cell[@columnindex='4']
+						</item>
+						<item
+						capname="cell"
+						id="ff67ad23-912b-41c3-adfb-9e115eb958c6"
+						name="ExcessDim"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container[@accessiblename='Current']/container/container[@name='viewport']/table[@type='UIJTable'][2]/row[@index=$TrainIndex]/cell[@columnindex='5']
+						</item>
+						<item
+						capname="cell"
+						id="143bc645-732a-4ef2-ba7d-2f07bf8297cd"
+						name="KeyHazmat"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container[@accessiblename='Current']/container/container[@name='viewport']/table[@type='UIJTable'][2]/row[@index=$TrainIndex]/cell[@columnindex='6']
+						</item>
+						<item
+						capname="cell"
+						id="c7836077-a418-445c-acd3-82d5c7018992"
+						name="Speed"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container[@accessiblename='Current']/container/container[@name='viewport']/table[@type='UIJTable'][2]/row[@index=$TrainIndex]/cell[@columnindex='7']
+						</item>
+						<basepath>
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container[@accessiblename='Current']/container/container[@name='viewport']/table[@type='UIJTable'][2]/row[@index=$TrainIndex]
+						</basepath>
+					</folder>
+					<basepath>
+						/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container[@accessiblename='Current']/container/container[@name='viewport']/table[@type='UIJTable'][2]
+					</basepath>
+				</folder>
+				<folder
+				capname="table"
+				id="6b6d910f-6614-46b7-9b96-7f971feb629e"
+				isrooted="True"
+				name="EngineTable"
+				searchtimeout="3000ms"
+				usecache="False">
+					<folder
+					capname="row"
+					id="c12ce4c9-4cce-40be-ae76-96f228fbd204"
+					isrooted="True"
+					name="EngineRowByEngineIndex"
+					searchtimeout="3000ms"
+					usecache="False">
+						<item
+						capname="cell"
+						id="e5a5704e-b010-40f9-8105-4d6684181c19"
+						name="TrainsheetEngineButton"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container[@accessiblename='Current']/container/container[@name='viewport']/table[@type='UIJTable'][3]/row[@index=$EngineIndex]/cell[@columnindex='0']
+						</item>
+						<item
+						capname="cell"
+						id="962b9eea-2fc1-49d4-a65c-025ef308a87c"
+						name="Position"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container[@accessiblename='Current']/container/container[@name='viewport']/table[@type='UIJTable'][3]/row[@index=$EngineIndex]/cell[@columnindex='1']
+						</item>
+						<item
+						capname="cell"
+						id="a4d499b4-6cd4-4894-8547-5ecefaa3db0b"
+						name="InitalNo"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container[@accessiblename='Current']/container/container[@name='viewport']/table[@type='UIJTable'][3]/row[@index=$EngineIndex]/cell[@columnindex='2']
+						</item>
+						<item
+						capname="cell"
+						id="fbd35740-1f75-4db8-a49c-f06304a68377"
+						name="Status"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container[@accessiblename='Current']/container/container[@name='viewport']/table[@type='UIJTable'][3]/row[@index=$EngineIndex]/cell[@columnindex='3']
+						</item>
+						<item
+						capname="cell"
+						id="d9818e68-7920-4aae-ac36-5c8802295869"
+						name="Origin"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container[@accessiblename='Current']/container/container[@name='viewport']/table[@type='UIJTable'][3]/row[@index=$EngineIndex]/cell[@columnindex='4']
+						</item>
+						<item
+						capname="cell"
+						id="650dff40-10c3-4b4c-9be4-b7ceb529be66"
+						name="Destination"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container[@accessiblename='Current']/container/container[@name='viewport']/table[@type='UIJTable'][3]/row[@index=$EngineIndex]/cell[@columnindex='5']
+						</item>
+						<basepath>
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container[@accessiblename='Current']/container/container[@name='viewport']/table[@type='UIJTable'][3]/row[@index=$EngineIndex]
+						</basepath>
+					</folder>
+					<basepath>
+						/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container[@accessiblename='Current']/container/container[@name='viewport']/table[@type='UIJTable'][3]
+					</basepath>
+				</folder>
+				<folder
+				capname="table"
+				id="51c374ce-73f0-468c-ac9c-919b437358a4"
+				isrooted="True"
+				name="EotCaboose"
+				searchtimeout="3000ms"
+				usecache="False">
+					<folder
+					capname="row"
+					id="66abad4e-b042-4d43-b029-662822572c89"
+					isrooted="True"
+					name="EotCabooseRowByEotCabooseIndex"
+					searchtimeout="3000ms"
+					usecache="False">
+						<item
+						capname="cell"
+						id="a202c1ba-d016-465d-9300-0432d6de1041"
+						name="TrainsheetEotCabooseButton"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container[@accessiblename='Current']/container/container[@name='viewport']/table[@type='UIJTable'][4]/row[@index=$EotCabooseIndex]/cell[@columnindex='0']
+						</item>
+						<item
+						capname="cell"
+						id="95a7357f-1c6a-4d72-9860-7ff6ac395268"
+						name="Type"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container[@accessiblename='Current']/container/container[@name='viewport']/table[@type='UIJTable'][4]/row[@index=$EotCabooseIndex]/cell[@columnindex='1']
+						</item>
+						<item
+						capname="cell"
+						id="af520440-0878-4987-a0ff-464d04370008"
+						name="InitalNo"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container[@accessiblename='Current']/container/container[@name='viewport']/table[@type='UIJTable'][4]/row[@index=$EotCabooseIndex]/cell[@columnindex='2']
+						</item>
+						<item
+						capname="cell"
+						id="71b26a70-da2e-4f41-8ad5-4ee9e05c39b1"
+						name="Status"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container[@accessiblename='Current']/container/container[@name='viewport']/table[@type='UIJTable'][4]/row[@index=$EotCabooseIndex]/cell[@columnindex='3']
+						</item>
+						<item
+						capname="cell"
+						id="d73e2b57-f7d7-413a-ad2c-227cefc83a88"
+						name="Origin"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container[@accessiblename='Current']/container/container[@name='viewport']/table[@type='UIJTable'][4]/row[@index=$EotCabooseIndex]/cell[@columnindex='4']
+						</item>
+						<item
+						capname="cell"
+						id="57f1d064-a966-4da4-82ae-38759f10b6bd"
+						name="Destination"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container[@accessiblename='Current']/container/container[@name='viewport']/table[@type='UIJTable'][4]/row[@index=$EotCabooseIndex]/cell[@columnindex='5']
+						</item>
+						<basepath>
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container[@accessiblename='Current']/container/container[@name='viewport']/table[@type='UIJTable'][4]/row[@index=$EotCabooseIndex]
+						</basepath>
+					</folder>
+					<basepath>
+						/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container[@accessiblename='Current']/container/container[@name='viewport']/table[@type='UIJTable'][4]
+					</basepath>
+				</folder>
+				<folder
+				capname="table"
+				id="bd29811c-7b98-4f3f-aab0-68d1395015d3"
+				isrooted="True"
+				name="PlannedUnplannedEventsTable"
+				searchtimeout="3000ms"
+				usecache="False">
+					<folder
+					capname="row"
+					id="50897961-3f5d-4595-9be5-464f7b1fb4b0"
+					isrooted="True"
+					name="EventRowByEventIndex"
+					searchtimeout="3000ms"
+					usecache="False">
+						<item
+						capname="cell"
+						id="2c015565-961b-478b-8a0a-64bec6b42d7b"
+						name="TrainsheetTripPlanButton"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container/container[@accessiblename='Planned (P) / Unplanned (U) Events']/container[@name='viewport']/table[@type='UIJTable']/row[@index=$EventIndex]/cell[@columnindex='0']
+						</item>
+						<item
+						capname="cell"
+						id="73996634-f79d-49ef-ac8d-20e3e2776c65"
+						name="Location"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container/container[@accessiblename='Planned (P) / Unplanned (U) Events']/container[@name='viewport']/table[@type='UIJTable']/row[@index=$EventIndex]/cell[@columnindex='1']
+						</item>
+						<item
+						capname="cell"
+						id="2fd145de-c12d-4e37-b97d-a21d65f098cd"
+						name="Type"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container/container[@accessiblename='Planned (P) / Unplanned (U) Events']/container[@name='viewport']/table[@type='UIJTable']/row[@index=$EventIndex]/cell[@columnindex='2']
+						</item>
+						<item
+						capname="cell"
+						id="1f5ce46a-be65-46c2-893d-24f82e091497"
+						name="Loads"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container/container[@accessiblename='Planned (P) / Unplanned (U) Events']/container[@name='viewport']/table[@type='UIJTable']/row[@index=$EventIndex]/cell[@columnindex='3']
+						</item>
+						<item
+						capname="cell"
+						id="11842b84-4871-4908-8e1b-141b8e3b6afd"
+						name="Empties"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container/container[@accessiblename='Planned (P) / Unplanned (U) Events']/container[@name='viewport']/table[@type='UIJTable']/row[@index=$EventIndex]/cell[@columnindex='4']
+						</item>
+						<item
+						capname="cell"
+						id="d8a25ff2-9f42-4c1a-b3c2-606002c1630e"
+						name="Tons"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container/container[@accessiblename='Planned (P) / Unplanned (U) Events']/container[@name='viewport']/table[@type='UIJTable']/row[@index=$EventIndex]/cell[@columnindex='5']
+						</item>
+						<item
+						capname="cell"
+						id="ea66ee1e-bc43-413f-867f-30888d443249"
+						name="Feet"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container/container[@accessiblename='Planned (P) / Unplanned (U) Events']/container[@name='viewport']/table[@type='UIJTable']/row[@index=$EventIndex]/cell[@columnindex='6']
+						</item>
+						<basepath>
+							/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container/container[@accessiblename='Planned (P) / Unplanned (U) Events']/container[@name='viewport']/table[@type='UIJTable']/row[@index=$EventIndex]
+						</basepath>
+					</folder>
+					<basepath>
+						/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container/container[@accessiblename='Planned (P) / Unplanned (U) Events']/container[@name='viewport']/table[@type='UIJTable']
+					</basepath>
+				</folder>
+				<item
+				capname="button"
+				id="5827d436-2e68-406d-9fa3-d9dd4411adfc"
+				name="SendTrainSheetSummaryOnlyButton"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/container[@name='_mainPanel']/container[@accessiblename='Train Sheet Summary']/container[@name='_trainSheetSummaryTab']/container/container[@type='JPanel']/button[@text~'^Send\ Train\ Sheet\ Summary\ ']
+				</item>
+			</folder>
+			<item
+			capname="text"
+			id="c4cd716a-f312-4192-a793-35ef96eba229"
+			name="Feedback"
+			searchtimeout="3000ms">
+				/form[@title='Train Clearance']/container[@type='FeedbackBar']/text[@name='messageField']
+			</item>
+			<folder
+			capname="form"
+			id="9c1a7dc0-403d-40fd-805f-569b8b2ae2ca"
+			isrooted="True"
+			name="Train_Clearance_Route"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="checkbox"
+				id="d018485a-06fb-4dc9-b6ab-ca0302b2fd2a"
+				name="IssueNewCheckbox"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/../form[@title='Train Clearance Route']/checkbox[@name='_issueNewChkBox']
+				</item>
+				<item
+				capname="text"
+				id="515254fd-97c8-4a1d-8fd5-d62426d10319"
+				name="CrewOriginStationText"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/../form[@title='Train Clearance Route']/text[@name='ORIGIN']
+				</item>
+				<item
+				capname="text"
+				id="6bd28158-b59e-4858-a79c-5b941bdcdb7d"
+				name="CrewOriginStationPassCountText"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/../form[@title='Train Clearance Route']/text[@name='_origPassCountFld']
+				</item>
+				<folder
+				capname="table"
+				id="340bb25e-cdc1-47cb-b8b7-bafac281c349"
+				isrooted="True"
+				name="IntermediateStationsTable"
+				searchtimeout="3000ms"
+				usecache="False">
+					<folder
+					capname="row"
+					id="7d724809-e5e3-4c27-9494-07690de7570a"
+					isrooted="True"
+					name="IntermediateStationsRowByIndex"
+					searchtimeout="3000ms"
+					usecache="False">
+						<item
+						capname="cell"
+						id="b177ad63-1f84-459f-8532-fce8a97e001c"
+						name="IntermediateStationText"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/../form[@title='Train Clearance Route']/container[@name='_routePointsSP']/container/table[@name='_routePointsTable']/row[@index=$IntermediateStationsIndex]/cell
+						</item>
+						<basepath>
+							/form[@title='Train Clearance']/../form[@title='Train Clearance Route']/container[@name='_routePointsSP']/container/table[@name='_routePointsTable']/row[@index=$IntermediateStationsIndex]
+						</basepath>
+					</folder>
+					<basepath>
+						/form[@title='Train Clearance']/../form[@title='Train Clearance Route']/container[@name='_routePointsSP']/container/table[@name='_routePointsTable']
+					</basepath>
+				</folder>
+				<item
+				capname="text"
+				id="fd619aa9-3fc9-4ef0-9e16-8616c5c3602b"
+				name="CrewDestinationStationText"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/../form[@title='Train Clearance Route']/text[@name='DESTINATION']
+				</item>
+				<item
+				capname="text"
+				id="b75e8913-0038-4071-8e4b-a35fd2135b6f"
+				name="CrewDestinationStationPassCountText"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/../form[@title='Train Clearance Route']/text[@name='_destPassCountFld']
+				</item>
+				<item
+				capname="button"
+				id="f815926c-0687-495e-a127-dffa02508520"
+				name="OkButton"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/../form[@title='Train Clearance Route']/container[@name='_buttonPanel']/button[@name='_okBtn']
+				</item>
+				<item
+				capname="button"
+				id="b8c5a8bf-cb4d-4aa6-a4b5-f88c80f0e44c"
+				name="CancelButton"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/../form[@title='Train Clearance Route']/container[@name='_buttonPanel']/button[@name='_cancelBtn']
+				</item>
+				<item
+				capname="text"
+				id="d5b25a87-9db2-4108-964a-eae282625222"
+				name="Feedback"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/../form[@title='Train Clearance Route']/container[@name='_feedBackBar']/text[@name='messageField']
+				</item>
+				<basepath>
+					/form[@title='Train Clearance']/../form[@title='Train Clearance Route']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="ffe91850-153a-4018-a473-13b62bc5d127"
+			isrooted="True"
+			name="Train_Clearance_Report_Train_Sheet_Summary"
+			searchtimeout="3000ms"
+			usecache="False">
+				<folder
+				capname="unknown"
+				id="aba632d6-3030-43e0-969d-c83531cb9528"
+				isrooted="False"
+				name="WindowControls"
+				searchtimeout="0ms">
+					<item
+					capname="button"
+					id="03955409-2114-43ca-80c1-af44c1d11971"
+					name="Close"
+					searchtimeout="3000ms">
+						/form[@title='Train Clearance']/../form[@title='Train Sheet Summary' or @title='Train Clearance Report']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Close']
+					</item>
+				</folder>
+				<item
+				capname="radiobutton"
+				id="c3fb4835-a086-4e3e-abea-248d11a0a340"
+				name="PrinterRadioButton"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/../form[@title='Train Sheet Summary' or @title='Train Clearance Report']/container[@name='mainPanel']/container[@type='JPanel']/container/container[@name='printFaxPanel']/container[@type='JPanel']/radiobutton[@name='btnPrinter']
+				</item>
+				<item
+				capname="radiobutton"
+				id="c0e388a2-715b-48d1-abd6-955470c15578"
+				name="FaxRadioButton"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/../form[@title='Train Sheet Summary' or @title='Train Clearance Report']/container[@name='mainPanel']/container[@type='JPanel']/container/container[@name='printFaxPanel']/container[@type='JPanel']/radiobutton[@name='btnFax']
+				</item>
+				<item
+				capname="radiobutton"
+				id="a8b30fe6-a306-4ce8-9e23-75dae0feb7bd"
+				name="DistributionListRadioButton"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/../form[@title='Train Sheet Summary' or @title='Train Clearance Report']/container[@name='mainPanel']/container[@type='JPanel']/container/container[@name='printFaxPanel']/container[@type='JPanel']/radiobutton[@name='btnDistributionList']
+				</item>
+				<item
+				capname="radiobutton"
+				id="3f3b7ab8-21f4-43c5-8a74-d8dfa28120ba"
+				name="EmailRadioButton"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/../form[@title='Train Sheet Summary' or @title='Train Clearance Report']/container[@name='mainPanel']/container[@type='JPanel']/container/container[@name='printFaxPanel']/container[@type='JPanel']/radiobutton[@name='btnEmail']
+				</item>
+				<folder
+				capname="unknown"
+				id="b5615f71-72e6-4a4f-84c3-2a770196beda"
+				isrooted="False"
+				name="Name"
+				searchtimeout="0ms">
+					<item
+					capname="combobox"
+					id="b8eebb3d-8c07-44dc-9897-b3ecc12e9b57"
+					name="NameText"
+					searchtimeout="3000ms">
+						/form[@title='Train Clearance']/../form[@title='Train Sheet Summary' or @title='Train Clearance Report']/container[@name='mainPanel']/container[@type='JPanel']/container/container[@name='printFaxPanel']/container[@type='Box']/container[@type='JPanel']/combobox[@name='_viewNameComboBox']
+					</item>
+					<folder
+					capname="list"
+					id="4f470be5-f966-421a-9350-d4c902ba6307"
+					isrooted="True"
+					name="NameList"
+					searchtimeout="3000ms"
+					usecache="False">
+						<item
+						capname="listitem"
+						id="8fb1f462-8d16-43af-bdc8-3312f433dca5"
+						name="NameListItemByName"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/../form[@title='Train Sheet Summary' or @title='Train Clearance Report']/contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text~$Name]
+						</item>
+						<item
+						capname="listitem"
+						id="75cc9b66-7846-40dc-af9c-49d8b616222e"
+						name="NameListItemByIndex"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/../form[@title='Train Sheet Summary' or @title='Train Clearance Report']/contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']/listitem[@index=$NameIndex]
+						</item>
+						<basepath>
+							/form[@title='Train Clearance']/../form[@title='Train Sheet Summary' or @title='Train Clearance Report']/contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']
+						</basepath>
+					</folder>
+				</folder>
+				<item
+				capname="text"
+				id="94eca5be-7d3f-49c4-b496-50fc720da910"
+				name="NumberOfCopies"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/../form[@title='Train Sheet Summary' or @title='Train Clearance Report']/container[@name='mainPanel']/container[@type='JPanel']/container/container[@name='printSelectionPanel']/container[@type='Box']/container/container[@type='Box']/text[@name='_txtNumberOfCopies']
+				</item>
+				<item
+				capname="button"
+				id="9c541b8e-a51f-402f-a39c-af3d3c115aeb"
+				name="OkButton"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/../form[@title='Train Sheet Summary' or @title='Train Clearance Report']/container[@name='mainPanel']/container[@type='JPanel']/container/container[@name='buttonsPanel']/button[@text='OK']
+				</item>
+				<item
+				capname="button"
+				id="0f5c5f6d-e542-4504-ac58-6d70246fa51d"
+				name="AdHocButton"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/../form[@title='Train Sheet Summary' or @title='Train Clearance Report']/container[@name='mainPanel']/container[@type='JPanel']/container/container[@name='buttonsPanel']/button[@text='AdHoc...']
+				</item>
+				<item
+				capname="button"
+				id="4ecf5399-688b-430d-a9ce-eb50783b2bfc"
+				name="CancelButton"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/../form[@title='Train Sheet Summary' or @title='Train Clearance Report']/container[@name='mainPanel']/container[@type='JPanel']/container/container[@name='buttonsPanel']/button[@text='Cancel']
+				</item>
+				<item
+				capname="text"
+				id="0b7544c2-c983-4cde-8b85-95c68a4631a2"
+				name="Feedback"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/../form[@title='Train Sheet Summary' or @title='Train Clearance Report']/container[@type='FeedbackBar']/text[@name='messageField']
+				</item>
+				<folder
+				capname="form"
+				id="52ce8d33-4365-4cf8-b2ce-5040d138b7a2"
+				isrooted="True"
+				name="PDS_Print_Fax_AdHoc_Recipients"
+				searchtimeout="3000ms"
+				usecache="False">
+					<folder
+					capname="unknown"
+					id="5d133828-810e-4715-9e1c-0ae6f8147635"
+					isrooted="False"
+					name="WindowControls"
+					searchtimeout="0ms">
+						<item
+						capname="button"
+						id="ca47b5f3-d3bf-4ffe-83a3-88a4e3d179f0"
+						name="Close"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/../form[@title='Train Sheet Summary' or @title='Train Clearance Report']/../form[@title~'^PDS\ Print/Fax\ Dialog:\ Ad\ ']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Close']
+						</item>
+					</folder>
+					<folder
+					capname="table"
+					id="ecfccd8b-8d06-4ae6-921c-c534ae173e53"
+					isrooted="True"
+					name="RecipientsTable"
+					searchtimeout="3000ms"
+					usecache="False">
+						<folder
+						capname="row"
+						id="8f8f470f-62ab-48d5-8a66-c0de2f755b96"
+						isrooted="True"
+						name="RecipientRowByIndex"
+						refimgid="5535f9cc-e004-4990-ae00-fa07251c78a2"
+						searchtimeout="3000ms"
+						usecache="False">
+							<item
+							capname="cell"
+							id="70943522-8355-4f73-aa39-808a4af58e7d"
+							name="Name"
+							searchtimeout="3000ms">
+								/form[@title='Train Clearance']/../form[@title='Train Sheet Summary' or @title='Train Clearance Report']/../form[@title~'^PDS\ Print/Fax\ Dialog:\ Ad\ ']/container[@type='UIJPanel']/container[@type='UIJPanel']/container[@name='_scrollPane']/container[@name='viewport']/table[@name='_adHocRecipientsTable']/row[@index=$RecipientIndex]/cell[@columnindex='0']
+							</item>
+							<item
+							capname="cell"
+							id="46aa955f-c841-4f70-a615-2fea5800915a"
+							name="Address"
+							searchtimeout="3000ms">
+								/form[@title='Train Clearance']/../form[@title='Train Sheet Summary' or @title='Train Clearance Report']/../form[@title~'^PDS\ Print/Fax\ Dialog:\ Ad\ ']/container[@type='UIJPanel']/container[@type='UIJPanel']/container[@name='_scrollPane']/container[@name='viewport']/table[@name='_adHocRecipientsTable']/row[@index=$RecipientIndex]/cell[@columnindex='1']
+							</item>
+							<item
+							capname="cell"
+							id="28ecb6b3-8904-4752-9fbc-27a8ecf1a9d6"
+							name="Quantity"
+							searchtimeout="3000ms">
+								/form[@title='Train Clearance']/../form[@title='Train Sheet Summary' or @title='Train Clearance Report']/../form[@title~'^PDS\ Print/Fax\ Dialog:\ Ad\ ']/container[@type='UIJPanel']/container[@type='UIJPanel']/container[@name='_scrollPane']/container[@name='viewport']/table[@name='_adHocRecipientsTable']/row[@index=$RecipientIndex]/cell[@columnindex='2']
+							</item>
+							<folder
+							capname="cell"
+							id="e4711a00-db40-4a8d-ba52-b4b593d3c9ab"
+							isrooted="True"
+							name="Type"
+							searchtimeout="3000ms"
+							usecache="False">
+								<item
+								capname="combobox"
+								id="b7d36481-fbca-4e7c-9b15-cab0ba794a28"
+								name="TypeText"
+								searchtimeout="3000ms">
+									/form[@title='Train Clearance']/../form[@title='Train Sheet Summary' or @title='Train Clearance Report']/../form[@title~'^PDS\ Print/Fax\ Dialog:\ Ad\ ']/container[@type='UIJPanel']/container[@type='UIJPanel']/container[@name='_scrollPane']/container[@name='viewport']/table[@name='_adHocRecipientsTable']/row[@index=$RecipientIndex]/cell[@columnindex='3']/../..//combobox[@type='DefaultCellEditor$TableComboBox']
+								</item>
+								<folder
+								capname="list"
+								id="01b7cd0d-b050-4a65-8c9d-91436bcec126"
+								isrooted="True"
+								name="TypeList"
+								searchtimeout="3000ms"
+								usecache="False">
+									<item
+									capname="listitem"
+									id="fcc13fff-04d5-486b-a5d8-ec269c4f0390"
+									name="Printer"
+									searchtimeout="3000ms">
+										/form[@title='Train Clearance']/../form[@title='Train Sheet Summary' or @title='Train Clearance Report']/../form[@title~'^PDS\ Print/Fax\ Dialog:\ Ad\ ']/container[@type='UIJPanel']/container[@type='UIJPanel']/container[@name='_scrollPane']/container[@name='viewport']/table[@name='_adHocRecipientsTable']/row[@index=$RecipientIndex]/cell[@columnindex='3']/../../../../../../../contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='Printer']
+									</item>
+									<item
+									capname="listitem"
+									id="e38e5190-32fb-4166-8a78-6de239b13e7a"
+									name="Fax"
+									searchtimeout="3000ms">
+										/form[@title='Train Clearance']/../form[@title='Train Sheet Summary' or @title='Train Clearance Report']/../form[@title~'^PDS\ Print/Fax\ Dialog:\ Ad\ ']/container[@type='UIJPanel']/container[@type='UIJPanel']/container[@name='_scrollPane']/container[@name='viewport']/table[@name='_adHocRecipientsTable']/row[@index=$RecipientIndex]/cell[@columnindex='3']/../../../../../../../contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='Fax']
+									</item>
+									<item
+									capname="listitem"
+									id="f1f33f98-cd1a-42cd-a781-50c7b03b9ac9"
+									name="Email"
+									searchtimeout="3000ms">
+										/form[@title='Train Clearance']/../form[@title='Train Sheet Summary' or @title='Train Clearance Report']/../form[@title~'^PDS\ Print/Fax\ Dialog:\ Ad\ ']/container[@type='UIJPanel']/container[@type='UIJPanel']/container[@name='_scrollPane']/container[@name='viewport']/table[@name='_adHocRecipientsTable']/row[@index=$RecipientIndex]/cell[@columnindex='3']/../../../../../../../contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='Email']
+									</item>
+									<item
+									capname="listitem"
+									id="21f6e8a8-374e-498b-99ad-eddbba1c758f"
+									name="Pager"
+									searchtimeout="3000ms">
+										/form[@title='Train Clearance']/../form[@title='Train Sheet Summary' or @title='Train Clearance Report']/../form[@title~'^PDS\ Print/Fax\ Dialog:\ Ad\ ']/container[@type='UIJPanel']/container[@type='UIJPanel']/container[@name='_scrollPane']/container[@name='viewport']/table[@name='_adHocRecipientsTable']/row[@index=$RecipientIndex]/cell[@columnindex='3']/../../../../../../../contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='Pager']
+									</item>
+									<basepath>
+										/form[@title='Train Clearance']/../form[@title='Train Sheet Summary' or @title='Train Clearance Report']/../form[@title~'^PDS\ Print/Fax\ Dialog:\ Ad\ ']/container[@type='UIJPanel']/container[@type='UIJPanel']/container[@name='_scrollPane']/container[@name='viewport']/table[@name='_adHocRecipientsTable']/row[@index=$RecipientIndex]/cell[@columnindex='3']/../../../../../../../contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']
+									</basepath>
+								</folder>
+								<basepath>
+									/form[@title='Train Clearance']/../form[@title='Train Sheet Summary' or @title='Train Clearance Report']/../form[@title~'^PDS\ Print/Fax\ Dialog:\ Ad\ ']/container[@type='UIJPanel']/container[@type='UIJPanel']/container[@name='_scrollPane']/container[@name='viewport']/table[@name='_adHocRecipientsTable']/row[@index=$RecipientIndex]/cell[@columnindex='3']
+								</basepath>
+							</folder>
+							<basepath>
+								/form[@title='Train Clearance']/../form[@title='Train Sheet Summary' or @title='Train Clearance Report']/../form[@title~'^PDS\ Print/Fax\ Dialog:\ Ad\ ']/container[@type='UIJPanel']/container[@type='UIJPanel']/container[@name='_scrollPane']/container[@name='viewport']/table[@name='_adHocRecipientsTable']/row[@index=$RecipientIndex]
+							</basepath>
+						</folder>
+						<basepath>
+							/form[@title='Train Clearance']/../form[@title='Train Sheet Summary' or @title='Train Clearance Report']/../form[@title~'^PDS\ Print/Fax\ Dialog:\ Ad\ ']/container[@type='UIJPanel']/container[@type='UIJPanel']/container[@name='_scrollPane']/container[@name='viewport']/table[@name='_adHocRecipientsTable']
+						</basepath>
+					</folder>
+					<item
+					capname="button"
+					id="1de544e6-b9e0-45c2-856e-c82e48730e64"
+					name="OkButton"
+					searchtimeout="3000ms">
+						/form[@title='Train Clearance']/../form[@title='Train Sheet Summary' or @title='Train Clearance Report']/../form[@title~'^PDS\ Print/Fax\ Dialog:\ Ad\ ']/container[@type='UIJPanel']/container[@type='UIJPanel']/container/container[@type='UIJPanel']/button[@name='_okayButton']
+					</item>
+					<item
+					capname="button"
+					id="b8a4f673-5c11-4ebf-ae4e-73b139290db8"
+					name="InsertRowButton"
+					searchtimeout="3000ms">
+						/form[@title='Train Clearance']/../form[@title='Train Sheet Summary' or @title='Train Clearance Report']/../form[@title~'^PDS\ Print/Fax\ Dialog:\ Ad\ ']/container[@type='UIJPanel']/container[@type='UIJPanel']/container/container[@type='UIJPanel']/button[@name='_insertRowButton']
+					</item>
+					<item
+					capname="button"
+					id="f786fb81-6704-408f-ad22-245988341b97"
+					name="CancelButton"
+					searchtimeout="3000ms">
+						/form[@title='Train Clearance']/../form[@title='Train Sheet Summary' or @title='Train Clearance Report']/../form[@title~'^PDS\ Print/Fax\ Dialog:\ Ad\ ']/container[@type='UIJPanel']/container[@type='UIJPanel']/container/container[@type='UIJPanel']/button[@name='_cancelButton']
+					</item>
+					<item
+					capname="text"
+					id="f8edbf96-6bd7-4362-b93a-cbd2fbb874e3"
+					name="Feedback"
+					searchtimeout="3000ms">
+						/form[@title='Train Clearance']/../form[@title='Train Sheet Summary' or @title='Train Clearance Report']/../form[@title~'^PDS\ Print/Fax\ Dialog:\ Ad\ ']/container[@type='UIJPanel']/container[@type='FeedbackBar']/text[@name='messageField']
+					</item>
+					<basepath>
+						/form[@title='Train Clearance']/../form[@title='Train Sheet Summary' or @title='Train Clearance Report']/../form[@title~'^PDS\ Print/Fax\ Dialog:\ Ad\ ']
+					</basepath>
+				</folder>
+				<basepath>
+					/form[@title='Train Clearance']/../form[@title='Train Sheet Summary' or @title='Train Clearance Report']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="db64ff05-2062-4a36-83de-f31a9c5e8a87"
+			isrooted="True"
+			name="Confirm_Message"
+			searchtimeout="3000ms"
+			usecache="False">
+				<folder
+				capname="unknown"
+				id="504de258-97a7-443a-9b82-4f44d74ee729"
+				isrooted="False"
+				name="WindowControls"
+				searchtimeout="0ms">
+					<item
+					capname="button"
+					id="29f34a10-562d-49f0-a850-f0ccb419b4ce"
+					name="Close"
+					searchtimeout="3000ms">
+						/form[@title='Train Clearance']/../form[@title='Confirm Message']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Close']
+					</item>
+				</folder>
+				<item
+				capname="button"
+				id="42ce4a92-c143-46fc-98e7-6d96163e9d05"
+				name="CreateTaskButton"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/../form[@title='Confirm Message']/container[@type='TmsOptionPane']/container[@name='OptionPane.buttonArea']/button[@text='Create Task']
+				</item>
+				<item
+				capname="button"
+				id="3e075ec9-429c-41a2-ae69-0167c1609548"
+				name="CancelButton"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/../form[@title='Confirm Message']/container[@type='TmsOptionPane']/container[@name='OptionPane.buttonArea']/button[@text='Cancel']
+				</item>
+				<basepath>
+					/form[@title='Train Clearance']/../form[@title='Confirm Message']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="4cbf6427-a984-4890-901d-a6dc118be656"
+			isrooted="True"
+			name="PDS_Print_Fax_Dialog"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="radiobutton"
+				id="6cd68433-f3f2-4686-b852-7bb072479f7d"
+				name="PrinterRadioButton"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/../form[@title='PDS Print/Fax Dialog' or @title~'^Print\ Fax\ for\ train']/container[@name='mainPanel']/container[@type='JPanel']/container/container[@name='printFaxPanel']/container[@type='JPanel']/radiobutton[@name='btnPrinter']
+				</item>
+				<item
+				capname="radiobutton"
+				id="c81e803d-bb09-4243-a84f-b3314f44b810"
+				name="FaxRadioButton"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/../form[@title='PDS Print/Fax Dialog' or @title~'^Print\ Fax\ for\ train']/container[@name='mainPanel']/container[@type='JPanel']/container/container[@name='printFaxPanel']/container[@type='JPanel']/radiobutton[@name='btnFax']
+				</item>
+				<item
+				capname="radiobutton"
+				id="b381c7bb-41d5-4889-b577-0734fe0dcab1"
+				name="DistributionListRadioButton"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/../form[@title='PDS Print/Fax Dialog' or @title~'^Print\ Fax\ for\ train']/container[@name='mainPanel']/container[@type='JPanel']/container/container[@name='printFaxPanel']/container[@type='JPanel']/radiobutton[@name='btnDistributionList']
+				</item>
+				<item
+				capname="radiobutton"
+				id="948b9f3c-3ccf-4725-9d82-c9f33f293cb1"
+				name="EmailRadioButton"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/../form[@title='PDS Print/Fax Dialog' or @title~'^Print\ Fax\ for\ train']/container[@name='mainPanel']/container[@type='JPanel']/container/container[@name='printFaxPanel']/container[@type='JPanel']/radiobutton[@name='btnEmail']
+				</item>
+				<folder
+				capname="unknown"
+				id="0ddf475c-e2e7-43de-aa15-fbf401822e67"
+				isrooted="False"
+				name="Name"
+				searchtimeout="0ms">
+					<item
+					capname="combobox"
+					id="1a59d6c1-9482-4f44-b7a9-19ddd250f948"
+					name="NameText"
+					searchtimeout="3000ms">
+						/form[@title='Train Clearance']/../form[@title='PDS Print/Fax Dialog' or @title~'^Print\ Fax\ for\ train']/container[@name='mainPanel']/container[@type='JPanel']/container/container[@name='printFaxPanel']/container[@type='Box']/container[@type='JPanel']/combobox[@name='_viewNameComboBox']
+					</item>
+					<folder
+					capname="list"
+					id="212956a2-baea-4a75-a9fd-e4be0a050729"
+					isrooted="True"
+					name="NameList"
+					searchtimeout="3000ms"
+					usecache="False">
+						<item
+						capname="listitem"
+						id="8c0e33e2-0bdd-49ea-9283-1d1ac97ef4f6"
+						name="NameListItemByName"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/../form[@title='PDS Print/Fax Dialog' or @title~'^Print\ Fax\ for\ train']/contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text~$Name]
+						</item>
+						<item
+						capname="listitem"
+						id="c8938991-22e4-4fba-b20c-e3a3aca61e4d"
+						name="NameListItemByIndex"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/../form[@title='PDS Print/Fax Dialog' or @title~'^Print\ Fax\ for\ train']/contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']/listitem[@index=$NameIndex]
+						</item>
+						<basepath>
+							/form[@title='Train Clearance']/../form[@title='PDS Print/Fax Dialog' or @title~'^Print\ Fax\ for\ train']/contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']
+						</basepath>
+					</folder>
+				</folder>
+				<item
+				capname="text"
+				id="1fc8e217-487d-484c-b3b6-bee4c1ce54b6"
+				name="NumberOfCopies"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/../form[@title='PDS Print/Fax Dialog' or @title~'^Print\ Fax\ for\ train']/container[@name='mainPanel']/container[@type='JPanel']/container/container[@name='printSelectionPanel']/container[@type='Box']/container/container[@type='Box']/text[@name='_txtNumberOfCopies']
+				</item>
+				<item
+				capname="button"
+				id="ce66d6e7-7ce4-483d-87d8-eafe40df2ce4"
+				name="IssueButton"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/../form[@title='PDS Print/Fax Dialog' or @title~'^Print\ Fax\ for\ train']/container[@name='mainPanel']/container[@type='JPanel']/container/container[@name='buttonsPanel']/button[@text='Issue']
+				</item>
+				<item
+				capname="button"
+				id="d671a74c-55ae-402b-91a4-e51b69cf7d19"
+				name="OkButton"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/../form[@title='PDS Print/Fax Dialog' or @title~'^Print\ Fax\ for\ train']/container[@name='mainPanel']/container[@type='JPanel']/container/container[@name='buttonsPanel']/button[@text='OK']
+				</item>
+				<item
+				capname="button"
+				id="017246ea-721e-4cab-a7cd-b3cf85e800fa"
+				name="IssueAndNextButton"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/../form[@title='PDS Print/Fax Dialog' or @title~'^Print\ Fax\ for\ train']/container[@name='mainPanel']/container[@type='JPanel']/container/container[@name='buttonsPanel']/button[@text='Issue &amp; Next']
+				</item>
+				<item
+				capname="button"
+				id="d665b81c-f168-455d-8e65-faf6b9d3ea02"
+				name="AdhocButton"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/../form[@title='PDS Print/Fax Dialog' or @title~'^Print\ Fax\ for\ train']/container[@name='mainPanel']/container[@type='JPanel']/container/container[@name='buttonsPanel']/button[@text='AdHoc...']
+				</item>
+				<item
+				capname="button"
+				id="1067f30f-9731-4cc4-aa94-edfe153ae8a5"
+				name="CancelButton"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/../form[@title='PDS Print/Fax Dialog' or @title~'^Print\ Fax\ for\ train']/container[@name='mainPanel']/container[@type='JPanel']/container/container[@name='buttonsPanel']/button[@text='Cancel']
+				</item>
+				<item
+				capname="text"
+				id="1d83a65c-2b99-46d4-b8b2-066e802a9dd3"
+				name="Feedback"
+				searchtimeout="3000ms">
+					/form[@title='Train Clearance']/../form[@title='PDS Print/Fax Dialog' or @title~'^Print\ Fax\ for\ train']/container[@type='FeedbackBar']/text[@name='messageField']
+				</item>
+				<folder
+				capname="form"
+				id="22821f6c-9b9e-48f9-844d-b3c00f6814a5"
+				isrooted="True"
+				name="Print_Fax_For_Train_AdHoc_Recipients"
+				searchtimeout="3000ms"
+				usecache="False">
+					<folder
+					capname="unknown"
+					id="d2e83a61-60fc-4906-ab9c-c2d86e3b10da"
+					isrooted="False"
+					name="WindowControls"
+					searchtimeout="0ms">
+						<item
+						capname="button"
+						id="33c59f6d-3411-4395-9f57-575b8286b5fc"
+						name="Close"
+						searchtimeout="3000ms">
+							/form[@title='Train Clearance']/../form[@title='PDS Print/Fax Dialog' or @title~'^Print\ Fax\ for\ train']/../form[@title~'^PDS\ Print/Fax\ Dialog:\ Ad\ ']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Close']
+						</item>
+					</folder>
+					<folder
+					capname="table"
+					id="2fb57a09-a0e7-479c-95d5-1929e66bccbc"
+					isrooted="True"
+					name="RecipientsTable"
+					searchtimeout="3000ms"
+					usecache="False">
+						<folder
+						capname="row"
+						id="a650d965-f5e4-49fa-b290-5625eee16e1e"
+						isrooted="True"
+						name="RecipientRowByIndex"
+						refimgid="7efab72e-6dbc-439f-bc15-f2c7eaaf8768"
+						searchtimeout="3000ms"
+						usecache="False">
+							<item
+							capname="cell"
+							id="67ff1690-154c-4d93-bfaa-9a266715832a"
+							name="Name"
+							searchtimeout="3000ms">
+								/form[@title='Train Clearance']/../form[@title='PDS Print/Fax Dialog' or @title~'^Print\ Fax\ for\ train']/../form[@title~'^PDS\ Print/Fax\ Dialog:\ Ad\ ']/container[@type='UIJPanel']/container[@type='UIJPanel']/container[@name='_scrollPane']/container[@name='viewport']/table[@name='_adHocRecipientsTable']/row[@index=$RecipientIndex]/cell[@columnindex='0']
+							</item>
+							<item
+							capname="cell"
+							id="d4060c0d-9f81-41d9-a80c-2b1fd6f8b2cd"
+							name="Address"
+							searchtimeout="3000ms">
+								/form[@title='Train Clearance']/../form[@title='PDS Print/Fax Dialog' or @title~'^Print\ Fax\ for\ train']/../form[@title~'^PDS\ Print/Fax\ Dialog:\ Ad\ ']/container[@type='UIJPanel']/container[@type='UIJPanel']/container[@name='_scrollPane']/container[@name='viewport']/table[@name='_adHocRecipientsTable']/row[@index=$RecipientIndex]/cell[@columnindex='1']
+							</item>
+							<item
+							capname="cell"
+							id="12a8469d-bd89-4abd-9979-0ea33cf7f70e"
+							name="Quantity"
+							searchtimeout="3000ms">
+								/form[@title='Train Clearance']/../form[@title='PDS Print/Fax Dialog' or @title~'^Print\ Fax\ for\ train']/../form[@title~'^PDS\ Print/Fax\ Dialog:\ Ad\ ']/container[@type='UIJPanel']/container[@type='UIJPanel']/container[@name='_scrollPane']/container[@name='viewport']/table[@name='_adHocRecipientsTable']/row[@index=$RecipientIndex]/cell[@columnindex='2']
+							</item>
+							<folder
+							capname="cell"
+							id="4eb032d1-8289-49a0-b8fa-49f9a1976e1a"
+							isrooted="True"
+							name="Type"
+							searchtimeout="3000ms"
+							usecache="False">
+								<item
+								capname="combobox"
+								id="9e705e8b-da97-47db-99b3-76581d37e2c9"
+								name="TypeText"
+								searchtimeout="3000ms">
+									/form[@title='Train Clearance']/../form[@title='PDS Print/Fax Dialog' or @title~'^Print\ Fax\ for\ train']/../form[@title~'^PDS\ Print/Fax\ Dialog:\ Ad\ ']/container[@type='UIJPanel']/container[@type='UIJPanel']/container[@name='_scrollPane']/container[@name='viewport']/table[@name='_adHocRecipientsTable']/row[@index=$RecipientIndex]/cell[@columnindex='3']/../..//combobox[@type='DefaultCellEditor$TableComboBox']
+								</item>
+								<folder
+								capname="list"
+								id="be8a4c1a-6a9c-4da1-837a-d112068de7f7"
+								isrooted="True"
+								name="TypeList"
+								searchtimeout="3000ms"
+								usecache="False">
+									<item
+									capname="listitem"
+									id="54fb86d8-b635-4dce-abb3-bc71272827db"
+									name="Printer"
+									searchtimeout="3000ms">
+										/form[@title='Train Clearance']/../form[@title='PDS Print/Fax Dialog' or @title~'^Print\ Fax\ for\ train']/../form[@title~'^PDS\ Print/Fax\ Dialog:\ Ad\ ']/container[@type='UIJPanel']/container[@type='UIJPanel']/container[@name='_scrollPane']/container[@name='viewport']/table[@name='_adHocRecipientsTable']/row[@index=$RecipientIndex]/cell[@columnindex='3']/../../../../../../../contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='Printer']
+									</item>
+									<item
+									capname="listitem"
+									id="7f74f21f-51cd-4b57-83c5-2ca7e2abc77d"
+									name="Fax"
+									searchtimeout="3000ms">
+										/form[@title='Train Clearance']/../form[@title='PDS Print/Fax Dialog' or @title~'^Print\ Fax\ for\ train']/../form[@title~'^PDS\ Print/Fax\ Dialog:\ Ad\ ']/container[@type='UIJPanel']/container[@type='UIJPanel']/container[@name='_scrollPane']/container[@name='viewport']/table[@name='_adHocRecipientsTable']/row[@index=$RecipientIndex]/cell[@columnindex='3']/../../../../../../../contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='Fax']
+									</item>
+									<item
+									capname="listitem"
+									id="2de0853c-0bfc-4991-8749-7294dc1d3e6e"
+									name="Email"
+									searchtimeout="3000ms">
+										/form[@title='Train Clearance']/../form[@title='PDS Print/Fax Dialog' or @title~'^Print\ Fax\ for\ train']/../form[@title~'^PDS\ Print/Fax\ Dialog:\ Ad\ ']/container[@type='UIJPanel']/container[@type='UIJPanel']/container[@name='_scrollPane']/container[@name='viewport']/table[@name='_adHocRecipientsTable']/row[@index=$RecipientIndex]/cell[@columnindex='3']/../../../../../../../contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='Email']
+									</item>
+									<item
+									capname="listitem"
+									id="3bb39975-c4a7-4e4f-9448-9e871d094bad"
+									name="Pager"
+									searchtimeout="3000ms">
+										/form[@title='Train Clearance']/../form[@title='PDS Print/Fax Dialog' or @title~'^Print\ Fax\ for\ train']/../form[@title~'^PDS\ Print/Fax\ Dialog:\ Ad\ ']/container[@type='UIJPanel']/container[@type='UIJPanel']/container[@name='_scrollPane']/container[@name='viewport']/table[@name='_adHocRecipientsTable']/row[@index=$RecipientIndex]/cell[@columnindex='3']/../../../../../../../contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='Pager']
+									</item>
+									<item
+									capname="listitem"
+									id="633c77ed-f894-43e2-a507-0ab61993f9f5"
+									name="blank"
+									searchtimeout="3000ms">
+										/form[@title='Train Clearance']/../form[@title='PDS Print/Fax Dialog' or @title~'^Print\ Fax\ for\ train']/../form[@title~'^PDS\ Print/Fax\ Dialog:\ Ad\ ']/container[@type='UIJPanel']/container[@type='UIJPanel']/container[@name='_scrollPane']/container[@name='viewport']/table[@name='_adHocRecipientsTable']/row[@index=$RecipientIndex]/cell[@columnindex='3']/../../../../../../../contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text='']
+									</item>
+									<basepath>
+										/form[@title='Train Clearance']/../form[@title='PDS Print/Fax Dialog' or @title~'^Print\ Fax\ for\ train']/../form[@title~'^PDS\ Print/Fax\ Dialog:\ Ad\ ']/container[@type='UIJPanel']/container[@type='UIJPanel']/container[@name='_scrollPane']/container[@name='viewport']/table[@name='_adHocRecipientsTable']/row[@index=$RecipientIndex]/cell[@columnindex='3']/../../../../../../../contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']
+									</basepath>
+								</folder>
+								<basepath>
+									/form[@title='Train Clearance']/../form[@title='PDS Print/Fax Dialog' or @title~'^Print\ Fax\ for\ train']/../form[@title~'^PDS\ Print/Fax\ Dialog:\ Ad\ ']/container[@type='UIJPanel']/container[@type='UIJPanel']/container[@name='_scrollPane']/container[@name='viewport']/table[@name='_adHocRecipientsTable']/row[@index=$RecipientIndex]/cell[@columnindex='3']
+								</basepath>
+							</folder>
+							<basepath>
+								/form[@title='Train Clearance']/../form[@title='PDS Print/Fax Dialog' or @title~'^Print\ Fax\ for\ train']/../form[@title~'^PDS\ Print/Fax\ Dialog:\ Ad\ ']/container[@type='UIJPanel']/container[@type='UIJPanel']/container[@name='_scrollPane']/container[@name='viewport']/table[@name='_adHocRecipientsTable']/row[@index=$RecipientIndex]
+							</basepath>
+						</folder>
+						<basepath>
+							/form[@title='Train Clearance']/../form[@title='PDS Print/Fax Dialog' or @title~'^Print\ Fax\ for\ train']/../form[@title~'^PDS\ Print/Fax\ Dialog:\ Ad\ ']/container[@type='UIJPanel']/container[@type='UIJPanel']/container[@name='_scrollPane']/container[@name='viewport']/table[@name='_adHocRecipientsTable']
+						</basepath>
+					</folder>
+					<item
+					capname="button"
+					id="bdc06095-3a6c-4ccd-bd8e-e8701cff4082"
+					name="IssueButton"
+					searchtimeout="3000ms">
+						/form[@title='Train Clearance']/../form[@title='PDS Print/Fax Dialog' or @title~'^Print\ Fax\ for\ train']/../form[@title~'^PDS\ Print/Fax\ Dialog:\ Ad\ ']/container[@type='UIJPanel']/container[@type='UIJPanel']/container/container[@type='UIJPanel']/button[@name='_okayButton']
+					</item>
+					<item
+					capname="button"
+					id="70c95848-ef73-4547-aac0-9dd1fc800d3d"
+					name="InsertRowButton"
+					searchtimeout="3000ms">
+						/form[@title='Train Clearance']/../form[@title='PDS Print/Fax Dialog' or @title~'^Print\ Fax\ for\ train']/../form[@title~'^PDS\ Print/Fax\ Dialog:\ Ad\ ']/container[@type='UIJPanel']/container[@type='UIJPanel']/container/container[@type='UIJPanel']/button[@name='_insertRowButton']
+					</item>
+					<item
+					capname="button"
+					id="9d6c5ff9-9743-4e49-8289-592f25015be3"
+					name="CancelButton"
+					searchtimeout="3000ms">
+						/form[@title='Train Clearance']/../form[@title='PDS Print/Fax Dialog' or @title~'^Print\ Fax\ for\ train']/../form[@title~'^PDS\ Print/Fax\ Dialog:\ Ad\ ']/container[@type='UIJPanel']/container[@type='UIJPanel']/container/container[@type='UIJPanel']/button[@name='_cancelButton']
+					</item>
+					<item
+					capname="text"
+					id="05fa38f7-eea4-4aa8-b99b-4a09bab25769"
+					name="Feedback"
+					searchtimeout="3000ms">
+						/form[@title='Train Clearance']/../form[@title='PDS Print/Fax Dialog' or @title~'^Print\ Fax\ for\ train']/../form[@title~'^PDS\ Print/Fax\ Dialog:\ Ad\ ']/container[@type='UIJPanel']/container[@type='FeedbackBar']/text[@name='messageField']
+					</item>
+					<basepath>
+						/form[@title='Train Clearance']/../form[@title='PDS Print/Fax Dialog' or @title~'^Print\ Fax\ for\ train']/../form[@title~'^PDS\ Print/Fax\ Dialog:\ Ad\ ']
+					</basepath>
+				</folder>
+				<basepath>
+					/form[@title='Train Clearance']/../form[@title='PDS Print/Fax Dialog' or @title~'^Print\ Fax\ for\ train']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="cc2348ab-b6ca-42e5-ba9e-a24cd270ae11"
+			isrooted="True"
+			name="No_Train_Schedule"
+			searchtimeout="3000ms"
+			usecache="False">
+				<folder
+				capname="unknown"
+				id="c1a9161d-a1f3-4335-ab96-9681d2f3caf0"
+				isrooted="False"
+				name="WindowControls"
+				searchtimeout="0ms">
+					<item
+					capname="button"
+					id="9cef3ef9-2c42-4079-8c49-605ebcb69270"
+					name="Close"
+					searchtimeout="3000ms">
+						/form[@title='Train Clearance']/../form[@title='No Train Schedule']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Close']
+					</item>
+				</folder>
+				<item
+				capname="button"
+				id="c8ac9a42-c96f-4b84-84f5-5739a284fff4"
+				name="YesButton"
+				searchtimeout="3000ms">
+					<image
+					guid="e781ad30-9a41-48b9-a887-558fc600d26d"
+					name="Screenshot1">
+						iVBORw0KGgoAAAANSUhEUgAAACsAAAAaCAYAAAAue6XIAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAEjSURBVFhH7ZTBkYMwDEXdkPrYkw45bBmuxIWo
+ECgqh4yWb7BjE9ghBidOhsObwZYDTx8F83v50U+g73v9TFm9XZskiOI6k8Vma6R+p+yRnLK1+H7Z
+rhO1ZNQYUivdtOeUTb53NEWyoHM8iBklK34tlrJ1DcplY7qsLqaK6ylpscq+PkCcpS2Wlfx5QMpu
+25solgUxXRpTDQ+FKGSQMppyfG8k1tj5s2ktvfcS+2RjugPTw8E4Esk8T02hmSCLOoTlifneJQtS
+kbAX5ndOmGc3qxNbldrJgnXZ/78KeCvi7nO9ZW6ryKYzi3UqH+c81h5/v0YV2bC/9o+XeW3j5263
+7Csplh1TWWbp/BEUy76DU7YWi7Ktk8mmXbSIlw1xY9E2V/0DFs61jzv/evgAAAAASUVORK5CYII=
+					</image>
+					/form[@title='Train Clearance']/../form[@title='No Train Schedule']/container[@type='JOptionPane']/container[@name='OptionPane.buttonArea']/button[@text='Yes']
+				</item>
+				<item
+				capname="button"
+				id="3ca684b0-170e-4950-977b-5bfd70ebb5bd"
+				name="NoButton"
+				searchtimeout="3000ms">
+					<image
+					guid="76cee7df-4082-4c4b-8550-2ff49bcfc770"
+					name="Screenshot1">
+						iVBORw0KGgoAAAANSUhEUgAAACsAAAAaCAYAAAAue6XIAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAASNJREFUWEftlMGRgzAMRd2Q+tiTDjlsGa7EhagQKCqHjJZvsGMT2CEG
+J06Gw5vBlgNPHwXze/nRT6Dve/1MWb1dmySI4jqTxWZrpH6n7JGcsrX4ftmuE7Vk1BhSK92055RN
+vnc0RbKgczyIGSUrfi2WsnUNymVjuqwuporrKWmxyr4+QJylLZaV/HlAym7bmyiWBTFdGlMND4Uo
+ZJAymnJ8byTW2PmzaS299xL7ZGO6A9PDwTgSyTxPTaGZIIs6hOWJ+d4lC1KRsBfmd06YZzerE1uV
+2smCddn/vwp4K+Luc71lbqvIpjOLdSof5zzWHn+/RhXZsL/2j5d5bePnbrfsKymWHVNZZun8ERTL
+voNTthaLsq2TyaZdtIiXDXFj0TZX/QMWzrWPO/96+AAAAABJRU5ErkJggg==
+					</image>
+					/form[@title='Train Clearance']/../form[@title='No Train Schedule']/container[@type='JOptionPane']/container[@name='OptionPane.buttonArea']/button[@text='No']
+				</item>
+				<basepath>
+					/form[@title='Train Clearance']/../form[@title='No Train Schedule']
+				</basepath>
+			</folder>
+			<folder
+			capname="form"
+			id="f9674497-d3e3-450a-8295-e747819365f2"
+			isrooted="True"
+			name="Train_Not_Active"
+			searchtimeout="3000ms"
+			usecache="False">
+				<folder
+				capname="unknown"
+				id="c750c291-b97e-4428-9028-398a44d563d3"
+				isrooted="False"
+				name="WindowControls"
+				searchtimeout="0ms">
+					<item
+					capname="button"
+					id="fc8b7613-5e5b-4903-ae0e-908c2f1ea1ad"
+					name="Close"
+					searchtimeout="3000ms">
+						/form[@title='Train Clearance']/../form[@title='Train Not Active']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Close']
+					</item>
+				</folder>
+				<item
+				capname="button"
+				id="f49a29d4-83d6-4ecc-9dbe-019cad20bfd6"
+				name="YesButton"
+				searchtimeout="3000ms">
+					<image
+					guid="fab1698d-316d-4f65-9ef4-e39fb5964437"
+					name="Screenshot1">
+						iVBORw0KGgoAAAANSUhEUgAAACsAAAAaCAYAAAAue6XIAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAASNJREFUWEftlMGRgzAMRd2Q+tiTDjlsGa7EhagQKCqHjJZvsGMT2CEG
+J06Gw5vBlgNPHwXze/nRT6Dve/1MWb1dmySI4jqTxWZrpH6n7JGcsrX4ftmuE7Vk1BhSK92055RN
+vnc0RbKgczyIGSUrfi2WsnUNymVjuqwuporrKWmxyr4+QJylLZaV/HlAym7bmyiWBTFdGlMND4Uo
+ZJAymnJ8byTW2PmzaS299xL7ZGO6A9PDwTgSyTxPTaGZIIs6hOWJ+d4lC1KRsBfmd06YZzerE1uV
+2smCddn/vwp4K+Luc71lbqvIpjOLdSof5zzWHn+/RhXZsL/2j5d5bePnbrfsKymWHVNZZun8ERTL
+voNTthaLsq2TyaZdtIiXDXFj0TZX/QMWzrWPO/96+AAAAABJRU5ErkJggg==
+					</image>
+					/form[@title='Train Clearance']/../form[@title='Train Not Active']/container[@type='JOptionPane']/container[@name='OptionPane.buttonArea']/button[@text='Yes']
+				</item>
+				<item
+				capname="button"
+				id="e0aa3830-5453-48a9-a0ab-f0145c4d8582"
+				name="NoButton"
+				searchtimeout="3000ms">
+					<image
+					guid="db95bd03-287a-4c7d-86cf-1b70ce1b73c1"
+					name="Screenshot1">
+						iVBORw0KGgoAAAANSUhEUgAAACsAAAAaCAYAAAAue6XIAAAABGdBTUEAALGPC/xhBQAAAAlwSFlz
+AAAOxAAADsQBlSsOGwAAASNJREFUWEftlMGRgzAMRd2Q+tiTDjlsGa7EhagQKCqHjJZvsGMT2CEG
+J06Gw5vBlgNPHwXze/nRT6Dve/1MWb1dmySI4jqTxWZrpH6n7JGcsrX4ftmuE7Vk1BhSK92055RN
+vnc0RbKgczyIGSUrfi2WsnUNymVjuqwuporrKWmxyr4+QJylLZaV/HlAym7bmyiWBTFdGlMND4Uo
+ZJAymnJ8byTW2PmzaS299xL7ZGO6A9PDwTgSyTxPTaGZIIs6hOWJ+d4lC1KRsBfmd06YZzerE1uV
+2smCddn/vwp4K+Luc71lbqvIpjOLdSof5zzWHn+/RhXZsL/2j5d5bePnbrfsKymWHVNZZun8ERTL
+voNTthaLsq2TyaZdtIiXDXFj0TZX/QMWzrWPO/96+AAAAABJRU5ErkJggg==
+					</image>
+					/form[@title='Train Clearance']/../form[@title='Train Not Active']/container[@type='JOptionPane']/container[@name='OptionPane.buttonArea']/button[@text='No']
+				</item>
+				<basepath>
+					/form[@title='Train Clearance']/../form[@title='Train Not Active']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title='Train Clearance']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="365ccff6-7b06-4320-a031-385cc33b0509"
+		isrooted="True"
+		name="Train_Clearance_Summary_List"
+		searchtimeout="3000ms"
+		usecache="False">
+			<folder
+			capname="unknown"
+			id="c5b57248-ab94-4fb3-b88d-901ecbc42c8c"
+			isrooted="False"
+			name="WindowControls"
+			searchtimeout="0ms">
+				<item
+				capname="button"
+				id="f94115a2-1b99-4828-9239-41f7dc06ac37"
+				name="Minimize"
+				searchtimeout="3000ms">
+					/form[@title~'^Train\ Clearance\ Summary\ L']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Minimize']
+				</item>
+				<item
+				capname="button"
+				id="767c3acb-90c8-4d08-b769-50f9c7a28bb7"
+				name="Maximize"
+				searchtimeout="3000ms">
+					/form[@title~'^Train\ Clearance\ Summary\ L']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Maximize']
+				</item>
+				<item
+				capname="button"
+				id="9bb25a0d-5f2a-4da5-8c6b-76bf0814d4cf"
+				name="Close"
+				searchtimeout="3000ms">
+					/form[@title~'^Train\ Clearance\ Summary\ L']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Close']
+				</item>
+			</folder>
+			<folder
+			capname="menubar"
+			id="a4e1be05-1517-4988-842b-6f2ff1a67744"
+			isrooted="True"
+			name="MainMenuBar"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="menuitem"
+				id="e574736a-0c79-4775-ad83-e1106cc2f1c8"
+				name="FileButton"
+				searchtimeout="3000ms">
+					/form[@title~'^Train\ Clearance\ Summary\ L']/menubar[@type='JMenuBar']/menuitem[@text='File']
+				</item>
+				<item
+				capname="menuitem"
+				id="4e9af411-ff44-461f-8134-4a5af4b2ccae"
+				name="EditButton"
+				searchtimeout="3000ms">
+					/form[@title~'^Train\ Clearance\ Summary\ L']/menubar[@type='JMenuBar']/menuitem[@name='edit.menu']
+				</item>
+				<item
+				capname="menuitem"
+				id="fd6a8123-4e9f-4882-95d3-4b39bab73a51"
+				name="ConfigureButton"
+				searchtimeout="3000ms">
+					/form[@title~'^Train\ Clearance\ Summary\ L']/menubar[@type='JMenuBar']/menuitem[@name='configure.menu']
+				</item>
+				<basepath>
+					/form[@title~'^Train\ Clearance\ Summary\ L']/menubar[@type='JMenuBar']
+				</basepath>
+			</folder>
+			<folder
+			capname="contextmenu"
+			id="3b01ab1b-974f-4722-86aa-219141ea8449"
+			isrooted="True"
+			name="FileMenu"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="menuitem"
+				id="c07d9481-b005-4f1b-9de3-5591450f6c41"
+				name="Close"
+				searchtimeout="3000ms">
+					/form[@title~'^Train\ Clearance\ Summary\ L']/contextmenu[@type='JPopupMenu' and @visible='True']/menuitem[@text='Close']
+				</item>
+				<basepath>
+					/form[@title~'^Train\ Clearance\ Summary\ L']/contextmenu[@type='JPopupMenu' and @visible='True']
+				</basepath>
+			</folder>
+			<folder
+			capname="contextmenu"
+			id="fd0fab53-f801-4726-90cb-add77c698107"
+			isrooted="True"
+			name="EditMenu"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="menuitem"
+				id="2b19723d-48e3-42e8-b32b-fdcb1661800b"
+				name="Find"
+				searchtimeout="3000ms">
+					/form[@title~'^Train\ Clearance\ Summary\ L']/contextmenu[@type='JPopupMenu' and @visible='True']/menuitem[@text='Find']
+				</item>
+				<item
+				capname="menuitem"
+				id="b3158427-c4eb-41b0-86b6-cc407f8fc676"
+				name="Filter"
+				searchtimeout="3000ms">
+					/form[@title~'^Train\ Clearance\ Summary\ L']/contextmenu[@type='JPopupMenu' and @visible='True']/menuitem[@text='Filter']
+				</item>
+				<basepath>
+					/form[@title~'^Train\ Clearance\ Summary\ L']/contextmenu[@type='JPopupMenu' and @visible='True']
+				</basepath>
+			</folder>
+			<folder
+			capname="contextmenu"
+			id="d907f7cb-2e98-4959-9093-cd4a65697a44"
+			isrooted="True"
+			name="ConfigureMenu"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="menuitem"
+				id="da456baa-8dea-4922-a02f-b32fd30e5d4d"
+				name="ChangeConfiguration"
+				searchtimeout="3000ms">
+					/form[@title~'^Train\ Clearance\ Summary\ L']/contextmenu[@type='JPopupMenu' and @visible='True']/menuitem[@text='Change Configuration']
+				</item>
+				<item
+				capname="menuitem"
+				id="72bbad51-7387-4bf2-92cd-ee7cd1f49fab"
+				name="SaveConfiguration"
+				searchtimeout="3000ms">
+					/form[@title~'^Train\ Clearance\ Summary\ L']/contextmenu[@type='JPopupMenu' and @visible='True']/menuitem[@text='Save Configuration']
+				</item>
+				<basepath>
+					/form[@title~'^Train\ Clearance\ Summary\ L']/contextmenu[@type='JPopupMenu' and @visible='True']
+				</basepath>
+			</folder>
+			<folder
+			capname="toolbar"
+			id="196dbeab-5f5b-4df2-a0ad-b210ceabeb87"
+			isrooted="True"
+			name="RibbonMenu"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="button"
+				id="d2e529b1-46b1-4f6a-98ca-4cddbc80b795"
+				name="Find"
+				searchtimeout="3000ms">
+					/form[@title~'^Train\ Clearance\ Summary\ L']/toolbar[@type='SwankyToolbar']/button[1]
+				</item>
+				<item
+				capname="button"
+				id="5c421653-689d-4cdc-8087-5cd7fd7c61b3"
+				name="Filter"
+				searchtimeout="3000ms">
+					/form[@title~'^Train\ Clearance\ Summary\ L']/toolbar[@type='SwankyToolbar']/button[2]
+				</item>
+				<item
+				capname="button"
+				id="6a44699c-165c-499e-8e24-1cea782e651e"
+				name="Sort"
+				searchtimeout="3000ms">
+					/form[@title~'^Train\ Clearance\ Summary\ L']/toolbar[@type='SwankyToolbar']/button[3]
+				</item>
+				<item
+				capname="button"
+				id="7c42220c-3164-471c-b61b-0e0e9e9d376b"
+				name="HelpTopics"
+				searchtimeout="3000ms">
+					/form[@title~'^Train\ Clearance\ Summary\ L']/toolbar[@type='SwankyToolbar']/button[@type='JButton']
+				</item>
+				<basepath>
+					/form[@title~'^Train\ Clearance\ Summary\ L']/toolbar[@type='SwankyToolbar']
+				</basepath>
+			</folder>
+			<folder
+			capname="table"
+			id="c6f6b359-fe24-47e1-927c-d238ca3fbdd7"
+			isrooted="True"
+			name="TrainClearanceSummaryListTable"
+			searchtimeout="3000ms"
+			usecache="False">
+				<folder
+				capname="contextmenu"
+				id="a801f54e-a1e4-46b4-b7aa-c7f0b2fd8a17"
+				isrooted="True"
+				name="MenuCellMenu"
+				searchtimeout="3000ms"
+				usecache="False">
+					<item
+					capname="menuitem"
+					id="2b2e3a52-75ad-4802-b848-01eb3a97cb7a"
+					name="MenuItemByName"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/container[@name='SummaryListsPanel']/container[@type='TableScrollPane']/container/table[@name='summaryListTable']/../../../../../form[@processname='PDS']/contextmenu[@type='JPopupMenu']/menuitem[@text~$MenuItemName]
+					</item>
+					<item
+					capname="menuitem"
+					id="073a3d5f-0849-4f2d-8fed-ca094c6d8e69"
+					name="OpenTrainClearance"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/container[@name='SummaryListsPanel']/container[@type='TableScrollPane']/container/table[@name='summaryListTable']/../../../../../form[@processname='PDS']/contextmenu[@type='JPopupMenu']/menuitem[@text~'Open Train Clearance']
+					</item>
+					<item
+					capname="menuitem"
+					id="27e9e240-19a5-4c1c-97b3-c683ec010947"
+					name="AssociateDisassociateTrain"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/container[@name='SummaryListsPanel']/container[@type='TableScrollPane']/container/table[@name='summaryListTable']/../../../../../form[@processname='PDS']/contextmenu[@type='JPopupMenu']/menuitem[@text~'Associate\/Disassociate Train']
+					</item>
+					<basepath>
+						/form[@title~'^Train\ Clearance\ Summary\ L']/container[@name='SummaryListsPanel']/container[@type='TableScrollPane']/container/table[@name='summaryListTable']/../../../../../form[@processname='PDS']/contextmenu[@type='JPopupMenu']
+					</basepath>
+				</folder>
+				<folder
+				capname="row"
+				id="b9f615d0-3160-4d3b-92d4-4c9c31f268f6"
+				isrooted="True"
+				name="TrainClearanceSummaryRowByRowIndex"
+				searchtimeout="3000ms"
+				usecache="False">
+					<item
+					capname="cell"
+					id="40b0d0ff-adfe-4afc-8bc2-2be68e0d9193"
+					name="MenuCell"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/container[@name='SummaryListsPanel']/container[@type='TableScrollPane']/container/table[@name='summaryListTable']/row[@index=$RowIndex]/../../../container/container[@name='rowHeader']/table[@name='headerTable']/row[@index=$RowIndex]/cell
+					</item>
+					<item
+					capname="cell"
+					id="a4e05f86-55e2-4ec6-bf52-38e997553a9f"
+					name="CellByColumnIndex"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/container[@name='SummaryListsPanel']/container[@type='TableScrollPane']/container/table[@name='summaryListTable']/row[@index=$RowIndex]/cell[@columnindex=$ColumnIndex]
+					</item>
+					<folder
+					capname="unknown"
+					id="4c6de236-5b68-43ec-af55-04e525d5026a"
+					isrooted="False"
+					name="CellByColumnName"
+					searchtimeout="0ms">
+						<item
+						capname="cell"
+						id="7460fb02-4b63-4547-a69e-8535583dc4b5"
+						name="TrainClearanceNumber"
+						searchtimeout="3000ms">
+							/form[@title~'^Train\ Clearance\ Summary\ L']/container[@name='SummaryListsPanel']/container[@type='TableScrollPane']/container/table[@name='summaryListTable']/row[@index=$RowIndex]/cell[@columnindex='0']
+						</item>
+						<item
+						capname="cell"
+						id="53872f1b-29fb-4d2c-be3c-e82b5c60a2fd"
+						name="TrainId"
+						searchtimeout="3000ms">
+							/form[@title~'^Train\ Clearance\ Summary\ L']/container[@name='SummaryListsPanel']/container[@type='TableScrollPane']/container/table[@name='summaryListTable']/row[@index=$RowIndex]/cell[@columnindex='1']
+						</item>
+						<item
+						capname="cell"
+						id="4a6c2327-c8f0-400f-b2a7-c3970fe2c243"
+						name="Status"
+						searchtimeout="3000ms">
+							/form[@title~'^Train\ Clearance\ Summary\ L']/container[@name='SummaryListsPanel']/container[@type='TableScrollPane']/container/table[@name='summaryListTable']/row[@index=$RowIndex]/cell[@columnindex='2']
+						</item>
+						<item
+						capname="cell"
+						id="657cd899-fe11-42ee-a9eb-3f3e985ca388"
+						name="CrewOriginPassCount"
+						searchtimeout="3000ms">
+							/form[@title~'^Train\ Clearance\ Summary\ L']/container[@name='SummaryListsPanel']/container[@type='TableScrollPane']/container/table[@name='summaryListTable']/row[@index=$RowIndex]/cell[@columnindex='3']
+						</item>
+						<item
+						capname="cell"
+						id="1299f108-d941-4a5b-a474-389e95d8fb55"
+						name="CrewDestinationPassCount"
+						searchtimeout="3000ms">
+							/form[@title~'^Train\ Clearance\ Summary\ L']/container[@name='SummaryListsPanel']/container[@type='TableScrollPane']/container/table[@name='summaryListTable']/row[@index=$RowIndex]/cell[@columnindex='4']
+						</item>
+						<item
+						capname="cell"
+						id="f15907ff-f27c-41e6-9add-7018c16aaf29"
+						name="QuantityOfBulletins"
+						searchtimeout="3000ms">
+							/form[@title~'^Train\ Clearance\ Summary\ L']/container[@name='SummaryListsPanel']/container[@type='TableScrollPane']/container/table[@name='summaryListTable']/row[@index=$RowIndex]/cell[@columnindex='5']
+						</item>
+						<item
+						capname="cell"
+						id="0853f582-e11b-4ac7-9905-0dbf1587454a"
+						name="QuantityOfMessages"
+						searchtimeout="3000ms">
+							/form[@title~'^Train\ Clearance\ Summary\ L']/container[@name='SummaryListsPanel']/container[@type='TableScrollPane']/container/table[@name='summaryListTable']/row[@index=$RowIndex]/cell[@columnindex='6']
+						</item>
+						<item
+						capname="cell"
+						id="69812597-d31a-45d5-9b84-357fb5582f43"
+						name="AssociationTime"
+						searchtimeout="3000ms">
+							/form[@title~'^Train\ Clearance\ Summary\ L']/container[@name='SummaryListsPanel']/container[@type='TableScrollPane']/container/table[@name='summaryListTable']/row[@index=$RowIndex]/cell[@columnindex='7']
+						</item>
+						<item
+						capname="cell"
+						id="deb3ac46-8ca2-49c8-80cf-7ddcaecc09b9"
+						name="AssocationDispatcherInitals"
+						searchtimeout="3000ms">
+							/form[@title~'^Train\ Clearance\ Summary\ L']/container[@name='SummaryListsPanel']/container[@type='TableScrollPane']/container/table[@name='summaryListTable']/row[@index=$RowIndex]/cell[@columnindex='8']
+						</item>
+					</folder>
+					<basepath>
+						/form[@title~'^Train\ Clearance\ Summary\ L']/container[@name='SummaryListsPanel']/container[@type='TableScrollPane']/container/table[@name='summaryListTable']/row[@index=$RowIndex]
+					</basepath>
+				</folder>
+				<folder
+				capname="unknown"
+				id="b9dd445a-36a1-4bd6-b7ff-2cfe401bb8ae"
+				isrooted="True"
+				name="TrainClearanceSummaryRowByTrainClearanceNumber"
+				searchtimeout="3000ms"
+				usecache="False">
+					<item
+					capname="cell"
+					id="5fcada26-8647-4e97-97ce-3cfba790b62b"
+					name="TrainClearanceNumber"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/container[@name='SummaryListsPanel']/container[@type='TableScrollPane']/container/table[@name='summaryListTable']/row/cell[@columnindex='0' and @text=$TrainClearanceNumber]/../cell[@columnindex='0']
+					</item>
+					<item
+					capname="cell"
+					id="ec4bbf74-31c2-4c15-9c26-274990dae8b1"
+					name="TrainId"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/container[@name='SummaryListsPanel']/container[@type='TableScrollPane']/container/table[@name='summaryListTable']/row/cell[@columnindex='0' and @text=$TrainClearanceNumber]/../cell[@columnindex='1']
+					</item>
+					<item
+					capname="cell"
+					id="846c9856-51fc-4137-a681-cf4fe5150b66"
+					name="Status"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/container[@name='SummaryListsPanel']/container[@type='TableScrollPane']/container/table[@name='summaryListTable']/row/cell[@columnindex='0' and @text=$TrainClearanceNumber]/../cell[@columnindex='2']
+					</item>
+					<item
+					capname="cell"
+					id="2b489b95-0aed-413e-8829-ce72976cd7bb"
+					name="CrewOriginPassCount"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/container[@name='SummaryListsPanel']/container[@type='TableScrollPane']/container/table[@name='summaryListTable']/row/cell[@columnindex='0' and @text=$TrainClearanceNumber]/../cell[@columnindex='3']
+					</item>
+					<item
+					capname="cell"
+					id="9eee667e-3688-4f1b-b9b0-52977fa8054b"
+					name="CrewDestinationPassCount"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/container[@name='SummaryListsPanel']/container[@type='TableScrollPane']/container/table[@name='summaryListTable']/row/cell[@columnindex='0' and @text=$TrainClearanceNumber]/../cell[@columnindex='4']
+					</item>
+					<item
+					capname="cell"
+					id="23a4f483-bc32-4567-aa1f-6a2d27fbc561"
+					name="QuantityOfBulletins"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/container[@name='SummaryListsPanel']/container[@type='TableScrollPane']/container/table[@name='summaryListTable']/row/cell[@columnindex='0' and @text=$TrainClearanceNumber]/../cell[@columnindex='5']
+					</item>
+					<item
+					capname="cell"
+					id="a1d61f20-9f11-4d12-bc33-6361ccea4fe8"
+					name="QuantityOfMessages"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/container[@name='SummaryListsPanel']/container[@type='TableScrollPane']/container/table[@name='summaryListTable']/row/cell[@columnindex='0' and @text=$TrainClearanceNumber]/../cell[@columnindex='6']
+					</item>
+					<item
+					capname="cell"
+					id="825f6601-9d75-44bf-8c1f-a48ee75ab195"
+					name="AssociationTime"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/container[@name='SummaryListsPanel']/container[@type='TableScrollPane']/container/table[@name='summaryListTable']/row/cell[@columnindex='0' and @text=$TrainClearanceNumber]/../cell[@columnindex='7']
+					</item>
+					<item
+					capname="cell"
+					id="d74a6825-1e5d-4a6c-a969-a0db9859b6d5"
+					name="AssocationDispatcherInitals"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/container[@name='SummaryListsPanel']/container[@type='TableScrollPane']/container/table[@name='summaryListTable']/row/cell[@columnindex='0' and @text=$TrainClearanceNumber]/../cell[@columnindex='8']
+					</item>
+					<basepath>
+						/form[@title~'^Train\ Clearance\ Summary\ L']/container[@name='SummaryListsPanel']/container[@type='TableScrollPane']/container/table[@name='summaryListTable']/row/cell[@columnindex='0' and @text=$TrainClearanceNumber]/..
+					</basepath>
+				</folder>
+				<folder
+				capname="unknown"
+				id="0f2b008e-91aa-4d1c-a3b4-e71927d4b33a"
+				isrooted="True"
+				name="TrainClearanceSummaryRowByTrainId"
+				searchtimeout="3000ms"
+				usecache="False">
+					<item
+					capname="cell"
+					id="13806e55-78e7-4a07-8bfb-1a5f53a85e3d"
+					name="TrainClearanceNumber"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/container[@name='SummaryListsPanel']/container[@type='TableScrollPane']/container/table[@name='summaryListTable']/row/cell[@columnindex='1' and @text=$TrainId]/../cell[@columnindex='0']
+					</item>
+					<item
+					capname="cell"
+					id="8b8d85d6-47a3-4edb-add7-b74e7a146842"
+					name="TrainId"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/container[@name='SummaryListsPanel']/container[@type='TableScrollPane']/container/table[@name='summaryListTable']/row/cell[@columnindex='1' and @text=$TrainId]/../cell[@columnindex='1']
+					</item>
+					<item
+					capname="cell"
+					id="f8b6abbe-4d25-486a-ba99-d4daaaba3586"
+					name="Status"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/container[@name='SummaryListsPanel']/container[@type='TableScrollPane']/container/table[@name='summaryListTable']/row/cell[@columnindex='1' and @text=$TrainId]/../cell[@columnindex='2']
+					</item>
+					<item
+					capname="cell"
+					id="5183cfec-0fcc-4cda-8e14-8d5a3bd722dd"
+					name="CrewOriginPassCount"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/container[@name='SummaryListsPanel']/container[@type='TableScrollPane']/container/table[@name='summaryListTable']/row/cell[@columnindex='1' and @text=$TrainId]/../cell[@columnindex='3']
+					</item>
+					<item
+					capname="cell"
+					id="af4e2d2b-da76-4b77-8987-99526709ac8e"
+					name="CrewDestinationPassCount"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/container[@name='SummaryListsPanel']/container[@type='TableScrollPane']/container/table[@name='summaryListTable']/row/cell[@columnindex='1' and @text=$TrainId]/../cell[@columnindex='4']
+					</item>
+					<item
+					capname="cell"
+					id="cc30f088-fd80-41d9-9af6-d6d18f9aa743"
+					name="QuantityOfBulletins"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/container[@name='SummaryListsPanel']/container[@type='TableScrollPane']/container/table[@name='summaryListTable']/row/cell[@columnindex='1' and @text=$TrainId]/../cell[@columnindex='5']
+					</item>
+					<item
+					capname="cell"
+					id="5d94ab0a-b3ae-485c-a72d-e7e3378dbedc"
+					name="QuantityOfMessages"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/container[@name='SummaryListsPanel']/container[@type='TableScrollPane']/container/table[@name='summaryListTable']/row/cell[@columnindex='1' and @text=$TrainId]/../cell[@columnindex='6']
+					</item>
+					<item
+					capname="cell"
+					id="19bbfcaf-b0ad-42ea-a0c2-fd0c6da46648"
+					name="AssociationTime"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/container[@name='SummaryListsPanel']/container[@type='TableScrollPane']/container/table[@name='summaryListTable']/row/cell[@columnindex='1' and @text=$TrainId]/../cell[@columnindex='7']
+					</item>
+					<item
+					capname="cell"
+					id="a98ab51e-f184-49fb-9873-e58b54db715e"
+					name="AssocationDispatcherInitals"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/container[@name='SummaryListsPanel']/container[@type='TableScrollPane']/container/table[@name='summaryListTable']/row/cell[@columnindex='1' and @text=$TrainId]/../cell[@columnindex='8']
+					</item>
+					<basepath>
+						/form[@title~'^Train\ Clearance\ Summary\ L']/container[@name='SummaryListsPanel']/container[@type='TableScrollPane']/container/table[@name='summaryListTable']/row/cell[@columnindex='1' and @text=$TrainId]/..
+					</basepath>
+				</folder>
+				<basepath>
+					/form[@title~'^Train\ Clearance\ Summary\ L']/container[@name='SummaryListsPanel']/container[@type='TableScrollPane']/container/table[@name='summaryListTable']
+				</basepath>
+			</folder>
+			<item
+			capname="text"
+			id="da2699f2-c724-4534-b885-211bc6aeb412"
+			name="Feedback"
+			searchtimeout="3000ms">
+				/form[@title~'^Train\ Clearance\ Summary\ L']/container[@type='FeedbackBar']/text[@name='messageField']
+			</item>
+			<folder
+			capname="form"
+			id="2b2754b3-b6e2-49c2-a07b-50d5b90ce55a"
+			isrooted="True"
+			name="Associate_Train_For_Train_Clearance"
+			searchtimeout="3000ms"
+			usecache="False">
+				<folder
+				capname="unknown"
+				id="9176709f-3401-4f67-b1dd-f73570e1991e"
+				isrooted="False"
+				name="WindowControls"
+				searchtimeout="0ms">
+					<item
+					capname="button"
+					id="97df7c65-06ec-4c58-9843-fbf4c17b29c2"
+					name="Minimize"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/../form[@title~'^Associate\ Trains\ for\ Trai']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Minimize']
+					</item>
+					<item
+					capname="button"
+					id="adb7345a-9f94-49a1-bf35-464cf87218df"
+					name="Maximize"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/../form[@title~'^Associate\ Trains\ for\ Trai']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Maximize']
+					</item>
+					<item
+					capname="button"
+					id="c8c392dc-62c2-4d0a-a0b2-b2873489bd3b"
+					name="Close"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/../form[@title~'^Associate\ Trains\ for\ Trai']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Close']
+					</item>
+				</folder>
+				<folder
+				capname="menubar"
+				id="9897444f-9888-4244-a325-7e3b93cf5e3c"
+				isrooted="True"
+				name="MainMenuBar"
+				searchtimeout="3000ms"
+				usecache="False">
+					<item
+					capname="menuitem"
+					id="1b0d7433-187e-414c-9c5b-2cece1ac2992"
+					name="FileButton"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/../form[@title~'^Associate\ Trains\ for\ Trai']/menubar[@type='JMenuBar']/menuitem[@text='File']
+					</item>
+					<basepath>
+						/form[@title~'^Train\ Clearance\ Summary\ L']/../form[@title~'^Associate\ Trains\ for\ Trai']/menubar[@type='JMenuBar']
+					</basepath>
+				</folder>
+				<folder
+				capname="contextmenu"
+				id="91ad7795-0285-4a09-99f8-0a3916bc0a28"
+				isrooted="True"
+				name="FileMenu"
+				searchtimeout="3000ms"
+				usecache="False">
+					<item
+					capname="menuitem"
+					id="ebdf8f21-dc34-487c-8465-05ae484c41de"
+					name="Apply"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/../form[@title~'^Associate\ Trains\ for\ Trai']/contextmenu[@type='JPopupMenu' and @visible='True']/menuitem[@text='Apply']
+					</item>
+					<item
+					capname="menuitem"
+					id="4a74be5a-5bdb-4997-aa1f-fd8caff3671d"
+					name="Reset"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/../form[@title~'^Associate\ Trains\ for\ Trai']/contextmenu[@type='JPopupMenu' and @visible='True']/menuitem[@text='Reset']
+					</item>
+					<item
+					capname="menuitem"
+					id="ab0c763d-4cce-429a-83e6-ce6be60a95d5"
+					name="Close"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/../form[@title~'^Associate\ Trains\ for\ Trai']/contextmenu[@type='JPopupMenu' and @visible='True']/menuitem[@text='Close']
+					</item>
+					<basepath>
+						/form[@title~'^Train\ Clearance\ Summary\ L']/../form[@title~'^Associate\ Trains\ for\ Trai']/contextmenu[@type='JPopupMenu' and @visible='True']
+					</basepath>
+				</folder>
+				<folder
+				capname="toolbar"
+				id="a6a826a7-e0d1-41f9-825d-b94b9ad7f4fa"
+				isrooted="True"
+				name="RibbonMenu"
+				searchtimeout="3000ms"
+				usecache="False">
+					<item
+					capname="button"
+					id="9e3d7517-29f7-4fe3-b518-befbefc74a6a"
+					name="HelpTopics"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/../form[@title~'^Associate\ Trains\ for\ Trai']/toolbar[@type='SwankyToolbar']/button[@type='JButton']
+					</item>
+					<basepath>
+						/form[@title~'^Train\ Clearance\ Summary\ L']/../form[@title~'^Associate\ Trains\ for\ Trai']/toolbar[@type='SwankyToolbar']
+					</basepath>
+				</folder>
+				<folder
+				capname="list"
+				id="73dde021-f3ee-4e53-9332-9c5592ac4d6b"
+				isrooted="True"
+				name="UnassociatedTrainsList"
+				searchtimeout="3000ms"
+				usecache="False">
+					<item
+					capname="listitem"
+					id="5adeec0e-0c87-4610-883d-0e441b3afa7d"
+					name="UnassociatedTrainListItemByIndex"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/../form[@title~'^Associate\ Trains\ for\ Trai']/container[@type='UIJPanel']/container/container/container[@type='JScrollPane']/container[@name='viewport']/list[@name='_unassociatedList']/listitem[@index=$TrainIdIndex]
+					</item>
+					<item
+					capname="listitem"
+					id="0743c3de-25af-4559-b4af-66a3f5bf9fa3"
+					name="UnassociatedTrainListItemByTrainId"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/../form[@title~'^Associate\ Trains\ for\ Trai']/container[@type='UIJPanel']/container/container/container[@type='JScrollPane']/container[@name='viewport']/list[@name='_unassociatedList']/listitem[@text=$TrainId]
+					</item>
+					<basepath>
+						/form[@title~'^Train\ Clearance\ Summary\ L']/../form[@title~'^Associate\ Trains\ for\ Trai']/container[@type='UIJPanel']/container/container/container[@type='JScrollPane']/container[@name='viewport']/list[@name='_unassociatedList']
+					</basepath>
+				</folder>
+				<folder
+				capname="list"
+				id="654f304f-984e-46b2-a9c4-969f182ccdcc"
+				isrooted="True"
+				name="AssociatedTrainsList"
+				searchtimeout="3000ms"
+				usecache="False">
+					<item
+					capname="listitem"
+					id="69d15201-a005-44f1-b544-e17b45af4c0b"
+					name="AssociatedTrainListItemByIndex"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/../form[@title~'^Associate\ Trains\ for\ Trai']/container[@type='UIJPanel']/container/container/container[@type='JScrollPane']/container[@name='viewport']/list[@name='_associatedList']/listitem[@index=$TrainIdIndex]
+					</item>
+					<item
+					capname="listitem"
+					id="d3754d6a-ce5c-4c41-83c7-7af73d4a096b"
+					name="AssociatedTrainListItemByTrainId"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/../form[@title~'^Associate\ Trains\ for\ Trai']/container[@type='UIJPanel']/container/container/container[@type='JScrollPane']/container[@name='viewport']/list[@name='_associatedList']/listitem[@text=$TrainId]
+					</item>
+					<basepath>
+						/form[@title~'^Train\ Clearance\ Summary\ L']/../form[@title~'^Associate\ Trains\ for\ Trai']/container[@type='UIJPanel']/container/container/container[@type='JScrollPane']/container[@name='viewport']/list[@name='_associatedList']
+					</basepath>
+				</folder>
+				<item
+				capname="button"
+				id="46b0934c-9b22-451f-824e-bdebf1a1fc29"
+				name="AssociateButton"
+				searchtimeout="3000ms">
+					/form[@title~'^Train\ Clearance\ Summary\ L']/../form[@title~'^Associate\ Trains\ for\ Trai']/container[@type='UIJPanel']/container/container/button[@text='Associate &gt;']
+				</item>
+				<item
+				capname="button"
+				id="a4b40606-32da-4001-a26a-0da98e920b43"
+				name="DisassociateButton"
+				searchtimeout="3000ms">
+					/form[@title~'^Train\ Clearance\ Summary\ L']/../form[@title~'^Associate\ Trains\ for\ Trai']/container[@type='UIJPanel']/container/container/button[@text='&lt; Disassociate']
+				</item>
+				<item
+				capname="button"
+				id="1a9d527d-2001-448b-8518-c195b2fad223"
+				name="CompareButton"
+				searchtimeout="3000ms">
+					/form[@title~'^Train\ Clearance\ Summary\ L']/../form[@title~'^Associate\ Trains\ for\ Trai']/container[@type='UIJPanel']/container/container/button[@text='Compare']
+				</item>
+				<folder
+				capname="unknown"
+				id="c38a1e64-d801-4c5f-935d-e7aa08db150c"
+				isrooted="False"
+				name="AddTrain"
+				searchtimeout="0ms">
+					<item
+					capname="text"
+					id="911130ea-8f39-4e06-baf1-35f0ac745816"
+					name="TrainIdText"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/../form[@title~'^Associate\ Trains\ for\ Trai']/container[@type='UIJPanel']/container[@accessiblename='Add Train']/text[@name='findTrainTextField']
+					</item>
+					<item
+					capname="button"
+					id="d256b9ea-3cfc-4968-8d70-8d09370f4666"
+					name="TrainIdAssociateButton"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/../form[@title~'^Associate\ Trains\ for\ Trai']/container[@type='UIJPanel']/container[@accessiblename='Add Train']/button[@text='Associate']
+					</item>
+				</folder>
+				<item
+				capname="button"
+				id="7adefd42-07b8-4035-a0e1-0a324946943f"
+				name="OkButton"
+				searchtimeout="3000ms">
+					/form[@title~'^Train\ Clearance\ Summary\ L']/../form[@title~'^Associate\ Trains\ for\ Trai']/container[@type='UIJPanel']/container/button[@text='OK']
+				</item>
+				<item
+				capname="button"
+				id="4e6f41ef-11be-49b8-a5c2-c4239772fcbc"
+				name="ApplyButton"
+				searchtimeout="3000ms">
+					/form[@title~'^Train\ Clearance\ Summary\ L']/../form[@title~'^Associate\ Trains\ for\ Trai']/container[@type='UIJPanel']/container/button[@text='Apply']
+				</item>
+				<item
+				capname="button"
+				id="90addca6-1d12-4bae-a050-2e971c1ba914"
+				name="ResetButton"
+				searchtimeout="3000ms">
+					/form[@title~'^Train\ Clearance\ Summary\ L']/../form[@title~'^Associate\ Trains\ for\ Trai']/container[@type='UIJPanel']/container/button[@text='Reset']
+				</item>
+				<item
+				capname="button"
+				id="b6b5a84f-b400-470e-bb55-1a7df2a2c9c6"
+				name="CancelButton"
+				searchtimeout="3000ms">
+					/form[@title~'^Train\ Clearance\ Summary\ L']/../form[@title~'^Associate\ Trains\ for\ Trai']/container[@type='UIJPanel']/container/button[@text='Cancel']
+				</item>
+				<item
+				capname="text"
+				id="a1cc3295-d7aa-4e70-8c13-0d56831eb324"
+				name="Feedback"
+				searchtimeout="3000ms">
+					/form[@title~'^Train\ Clearance\ Summary\ L']/../form[@title~'^Associate\ Trains\ for\ Trai']/container[@type='FeedbackBar']/text[@name='messageField']
+				</item>
+				<folder
+				capname="form"
+				id="af4a94c0-1529-4824-a29b-4b4aa9318615"
+				isrooted="True"
+				name="Train_Clearance_Route"
+				searchtimeout="3000ms"
+				usecache="False">
+					<item
+					capname="checkbox"
+					id="7d3b55bc-7fb3-49d2-b2f6-8d9b1e1eb6fd"
+					name="IssueNewCheckbox"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/../form[@title~'^Associate\ Trains\ for\ Trai']/../form[@title='Train Clearance Route']/checkbox[@name='_issueNewChkBox']
+					</item>
+					<item
+					capname="text"
+					id="4668a059-1edf-401f-a29b-957ad7da555a"
+					name="CrewOriginStationText"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/../form[@title~'^Associate\ Trains\ for\ Trai']/../form[@title='Train Clearance Route']/text[@name='ORIGIN']
+					</item>
+					<item
+					capname="text"
+					id="7d82ba55-af0b-4089-a0bd-c1c4aa778ae3"
+					name="CrewOriginStationPassCountText"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/../form[@title~'^Associate\ Trains\ for\ Trai']/../form[@title='Train Clearance Route']/text[@name='_origPassCountFld']
+					</item>
+					<folder
+					capname="table"
+					id="9ee99026-d444-4d4d-aaef-e342c06eebcd"
+					isrooted="True"
+					name="IntermediateStationsTable"
+					searchtimeout="3000ms"
+					usecache="False">
+						<folder
+						capname="row"
+						id="bdd2fabb-5a45-4b13-bb2c-92ab7138d1df"
+						isrooted="True"
+						name="IntermediateStationsRowByIndex"
+						searchtimeout="3000ms"
+						usecache="False">
+							<item
+							capname="cell"
+							id="7ee6f109-ae32-4124-bb44-0f02ade24c70"
+							name="IntermediateStationText"
+							searchtimeout="3000ms">
+								/form[@title~'^Train\ Clearance\ Summary\ L']/../form[@title~'^Associate\ Trains\ for\ Trai']/../form[@title='Train Clearance Route']/container[@name='_routePointsSP']/container/table[@name='_routePointsTable']/row[@index=$IntermediateStationsIndex]/cell
+							</item>
+							<basepath>
+								/form[@title~'^Train\ Clearance\ Summary\ L']/../form[@title~'^Associate\ Trains\ for\ Trai']/../form[@title='Train Clearance Route']/container[@name='_routePointsSP']/container/table[@name='_routePointsTable']/row[@index=$IntermediateStationsIndex]
+							</basepath>
+						</folder>
+						<basepath>
+							/form[@title~'^Train\ Clearance\ Summary\ L']/../form[@title~'^Associate\ Trains\ for\ Trai']/../form[@title='Train Clearance Route']/container[@name='_routePointsSP']/container/table[@name='_routePointsTable']
+						</basepath>
+					</folder>
+					<item
+					capname="text"
+					id="45a11d2e-c758-4f3f-987a-e502dbcb67e7"
+					name="CrewDestinationStationText"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/../form[@title~'^Associate\ Trains\ for\ Trai']/../form[@title='Train Clearance Route']/text[@name='DESTINATION']
+					</item>
+					<item
+					capname="text"
+					id="3c89cb77-430e-40d0-8923-83ced0226e3a"
+					name="CrewDestinationStationPassCountText"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/../form[@title~'^Associate\ Trains\ for\ Trai']/../form[@title='Train Clearance Route']/text[@name='_destPassCountFld']
+					</item>
+					<item
+					capname="button"
+					id="ad73eb69-6ddb-4a03-80ac-9fd1ea84f953"
+					name="OkButton"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/../form[@title~'^Associate\ Trains\ for\ Trai']/../form[@title='Train Clearance Route']/container[@name='_buttonPanel']/button[@name='_okBtn']
+					</item>
+					<item
+					capname="button"
+					id="325feb60-dace-4c8d-9a02-590b879852ba"
+					name="CancelButton"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/../form[@title~'^Associate\ Trains\ for\ Trai']/../form[@title='Train Clearance Route']/container[@name='_buttonPanel']/button[@name='_cancelBtn']
+					</item>
+					<item
+					capname="text"
+					id="3c52d1c4-ac2b-4562-a073-57706050730a"
+					name="Feedback"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ L']/../form[@title~'^Associate\ Trains\ for\ Trai']/../form[@title='Train Clearance Route']/container[@name='_feedBackBar']/text[@name='messageField']
+					</item>
+					<basepath>
+						/form[@title~'^Train\ Clearance\ Summary\ L']/../form[@title~'^Associate\ Trains\ for\ Trai']/../form[@title='Train Clearance Route']
+					</basepath>
+				</folder>
+				<basepath>
+					/form[@title~'^Train\ Clearance\ Summary\ L']/../form[@title~'^Associate\ Trains\ for\ Trai']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title~'^Train\ Clearance\ Summary\ L']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="b423947b-9721-4ce7-8652-1c1a38314166"
+		isrooted="True"
+		name="Train_Clearance_Summary_List_Choice"
+		searchtimeout="3000ms"
+		usecache="True">
+			<folder
+			capname="unknown"
+			id="71854eb9-6681-47cc-aaf4-c595cdbd30ba"
+			isrooted="False"
+			name="WindowControls"
+			searchtimeout="0ms">
+				<item
+				capname="button"
+				id="83b07366-1abb-465f-b9e5-c796fb1c26bb"
+				name="Minimize"
+				searchtimeout="3000ms">
+					/form[@title~'^Train\ Clearance\ Summary\ List\ Choice']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Minimize']
+				</item>
+				<item
+				capname="button"
+				id="f2a0c689-7388-4d59-9ead-825502bd707e"
+				name="Maximize"
+				searchtimeout="3000ms">
+					/form[@title~'^Train\ Clearance\ Summary\ List\ Choice']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Maximize']
+				</item>
+				<item
+				capname="button"
+				id="de24a5fc-083c-46c4-9589-f401b0f3785d"
+				name="Close"
+				searchtimeout="3000ms">
+					/form[@title~'^Train\ Clearance\ Summary\ List\ Choice']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Close']
+				</item>
+			</folder>
+			<folder
+			capname="menubar"
+			id="e7e769cc-adbf-4978-b0dc-28669f856608"
+			isrooted="True"
+			name="MainMenuBar"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="menuitem"
+				id="90b154fa-2577-402f-bffd-7fa8f32f4190"
+				name="FileButton"
+				searchtimeout="3000ms">
+					/form[@title~'^Train\ Clearance\ Summary\ List\ Choice']/menubar[@name='menuBar']/menuitem[@text='File']
+				</item>
+				<basepath>
+					/form[@title~'^Train\ Clearance\ Summary\ List\ Choice']/menubar[@name='menuBar']
+				</basepath>
+			</folder>
+			<folder
+			capname="contextmenu"
+			id="a1917499-564e-411e-a765-c9589615886e"
+			isrooted="True"
+			name="FileMenu"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="menuitem"
+				id="ed20eddb-c132-4685-8e11-218d6e6c531b"
+				name="Close"
+				searchtimeout="3000ms">
+					/form[@title~'^Train\ Clearance\ Summary\ List\ Choice']/contextmenu[@type='JPopupMenu' and @visible='True']/menuitem[@text='Close']
+				</item>
+				<basepath>
+					/form[@title~'^Train\ Clearance\ Summary\ List\ Choice']/contextmenu[@type='JPopupMenu' and @visible='True']
+				</basepath>
+			</folder>
+			<folder
+			capname="toolbar"
+			id="77aaa09b-eff7-48b2-b06c-0f793d4026b8"
+			isrooted="True"
+			name="RibbonMenu"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="button"
+				id="02199f70-b482-4e35-a48b-5aa78dc2af84"
+				name="HelpTopics"
+				searchtimeout="3000ms">
+					/form[@title~'^Train\ Clearance\ Summary\ List\ Choice']/toolbar[@name='toolBar']/button[1]
+				</item>
+				<basepath>
+					/form[@title~'^Train\ Clearance\ Summary\ List\ Choice']/toolbar[@name='toolBar']
+				</basepath>
+			</folder>
+			<folder
+			capname="unknown"
+			id="654d930e-c450-481e-a349-57137f9c9f0f"
+			isrooted="False"
+			name="Division"
+			searchtimeout="0ms">
+				<item
+				capname="combobox"
+				id="e37512d7-73ae-41d0-8e18-56a83a5fbe4a"
+				name="DivisionMenuItem"
+				searchtimeout="3000ms">
+					/form[@title~'^Train\ Clearance\ Summary\ List\ Choice']/container[@accessiblename='Choose Logical Position']/combobox[@name='_divisionComboBox']
+				</item>
+				<folder
+				capname="list"
+				id="02c08672-1ff8-4c16-853c-2282d0c343d7"
+				isrooted="True"
+				name="DivisionMenuList"
+				searchtimeout="3000ms"
+				usecache="False">
+					<item
+					capname="listitem"
+					id="598dab96-6fc5-4887-b270-8106e900df84"
+					name="DivisionListItemByDivisionName"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ List\ Choice']/contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text~$Division]
+					</item>
+					<item
+					capname="listitem"
+					id="69809e73-856c-4fa4-8355-29f5dcbafc44"
+					name="DivisionListItemByIndex"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ List\ Choice']/contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']/listitem[@index=$DivisionIndex]
+					</item>
+					<basepath>
+						/form[@title~'^Train\ Clearance\ Summary\ List\ Choice']/contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']
+					</basepath>
+				</folder>
+			</folder>
+			<folder
+			capname="unknown"
+			id="c8905544-9933-4b5f-a6a3-4ff526d63231"
+			isrooted="False"
+			name="LogicalPosition"
+			searchtimeout="0ms">
+				<item
+				capname="combobox"
+				id="8a53135f-4d6d-44f3-8995-53b4cc9ab48d"
+				name="LogicalDivisionMenuItem"
+				searchtimeout="3000ms">
+					/form[@title~'^Train\ Clearance\ Summary\ List\ Choice']/container[@accessiblename='Choose Logical Position']/combobox[@name='_logicalPositionCmb']
+				</item>
+				<folder
+				capname="list"
+				id="db0f198c-b8b7-4560-931f-4e2a95242618"
+				isrooted="True"
+				name="LogicalPositionMenuList"
+				searchtimeout="3000ms"
+				usecache="False">
+					<item
+					capname="listitem"
+					id="80b325b6-b7e1-4587-9421-2d5e2b75d3a7"
+					name="LogicalPositionItemByLogicalPositionName"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ List\ Choice']/contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text~$LogicalPosition]
+					</item>
+					<item
+					capname="listitem"
+					id="7e2b9fa4-fd96-4a14-88db-95555ae9c892"
+					name="LogicalPositionListItemByIndex"
+					searchtimeout="3000ms">
+						/form[@title~'^Train\ Clearance\ Summary\ List\ Choice']/contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']/listitem[@index=$LogicalPositionIndex]
+					</item>
+					<basepath>
+						/form[@title~'^Train\ Clearance\ Summary\ List\ Choice']/contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']
+					</basepath>
+				</folder>
+			</folder>
+			<item
+			capname="button"
+			id="e004e3a5-d043-4145-85cb-11abf26aab25"
+			name="OkButton"
+			searchtimeout="3000ms">
+				/form[@title~'^Train\ Clearance\ Summary\ List\ Choice']/container[@accessiblename='Choose Logical Position']/container[@type='JPanel']/button[@text='OK']
+			</item>
+			<item
+			capname="button"
+			id="8bae9f70-4c34-465a-b6bb-074c3c1e3943"
+			name="CancelButton"
+			searchtimeout="3000ms">
+				/form[@title~'^Train\ Clearance\ Summary\ List\ Choice']/container[@accessiblename='Choose Logical Position']/container[@type='JPanel']/button[@text='Cancel']
+			</item>
+			<item
+			capname="text"
+			id="9afc4ab9-bd3c-4ee9-bf7b-94e3bb2ce8f0"
+			name="Feedback"
+			searchtimeout="3000ms">
+				/form[@title~'^Train\ Clearance\ Summary\ List\ Choice']/container[@type='FeedbackBar']/text[@name='messageField']
+			</item>
+			<basepath>
+				/form[@title~'^Train\ Clearance\ Summary\ List\ Choice']
+			</basepath>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+		<var
+		id="3cad9bb0-2db6-460e-b286-8ff9d4051456"
+		name="CrewIndex">
+			0
+		</var>
+		<var
+		id="a348c53b-0272-4d54-abaa-10ebff0bf99b"
+		name="CrewName">
+		</var>
+		<var
+		id="b858c19f-afcb-4550-b62c-9dfea355c4ec"
+		name="TrainIndex">
+			0
+		</var>
+		<var
+		id="36c3863a-c798-400a-b3a1-bf8fd742bb0d"
+		name="EngineIndex">
+			0
+		</var>
+		<var
+		id="ec20c97e-02f6-44b3-806b-4256ab3a412a"
+		name="EotCabooseIndex">
+			0
+		</var>
+		<var
+		id="44529be8-0435-414f-a9cd-4232bdd93290"
+		name="EventIndex">
+			0
+		</var>
+		<var
+		id="993371cf-d480-4814-ad03-51527a872e89"
+		name="Name">
+		</var>
+		<var
+		id="e1df434a-92b9-49d3-bb6b-f507c0aa8bd6"
+		name="NameIndex">
+			0
+		</var>
+		<var
+		id="b16f86b0-42ba-46a2-b88f-ec1df3dce0ac"
+		name="RecipientIndex">
+			0
+		</var>
+		<var
+		id="78b39019-8098-46de-8fb0-e1c048ae88d9"
+		name="IntermediateStationsIndex">
+			0
+		</var>
+		<var
+		id="b5b75af6-a06f-45b2-a4d2-aef270fbcbc1"
+		name="MenuItemName">
+		</var>
+		<var
+		id="1b451666-0d58-4069-968c-cabf2b27eed9"
+		name="RowIndex">
+			0
+		</var>
+		<var
+		id="81235767-49be-4d3b-b234-1285e6ed674e"
+		name="ColumnIndex">
+			0
+		</var>
+		<var
+		id="62c6955d-7d38-412a-b48e-c90d813706c2"
+		name="TrainIdIndex">
+			0
+		</var>
+		<var
+		id="0e35a40f-ee6e-4f3d-beb1-1d18de756afd"
+		name="TrainId">
+		</var>
+		<var
+		id="8c84ed32-fed8-4f9d-9e2e-1b569c66a444"
+		name="Division">
+		</var>
+		<var
+		id="c1a8d964-e67b-45ee-a849-2afae0ca0434"
+		name="DivisionIndex">
+			0
+		</var>
+		<var
+		id="3474a5c9-db9d-4bef-9e22-d34c7c63a46c"
+		name="LogicalPosition">
+		</var>
+		<var
+		id="d2b068da-070a-497f-9719-e634760397ae"
+		name="LogicalPositionIndex">
+			0
+		</var>
+		<var
+		id="ba01ae26-381f-4d43-9197-d2e12b1ba1f0"
+		name="BulletinNumber">
+		</var>
+		<var
+		id="71e867cd-c5f9-4ab0-8517-ba56a75852c0"
+		name="BulletinIndex">
+			1
+		</var>
+		<var
+		id="171a4537-b331-43b9-9e16-b6b6eefdfc4a"
+		name="TrainClearanceNumber">
+		</var>
+	</variables>
+</repository>

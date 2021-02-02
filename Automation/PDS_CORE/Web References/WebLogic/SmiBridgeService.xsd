@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:ns0="http://jaxb.dev.java.net/array" targetNamespace="http://jaxb.dev.java.net/array" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+  <xsd:import namespace="http://schemas.xmlsoap.org/wsdl/" />
+  <xsd:complexType name="stringArray">
+    <xsd:sequence>
+      <xsd:element minOccurs="0" maxOccurs="unbounded" name="item" nillable="true" type="xsd:string" />
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="67ccea43-1578-4233-8f86-22be78106f6b"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="NS_ClickOnTerritoryTransferLinkFromMainMenu"
+	namespace="PDS_NS.Recording_Modules.TerritoryTransfer">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="NS_TerritoryTransfer"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="ClickOnTerritoryTransferLinkFromMainMenu"
+		namespace="PDS_NS.CodeUtils"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="6d920efd-eb0a-409e-96bc-86a446c15d5a">
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="81af6446-71fa-4977-9bd0-411f88dc55ba"
+	name="PDS_NSRepository"
+	relativepath="..\..\PDS_NSRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="PDS_NSRepository"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="b2ba234a-2e7c-4852-8e7f-adb8693853b7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		NS_ClickOnTerritoryTransferLinkFromMainMenu.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

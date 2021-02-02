@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="93409c19-5361-4063-9d45-89babf943000"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="RemoveOccupancy"
+	namespace="STE.Code_Utils.TracklineOccupancies">
+	</codegen>
+	<variables>
+		<var
+		id="e643119d-3472-4344-86d1-352f70b44d19"
+		name="trackSection">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="RemoveOccupancy"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="RemoveOccupancyFunction"
+		namespace="STE.Code_Utils.TracklineOccupancies"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="cc53fc1d-0509-4c62-bdbb-52f33449ea0d">
+				<argument
+				argname="trackSection"
+				id="8975cde9-4b9e-45bb-ae6f-c4e49d087e34"
+				variable="trackSection">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="94979805-1172-497d-81a7-96b90e56bc08"
+	name="STERepository"
+	relativepath="..\..\STERepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="STERepository"
+		namespace="STE">
+		</codegen>
+		<rootfolder
+		id="b886b4af-b6ad-4b0c-8231-55d5a1273425"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		RemoveOccupancy.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

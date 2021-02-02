@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="1.11s"
+		durationms="1113"
+		type="root"
+		rid="13572751d8309324"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="PTCUSER"
+		rxversion="9.3.1.0"
+		host="GAATLENPTCW474W"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="9/28/2020 11:03:06 AM"
+		timestampiso="2020-09-28T15:03:06"
+		endtime="9/28/2020 11:03:07 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.092"
+			timeRelativeToTestModuleStartTime="00:01.092"
+			timeWallClock="11:03:07"
+			time="00:01.092"
+			level="Failure"
+			category="TestSuite">
+			<message>
+				Could not find matching test suite file for 'OnBoard.rxtst/runConfig:TestRun'. Please specify one of the following: 'OnBoard.rxtst' using the 'testsuite' command line parameter.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Testing.TestSuiteRunner.RunInternal(Type containerType, String[] testSuiteXmls, RunParams[] rps)"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+	</activity>
+</report>

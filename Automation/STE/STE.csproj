@@ -1,0 +1,1495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectGuid>{722EB924-B833-4F54-A920-3CD2AC397FB1}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <RootNamespace>STE</RootNamespace>
+    <AssemblyName>STE</AssemblyName>
+    <RanorexVersion>9.0</RanorexVersion>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <projectdefaultrepository>520666e4-6d00-4887-a37a-01c8a01c7d2e</projectdefaultrepository>
+    <NoWin32Manifest>False</NoWin32Manifest>
+    <SignAssembly>False</SignAssembly>
+    <DelaySign>False</DelaySign>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <NoStdLib>False</NoStdLib>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+    <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
+    <WarningLevel>4</WarningLevel>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <BaseIntermediateOutputPath>obj\</BaseIntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <BaseAddress>4194304</BaseAddress>
+    <RegisterForComInterop>False</RegisterForComInterop>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <FileAlignment>4096</FileAlignment>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SimpleTcp">
+      <HintPath>..\packages\SuperSimpleTcp.1.1.7\lib\net461\SimpleTcp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Messaging">
+      <HintPath>..\..\..\..\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Messaging.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>1c7f8672-7bb2-441c-9515-9deb8f9cf1c8</id>
+    </Compile>
+    <Compile Include="Code_Utils\Customer_Dependent\CN\ReceiveMISFileCollection_CN.cs">
+      <id>73ea4b88-34c9-4906-8490-4aba2a0ac4db</id>
+    </Compile>
+    <Compile Include="Code_Utils\Customer_Dependent\CN\ReceivePTCFileCollection_CN.cs">
+      <id>16404a35-114b-4bdb-9331-2f99a5ae39bd</id>
+    </Compile>
+    <Compile Include="Code_Utils\Customer_Dependent\CN\SendMISFileCollection_CN.cs">
+      <id>0548ad66-f3ff-415d-93eb-7cc4ff6bfa46</id>
+    </Compile>
+    <Compile Include="Code_Utils\Customer_Dependent\CN\SendMISMsmqCollection_CN.cs">
+      <id>fc77aa9a-08c1-4161-b1d6-a32b9f4183f6</id>
+    </Compile>
+    <Compile Include="Code_Utils\Customer_Dependent\CN\SendMISRemoteCollection_CN.cs">
+      <id>f022a70e-31f2-447d-a31b-33b75d79eea5</id>
+    </Compile>
+    <Compile Include="Code_Utils\Customer_Dependent\CN\SendPTCFileCollection_CN.cs">
+      <id>8d693d86-4270-41e0-bcb8-0aff89235de5</id>
+    </Compile>
+    <Compile Include="Code_Utils\Customer_Dependent\NS\ReceiveMISFileCollection_NS.cs">
+      <id>0ef1bbae-d56c-4c74-a69f-d65af3967fcb</id>
+    </Compile>
+    <Compile Include="Code_Utils\Customer_Dependent\NS\ReceivePTCFileCollection_NS.cs">
+      <id>fa2aca1b-976c-41ac-963b-904e4030a652</id>
+    </Compile>
+    <Compile Include="Code_Utils\Customer_Dependent\NS\ReceiveRumFileCollection_NS.cs">
+      <id>79d3d3cb-dca5-47fb-8651-a6557ab20b14</id>
+    </Compile>
+    <Compile Include="Code_Utils\Customer_Dependent\NS\SendMISFileCollection_NS.cs">
+      <id>8d2a44f9-46f8-433f-831d-75692f27beb4</id>
+    </Compile>
+    <Compile Include="Code_Utils\Customer_Dependent\NS\SendMISMsmqCollection_NS.cs">
+      <id>f79a6cff-22cd-45f7-99af-55a393be913e</id>
+    </Compile>
+    <Compile Include="Code_Utils\Customer_Dependent\NS\SendMISRemoteCollection_NS.cs">
+      <id>82690d22-02de-4332-98fd-d5958bbeee81</id>
+    </Compile>
+    <Compile Include="Code_Utils\Customer_Dependent\NS\SendPTCFileCollection_NS.cs">
+      <id>1f4ab7f4-601e-4a21-8692-c4d48a483a92</id>
+    </Compile>
+    <Compile Include="Code_Utils\Customer_Dependent\NS\SendRUMFileCollection_NS.cs">
+      <id>d39e0d75-a617-4f79-80f4-3f77c5843e96</id>
+    </Compile>
+    <Compile Include="Code_Utils\MessageCodeGeneration.cs">
+      <id>8e55406a-8d47-4cc1-aed0-afca40123e5d</id>
+    </Compile>
+    <Compile Include="Code_Utils\MessageQueues\SteMessageQueue.cs">
+      <id>8abe7e5f-9ca7-4a48-8409-b8717ad3122e</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\CacheRefresh.cs">
+      <id>35618cca-428a-4cd9-a7fc-ba9a22860d69</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\CN\PDS_MSG_AutomaticEquipmentIdentifier.cs">
+      <id>eb7d6579-7c9e-4a50-bf96-70de1e4a6ce1</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\CN\PDS_MSG_CreateTrain.cs">
+      <id>179d5148-a9ba-47c9-8c97-7ae608ea5fc6</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\CN\PDS_MSG_CrewCall.cs">
+      <id>37ff9482-bb12-413a-8209-6b015b4801d0</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\CN\PDS_MSG_CrewMember_CN.cs">
+      <id>d6e002e2-9d8a-4f08-8abf-e33b8ccc3ccf</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\CN\PDS_MSG_DeleteTrainSchedule.cs">
+      <id>2f2043be-d185-4690-85eb-23d570abafbc</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\CN\PDS_MSG_EngineConsist.cs">
+      <id>5d75be1a-fb02-4c7c-8e43-ac5234dee9e3</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\CN\PDS_MSG_EOTCaboose.cs">
+      <id>d78ec0d1-f8c4-4bb6-bb51-07cf0dcdd826</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\CN\PDS_MSG_ErrorMessage.cs">
+      <id>54aecaff-21b8-4a64-9e0f-b8fdbe77ca71</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\CN\PDS_MSG_ErrorMessages.cs">
+      <id>7d8b2035-9c8e-4be6-8c2a-d72eb0375145</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\CN\PDS_MSG_ETAInformation.cs">
+      <id>f48a358d-11af-4445-bf69-e3e686cfe916</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\CN\PDS_MSG_ExternalAlertEvent.cs">
+      <id>6f6df181-cf2b-4b3d-82e0-259fb3ed770b</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\CN\PDS_MSG_ExternalAlertEventAck.cs">
+      <id>99fea302-dbaa-413f-b271-ead99cafdf7a</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\CN\PDS_MSG_HourlyWeather.cs">
+      <id>4c99abcb-d54e-4000-bcfc-7fc8a0ea057f</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\CN\PDS_MSG_LocomotiveConsist.cs">
+      <id>2ac77705-f9c0-4191-8621-239099b91112</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\CN\PDS_MSG_MovementInformation.cs">
+      <id>2eba9e51-5a88-4fcb-8dc0-7753d2578659</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\CN\PDS_MSG_ObjectiveFunction.cs">
+      <id>ba9dde6e-7749-4e54-b023-ff62ea4128f1</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\CN\PDS_MSG_PartialScheduleAnnulment.cs">
+      <id>aad665d3-7fed-4017-9b7d-17541cbe6358</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\CN\PDS_MSG_PrintFax.cs">
+      <id>2f67c3c1-08f5-4fa1-90d6-d28932f056f8</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\CN\PDS_MSG_RailCarConsist.cs">
+      <id>58b94d6b-4595-4c1c-be14-885e30cf7375</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\CN\PDS_MSG_ResourceAvailability.cs">
+      <id>214c5271-6bca-4133-be26-bc820a7b90c9</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\CN\PDS_MSG_TerminateTrain.cs">
+      <id>e431bcb2-ae5d-4e95-922d-d11c978a8936</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\CN\PDS_MSG_TrainActivityLink.cs">
+      <id>f7b17539-8513-4557-ab95-8681bf5da7b9</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\CN\PDS_MSG_TrainConsist.cs">
+      <id>160c2fff-b731-4c68-9cc1-ba425183ffdf</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\CN\PDS_MSG_TrainConsistActivity.cs">
+      <id>7a1bfc3e-368f-4109-876f-6bc1b79c9a89</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\CN\PDS_MSG_TrainConsistSummary.cs">
+      <id>68d709ca-aa39-4f3f-a795-bc5248c12957</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\CN\PDS_MSG_TrainDelay.cs">
+      <id>ca3ba4a3-89bf-438d-b819-528986732b4d</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\CN\PDS_MSG_TrainEngineConsistSummary.cs">
+      <id>1c6f0110-6893-412b-b400-6dee0e7dc3a8</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\CN\PDS_MSG_TrainOS.cs">
+      <id>6ef49da1-a010-450e-8ea6-6e9524dc2b67</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\CN\PDS_MSG_TrainSchedule.cs">
+      <id>9303e037-7ce7-42b0-890b-af2e133b24a6</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\CN\PDS_MSG_TrainScheduleAdherence.cs">
+      <id>90e941ab-936e-4fd8-ad0d-9f262eacccde</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\CN\PDS_MSG_TrainScheduleAnnulment.cs">
+      <id>e873d099-b55c-4689-a097-d6dbb0e0dbdf</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\CN\PDS_MSG_TrainScheduleCombo.cs">
+      <id>a58bdfce-8c09-42f0-ad08-a8a31b461de0</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\CN\PDS_MSG_TrainScheduleDiversion.cs">
+      <id>99eae2dc-6598-4fe3-b982-319f9bfc135f</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\CN\PDS_MSG_TrainScheduleDL.cs">
+      <id>04d8a91f-3369-441e-9c5c-3fc59d09fbb9</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\CN\PDS_MSG_TrainScheduleLink.cs">
+      <id>a641dbf6-ec8a-4ffc-ae07-ae4f2c9886c8</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\CN\PDS_MSG_TrainSegment.cs">
+      <id>bb57f563-e081-45f5-95e1-ef016199d691</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\CN\PDS_MSG_WeatherAlert.cs">
+      <id>ef7fd5e1-5afe-4b96-bb66-cd331ece66d0</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\CN\PDS_MSG_YardUpdate.cs">
+      <id>a2766e58-aa10-4f0f-a991-1f2fc6c2787a</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\NS\MIS_NS_CrewMember_48.cs">
+      <id>be6d97d3-43ec-4336-83ed-6362359eb0d9</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\NS\MIS_NS_EngineConsist_48.cs">
+      <id>0fdd8a60-5c7a-43ca-a7e0-bcbd0dcb53e2</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\NS\MIS_NS_EOTCaboose_48.cs">
+      <id>3991a91f-75bf-4b8e-b6cc-b8f10b13cff9</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\NS\MIS_NS_HourlyWeather_48.cs">
+      <id>7ff4baee-eb48-4d1a-b7fa-293602bb6b77</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\NS\MIS_NS_RemedyBulletin_48.cs">
+      <id>f676c908-5d94-4a33-9083-86225e61fee6</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\NS\MIS_NS_TrainActivityLink_50.cs">
+      <id>1b6fbd51-55e7-488c-8506-63662ff3e012</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\NS\MIS_NS_TrainConsistActivity_48.cs">
+      <id>bd700962-d93c-4d9f-87ea-9f4e720c80fc</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\NS\MIS_NS_TrainDelay_48.cs">
+      <id>9b0b3450-75b5-42a7-8ef7-7981b03eb343</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\NS\MIS_NS_TrainSchedule_43.cs">
+      <id>9cdc7ed9-45d2-4904-851e-335a1c612f6d</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\NS\MIS_NS_TrainSegment_48.cs">
+      <id>46262849-b515-41a4-92c2-4b10ffff544c</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\NS\PDS_MSG_AutomaticEquipmentIdentifier.cs">
+      <id>71f3069a-844e-4a12-8ed4-86bf5b0e79a4</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\NS\PDS_MSG_CrewCall.cs">
+      <id>baa39892-8e3c-4def-9af4-91c363b85304</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\NS\PDS_MSG_DeleteTrainSchedule.cs">
+      <id>39fbaa56-d376-44a9-a647-142613d2c0c8</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\NS\PDS_MSG_ErrorMessage.cs">
+      <id>560bee41-5147-4a35-b646-c9dbcb7c41e8</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\NS\PDS_MSG_ErrorMessages.cs">
+      <id>4b27c5cb-8346-452f-b56c-76cd216654a5</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\NS\PDS_MSG_ETAInformation.cs">
+      <id>734f3763-7eaa-412a-938b-dac1f206886c</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\NS\PDS_MSG_ExternalAlertEvent.cs">
+      <id>b2215ef3-7cf9-4943-9f1c-8fc69c6e5877</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\NS\PDS_MSG_ExternalAlertEventAck.cs">
+      <id>e1475228-eb46-4d6d-b74f-63566ab80e1b</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\NS\PDS_MSG_LocomotiveConsist.cs">
+      <id>1ccf9644-99d3-466e-a0e6-4a08b1dcfa50</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\NS\PDS_MSG_MovementInformation.cs">
+      <id>d13a8237-fcce-4f9b-aaf5-e3a17f17efc4</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\NS\PDS_MSG_ObjectiveFunction.cs">
+      <id>d75c5819-e5ff-42ae-8416-dc7c41f7175b</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\NS\PDS_MSG_PartialScheduleAnnulment.cs">
+      <id>9242ccd5-351a-47fc-9714-7472c212e432</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\NS\PDS_MSG_PrintFax.cs">
+      <id>4d894aab-7d68-4084-ab3e-8614c6454171</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\NS\PDS_MSG_RailCarConsist.cs">
+      <id>c659a15e-6a71-4666-bb93-2b5c86376562</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\NS\PDS_MSG_ResourceAvailability.cs">
+      <id>48aab82d-413e-4d99-b252-d13fd03e129a</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\NS\PDS_MSG_TerminateTrain.cs">
+      <id>c0b9e536-8701-4a90-b360-d9ce8900694a</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\NS\PDS_MSG_TrainConsist.cs">
+      <id>4d4f8078-370d-4d04-8a68-3a9a7545876b</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\NS\MIS_NS_TrainConsistSummary_43.cs">
+      <id>f5ac37fd-e9c6-43fd-834e-b337a3d1eb47</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\NS\PDS_MSG_TrainEngineConsistSummary.cs">
+      <id>2f28693e-4aa5-44c7-86dd-03e1efe4fd07</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\NS\PDS_MSG_TrainOS.cs">
+      <id>8f60852e-756d-4d3d-bb17-4c4147c222f7</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\NS\PDS_MSG_TrainScheduleAdherence.cs">
+      <id>81249a7c-2eaa-4fb4-a23f-bfddbc31904a</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\NS\PDS_MSG_TrainScheduleAnnulment.cs">
+      <id>67e3f432-d55f-412f-af9c-7d886df29783</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\NS\PDS_MSG_TrainScheduleCombo.cs">
+      <id>c7d426c5-6c62-405b-96fd-d6b4b2dff74b</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\NS\PDS_MSG_TrainScheduleDiversion.cs">
+      <id>620a86cd-163a-4e6c-994f-45974ee51a90</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\NS\PDS_MSG_TrainScheduleDL.cs">
+      <id>9e4ce04e-220c-4bf2-82cd-5c4d100c39ac</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\NS\PDS_MSG_TrainScheduleLink.cs">
+      <id>b27754c0-157d-4b29-8507-ab92c2396c17</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\NS\PDS_MSG_WeatherAlert.cs">
+      <id>7799f196-6bf4-4996-8aeb-f570d82be693</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\MIS\NS\PDS_MSG_YardUpdate.cs">
+      <id>978b65ac-4997-4a76-b868-12a967036de5</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_CD_AK01_2.cs">
+      <id>6efa67b6-39ae-4623-8071-0242ef07daf3</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_CD_AK01_7.cs">
+      <id>2746702b-03ed-4dd0-9d3f-e89b40181fe1</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_CD_BARS_2.cs">
+      <id>2c9d0058-925c-4d89-88ba-ed85bd1861c7</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_CD_BARS_7.cs">
+      <id>2d3adacc-7b9d-479f-b9d4-3ee3aae9ecbf</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_CD_CABI_2.cs">
+      <id>490a5a2b-07e3-4a38-b581-bb66a2dd3d50</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_CD_CABI_7.cs">
+      <id>695dd832-0b45-4de4-883b-ea4a291c1d3c</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_CD_CABV_2.cs">
+      <id>2514627f-28d8-4a73-a766-ffbfdb43a4cc</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_CD_CABV_7.cs">
+      <id>f5a55b3c-066a-45b0-ae23-8f608b7a70f4</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_CD_CODS_7.cs">
+      <id>6edb9589-e569-4359-96e4-929c2ec0d071</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_CD_CSGF_2.cs">
+      <id>61943aad-d912-4cc9-956f-e23ffed8d9d5</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_CD_CSGF_7.cs">
+      <id>8c4b736e-4f3e-4970-a3b8-c5e2d41e02c6</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_CD_CSGN_2.cs">
+      <id>f7b91b5b-5072-4d5f-90ec-b4cfda28d55f</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_CD_CSGN_7.cs">
+      <id>e0c71f05-366c-4fc4-98f8-7b108d460f91</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_CD_EA01_7.cs">
+      <id>98fa77e9-858d-4d96-a254-0fe2a64f5206</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_CD_EBAR_4.cs">
+      <id>0d7e42f3-8d31-4807-87e7-ccd0bf7a6e61</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_CD_EBAR_7.cs">
+      <id>b6c579c1-5594-45c8-9784-4be5892f6f60</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_CD_EEDS_2.cs">
+      <id>13e56bd1-42ac-4273-9bc4-aff30b34652d</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_CD_EEDS_7.cs">
+      <id>ae7a1921-4dea-4953-9c36-781f410c5094</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_CD_LOSR_5.cs">
+      <id>bec80c8c-b080-4897-86f9-269c6049ebc4</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_CD_LOSR_7.cs">
+      <id>70fd7bd2-765d-44a9-9ae7-8ec7903158f6</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_CD_MEDS_2.cs">
+      <id>b7bae51b-5ff8-432e-a442-651f2a152d9c</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_CD_MEDS_7.cs">
+      <id>b1146d0f-dbec-4eea-bdfe-af1f747bbc3f</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_CD_RABI_2.cs">
+      <id>8781d3e4-3c9d-4dbd-8986-66439127f7a2</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_CD_RABI_7.cs">
+      <id>3a011999-9197-460a-8379-e75b24c89a3c</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_CD_RCON_2.cs">
+      <id>932ad70e-7c65-4696-a175-0ce0f1b93bee</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_CD_RCON_7.cs">
+      <id>9063bc91-5428-433c-86f6-64fcb5e78866</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_CD_RTDL_2.cs">
+      <id>c27510d4-c07c-464a-954d-c035a9c30fdc</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_CD_RTDL_7.cs">
+      <id>2aede1c6-10f2-424e-83fa-97da211fb90f</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_CD_RTID_2.cs">
+      <id>10b1e5f1-1f48-4994-9948-a4762202095c</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_CD_RTID_7.cs">
+      <id>92edea61-2215-40e2-96b2-f03fd2ac43ab</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_CD_TCON_5.cs">
+      <id>139d9c21-a861-4fda-85f6-d63aa8c924ca</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_CD_TCON_7.cs">
+      <id>2b7c0569-08cf-440c-9d41-fd832fe446a8</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DC_AK01_2.cs">
+      <id>f7c071e0-4c5b-4c89-b293-ee84f4efcc28</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DC_AK01_7.cs">
+      <id>acc58677-a5cc-4ead-8faf-660ae7acbc22</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DC_ASBI_2.cs">
+      <id>d6c0acda-ff35-42fc-bd40-145c5b662a96</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DC_ASBI_7.cs">
+      <id>9ab515f5-4bd8-4f97-9e70-f96b05a4e1d1</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DC_DIBS_2.cs">
+      <id>a95bfa78-0dd9-4418-8b9b-a72d50627116</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DC_DIBS_7.cs">
+      <id>70981a29-cf3d-427d-a7df-1bcd2c24c08a</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DC_DSSR_7.cs">
+      <id>76036281-9d40-48a5-8027-e6d64967127d</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DC_ENED_2.cs">
+      <id>ae3a085b-10ef-4f00-931e-885c999a6e72</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DC_ENED_7.cs">
+      <id>d68af406-e9d3-44a8-a214-db8019a4f7bf</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DC_ERROR_1.cs">
+      <id>b8d9483b-c6d8-4ae5-bac9-e3bbc790fbe0</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DC_KA01_2.cs">
+      <id>e7c1c080-6b56-40b8-b9c3-bd5f93b85463</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DC_KA01_7.cs">
+      <id>d22a604d-d989-44b7-8846-66aa2bdf1953</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DC_MESS_2.cs">
+      <id>0d11bad0-d04d-4379-8915-418c6cb6826a</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DC_MESS_7.cs">
+      <id>57133cbb-8654-4498-95e0-1b8fad11828a</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DC_TCON_6.cs">
+      <id>a74624cd-4e4e-48d8-83cc-479bd88a3d2d</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DC_TCON_7.cs">
+      <id>fe26a0d4-109c-4c8a-bc8f-37c5085bfaac</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DC_TLST_5.cs">
+      <id>b2facc06-8994-4bc9-8b55-4e75e0c3d841</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DC_TLST_7.cs">
+      <id>fcb36108-9375-4f8a-abfe-4c465d730f42</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DC_TRDL_2.cs">
+      <id>dc2c520f-1617-4ebe-8d76-f1fd99e131d0</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DC_TRDL_7.cs">
+      <id>5469d4eb-8079-48cb-b908-473a5b7b861c</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DC_VDME_2.cs">
+      <id>acc0847b-e28b-4298-827b-a7fbca09be92</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DC_VDME_7.cs">
+      <id>c6191acf-3e69-4ef0-81a6-0e061602853a</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DG_AK01_2.cs">
+      <id>b88dc006-77df-4fd2-8104-07bd7fe3a283</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DG_AK01_7.cs">
+      <id>04d117e5-1c1d-4ea4-a0b9-ba58924a28ee</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DG_BULI_3.cs">
+      <id>4c2f9c93-10d2-44a9-a129-63edc154daae</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DG_BULI_7.cs">
+      <id>3eaaa28c-8e97-41b3-a273-5c1146abc9f0</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DG_DSSR_7.cs">
+      <id>d1dc6251-70d1-4303-8de7-7c645c5acec5</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DG_ERROR_1.cs">
+      <id>a2f05b84-45b0-4075-bd19-931fd6af45d0</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DG_KA01_2.cs">
+      <id>b6db9778-3b8a-46fa-88bf-29efedadad47</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DG_KA01_7.cs">
+      <id>2de5d267-525a-4556-8def-73e903ff1acb</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DG_SGCN_2.cs">
+      <id>9e451d6a-cbfb-4af7-9d92-f09358736687</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DG_SGCN_7.cs">
+      <id>a44ad56a-d893-4970-bb8d-486be6f01d55</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DG_SGIN_2.cs">
+      <id>25910a50-bc45-4368-bf8e-a0f180e4be17</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DG_SGIN_7.cs">
+      <id>7389bce9-5b62-4c18-9324-12c187d93035</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DG_SWCN_2.cs">
+      <id>59ae3d31-5c0d-4214-b30e-fd34815da6b8</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DG_SWCN_7.cs">
+      <id>3d5092a7-3bf4-4337-af57-63c9191320da</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DG_SWIN_2.cs">
+      <id>9fd06da3-f69b-4835-ae6b-14d0f65bdaee</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DG_SWIN_7.cs">
+      <id>8ce0aa76-43cc-4020-a8bc-14747930088d</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DG_SY01_2.cs">
+      <id>8769ed2b-b24d-403a-8249-7b78a443fa5f</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DG_SY01_7.cs">
+      <id>44ac4ed5-c83d-4920-826e-19af317c54c1</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DG_TAUT_3.cs">
+      <id>2492cf57-e188-4cd8-b014-e763bb3bc94e</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DG_TAUT_7.cs">
+      <id>c6cfbbe5-26a6-4d3a-b6a9-54cbe46dfac7</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DG_TRDL_2.cs">
+      <id>d82ccc26-b406-460c-8e6c-222f2a378384</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DG_TRDL_7.cs">
+      <id>3fbd5227-31de-4412-b6ea-7e0e2ea2373b</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DG_UDIE_5.cs">
+      <id>3e509a3f-6669-429a-94a3-6081677ea9fe</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DG_UDIE_7.cs">
+      <id>8ad94278-3782-4bb9-b4ef-202dc0c4ba9b</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DG_VDBI_4.cs">
+      <id>d56ca022-90ce-4805-8896-7e61ac1c3f51</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_DG_VDBI_7.cs">
+      <id>cd5fb5b9-20e0-4cd4-b06c-1ed123446257</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_ERROR_1.cs">
+      <id>c2b25082-2100-465f-b1bb-6aaf141bf4a6</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_GD_ADSR_2.cs">
+      <id>252d28b6-5e9b-4094-8375-cf44760017ef</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_GD_ADSR_7.cs">
+      <id>f867ac40-c639-481f-a5cd-782c5222e8bc</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_GD_AK01_2.cs">
+      <id>13d75719-1053-41bb-bbd4-46ba68814643</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_GD_AK01_7.cs">
+      <id>fb2a02db-8dcb-459f-86b3-2a840f9d8028</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_GD_BOSR_2.cs">
+      <id>ea35e067-f4d2-4166-8845-8dc639b58152</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_GD_BOSR_7.cs">
+      <id>525cab28-633b-4281-be36-7afeaf0cd9ce</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_GD_BUDS_7.cs">
+      <id>e73c9e8b-efba-471f-8525-36f5e5895060</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_GD_CACA_2.cs">
+      <id>2ec2ab1b-6d46-453c-bd80-92d5e0083b7f</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_GD_CACA_7.cs">
+      <id>1e010711-c4ef-4002-baba-8ed02565f04c</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_GD_CATA_5.cs">
+      <id>17e23cf9-c0fa-4903-b7ba-c785eb2c570b</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_GD_CATA_7.cs">
+      <id>e3837bf3-fd9c-4c63-949f-116c8b2f2488</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_GD_CTER_2.cs">
+      <id>6bb8ccce-5994-4e8a-972b-d13e760ec2a9</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_GD_CTER_7.cs">
+      <id>81935163-5d94-40da-869b-77408d1471f6</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_GD_CTIR_2.cs">
+      <id>ba153167-52f4-4417-976d-aa866f8768ee</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_GD_CTIR_7.cs">
+      <id>668f9f1c-d690-43e7-93e4-7a820ed3b90d</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_GD_CTRR_2.cs">
+      <id>0fe02820-3826-4566-a899-07b78c21a278</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_GD_CTRR_7.cs">
+      <id>00611520-9ff7-49a4-bd6f-bdc534303845</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_GD_CTVR_2.cs">
+      <id>02516797-3f85-404e-85a0-40031e1de8da</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_GD_CTVR_7.cs">
+      <id>97c78540-46ef-406d-a200-5a08700a0c22</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_GD_DIVA_2.cs">
+      <id>452991c6-c347-46bc-acda-4c1236a42f81</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_GD_DIVA_7.cs">
+      <id>17110471-67fb-4c66-a61e-c588798bc593</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_GD_EA01_4.cs">
+      <id>2aa9c1ee-da47-4ae8-9878-5b79c8527a20</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_GD_EA01_7.cs">
+      <id>0ccd1d1f-eb31-4e77-9143-6c39cbc89798</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_GD_EBAR_7.cs">
+      <id>e666dce6-b134-428f-a63d-ffa80052a21f</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_GD_RTDL_2.cs">
+      <id>798d36b1-65e3-49d6-b69f-ad05429e186a</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_GD_RTDL_7.cs">
+      <id>656424c2-8008-4a45-a256-dc9d54a04db8</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_GD_SY01_5.cs">
+      <id>0fb125c8-8631-419c-98ab-ac6c836a1b10</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_GD_SY01_7.cs">
+      <id>cac1e56c-3713-410f-888a-20d39250110f</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_GD_TAUR_7.cs">
+      <id>20d0e267-3410-4a1e-9ad0-b7ea931bf2bc</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_GD_VICR_2.cs">
+      <id>c6d4e28b-243b-4065-a6b3-aba6f57e4b23</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_GD_VICR_7.cs">
+      <id>145de258-658e-4498-8f83-c8bffea8374b</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_GD_VIRS_4.cs">
+      <id>fb8f7031-b498-42e1-96f0-2d548e442b53</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_GD_VIRS_7.cs">
+      <id>1a91ffca-0e91-4d06-9055-259807071676</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_LLM_1.cs">
+      <id>24fedc0d-8d85-4994-8748-02ba2ec1f858</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\GPS_LLM_2.cs">
+      <id>1c0e6e28-bcf7-451a-8b4b-7765e1327152</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_MQ_ERROR_1.cs">
+      <id>43e99ff9-cb14-4e13-b409-647f91a3d1d1</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\PTC\PTC_WLIS_ERROR_1.cs">
+      <id>095d9741-e003-4e22-adda-0b7f954339e1</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\RUM\RUM_DR_AK01_1.cs">
+      <id>9068e159-c418-45e0-9fe4-b2ae788dc5a5</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\RUM\RUM_DR_BICD_1.cs">
+      <id>fbe2733a-5f6d-4433-a214-4fccf6163070</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\RUM\RUM_DR_BICR_1.cs">
+      <id>cc8c0ae5-c8bb-4aba-807d-faaabf370798</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\RUM\RUM_DR_BIVA_1.cs">
+      <id>bf972a5c-ff0d-4c90-a4b6-0112fdc40f58</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\RUM\RUM_DR_BIVD_1.cs">
+      <id>7879463c-3c66-475e-8bc6-bf1bf3507e51</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\RUM\RUM_DR_BULI_1.cs">
+      <id>8a693aa6-5336-4415-a778-506d87a51397</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\RUM\RUM_DR_EROR_1.cs">
+      <id>87ecdfca-5b93-4f7e-9bed-9992d5e92e2d</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\RUM\RUM_DR_PTUR_1.cs">
+      <id>4dc91fa8-54e7-440f-8ff4-e4a766e0cc12</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\RUM\RUM_DR_RTCD_1.cs">
+      <id>a18428ef-080c-4d36-aa5c-fdf9f36fb4e6</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\RUM\RUM_DR_RTED_1.cs">
+      <id>a89cd3e0-2163-4888-b3b4-95d305e68e66</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\RUM\RUM_DR_RTRD_1.cs">
+      <id>60bc9b40-3d83-41b6-bf6b-91641be494d1</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\RUM\RUM_DR_RTVD_1.cs">
+      <id>2ba1660f-01ac-4ed4-af5a-ab7090b97354</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\RUM\RUM_DR_TAUT_1.cs">
+      <id>94226866-ed4e-4762-8f3a-94caa71d45a7</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\RUM\RUM_RD_AK01_1.cs">
+      <id>d0b3ce93-c6fe-42aa-a6d1-4936e86c7520</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\RUM\RUM_RD_BICQ_1.cs">
+      <id>18c4f13a-12c6-4c54-bd9c-684b9bcb2d1f</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\RUM\RUM_RD_BIIQ_1.cs">
+      <id>67c35cd3-dd0d-446f-8751-07895601344c</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\RUM\RUM_RD_BINQ_1.cs">
+      <id>3d349276-b4b0-45b5-8565-4a6659776f59</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\RUM\RUM_RD_BIVQ_1.cs">
+      <id>19ef9b8b-769f-48c3-8d36-78d0a73c71dc</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\RUM\RUM_RD_CATA_1.cs">
+      <id>bda7bf52-9c26-485c-9304-91ea10d79387</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\RUM\RUM_RD_PTUQ_1.cs">
+      <id>f42813bf-a203-4298-8be9-736deea66c22</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\RUM\RUM_RD_RTER_1.cs">
+      <id>59209a34-acf8-42de-83f2-64b8022d5ca5</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\RUM\RUM_RD_RTIR_1.cs">
+      <id>b47f791c-7c32-4af3-8c24-1e10bccb94b2</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\RUM\RUM_RD_RTQR_1.cs">
+      <id>ea95cf7c-95af-4d5d-8981-db2507e30c58</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\RUM\RUM_RD_RTRR_1.cs">
+      <id>0f62a851-6f96-4769-b712-0c1af679c73b</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\RUM\RUM_RD_RTVR_1.cs">
+      <id>e6240433-cabd-476b-8465-2b9524b42859</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\SteMessageQueueReader.cs">
+      <id>7c2a48ba-2d79-4984-b703-b4e9af52886e</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\SteMessageFileReader.cs">
+      <id>82cb7c65-8d88-4933-95f7-b83a2461bd75</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\SteXmlTextWriter.cs">
+      <id>f5fc144a-6ac0-43d4-b53b-d2c0b3e0bc7c</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\test\CreateTrainTest.cs">
+      <id>dc6cdf56-768e-4ca4-8bfc-47d01392a8b4</id>
+    </Compile>
+    <Compile Include="Code_Utils\messages\test\CrewMemberTest.cs">
+      <id>220061b9-f580-4086-9f16-7dad57101233</id>
+    </Compile>
+    <Compile Include="Code_Utils\ReceiveMISMsmqCollectionCN.cs">
+      <id>d39353b4-8712-4fac-aed7-775d97fbe8d9</id>
+    </Compile>
+    <Compile Include="Code_Utils\ReceiveMISMsmqCollectionNS.cs">
+      <id>6ecdbbb6-ede9-4c7b-ad93-99146df919d1</id>
+    </Compile>
+    <Compile Include="Code_Utils\Server.cs">
+      <id>59962fcb-bc54-4922-8b78-0d50748fde60</id>
+    </Compile>
+    <Compile Include="Code_Utils\SteOccupancyCollection.cs">
+      <id>777d3fde-3aa7-4f79-9a60-879d05807d08</id>
+    </Compile>
+    <Compile Include="Code_Utils\SteUtils.cs">
+      <id>0b7b6ba4-6d66-42c7-9daa-1fa95642fecc</id>
+    </Compile>
+    <Compile Include="Code_Utils\TracklineOccupancies\MoveOccupancyByTrackSections.cs">
+      <DependentUpon>MoveOccupancyByTrackSections.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>711948b9-1f10-4682-8d3c-20cac3e24eeb</id>
+      <BoundTo>75d671ab-4d19-4b92-9f35-cf7ca1192151</BoundTo>
+    </Compile>
+    <Compile Include="Code_Utils\TracklineOccupancies\MoveOccupancyByTrackSections.UserCode.cs">
+      <DependentUpon>MoveOccupancyByTrackSections.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c42d1ea9-af00-4d5c-badf-0ddfa3fd1dac</id>
+      <BoundTo>75d671ab-4d19-4b92-9f35-cf7ca1192151</BoundTo>
+    </Compile>
+    <Compile Include="Code_Utils\TracklineOccupancies\PlaceOccupancy.cs">
+      <DependentUpon>PlaceOccupancy.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b0f7a973-3117-4ca6-b18d-4fa92c08b134</id>
+      <BoundTo>7d4e2109-c2f1-4fb4-ace0-07317fd78243</BoundTo>
+    </Compile>
+    <Compile Include="Code_Utils\TracklineOccupancies\PlaceOccupancy.UserCode.cs">
+      <DependentUpon>PlaceOccupancy.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0dece799-5b4e-4ecb-af03-17b48653dc87</id>
+      <BoundTo>7d4e2109-c2f1-4fb4-ace0-07317fd78243</BoundTo>
+    </Compile>
+    <Compile Include="Code_Utils\TracklineOccupancies\RemoveOccupancy.cs">
+      <DependentUpon>RemoveOccupancy.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>122d9106-d985-484d-944a-85bca0ba3162</id>
+      <BoundTo>e838fbac-ed27-4345-be9e-8fd8e1ed75c2</BoundTo>
+    </Compile>
+    <Compile Include="Code_Utils\TracklineOccupancies\RemoveOccupancy.UserCode.cs">
+      <DependentUpon>RemoveOccupancy.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>a7d07ef0-0420-40d8-9a59-ff279caab85a</id>
+      <BoundTo>e838fbac-ed27-4345-be9e-8fd8e1ed75c2</BoundTo>
+    </Compile>
+    <Compile Include="Recording Modules\AutomaticEquipmentIdentifier_NS.cs">
+      <BoundTo>9ddbe3e2-9a1f-4c21-81a7-f34789456f41</BoundTo>
+      <DependentUpon>AutomaticEquipmentIdentifier_NS.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ecbfb187-cfe4-4ec7-b2b4-a20e9b3c5f16</id>
+    </Compile>
+    <Compile Include="Recording Modules\AutomaticEquipmentIdentifier_NS.UserCode.cs">
+      <BoundTo>9ddbe3e2-9a1f-4c21-81a7-f34789456f41</BoundTo>
+      <DependentUpon>AutomaticEquipmentIdentifier_NS.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c4e7a26a-42db-4659-962c-8e70389dd4d8</id>
+    </Compile>
+    <Compile Include="Recording Modules\BuildCNTrainsDemo.cs">
+      <BoundTo>b39ce519-b587-4486-9b74-cab6aea11444</BoundTo>
+      <DependentUpon>BuildCNTrainsDemo.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4ac4f4ef-9060-4717-bd64-0d2234cf71ee</id>
+    </Compile>
+    <Compile Include="Recording Modules\BuildCNTrainsDemo.UserCode.cs">
+      <BoundTo>b39ce519-b587-4486-9b74-cab6aea11444</BoundTo>
+      <DependentUpon>BuildCNTrainsDemo.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>63121574-5024-49f1-bdeb-b9e7eafe06c3</id>
+    </Compile>
+    <Compile Include="Recording Modules\BuildTrainRecording.cs">
+      <DependentUpon>BuildTrainRecording.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>8d5d889c-ab95-4c3d-b5ed-8c368d7c43d0</id>
+      <BoundTo>4cd5d028-9780-43fd-a73f-eec7f0435cf3</BoundTo>
+    </Compile>
+    <Compile Include="Recording Modules\BuildTrainRecording.UserCode.cs">
+      <DependentUpon>BuildTrainRecording.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>658ae1f7-1676-43fe-a2b4-2dace67be781</id>
+      <BoundTo>4cd5d028-9780-43fd-a73f-eec7f0435cf3</BoundTo>
+    </Compile>
+    <Compile Include="Recording Modules\CN_MakeSwitchOOCThruSTE.cs">
+      <BoundTo>74bbd3f0-e142-4767-ab8b-14215934d625</BoundTo>
+      <DependentUpon>CN_MakeSwitchOOCThruSTE.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>18533b00-73b0-4293-84f5-3bb3c75c0bc0</id>
+    </Compile>
+    <Compile Include="Recording Modules\CN_MakeSwitchOOCThruSTE.UserCode.cs">
+      <BoundTo>74bbd3f0-e142-4767-ab8b-14215934d625</BoundTo>
+      <DependentUpon>CN_MakeSwitchOOCThruSTE.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>71d01535-cbff-420f-8863-55b1db826f61</id>
+    </Compile>
+    <Compile Include="Recording Modules\CreateAndSendWeatherAlert.cs">
+      <BoundTo>9375b8f8-698b-4e5a-9af8-16823a43bdd0</BoundTo>
+      <DependentUpon>CreateAndSendWeatherAlert.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f59c4672-d91b-463f-801e-51711f7bcdaf</id>
+    </Compile>
+    <Compile Include="Recording Modules\CreateAndSendWeatherAlert.UserCode.cs">
+      <BoundTo>9375b8f8-698b-4e5a-9af8-16823a43bdd0</BoundTo>
+      <DependentUpon>CreateAndSendWeatherAlert.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9fba996b-c4ea-48b0-9fbf-c35038f90631</id>
+    </Compile>
+    <Compile Include="Recording Modules\CreateTrainMIS.cs">
+      <BoundTo>c5bb59b8-e872-4081-8ec3-b797349edd9c</BoundTo>
+      <DependentUpon>CreateTrainMIS.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>a076667e-0298-4892-9181-3b77c74dcffa</id>
+    </Compile>
+    <Compile Include="Recording Modules\CreateTrainMIS.UserCode.cs">
+      <BoundTo>c5bb59b8-e872-4081-8ec3-b797349edd9c</BoundTo>
+      <DependentUpon>CreateTrainMIS.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1c468008-cc7d-4332-9ff3-8332dccbfb03</id>
+    </Compile>
+    <Compile Include="Recording Modules\CreateWeather.cs">
+      <DependentUpon>CreateWeather.rxrec</DependentUpon>
+      <id>86257984-65b7-4cb8-b023-adaee29521e6</id>
+      <BoundTo>e48fbd6f-8cc4-43cd-8bce-cb08a4b19c34</BoundTo>
+      <RecorderCode>true</RecorderCode>
+    </Compile>
+    <Compile Include="Recording Modules\CreateWeather.UserCode.cs">
+      <DependentUpon>CreateWeather.rxrec</DependentUpon>
+      <id>ba6f0d34-3b43-484c-a496-a86e1d3474ac</id>
+      <BoundTo>e48fbd6f-8cc4-43cd-8bce-cb08a4b19c34</BoundTo>
+      <UserCode>true</UserCode>
+    </Compile>
+    <Compile Include="Recording Modules\DisableCDAK01.cs">
+      <BoundTo>945dfb36-ea3e-4530-b3bc-2e5fd6c51b08</BoundTo>
+      <DependentUpon>DisableCDAK01.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d5117d76-04c0-4da4-887b-58884f099739</id>
+    </Compile>
+    <Compile Include="Recording Modules\DisableCDAK01.UserCode.cs">
+      <BoundTo>945dfb36-ea3e-4530-b3bc-2e5fd6c51b08</BoundTo>
+      <DependentUpon>DisableCDAK01.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b0eb44e7-3633-475a-ae7b-3a651872a329</id>
+    </Compile>
+    <Compile Include="Recording Modules\DisableGDAK01.cs">
+      <BoundTo>fef27d30-36da-470e-8d12-705f6ba4cf1c</BoundTo>
+      <DependentUpon>DisableGDAK01.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9baa9e0f-290f-4b67-9c45-8fd089da1a5e</id>
+    </Compile>
+    <Compile Include="Recording Modules\DisableGDAK01.UserCode.cs">
+      <BoundTo>fef27d30-36da-470e-8d12-705f6ba4cf1c</BoundTo>
+      <DependentUpon>DisableGDAK01.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>431d7bc9-7b56-4e98-beb7-bf362b7bd589</id>
+    </Compile>
+    <Compile Include="Recording Modules\DisableTIACKmessages.cs">
+      <BoundTo>3ae6a41d-98a0-4c29-b4a1-dc038a83709a</BoundTo>
+      <DependentUpon>DisableTIACKmessages.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d5a4c1c4-d4d8-4d4a-9a90-2a2505107550</id>
+    </Compile>
+    <Compile Include="Recording Modules\DisableTIACKmessages.UserCode.cs">
+      <BoundTo>3ae6a41d-98a0-4c29-b4a1-dc038a83709a</BoundTo>
+      <DependentUpon>DisableTIACKmessages.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>978e737b-4bd5-4b57-b1af-024748303aed</id>
+    </Compile>
+    <Compile Include="Recording Modules\EnableCDAK01.cs">
+      <BoundTo>a9686cf0-c028-4003-a511-60280ac166b4</BoundTo>
+      <DependentUpon>EnableCDAK01.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b6f7a48e-e3db-4f27-8d33-af11806e988b</id>
+    </Compile>
+    <Compile Include="Recording Modules\EnableCDAK01.UserCode.cs">
+      <BoundTo>a9686cf0-c028-4003-a511-60280ac166b4</BoundTo>
+      <DependentUpon>EnableCDAK01.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>0bb49717-e31b-469c-8226-4251a31a7bf4</id>
+    </Compile>
+    <Compile Include="Recording Modules\EnableGDAK01.cs">
+      <BoundTo>7f8f2d9c-20d3-4c9d-bb7f-d4e8d95b93f0</BoundTo>
+      <DependentUpon>EnableGDAK01.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>05b85377-0a18-45b3-a44c-3929ed3cc520</id>
+    </Compile>
+    <Compile Include="Recording Modules\EnableGDAK01.UserCode.cs">
+      <BoundTo>7f8f2d9c-20d3-4c9d-bb7f-d4e8d95b93f0</BoundTo>
+      <DependentUpon>EnableGDAK01.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f497aded-5850-4115-b384-397214eef114</id>
+    </Compile>
+    <Compile Include="Recording Modules\EnableTIACKMessages.cs">
+      <BoundTo>25edf374-669d-47c5-ba6b-dfe098911c0e</BoundTo>
+      <DependentUpon>EnableTIACKMessages.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b845a182-b131-4b02-ad59-b89fdb524126</id>
+    </Compile>
+    <Compile Include="Recording Modules\EnableTIACKMessages.UserCode.cs">
+      <BoundTo>25edf374-669d-47c5-ba6b-dfe098911c0e</BoundTo>
+      <DependentUpon>EnableTIACKMessages.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b52d822a-53a3-42df-9d05-e59aa2fa603b</id>
+    </Compile>
+    <Compile Include="Recording Modules\Jenkins\StartSte.cs">
+      <BoundTo>a24fa078-0ec4-487a-8023-02afad85d873</BoundTo>
+      <DependentUpon>StartSte.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>b5069b7f-feca-48bc-a733-721b6614caea</id>
+    </Compile>
+    <Compile Include="Recording Modules\Jenkins\StartSte.UserCode.cs">
+      <BoundTo>a24fa078-0ec4-487a-8023-02afad85d873</BoundTo>
+      <DependentUpon>StartSte.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>52fd4240-b222-40e7-8e3a-43df5089ac5a</id>
+    </Compile>
+    <Compile Include="Recording Modules\Performance\CreateAndSendWeatherAlert_Perf.cs">
+      <DependentUpon>CreateAndSendWeatherAlert_Perf.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>23e2eaf7-92a3-4d9a-a1ac-b6f235171097</id>
+      <BoundTo>62f2edb4-27d9-4244-8f59-88942fb0df23</BoundTo>
+    </Compile>
+    <Compile Include="Recording Modules\Performance\CreateAndSendWeatherAlert_Perf.UserCode.cs">
+      <DependentUpon>CreateAndSendWeatherAlert_Perf.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5189ce41-e7f0-4417-9264-587d04b2bf9e</id>
+      <BoundTo>62f2edb4-27d9-4244-8f59-88942fb0df23</BoundTo>
+    </Compile>
+    <Compile Include="Recording Modules\ReadDG_TAUT_7Test.cs">
+      <BoundTo>2315b7ca-9099-4dc1-9154-fb36fed2c407</BoundTo>
+      <DependentUpon>ReadDG_TAUT_7Test.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>52067029-eb2b-49ce-9b8e-1664fe55082d</id>
+    </Compile>
+    <Compile Include="Recording Modules\ReadDG_TAUT_7Test.UserCode.cs">
+      <BoundTo>2315b7ca-9099-4dc1-9154-fb36fed2c407</BoundTo>
+      <DependentUpon>ReadDG_TAUT_7Test.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2e646105-d912-4871-b525-7ff2fe566eb2</id>
+    </Compile>
+    <Compile Include="Recording Modules\RemoveTrain.cs">
+      <BoundTo>0a9e8059-646e-4e37-a01b-c37e8163d1e2</BoundTo>
+      <DependentUpon>RemoveTrain.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1ad70830-22f0-4f71-92cf-69519f9ab99a</id>
+    </Compile>
+    <Compile Include="Recording Modules\RemoveTrain.UserCode.cs">
+      <BoundTo>0a9e8059-646e-4e37-a01b-c37e8163d1e2</BoundTo>
+      <DependentUpon>RemoveTrain.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>99122836-734e-4d62-9d36-329b828136d0</id>
+    </Compile>
+    <Compile Include="Recording Modules\SendDeviceStateToRemoteSTE.cs">
+      <BoundTo>b0a9562e-0da2-43d7-a3ff-c0d8592f1d8a</BoundTo>
+      <DependentUpon>SendDeviceStateToRemoteSTE.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>61a55084-8325-4829-8d42-1f66d7c961ed</id>
+    </Compile>
+    <Compile Include="Recording Modules\SendDeviceStateToRemoteSTE.UserCode.cs">
+      <BoundTo>b0a9562e-0da2-43d7-a3ff-c0d8592f1d8a</BoundTo>
+      <DependentUpon>SendDeviceStateToRemoteSTE.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>47f3b9e3-2ee2-4496-bac4-bd17b318853b</id>
+    </Compile>
+    <Compile Include="Recording Modules\StartServer_CAD.cs">
+      <DependentUpon>StartServer_CAD.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>9b37cded-b915-41b6-9246-abd42f79a342</id>
+      <BoundTo>eefeec85-ee9f-43ad-b33e-fa6b29d967cf</BoundTo>
+    </Compile>
+    <Compile Include="Recording Modules\StartServer_CAD.UserCode.cs">
+      <DependentUpon>StartServer_CAD.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>4b00dc3a-5e0b-4a22-a56b-48844199378a</id>
+      <BoundTo>eefeec85-ee9f-43ad-b33e-fa6b29d967cf</BoundTo>
+    </Compile>
+    <Compile Include="Recording Modules\STE_MSMQ_tests\EugeneTesting.cs">
+      <BoundTo>75fbffcc-ed65-420d-8132-941b88d44005</BoundTo>
+      <DependentUpon>EugeneTesting.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>fe36f285-01f4-4f39-9693-1cdc71e33605</id>
+    </Compile>
+    <Compile Include="Recording Modules\STE_MSMQ_tests\EugeneTesting.UserCode.cs">
+      <BoundTo>75fbffcc-ed65-420d-8132-941b88d44005</BoundTo>
+      <DependentUpon>EugeneTesting.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>1a13932a-892a-4289-ac52-07dae4d04e9e</id>
+    </Compile>
+    <Compile Include="Recording Modules\STE_MSMQ_tests\MsmqInitialize.cs">
+      <BoundTo>e29b1cac-e907-48d2-b970-52150aa87cc4</BoundTo>
+      <DependentUpon>MsmqInitialize.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>89939670-295c-4a1c-b4a6-50d30e743ec7</id>
+    </Compile>
+    <Compile Include="Recording Modules\STE_MSMQ_tests\MsmqInitialize.UserCode.cs">
+      <BoundTo>e29b1cac-e907-48d2-b970-52150aa87cc4</BoundTo>
+      <DependentUpon>MsmqInitialize.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>9dd151cb-897d-42a2-ae20-8b68597d912f</id>
+    </Compile>
+    <Compile Include="Recording Modules\STE_SetDeviceMessage.cs">
+      <BoundTo>a28a9614-6afc-4283-a723-c170e403655d</BoundTo>
+      <DependentUpon>STE_SetDeviceMessage.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d9e70f98-acdf-451e-bcae-c9cf34871a06</id>
+    </Compile>
+    <Compile Include="Recording Modules\STE_SetDeviceMessage.UserCode.cs">
+      <BoundTo>a28a9614-6afc-4283-a723-c170e403655d</BoundTo>
+      <DependentUpon>STE_SetDeviceMessage.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7b1c30ca-a3c3-4e18-9e2d-a83ac138b0fa</id>
+    </Compile>
+    <Compile Include="Recording Modules\GenerateMessageDefinitions.cs">
+      <BoundTo>87ba81e3-c45c-4288-989f-c577c526a3da</BoundTo>
+      <DependentUpon>GenerateMessageDefinitions.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>02a98880-df6a-4097-abfe-2c0596cc8a21</id>
+    </Compile>
+    <Compile Include="Recording Modules\GenerateMessageDefinitions.UserCode.cs">
+      <BoundTo>87ba81e3-c45c-4288-989f-c577c526a3da</BoundTo>
+      <DependentUpon>GenerateMessageDefinitions.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5d25c5ce-27a0-4f4a-a13d-fb090b32a7c2</id>
+    </Compile>
+    <Compile Include="Recording Modules\ValidateMessageInCacheRefresh_NS.cs">
+      <BoundTo>60680e87-bce8-4cf3-a012-d9352c36feda</BoundTo>
+      <DependentUpon>ValidateMessageInCacheRefresh_NS.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>bb8bfcf5-0b4c-4eba-aa77-8a057969cb13</id>
+    </Compile>
+    <Compile Include="Recording Modules\ValidateMessageInCacheRefresh_NS.UserCode.cs">
+      <BoundTo>60680e87-bce8-4cf3-a012-d9352c36feda</BoundTo>
+      <DependentUpon>ValidateMessageInCacheRefresh_NS.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>d2fb73ad-b557-4aa7-8446-24e982a2a620</id>
+    </Compile>
+    <Compile Include="Recording Modules\ValidateMessageNotInCacheRefresh.cs">
+      <DependentUpon>ValidateMessageNotInCacheRefresh.rxrec</DependentUpon>
+      <id>924a5765-ac66-4c95-b8e9-ad1c4b94401d</id>
+      <BoundTo>e044a87e-6947-4343-a4d4-5548ab9284bb</BoundTo>
+      <RecorderCode>true</RecorderCode>
+    </Compile>
+    <Compile Include="Recording Modules\ValidateMessageNotInCacheRefresh.UserCode.cs">
+      <DependentUpon>ValidateMessageNotInCacheRefresh.rxrec</DependentUpon>
+      <id>f8609e03-16a9-4983-b697-ff1d3fad1bff</id>
+      <BoundTo>e044a87e-6947-4343-a4d4-5548ab9284bb</BoundTo>
+      <UserCode>true</UserCode>
+    </Compile>
+    <Compile Include="STERepository.cs">
+      <BoundTo>520666e4-6d00-4887-a37a-01c8a01c7d2e</BoundTo>
+      <DependentUpon>STERepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>f09a95aa-5884-4054-82e2-4fd5d028fcf5</id>
+    </Compile>
+    <Compile Include="Ste_Repo.cs">
+      <BoundTo>ADA45C2E-2498-4E2B-9EF2-ACEC4519E1D3</BoundTo>
+      <DependentUpon>Ste_Repo.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>231556e9-86c3-4d59-962a-f943e456cbfa</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Code Modules\ReadMe.txt">
+      <id>a5d52596-31bb-4ad0-88dc-309655a25e2c</id>
+    </None>
+    <None Include="Code_Utils\ReadMe.txt">
+      <id>d0c8431c-f85e-4783-a24a-5237f98a7a02</id>
+    </None>
+    <None Include="Code_Utils\TracklineOccupancies\MoveOccupancyByTrackSections.rxrec">
+      <id>75d671ab-4d19-4b92-9f35-cf7ca1192151</id>
+      <recordtableid>839cd885-c8f5-458e-ac81-9f2c58e0d9fe</recordtableid>
+      <BoundTo>520666e4-6d00-4887-a37a-01c8a01c7d2e</BoundTo>
+    </None>
+    <None Include="Code_Utils\TracklineOccupancies\PlaceOccupancy.rxrec">
+      <id>7d4e2109-c2f1-4fb4-ace0-07317fd78243</id>
+      <recordtableid>6ba46248-1c9d-49f9-bafb-e77699ce6452</recordtableid>
+      <BoundTo>520666e4-6d00-4887-a37a-01c8a01c7d2e</BoundTo>
+    </None>
+    <None Include="Code_Utils\TracklineOccupancies\RemoveOccupancy.rxrec">
+      <id>e838fbac-ed27-4345-be9e-8fd8e1ed75c2</id>
+      <recordtableid>93409c19-5361-4063-9d45-89babf943000</recordtableid>
+      <BoundTo>520666e4-6d00-4887-a37a-01c8a01c7d2e</BoundTo>
+    </None>
+    <None Include="data\message_templates\PTC\PTCMessageDefinitionsV7.csv">
+      <id>2fd17343-7b88-4fa1-a4d1-d3a51822dd6d</id>
+    </None>
+    <None Include="Recording Modules\AutomaticEquipmentIdentifier_NS.rxrec">
+      <BoundTo>520666e4-6d00-4887-a37a-01c8a01c7d2e</BoundTo>
+      <id>9ddbe3e2-9a1f-4c21-81a7-f34789456f41</id>
+      <recordtableid>553f7ade-b76a-414d-9794-efb1dceea4cc</recordtableid>
+    </None>
+    <None Include="Recording Modules\BuildCNTrainsDemo.rxrec">
+      <BoundTo>520666e4-6d00-4887-a37a-01c8a01c7d2e</BoundTo>
+      <id>b39ce519-b587-4486-9b74-cab6aea11444</id>
+      <recordtableid>a0c17843-69fd-4e51-a078-b5794730012a</recordtableid>
+    </None>
+    <None Include="Recording Modules\BuildTrainRecording.rxrec">
+      <BoundTo>520666e4-6d00-4887-a37a-01c8a01c7d2e</BoundTo>
+      <id>4cd5d028-9780-43fd-a73f-eec7f0435cf3</id>
+      <recordtableid>e3239231-52ee-4f62-b242-7a49489fb994</recordtableid>
+    </None>
+    <None Include="Recording Modules\CN_MakeSwitchOOCThruSTE.rxrec">
+      <BoundTo>520666e4-6d00-4887-a37a-01c8a01c7d2e</BoundTo>
+      <id>74bbd3f0-e142-4767-ab8b-14215934d625</id>
+      <recordtableid>d43740c6-5015-48a5-900a-67defa6d1a7b</recordtableid>
+    </None>
+    <None Include="Recording Modules\CreateAndSendWeatherAlert.rxrec">
+      <BoundTo>520666e4-6d00-4887-a37a-01c8a01c7d2e</BoundTo>
+      <id>9375b8f8-698b-4e5a-9af8-16823a43bdd0</id>
+      <recordtableid>6d18bebf-7ca8-492b-8309-d82a0728d644</recordtableid>
+    </None>
+    <None Include="Recording Modules\CreateTrainMIS.rxrec">
+      <id>c5bb59b8-e872-4081-8ec3-b797349edd9c</id>
+      <recordtableid>e15135c2-f9ff-454d-be42-91d10cbe3fb1</recordtableid>
+      <BoundTo>520666e4-6d00-4887-a37a-01c8a01c7d2e</BoundTo>
+    </None>
+    <None Include="Recording Modules\CreateWeather.rxrec">
+      <id>e48fbd6f-8cc4-43cd-8bce-cb08a4b19c34</id>
+      <BoundTo>520666e4-6d00-4887-a37a-01c8a01c7d2e</BoundTo>
+      <recordtableid>540ca736-16e1-44c9-9747-ae927197e390</recordtableid>
+    </None>
+    <None Include="Recording Modules\DisableCDAK01.rxrec">
+      <BoundTo>520666e4-6d00-4887-a37a-01c8a01c7d2e</BoundTo>
+      <id>945dfb36-ea3e-4530-b3bc-2e5fd6c51b08</id>
+      <recordtableid>e18d95fe-5465-413f-852c-8e0a5148687b</recordtableid>
+    </None>
+    <None Include="Recording Modules\DisableGDAK01.rxrec">
+      <BoundTo>520666e4-6d00-4887-a37a-01c8a01c7d2e</BoundTo>
+      <id>fef27d30-36da-470e-8d12-705f6ba4cf1c</id>
+      <recordtableid>c61cb32c-8c8b-4c20-8345-430b464417a6</recordtableid>
+    </None>
+    <None Include="Recording Modules\DisableTIACKmessages.rxrec">
+      <id>3ae6a41d-98a0-4c29-b4a1-dc038a83709a</id>
+      <recordtableid>1c34d264-6a42-4117-8bb5-286e0917e2d9</recordtableid>
+      <BoundTo>520666e4-6d00-4887-a37a-01c8a01c7d2e</BoundTo>
+    </None>
+    <None Include="Recording Modules\EnableCDAK01.rxrec">
+      <BoundTo>520666e4-6d00-4887-a37a-01c8a01c7d2e</BoundTo>
+      <id>a9686cf0-c028-4003-a511-60280ac166b4</id>
+      <recordtableid>30c2a70b-00c8-463f-b652-9401e35f6728</recordtableid>
+    </None>
+    <None Include="Recording Modules\EnableGDAK01.rxrec">
+      <BoundTo>520666e4-6d00-4887-a37a-01c8a01c7d2e</BoundTo>
+      <id>7f8f2d9c-20d3-4c9d-bb7f-d4e8d95b93f0</id>
+      <recordtableid>6cff199c-c96b-4657-bf73-ec7fc417d5c0</recordtableid>
+    </None>
+    <None Include="Recording Modules\EnableTIACKMessages.rxrec">
+      <id>25edf374-669d-47c5-ba6b-dfe098911c0e</id>
+      <recordtableid>c69ac8ec-cce2-4df0-bc5a-90801bd2b2e6</recordtableid>
+      <BoundTo>520666e4-6d00-4887-a37a-01c8a01c7d2e</BoundTo>
+    </None>
+    <None Include="Recording Modules\Jenkins\StartSte.rxrec">
+      <BoundTo>520666e4-6d00-4887-a37a-01c8a01c7d2e</BoundTo>
+      <id>a24fa078-0ec4-487a-8023-02afad85d873</id>
+      <recordtableid>b15de5ea-29e2-446f-9369-6f5ef9868f35</recordtableid>
+    </None>
+    <None Include="Recording Modules\Performance\CreateAndSendWeatherAlert_Perf.rxrec">
+      <BoundTo>520666e4-6d00-4887-a37a-01c8a01c7d2e</BoundTo>
+      <id>62f2edb4-27d9-4244-8f59-88942fb0df23</id>
+      <recordtableid>b3fb29b8-5f66-45ff-be1e-94bb32f5a95b</recordtableid>
+    </None>
+    <None Include="Recording Modules\ReadDG_TAUT_7Test.rxrec">
+      <BoundTo>520666e4-6d00-4887-a37a-01c8a01c7d2e</BoundTo>
+      <id>2315b7ca-9099-4dc1-9154-fb36fed2c407</id>
+      <recordtableid>d95dbc4f-cbf5-46f2-a4aa-4c5f97088414</recordtableid>
+    </None>
+    <None Include="Recording Modules\RemoveTrain.rxrec">
+      <BoundTo>520666e4-6d00-4887-a37a-01c8a01c7d2e</BoundTo>
+      <id>0a9e8059-646e-4e37-a01b-c37e8163d1e2</id>
+      <recordtableid>8ee21432-f848-4a57-9193-d23d6a9b1502</recordtableid>
+    </None>
+    <None Include="Recording Modules\SendDeviceStateToRemoteSTE.rxrec">
+      <BoundTo>520666e4-6d00-4887-a37a-01c8a01c7d2e</BoundTo>
+      <id>b0a9562e-0da2-43d7-a3ff-c0d8592f1d8a</id>
+      <recordtableid>d889f57c-75c0-44cb-8dbc-8b4d1f2a804a</recordtableid>
+    </None>
+    <None Include="Recording Modules\StartServer_CAD.rxrec">
+      <id>eefeec85-ee9f-43ad-b33e-fa6b29d967cf</id>
+      <recordtableid>65b985dd-e9a3-4dc7-808a-788e2384bad0</recordtableid>
+      <BoundTo>ADA45C2E-2498-4E2B-9EF2-ACEC4519E1D3</BoundTo>
+    </None>
+    <None Include="Recording Modules\STE_MSMQ_tests\EugeneTesting.rxrec">
+      <BoundTo>520666e4-6d00-4887-a37a-01c8a01c7d2e</BoundTo>
+      <id>75fbffcc-ed65-420d-8132-941b88d44005</id>
+      <recordtableid>7c2ab0f6-d7bf-4111-9c37-87930a2d16fc</recordtableid>
+    </None>
+    <None Include="Recording Modules\STE_MSMQ_tests\MsmqInitialize.rxrec">
+      <BoundTo>520666e4-6d00-4887-a37a-01c8a01c7d2e</BoundTo>
+      <id>e29b1cac-e907-48d2-b970-52150aa87cc4</id>
+      <recordtableid>a3584e6a-a46d-4c59-9cca-5c98b9774f37</recordtableid>
+    </None>
+    <None Include="Recording Modules\STE_SetDeviceMessage.rxrec">
+      <BoundTo>520666e4-6d00-4887-a37a-01c8a01c7d2e</BoundTo>
+      <id>a28a9614-6afc-4283-a723-c170e403655d</id>
+      <recordtableid>59d4b256-29ba-4f8c-b139-d5cec00e370e</recordtableid>
+    </None>
+    <None Include="Recording Modules\GenerateMessageDefinitions.rxrec">
+      <BoundTo>520666e4-6d00-4887-a37a-01c8a01c7d2e</BoundTo>
+      <id>87ba81e3-c45c-4288-989f-c577c526a3da</id>
+      <recordtableid>d5f421e3-8f4e-4436-a175-7b0e3364a708</recordtableid>
+    </None>
+    <None Include="Recording Modules\ValidateMessageInCacheRefresh_NS.rxrec">
+      <BoundTo>520666e4-6d00-4887-a37a-01c8a01c7d2e</BoundTo>
+      <id>60680e87-bce8-4cf3-a012-d9352c36feda</id>
+      <recordtableid>256a0d67-1993-41b0-844c-100cb805a9ef</recordtableid>
+    </None>
+    <None Include="Recording Modules\ValidateMessageNotInCacheRefresh.rxrec">
+      <id>e044a87e-6947-4343-a4d4-5548ab9284bb</id>
+      <BoundTo>520666e4-6d00-4887-a37a-01c8a01c7d2e</BoundTo>
+      <recordtableid>243fd601-6f4f-44f1-9cb9-987861cefc15</recordtableid>
+    </None>
+    <None Include="STERepository.rximg">
+      <BoundTo>520666e4-6d00-4887-a37a-01c8a01c7d2e</BoundTo>
+      <DependentUpon>STERepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>db8c414e-4a02-44e5-ba5a-6a58c7bd43d0</id>
+    </None>
+    <None Include="STERepository.rxrep">
+      <id>520666e4-6d00-4887-a37a-01c8a01c7d2e</id>
+      <repoid>94979805-1172-497d-81a7-96b90e56bc08</repoid>
+      <reporootid>b886b4af-b6ad-4b0c-8231-55d5a1273425</reporootid>
+    </None>
+    <None Include="Ste_Repo.rximg">
+      <BoundTo>ADA45C2E-2498-4E2B-9EF2-ACEC4519E1D3</BoundTo>
+      <DependentUpon>Ste_Repo.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>370355f0-3b6a-46e5-988b-9ccb5de3cb3d</id>
+    </None>
+    <None Include="Ste_Repo.rxrep">
+      <id>ADA45C2E-2498-4E2B-9EF2-ACEC4519E1D3</id>
+      <repoid>31c43512-d849-439a-890b-98242b791e84</repoid>
+      <reporootid>63365fd4-5917-471f-8246-fc7ac7b2cd9b</reporootid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="STE.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>c62d7967-2355-48fe-90bb-2e6270f63d04</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Code Modules">
+      <id>d94db772-f6c8-4f3d-b742-1a641de521db</id>
+    </Folder>
+    <Folder Include="Code_Utils">
+      <id>f2acd687-d3b2-46ac-b811-29adaaf51118</id>
+    </Folder>
+    <Folder Include="Code_Utils\Customer_Dependent\CN">
+      <id>9258f027-3d16-4e03-ab1e-b941a0ddf23b</id>
+    </Folder>
+    <Folder Include="Code_Utils\Customer_Dependent\NS">
+      <id>19ecbbac-d482-4774-b94a-3e14bf7b6e94</id>
+    </Folder>
+    <Folder Include="Code_Utils\messages">
+      <id>6fc1d10a-1054-4c52-bf83-af26cde7f8ce</id>
+    </Folder>
+    <Folder Include="Code_Utils\messages\MIS">
+      <id>6b993757-0fd5-464e-9ab4-8573a6a7075f</id>
+    </Folder>
+    <Folder Include="Code_Utils\messages\MIS\CN">
+      <id>06ba0b52-2c0e-42ce-ae36-90b0d6ccf1a6</id>
+    </Folder>
+    <Folder Include="Code_Utils\messages\MIS\NS">
+      <id>ac1c5338-f6ae-4c79-b6f4-08a93a354101</id>
+    </Folder>
+    <Folder Include="Code_Utils\messages\RUM">
+      <id>bab4b2e3-99e8-46be-a176-bb990b9f0899</id>
+    </Folder>
+    <Folder Include="Code_Utils\messages\PTC">
+      <id>879017df-8d27-4d3a-abd9-4760e8a89cb8</id>
+    </Folder>
+    <Folder Include="Code_Utils\messages\test">
+      <id>01c04f66-dfb9-458a-b931-e29c54c70de5</id>
+    </Folder>
+    <Folder Include="Code_Utils\Customer_Dependent">
+      <id>1138a561-5143-4a29-8be4-9a73c1bb2ab1</id>
+    </Folder>
+    <Folder Include="Code_Utils\TracklineOccupancies">
+      <id>43912d82-96fe-4e2a-8d0f-10a39dd5a650</id>
+    </Folder>
+    <Folder Include="data">
+      <id>e87f779e-370f-43f5-8aab-f85c93ea4bd1</id>
+    </Folder>
+    <Folder Include="data\message_templates">
+      <id>587569a2-b149-4103-bc2b-4301ffc5de34</id>
+    </Folder>
+    <Folder Include="data\message_templates\MIS">
+      <id>0357855c-998d-4984-aba9-459ad69a1d30</id>
+    </Folder>
+    <Folder Include="data\message_templates\PTC">
+      <id>617c52e1-68e1-40f3-af9f-ea5607780edb</id>
+    </Folder>
+    <Folder Include="Recording Modules">
+      <id>0951edd9-30ee-40ca-99d1-9f1df3bb685e</id>
+    </Folder>
+    <Folder Include="Recording Modules\Jenkins">
+      <id>f29aa40b-c67d-42d3-b247-33197bb90ad5</id>
+    </Folder>
+    <Folder Include="Recording Modules\Performance">
+      <id>8f850c23-b6e3-4f90-a2ce-15ba73c29a43</id>
+    </Folder>
+    <Folder Include="Recording Modules\STE_MSMQ_tests">
+      <id>47bd92ce-38f5-4222-a755-d6080060a0ac</id>
+    </Folder>
+    <Folder Include="Startup">
+      <id>e4c6513c-9e91-4e42-a33c-b3b0245c3915</id>
+    </Folder>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Env\Env.csproj">
+      <Project>{63995F2D-9C74-47C3-94B2-7553E78DFF2B}</Project>
+      <Name>Env</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Oracle\Oracle.csproj">
+      <Project>{3E5F4A0A-B165-481C-A627-6AB3FC64A45F}</Project>
+      <Name>Oracle</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PDS_CORE\PDS_CORE.csproj">
+      <Project>{60BC418F-3D95-43EA-80B6-CEA3543ED839}</Project>
+      <Name>PDS_CORE</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Condition="Exists('$(RanorexTargetsPath)')" Project="$(RanorexTargetsPath)" />
+</Project>

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="22231c46-ad20-483b-9ff8-ed0de1a8e8bd"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OutputInfoNotes"
+	namespace="PTC_Lab_Automation.Recording_Modules">
+	</codegen>
+	<variables>
+		<var
+		id="d19f93d0-67be-4c51-9990-c5379270254a"
+		name="notes">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="OutputInfoNotes"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="OutputInfoNotes_PTC"
+		namespace="PTC_Lab_Automation.Recording_Modules"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="ad32e4dd-aff0-4b28-866e-dbfcbc9e2dd7">
+				<argument
+				argname="notes"
+				id="b101a907-2cf8-46eb-a77e-0c44ce0b74a5"
+				variable="notes">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="e44994df-4fbc-4c80-8a3c-599d87a51678"
+	name="Test_ExecutionRepository"
+	relativepath="..\Test ExecutionRepository.rxrep">
+		<codegen
+		classname="Test_ExecutionRepository"
+		namespace="PTC_Lab_Automation">
+		</codegen>
+		<rootfolder
+		id="dab857d6-db00-487f-8fdd-61a5ad3edc4e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OutputInfoNotes.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

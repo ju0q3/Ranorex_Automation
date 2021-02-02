@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="50a0a219-9ff7-4dcd-8014-0a06539be32e"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Validate_FeedbackMsg_MonitorControlPointCommunicationForm"
+	namespace="PDS_NS.Recording_Modules.Trackline">
+	</codegen>
+	<variables>
+		<var
+		id="01ad5926-3bde-4a58-b3b0-614569ba1336"
+		name="expectedFeedbackMsg">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="NS_Trackline_Validations"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="NS_Validate_FeedbackMsg_MonitorControlPointCommunicationForm"
+		namespace="PDS_NS.UserCodeCollections"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="1cdcc71b-a231-4550-80a0-ccb1d268e2d7">
+				<argument
+				argname="expectedFeedbackMsg"
+				id="2e3b824e-c759-43b5-9ba9-8711af9d7cf6"
+				variable="expectedFeedbackMsg">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="99db1ee9-18b9-40fb-9aa1-f8be4efc8d38"
+	name="Trackline_Repo"
+	relativepath="..\..\Trackline_Repo.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="Trackline_Repo"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="a7f431f9-6ac1-4a74-9611-247a94487456"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Validate_FeedbackMsg_MonitorControlPointCommunicationForm.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

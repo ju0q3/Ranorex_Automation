@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="5a200eef-e4aa-45ea-b8d7-fdc9171ec9c9"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="BannerVerifyEqualText"
+	namespace="PTC_Lab_Automation.Recording_Modules.OnBoardActions">
+	</codegen>
+	<variables>
+		<var
+		id="6e3d0d0b-9250-453c-81e1-aae2b0ccafe8"
+		name="banner">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="BannerVerifyEqualText"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="BannerVerifyEquals_Onboard"
+		namespace="PTC_Lab_Automation.Recording_Modules.OnBoardActions"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="6ab80cd0-13a1-4e47-9f55-7b0c1b6b7a4a">
+				<argument
+				argname="banner"
+				id="d4ce420e-2a4a-4d60-823c-63237950c14a"
+				variable="banner">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="e44994df-4fbc-4c80-8a3c-599d87a51678"
+	name="Test_ExecutionRepository"
+	relativepath="..\..\Test ExecutionRepository.rxrep">
+		<codegen
+		classname="Test_ExecutionRepository"
+		namespace="PTC_Lab_Automation">
+		</codegen>
+		<rootfolder
+		id="dab857d6-db00-487f-8fdd-61a5ad3edc4e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		BannerVerifyEqualText.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="459cd1c5-73a8-428e-82fd-eb93e701dba5"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="KeyPress"
+	namespace="PTC_Lab_Automation.Recording_Modules.OnBoardActions">
+	</codegen>
+	<variables>
+		<var
+		id="e990226a-cf71-453f-be91-b41b1a947f39"
+		name="key">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="KeyPress"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="KeyPress_OnBoard"
+		namespace="PTC_Lab_Automation.Recording_Modules.OnBoardActions"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="a6e6e453-b7fa-4db4-9f10-1fdd4e0d9e72">
+				<argument
+				argname="key"
+				id="f8221728-a842-4702-81bb-1a07a80b607d"
+				variable="key">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="e44994df-4fbc-4c80-8a3c-599d87a51678"
+	name="Test_ExecutionRepository"
+	relativepath="..\..\Test ExecutionRepository.rxrep">
+		<codegen
+		classname="Test_ExecutionRepository"
+		namespace="PTC_Lab_Automation">
+		</codegen>
+		<rootfolder
+		id="dab857d6-db00-487f-8fdd-61a5ad3edc4e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		KeyPress.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

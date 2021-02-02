@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="eac3622a-cec9-47a5-98eb-6910ad6087f7"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseDispatcherTransferReport"
+	namespace="PDS_NS.Recording_Modules.LoginLogoff">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<invokeactionrecorditem
+		action="Activate"
+		enabled="True"
+		optional="False"
+		searchpropertyid="ab0b26b6-d155-4678-939d-c83ee0a41a04">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="68585377-f9c7-48fb-9681-cf806be69bf8"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'^Dispatcher\ Transfer\ Repor']
+				</path>
+			</info>
+			<arguments
+			id="95269c44-e89c-4254-a5ba-612dbe7044ae">
+			</arguments>
+		</invokeactionrecorditem>
+		<userrecorditem
+		classname="GeneralUtilities"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="ClickAndWaitForNotExistWithRetry"
+		namespace="PDS_CORE.Code_Utils"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="e52085e0-40ec-4ea0-9ab0-3086fa86e9b7">
+				<argument
+				argname="buttonInfo"
+				id="d76e60e0-849d-42c8-bc4d-228a09a0b448">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="d99ae952-8fa7-4407-b0b1-1eb79cb9b5ae"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/button[@name='_closeBtn']
+						</path>
+					</info>
+				</argument>
+				<argument
+				argname="waitFor"
+				id="f2db76ad-2233-4fd6-9bb6-db4e28a1d187">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="68585377-f9c7-48fb-9681-cf806be69bf8"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title~'^Dispatcher\ Transfer\ Repor']
+						</path>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="0aca848b-fcfe-4ac6-a0b1-4563d872cf78"
+	name="TerritoryTransfer_Repo"
+	relativepath="..\..\TerritoryTransfer_Repo.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="TerritoryTransfer_Repo"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="246b357a-1299-440e-8112-36417b270800"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseDispatcherTransferReport.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

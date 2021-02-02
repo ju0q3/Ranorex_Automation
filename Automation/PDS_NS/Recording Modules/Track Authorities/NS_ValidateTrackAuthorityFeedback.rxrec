@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="018d3f4e-dd63-4690-90cc-2fae03fa223b"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="NS_ValidateTrackAuthorityFeedback"
+	namespace="PDS_NS.Recording_Modules.Track_Authorities">
+	</codegen>
+	<variables>
+		<var
+		id="0ba10419-ebc5-4adb-88bd-1513c3e4d1ff"
+		name="feedbackText">
+		</var>
+	</variables>
+	<recorditems>
+		<validationitem
+		action="AttributeEqual"
+		enabled="True"
+		optional="True"
+		searchpropertyid="404290c1-b648-4d96-a115-8779ffb5c0d3">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="MatchValue"
+				variable="feedbackText">
+				</binding>
+			</bindings>
+			<info
+			id="9793e4d4-4a01-4b62-96a9-fa7110ce533c"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'^Create\ Track\ Authority\ ' and @visible='True']/container[@type='FeedbackBar']/text[@name='messageField']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				yourValue
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="48711a70-4260-48d9-b9be-f4c41f092706"
+	name="TrackAuthorities_Repo"
+	relativepath="..\..\TrackAuthorities_Repo.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="TrackAuthorities_Repo"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="1a7686ed-edee-41c2-9630-14a987ef7356"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		NS_ValidateTrackAuthorityFeedback.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

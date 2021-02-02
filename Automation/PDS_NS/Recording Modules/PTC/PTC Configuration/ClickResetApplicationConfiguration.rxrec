@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="92302d5c-91c7-4c4d-a171-b571a662e689"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ClickResetApplicationConfiguration"
+	namespace="PDS_NS.Recording_Modules.PTC.PTC_Configuration">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="5a3cd886-766e-4961-bc6d-775128d28a8a"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="06296967-21bb-4f22-bac1-877882bb6a1a"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'^Positive\ Train\ Control\ \(P']/container[@name='_optimizedTrainControlForm']/container[@type='UIJPanel']/container[@type='UIJPanel']/container[@type='UIJPanel']/button[@name='_resetBtn']
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="59cf7e7b-82fc-4f0f-8567-2623525b7725"
+	name="SystemConfiguration_Repo"
+	relativepath="..\..\..\SystemConfiguration_Repo.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="SystemConfiguration_Repo"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="f30ceac8-82bc-4d8e-a8c6-d9e7258878f0"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ClickResetApplicationConfiguration.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

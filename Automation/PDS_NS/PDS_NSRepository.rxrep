@@ -1,0 +1,191 @@
+﻿<repository
+id="81af6446-71fa-4977-9bd0-411f88dc55ba"
+name="PDS_NSRepository"
+rxversion="9.0">
+	<codegen
+	classname="PDS_NSRepository"
+	namespace="PDS_NS">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="b2ba234a-2e7c-4852-8e7f-adb8693853b7"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		capname="form"
+		id="99155caa-80f4-440d-a113-07763203a942"
+		isrooted="True"
+		name="Pds_Cmd_Window"
+		searchtimeout="3000ms"
+		usecache="True">
+			<folder
+			capname="unknown"
+			id="1b8de594-60ad-40f3-9059-f0a474be4089"
+			isrooted="False"
+			name="WindowControls"
+			searchtimeout="0ms">
+				<item
+				capname="button"
+				id="1c012492-3270-4fbc-8835-7d100ead6ff0"
+				name="Minimize"
+				searchtimeout="3000ms">
+					/form[@title~'PDS$' and @processname='cmd']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Minimize']
+				</item>
+				<item
+				capname="button"
+				id="df6dff40-e060-41e1-bdb5-33c57f581905"
+				name="Maximize"
+				searchtimeout="3000ms">
+					/form[@title~'PDS$' and @processname='cmd']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Maximize']
+				</item>
+				<item
+				capname="button"
+				id="845a6644-7b9b-47bb-bcfc-92efe1b6881d"
+				name="Close"
+				searchtimeout="3000ms">
+					/form[@title~'PDS$' and @processname='cmd']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Close']
+				</item>
+			</folder>
+			<basepath>
+				/form[@title~'PDS$' and @processname='cmd']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="79031868-edc4-4ae5-9d05-519cbf47d113"
+		isrooted="True"
+		name="Positive_Train_Control_Configuration"
+		searchtimeout="3000ms"
+		usecache="True">
+			<item
+			capname="button"
+			id="e3c5c6e6-4f5c-4c36-abb3-fde2dcd42a50"
+			name="CancelButton"
+			searchtimeout="3000ms">
+				/form[@title~'^Positive\ Train\ Control\ \(P']/container[@name='_optimizedTrainControlForm']/container[@type='UIJPanel']/container[@type='UIJPanel']/container[@type='UIJPanel']/button[@name='_cancelBtn']
+			</item>
+			<folder
+			capname="container"
+			id="b3aec058-e63c-4209-bff9-3dc0a526c2dc"
+			isrooted="True"
+			name="CommunicationConfiguration"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				addcaps="text,javaelement"
+				capname="text"
+				id="c90bd1c7-c61c-44ea-90ea-4bdc49d6d24d"
+				name="SuspendDurationText"
+				refimgid="0f22ed29-584e-4f6a-8e92-09eeb77d2ee2"
+				searchtimeout="3000ms">
+					/form[@title~'^Positive\ Train\ Control\ \(P']/container[@name='_optimizedTrainControlForm']/container[@name='configTab']/container[@name='visComp' and @visible='True']/container/text[@name='_suspendDurationLabel']
+				</item>
+				<item
+				addcaps="radiobutton,javaelement"
+				capname="radiobutton"
+				id="46720c97-a1b4-4279-824a-70b03f468f65"
+				name="DispatchSuspendAll"
+				refimgid="cde41bfe-c383-44ad-ba39-63cab7b5f8ff"
+				refpath="/form[@title='Positive Train Control (PTC) Configuration']/container[@name='_optimizedTrainControlForm']/container[@name='configTab']/container[@name='visComp']/radiobutton[@name='_dispatchSuspendAllRB']"
+				searchtimeout="3000ms">
+					/form[@title~'^Positive\ Train\ Control\ \(P']/container[@name='_optimizedTrainControlForm']/container[@name='configTab']/container[@name='visComp' and @visible='True']/radiobutton[@name='_dispatchSuspendAllRB']
+				</item>
+				<item
+				addcaps="radiobutton,javaelement"
+				capname="radiobutton"
+				id="163e3b4c-461d-4e72-a232-ac280717a2cb"
+				name="DispatchResumeAll"
+				refimgid="3b71d6f0-d15b-4823-9fa4-5c2cf227eed1"
+				refpath="/form[@title='Positive Train Control (PTC) Configuration']/container[@name='_optimizedTrainControlForm']/container[@name='configTab']/container[@name='visComp']/radiobutton[@name='_dispatchResumeAllRB']"
+				searchtimeout="3000ms">
+					/form[@title~'^Positive\ Train\ Control\ \(P']/container[@name='_optimizedTrainControlForm']/container[@name='configTab']/container[@name='visComp' and @visible='True']/radiobutton[@name='_dispatchResumeAllRB']
+				</item>
+				<item
+				addcaps="radiobutton,javaelement"
+				capname="radiobutton"
+				id="382bf7a2-0a6e-478c-b6a2-cf665f1f1a6b"
+				name="SaveCurrentDistrictStates"
+				refimgid="728f6c11-a953-4dbb-9ac8-57ade5d5eed8"
+				refpath="/form[@title='Positive Train Control (PTC) Configuration']/container[@name='_optimizedTrainControlForm']/container[@name='configTab']/container[@name='visComp']/radiobutton[@name='_saveCurrentDistrictStatesRB']"
+				searchtimeout="3000ms">
+					/form[@title~'^Positive\ Train\ Control\ \(P']/container[@name='_optimizedTrainControlForm']/container[@name='configTab']/container[@name='visComp' and @visible='True']/radiobutton[@name='_saveCurrentDistrictStatesRB']
+				</item>
+				<basepath>
+					/form[@title~'^Positive\ Train\ Control\ \(P']/container[@name='_optimizedTrainControlForm']/container[@name='configTab']/container[@name='visComp' and @visible='True']
+				</basepath>
+			</folder>
+			<folder
+			capname="container"
+			id="04cbe49f-fd41-4684-993f-9afe87c66c25"
+			isrooted="True"
+			name="ApplicationConfiguration"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="checkbox"
+				id="be75dd28-1e64-41c9-aa78-59b5dedbd8a5"
+				name="EnablePTCCIBOSDataTrafficCheckbox"
+				searchtimeout="3000ms">
+					/form[@title~'^Positive\ Train\ Control\ \(P']/container[@name='_optimizedTrainControlForm']/container[@name='configTab']/container[@name='visComp' and @visible='True']/checkbox[@name='_enableCIBOSDataTraffictCheckBox']
+				</item>
+				<item
+				addcaps="radiobutton,javaelement"
+				capname="radiobutton"
+				id="710edbb3-c1a0-4af7-adce-78cc64f81fb7"
+				name="DispatchSuspendAll"
+				refimgid="02698a64-75ff-4782-b969-9a956b5cadf8"
+				refpath="/form[@title='Positive Train Control (PTC) Configuration']/container[@name='_optimizedTrainControlForm']/container[@name='configTab']/container[@name='visComp']/radiobutton[@name='_dispatchSuspendAllRB']"
+				searchtimeout="3000ms">
+					/form[@title~'^Positive\ Train\ Control\ \(P']/container[@name='_optimizedTrainControlForm']/container[@name='configTab']/container[@name='visComp' and @visible='True']/radiobutton[@name='_dispatchSuspendAllRB']
+				</item>
+				<item
+				addcaps="radiobutton,javaelement"
+				capname="radiobutton"
+				id="724c91a0-da71-4165-9b9a-a6cca581a0a2"
+				name="DispatchResumeAll"
+				refimgid="d83a3530-2265-4915-a90a-7835cf82c706"
+				refpath="/form[@title='Positive Train Control (PTC) Configuration']/container[@name='_optimizedTrainControlForm']/container[@name='configTab']/container[@name='visComp']/radiobutton[@name='_dispatchResumeAllRB']"
+				searchtimeout="3000ms">
+					/form[@title~'^Positive\ Train\ Control\ \(P']/container[@name='_optimizedTrainControlForm']/container[@name='configTab']/container[@name='visComp' and @visible='True']/radiobutton[@name='_dispatchResumeAllRB']
+				</item>
+				<item
+				addcaps="radiobutton,javaelement"
+				capname="radiobutton"
+				id="a5a3465f-418f-429e-9d67-96aa4b0c89a4"
+				name="SaveCurrentDistrictStates"
+				refimgid="a6901669-fa7c-46ff-b97e-09ce41a2d358"
+				refpath="/form[@title='Positive Train Control (PTC) Configuration']/container[@name='_optimizedTrainControlForm']/container[@name='configTab']/container[@name='visComp']/radiobutton[@name='_saveCurrentDistrictStatesRB']"
+				searchtimeout="3000ms">
+					/form[@title~'^Positive\ Train\ Control\ \(P']/container[@name='_optimizedTrainControlForm']/container[@name='configTab']/container[@name='visComp' and @visible='True']/radiobutton[@name='_saveCurrentDistrictStatesRB']
+				</item>
+				<basepath>
+					/form[@title~'^Positive\ Train\ Control\ \(P']/container[@name='_optimizedTrainControlForm']/container[@name='configTab']/container[@name='visComp' and @visible='True']
+				</basepath>
+			</folder>
+			<basepath>
+				/form[@title~'^Positive\ Train\ Control\ \(P']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJRSURBVDhPpZPrS5NhGIf3l/QhoqQiMgii6OBx
+5cwPElaEfSqIJJCgzAikQgsELSlI7SCUnayoIKkPghWZhxxpc861Oedh6jZ1mzu8x1092wS10KBu
++H177+t3Pc/LY/jvaWgxc+eVg5rmAaqafnC50cyZ6k5OVHZTXPGFonOtFJa+pKDkybIcPP0Y45Fy
+DHXPbTS1azS2adxqlal+HaHyWZCKR7OUN/k5e9dHye1JTtaOc7zazdEqF4euOMkvM7MmbQeG2mYz
+dW8C3Hwb5uKDKU7dcFN83cmxaw4OX7VTWGGj4NIgpnIrBy4MYCyzkHveQkZpN+vSjRhqGl7gD8QI
+RzXmRUIRlWBYISAyG0rFG1DwzMi4vTIOj4R1TKLL6mHj1u0CUN/CahOPg6JCRIozF9GZCmqM+lUs
+Li8bNm/DcP/p+4VP/xxNB0mJMx/TmZnXmJzTcPsUfk4q9Az9BaCLZlksJ5vDOtOieUw0O6cUrOMy
+ndbVAAltTSzLcYJRHV9IY2JWw+VVsE0o9I/IfLYIwKYVAIvqcWbEckpdxS7ULaMyvcMS7X0rAJLq
+akJdT6kHUuqOpLrCd5dMl0OizZwApC8HJG9cg6g4d2Cp+nRKvc8t0eOU6LDF+ND7G0Dsoi6oh4S6
+P3nrKiMJdc+i+ld7jE/WKO96vKxPAO4tMRDlSOKfh2IIAEzMgcsXZ8ij0T+q8W1YpcOu8HFQTgLW
+pm0Rb6H+Ibn788kxmsgWyRLJFMnINbEvx8Te7Dz2iOzOymNXZio7M1LJyS9i4U3+6xgMvwD+1+a2
+GORSxAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

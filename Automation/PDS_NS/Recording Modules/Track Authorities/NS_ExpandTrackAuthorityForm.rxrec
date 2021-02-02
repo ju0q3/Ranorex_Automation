@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="fe06ba4c-4540-499d-81bc-2d3897983667"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="NS_ExpandTrackAuthorityForm"
+	namespace="PDS_NS.Recording_Modules.Track_Authorities">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="GeneralUtilities"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="LeftClickAndWaitForWithRetry"
+		namespace="PDS_CORE.Code_Utils"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="b37e2753-e5fe-4c36-8648-dd99241dc61b">
+				<argument
+				argname="button"
+				id="0c33aecc-feba-4699-9fe7-18fa4b88b0c5">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="a8580b94-e827-4344-b9b9-b0daa1fe414c"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title~'^Create\ Track\ Authority\ ']/container/toolbar[@name='ToolBarPanel']/button[@name='ToolBarLongFormButton']
+						</path>
+					</info>
+				</argument>
+				<argument
+				argname="waitFor"
+				id="9f0bd909-cec5-420f-b431-05ec29d7533a">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="af397a3d-e96a-4e63-89ea-2dac57a45cc7"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title~'^Create\ Track\ Authority\ ']/container[@name='MovementAuthorityPanel']/container[@name='CreatePnl']/container[@name='OpposingTrainsPnl']/checkbox[@name='OpposingTrainsCheckBox']
+						</path>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="48711a70-4260-48d9-b9be-f4c41f092706"
+	name="TrackAuthorities_Repo"
+	relativepath="..\..\TrackAuthorities_Repo.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="TrackAuthorities_Repo"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="1a7686ed-edee-41c2-9630-14a987ef7356"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		NS_ExpandTrackAuthorityForm.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

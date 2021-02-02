@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="f179ece0-a0fd-4823-9574-1e173c3f8285"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Click_Clear_MonitorControlPointCommunicationForm"
+	namespace="PDS_NS.Recording_Modules.Trackline">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="d259d825-9715-412b-bb1e-d0821137ba92"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="81b20095-91eb-4828-b9e4-f0ff48ab4444"
+			sourcename="ItemRecorderEditor">
+				<path>
+					/form[@type='Jtlr_TracklineWindow']/../form[@title~'^Monitor\ Control\ Point\ Com']/container/container[@name='bottomButtonPanel']/button[@name='clearRowsButton']
+				</path>
+			</info>
+		</mouseitem>
+	</recorditems>
+	<repository
+	id="99db1ee9-18b9-40fb-9aa1-f8be4efc8d38"
+	name="Trackline_Repo"
+	relativepath="..\..\Trackline_Repo.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="Trackline_Repo"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="a7f431f9-6ac1-4a74-9611-247a94487456"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Click_Clear_MonitorControlPointCommunicationForm.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

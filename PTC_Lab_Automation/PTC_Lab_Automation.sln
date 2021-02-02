@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+# Ranorex Studio 9.3.0
+VisualStudioVersion = 12.0.20827.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{791F38E7-05DC-4F47-9F4B-00640A067941}"
+	ProjectSection(SolutionItems) = postProject
+		Ranorex = .\Ranorex.rxsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTCLab_Test_Execution", "PTC_Lab_Automation\PTCLab_Test_Execution.csproj", "{E73041DC-39C5-4AB0-8EF2-289A0442B35F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDS_NS", "..\Automation\PDS_NS\PDS_NS.csproj", "{908DFD02-C599-4E8B-901D-40165C650B65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDS_CORE", "..\Automation\PDS_CORE\PDS_CORE.csproj", "{60BC418F-3D95-43EA-80B6-CEA3543ED839}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oracle", "..\Automation\Oracle\Oracle.csproj", "{3E5F4A0A-B165-481C-A627-6AB3FC64A45F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "STE", "..\Automation\STE\STE.csproj", "{722EB924-B833-4F54-A920-3CD2AC397FB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnBoard", "OnBoard\OnBoard.csproj", "{0D4F245A-29D1-4E63-A3E1-5C8D6DBBEFFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Env", "..\Automation\Env\Env.csproj", "{63995F2D-9C74-47C3-94B2-7553E78DFF2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E73041DC-39C5-4AB0-8EF2-289A0442B35F}.Debug|x86.Build.0 = Debug|x86
+		{E73041DC-39C5-4AB0-8EF2-289A0442B35F}.Debug|x86.ActiveCfg = Debug|x86
+		{E73041DC-39C5-4AB0-8EF2-289A0442B35F}.Release|x86.Build.0 = Release|x86
+		{E73041DC-39C5-4AB0-8EF2-289A0442B35F}.Release|x86.ActiveCfg = Release|x86
+		{908DFD02-C599-4E8B-901D-40165C650B65}.Debug|x86.Build.0 = Debug|x86
+		{908DFD02-C599-4E8B-901D-40165C650B65}.Debug|x86.ActiveCfg = Debug|x86
+		{908DFD02-C599-4E8B-901D-40165C650B65}.Release|x86.Build.0 = Release|x86
+		{908DFD02-C599-4E8B-901D-40165C650B65}.Release|x86.ActiveCfg = Release|x86
+		{60BC418F-3D95-43EA-80B6-CEA3543ED839}.Debug|x86.Build.0 = Debug|x86
+		{60BC418F-3D95-43EA-80B6-CEA3543ED839}.Debug|x86.ActiveCfg = Debug|x86
+		{60BC418F-3D95-43EA-80B6-CEA3543ED839}.Release|x86.Build.0 = Release|x86
+		{60BC418F-3D95-43EA-80B6-CEA3543ED839}.Release|x86.ActiveCfg = Release|x86
+		{3E5F4A0A-B165-481C-A627-6AB3FC64A45F}.Debug|x86.Build.0 = Debug|x86
+		{3E5F4A0A-B165-481C-A627-6AB3FC64A45F}.Debug|x86.ActiveCfg = Debug|x86
+		{3E5F4A0A-B165-481C-A627-6AB3FC64A45F}.Release|x86.Build.0 = Release|x86
+		{3E5F4A0A-B165-481C-A627-6AB3FC64A45F}.Release|x86.ActiveCfg = Release|x86
+		{722EB924-B833-4F54-A920-3CD2AC397FB1}.Debug|x86.Build.0 = Debug|x86
+		{722EB924-B833-4F54-A920-3CD2AC397FB1}.Debug|x86.ActiveCfg = Debug|x86
+		{722EB924-B833-4F54-A920-3CD2AC397FB1}.Release|x86.Build.0 = Release|x86
+		{722EB924-B833-4F54-A920-3CD2AC397FB1}.Release|x86.ActiveCfg = Release|x86
+		{0D4F245A-29D1-4E63-A3E1-5C8D6DBBEFFA}.Debug|x86.Build.0 = Debug|x86
+		{0D4F245A-29D1-4E63-A3E1-5C8D6DBBEFFA}.Debug|x86.ActiveCfg = Debug|x86
+		{0D4F245A-29D1-4E63-A3E1-5C8D6DBBEFFA}.Release|x86.Build.0 = Release|x86
+		{0D4F245A-29D1-4E63-A3E1-5C8D6DBBEFFA}.Release|x86.ActiveCfg = Release|x86
+		{63995F2D-9C74-47C3-94B2-7553E78DFF2B}.Debug|x86.Build.0 = Debug|x86
+		{63995F2D-9C74-47C3-94B2-7553E78DFF2B}.Debug|x86.ActiveCfg = Debug|x86
+		{63995F2D-9C74-47C3-94B2-7553E78DFF2B}.Release|x86.Build.0 = Release|x86
+		{63995F2D-9C74-47C3-94B2-7553E78DFF2B}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal

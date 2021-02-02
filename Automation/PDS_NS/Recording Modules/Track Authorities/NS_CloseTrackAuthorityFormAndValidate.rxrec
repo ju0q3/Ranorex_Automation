@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="418e60d3-52e2-4577-8e1a-f0265ceaf575"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="NS_CloseTrackAuthorityFormAndValidate"
+	namespace="PDS_NS.Recording_Modules.Track_Authorities">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="GeneralUtilities"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="ClickAndWaitForNotExistWithRetry"
+		namespace="PDS_CORE.Code_Utils"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="abe4a510-af21-4f92-82e6-93bcac28d07d">
+				<argument
+				argname="buttonInfo"
+				id="358e2367-4714-4d1c-9481-e037309cb24b">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="70e7d7a0-0838-485d-a476-7b2d86f7c34d"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title~'^Create\ Track\ Authority\ ']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Close']
+						</path>
+					</info>
+				</argument>
+				<argument
+				argname="waitFor"
+				id="013c6866-624a-495f-9480-eb241049d7cb">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="cc5c7ff7-c419-409d-8afe-99fe5b4c5d4f"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title~'^Create\ Track\ Authority\ ']
+						</path>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<validationitem
+		action="NotExists"
+		enabled="True"
+		optional="False"
+		searchpropertyid="3655553d-0e5e-4a8d-af62-ede08f227160">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="cc5c7ff7-c419-409d-8afe-99fe5b4c5d4f"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'^Create\ Track\ Authority\ ']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				yourtext
+			</matchvalue>
+		</validationitem>
+	</recorditems>
+	<repository
+	id="48711a70-4260-48d9-b9be-f4c41f092706"
+	name="TrackAuthorities_Repo"
+	relativepath="..\..\TrackAuthorities_Repo.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="TrackAuthorities_Repo"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="1a7686ed-edee-41c2-9630-14a987ef7356"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		NS_CloseTrackAuthorityFormAndValidate.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

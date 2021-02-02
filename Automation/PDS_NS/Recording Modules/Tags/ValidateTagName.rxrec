@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="4d5bd7ba-a459-4161-9265-98d1242f2038"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="ValidateTagName"
+	namespace="PDS_NS.Recording_Modules.Tags">
+	</codegen>
+	<variables>
+		<var
+		id="2f00e351-d736-4e38-bf60-ee42e8baa005"
+		name="tagName">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="NS_Trackline_Validations"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="NS_ValidateTagName"
+		namespace="PDS_NS.UserCodeCollections"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="df27e633-1787-48bd-8377-58d7ec833ae4">
+				<argument
+				argname="tagName"
+				id="66ff4c84-a744-4c06-9d89-926d902df195"
+				variable="tagName">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="99db1ee9-18b9-40fb-9aa1-f8be4efc8d38"
+	name="Trackline_Repo"
+	relativepath="..\..\Trackline_Repo.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="Trackline_Repo"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="a7f431f9-6ac1-4a74-9611-247a94487456"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		ValidateTagName.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

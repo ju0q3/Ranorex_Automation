@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="17.04s"
+		durationms="17036"
+		type="root"
+		rid="2467fd3d6f0b849b"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="stelab"
+		rxversion="9.3.1.0"
+		host="GAATLENPTCW473W"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="9/6/2020 1:38:07 PM"
+		timestampiso="2020-09-06T17:38:07"
+		endtime="9/6/2020 1:38:24 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="InputMiscInstructionsAreaBulletin">
+		<detail>
+			InputMiscInstructionsAreaBulletin
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.854"
+			timeRelativeToTestModuleStartTime="00:08.854"
+			timeWallClock="13:38:16"
+			time="00:08.854"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>district, milepost1, milepost2, miscInstructions, effectiveTimeDifference, untilTimeDifference, expectedFeedback, bulletinSeed, pressComplete, issuedBy
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.036"
+			timeRelativeToTestModuleStartTime="00:17.036"
+			timeWallClock="13:38:24"
+			time="00:17.036"
+			level="Info"
+			category="User">
+			<message>
+				PressComplete set to false so ending here.
+			</message>
+			<metainfo
+				codefile="c:\Ranorex\Automation\PDS_NS\UserCodeCollections\NS_InputBulletins.cs"
+				codeline="7217"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

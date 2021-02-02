@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="5745cbae-8437-499b-89db-43a73bae0503"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="NS_TAEngineEntry"
+	namespace="PDS_NS.Recording_Modules.Track_Authorities">
+	</codegen>
+	<variables>
+		<var
+		id="8eee469e-1fb9-4e05-8d45-92be46b2d5ce"
+		name="engineId">
+			NS 123
+		</var>
+	</variables>
+	<recorditems>
+		<mouseitem
+		action="Click"
+		button="Left"
+		duration="500ms"
+		enabled="True"
+		loc="Center"
+		movetime="300ms"
+		optional="False"
+		searchpropertyid="22bd77ef-1e2e-4e7e-a161-7637656d0259"
+		sx="0"
+		sy="0"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="9a77a7d3-b1e6-4f05-b84a-b348740ea896"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'^Create\ Track\ Authority\ ']/container[@name='MovementAuthorityPanel']/container[@name='CreatePnl']/container[@name='AddresseeAndNumberPnl']/container[@name='_addresseePnl']/combobox[@name='AddresseeLeadEngines' and @visible='True']
+				</path>
+			</info>
+		</mouseitem>
+		<keysequenceitem
+		KeySequence="yourtext"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		searchpropertyid="2f860789-5f67-4e70-9bf2-5411b0848421">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="KeySequence"
+				variable="engineId">
+				</binding>
+			</bindings>
+			<info
+			id="9a77a7d3-b1e6-4f05-b84a-b348740ea896"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@title~'^Create\ Track\ Authority\ ']/container[@name='MovementAuthorityPanel']/container[@name='CreatePnl']/container[@name='AddresseeAndNumberPnl']/container[@name='_addresseePnl']/combobox[@name='AddresseeLeadEngines' and @visible='True']
+				</path>
+			</info>
+		</keysequenceitem>
+		<keyitem
+		action="Press"
+		data="Tab"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		presstime="100ms"
+		scancode="0"
+		searchpropertyid="f874aa76-447a-4a0e-ae51-c5993263430f"
+		setModifiers="True">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</keyitem>
+	</recorditems>
+	<repository
+	id="48711a70-4260-48d9-b9be-f4c41f092706"
+	name="TrackAuthorities_Repo"
+	relativepath="..\..\TrackAuthorities_Repo.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="TrackAuthorities_Repo"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="1a7686ed-edee-41c2-9630-14a987ef7356"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		NS_TAEngineEntry.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

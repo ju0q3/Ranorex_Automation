@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="InProgress">
+	<activity
+		result="Success"
+		duration="1.1m"
+		durationms="66714"
+		type="root"
+		rid="12e9708f5cbc57da"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="stelab"
+		rxversion="9.3.1.0"
+		host="GAATLENPTCW473W"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="8/20/2020 8:32:07 PM"
+		timestampiso="2020-08-21T00:32:07"
+		endtime="8/20/2020 8:33:14 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="InputGradeXingFalseActivationBulletin">
+		<detail>
+			InputGradeXingFalseActivationBulletin
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.431"
+			timeRelativeToTestModuleStartTime="00:07.431"
+			timeWallClock="20:32:15"
+			time="00:07.431"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>bulletinSeed, district, dotCrossingId, reportedBy, effectiveTimeDifference, untilTimeDifference, expectedFeedback, pressComplete, closeBulletinRelayForm
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.819"
+			timeRelativeToTestModuleStartTime="00:10.819"
+			timeWallClock="20:32:18"
+			time="00:10.819"
+			level="Info"
+			category="User">
+			<message>
+				Test Suite parameter 'RapidClick' not found.  Defaulting to false.  Error : Object reference not set to an instance of an object.
+			</message>
+			<metainfo
+				codefile="c:\Ranorex\Automation\PDS_CORE\Code_Utils\GeneralUtilities.cs"
+				codeline="1404"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.522"
+			timeRelativeToTestModuleStartTime="00:17.522"
+			timeWallClock="20:32:25"
+			time="00:17.522"
+			level="Info"
+			category="TestStep">
+			<message>
+				Selecting District {AGS North}.
+			</message>
+			<metainfo
+				codefile="c:\Ranorex\Automation\PDS_NS\UserCodeCollections\NS_InputBulletins.cs"
+				codeline="51"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:18.608"
+			timeRelativeToTestModuleStartTime="00:18.608"
+			timeWallClock="20:32:26"
+			time="00:18.608"
+			level="Info"
+			category="TestStep">
+			<message>
+				Selecting Bulletin Type {Grade Xing False Activation}.
+			</message>
+			<metainfo
+				codefile="c:\Ranorex\Automation\PDS_NS\UserCodeCollections\NS_InputBulletins.cs"
+				codeline="60"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

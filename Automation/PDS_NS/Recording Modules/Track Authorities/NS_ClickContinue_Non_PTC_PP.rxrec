@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="b6e165d9-fd1c-44c8-b791-43e80ebf5567"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="NS_ClickContinue_Non_PTC_PP"
+	namespace="PDS_NS.Recording_Modules.Track_Authorities">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="GeneralUtilities"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="LeftClickAndWaitForWithRetry"
+		namespace="PDS_CORE.Code_Utils"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="85e25215-b7d6-44d4-a99f-3521e235235d">
+				<argument
+				argname="button"
+				id="5b772b0e-953b-43be-8c5e-7758810f4860">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="1ea09b4a-bbd4-4116-a427-6d96a8dd6012"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/form[@title~'^Communication\ Exchange\ Tr' or @title~'^OK\ Track\ Authority\ ' or @title~'Active\ Track\ Authority\ ' or @title~'^Release\ Pending\ Track\ Aut' or @title~'^Update\ Pending\ Track\ Auth' or @title~'^Create\ Track\ Authority\ ' and @visible='True']/container[@name='MovementAuthorityPanel']/container[@name='ButtonPnl']/button[@name='ContinueButton' and @visible='True']
+						</path>
+					</info>
+				</argument>
+				<argument
+				argname="waitFor"
+				id="8a8989d5-def8-4578-b811-116bdeddf247">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="2e7e081b-811a-49f8-b593-449179df7ea7"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/form[@title~'^Communication\ Exchange\ Tr' or @title~'^OK\ Track\ Authority\ ' or @title~'Active\ Track\ Authority\ ' or @title~'^Release\ Pending\ Track\ Aut' or @title~'^Update\ Pending\ Track\ Auth' or @title~'^Create\ Track\ Authority\ ' and @visible='True']/container[@name='MovementAuthorityPanel']/container[@name='ButtonPnl']/button[@name='AcknowledgeButton' and @visible='True']
+						</path>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="48711a70-4260-48d9-b9be-f4c41f092706"
+	name="TrackAuthorities_Repo"
+	relativepath="..\..\TrackAuthorities_Repo.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="TrackAuthorities_Repo"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="1a7686ed-edee-41c2-9630-14a987ef7356"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		NS_ClickContinue_Non_PTC_PP.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

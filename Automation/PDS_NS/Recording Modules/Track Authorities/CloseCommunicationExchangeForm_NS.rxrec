@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="9c11cbc1-ec0c-4eb3-9083-74e5c9c68710"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseCommunicationExchangeForm_NS"
+	namespace="PDS_NS.Recording_Modules.Track_Authorities">
+	</codegen>
+	<variables>
+		<var
+		id="ee55bddb-df08-45c6-8387-75185ee3e207"
+		name="AcceptConfirmPopUp">
+			True
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="NS_Authorities"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="NS_CloseCommunicationExchangeForm"
+		namespace="PDS_NS.UserCodeCollections"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="dfee2ef2-e4be-4a64-906c-2c7834c7de3b">
+				<argument
+				argname="acceptConfirmPopUp"
+				id="124756ac-b491-407c-8d56-baa5441f3929"
+				variable="AcceptConfirmPopUp">
+					<argvaluetype>
+						System.Boolean
+					</argvaluetype>
+					<argvalue>
+						False
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="81af6446-71fa-4977-9bd0-411f88dc55ba"
+	name="PDS_NSRepository"
+	relativepath="..\..\PDS_NSRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="PDS_NSRepository"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="b2ba234a-2e7c-4852-8e7f-adb8693853b7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseCommunicationExchangeForm_NS.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

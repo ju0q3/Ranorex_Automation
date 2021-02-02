@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="4d2492ce-f004-4377-a0fd-add8a364ca00"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Validate_Stop_Signal"
+	namespace="PDS_CORE.Recording_Modules.Signaling.Validation">
+	</codegen>
+	<variables>
+		<var
+		id="535ddb58-5987-48ed-ab3b-d10e70481d2c"
+		name="window">
+			Desk 05: McComb 1-CrstlSprngs
+		</var>
+		<var
+		id="491947d3-9813-4e5e-b535-ad3ff8de01cc"
+		name="tdmsId">
+			500161
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="Signaling"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="StopSignalValidate"
+		namespace="PDS_CORE.Code_Utils"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="f8fc4f30-d358-484d-ac8b-717bc5c9ae99">
+				<argument
+				argname="window"
+				id="8e4e90d5-5138-4c06-b33d-686235039a81"
+				variable="window">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+				<argument
+				argname="symbolID"
+				id="9c14d5e2-ff5a-42fa-be31-3731532caa28"
+				variable="tdmsId">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="0f6d1030-1109-45c8-82fb-eea738840ef0"
+	name="PDS_CORERepository"
+	relativepath="..\..\..\PDS_CORERepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="PDS_CORERepository"
+		namespace="PDS_CORE">
+		</codegen>
+		<rootfolder
+		id="5a3e11ed-7012-4569-a9b8-11892349cf95"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Validate_Stop_Signal.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

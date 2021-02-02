@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="8f70f494-0b90-4117-b0c9-d7c68a030628"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="MPNoColorValidation"
+	namespace="PTC_Lab_Automation.Recording_Modules.OnBoardActions">
+	</codegen>
+	<variables>
+		<var
+		id="23c50051-78d9-4829-841b-4a23861c64c2"
+		name="color">
+		</var>
+		<var
+		id="b6af940c-ff92-4cec-90b6-8e43de27b36f"
+		name="milepost">
+			Not implented yet
+		</var>
+	</variables>
+	<recorditems>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message="Not implented yet"
+		optional="False"
+		reportlevel="Failure;120"
+		searchpropertyid="d93384f7-ca4f-445b-bc9f-50b54fa2db69">
+			<comment>
+				Not implemented yet
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="milepost">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	id="e44994df-4fbc-4c80-8a3c-599d87a51678"
+	name="Test_ExecutionRepository"
+	relativepath="..\..\Test ExecutionRepository.rxrep">
+		<codegen
+		classname="Test_ExecutionRepository"
+		namespace="PTC_Lab_Automation">
+		</codegen>
+		<rootfolder
+		id="dab857d6-db00-487f-8fdd-61a5ad3edc4e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		MPNoColorValidation.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="d57168d2-534c-4289-96d9-4c48b303f73c"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="MainOnBoardLoop"
+	namespace="OnBoard.Recording_Modules">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="OnBoardLoop"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="MainOnBoardLoopFunction"
+		namespace="OnBoard.UserCodeCollections"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="e242e102-529a-4f5a-bbc4-3b7ef46258e9">
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="0c1e18f6-57bd-4d90-be15-4fabfeb38d3c"
+	name="OnBoardRepository"
+	relativepath="..\OnBoardRepository.rxrep">
+		<codegen
+		classname="OnBoardRepository"
+		namespace="OnBoard">
+		</codegen>
+		<rootfolder
+		id="6824b7f7-10cb-4d36-9ff8-1f799e7f6db8"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		MainOnBoardLoop.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="c61cb32c-8c8b-4c20-8345-430b464417a6"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="DisableGDAK01"
+	namespace="STE.Recording_Modules">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="GeneralUtilities"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="LeftClickAndWaitForWithRetry"
+		namespace="PDS_CORE.Code_Utils"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="b62a8f05-d81d-4b1a-a664-8a4b7461a740">
+				<argument
+				argname="button"
+				id="6f765f3f-02da-4eba-9a76-22bc2f36821d">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="71c8d4b5-aa50-43a1-be0f-efbcb8c375e2"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title=' - TestInterface']//tabpagelist[@controlid='1012']/tabpage[@title='Settings']
+						</path>
+					</info>
+				</argument>
+				<argument
+				argname="waitFor"
+				id="17d88b90-9f6e-4067-af5c-5af5f8eeaf9a">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="a32fb148-626d-40ca-b014-19722d090773"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title=' - TestInterface']/element[@controlid='59648']//
+						</path>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+		<userrecorditem
+		classname="GeneralUtilities"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="UnCheckCheckboxAdapterAndVerify"
+		namespace="PDS_CORE.Code_Utils"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="fc245599-276a-4699-bb92-3906a10b4c50">
+				<argument
+				argname="checkboxAdapter"
+				id="60ef5056-2c25-4289-855c-a36bf59867bd">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="8eb1d153-47dd-44ea-8527-be454bd31c14"
+					sourcename="RepositoryEditor">
+						<path>
+							/form[@title=' - TestInterface']/element[@controlid='59648']///checkbox[@text='GD']
+						</path>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="94979805-1172-497d-81a7-96b90e56bc08"
+	name="STERepository"
+	relativepath="..\STERepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="STERepository"
+		namespace="STE">
+		</codegen>
+		<rootfolder
+		id="b886b4af-b6ad-4b0c-8231-55d5a1273425"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		DisableGDAK01.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

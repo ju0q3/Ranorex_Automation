@@ -1,0 +1,2333 @@
+﻿<repository
+id="0aca848b-fcfe-4ac6-a0b1-4563d872cf78"
+name="TerritoryTransfer_Repo"
+rxversion="9.0">
+	<codegen
+	classname="TerritoryTransfer_Repo"
+	namespace="PDS_NS">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="246b357a-1299-440e-8112-36417b270800"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		capname="form"
+		id="e0b9920c-c2b6-479b-af90-ed264b56df7b"
+		isrooted="True"
+		name="Territory_Transfer"
+		searchtimeout="3000ms"
+		usecache="True">
+			<folder
+			capname="unknown"
+			id="37044cc2-6aab-46a4-9907-cbb5a8809000"
+			isrooted="False"
+			name="WindowsControls"
+			searchtimeout="0ms">
+				<item
+				capname="button"
+				id="b86b58e5-a025-463d-9f87-6477982363e1"
+				name="Minimize"
+				searchtimeout="3000ms">
+					/form[@title='Territory Transfer']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Minimize']
+				</item>
+				<item
+				capname="button"
+				id="b3343b4c-e3d6-4470-a50e-ab410c4fcf20"
+				name="Maximize"
+				searchtimeout="3000ms">
+					/form[@title='Territory Transfer']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Maximize']
+				</item>
+				<item
+				capname="button"
+				id="7488843b-7b1e-4a34-b24d-0aa3698ceb63"
+				name="Close"
+				searchtimeout="3000ms">
+					/form[@title='Territory Transfer']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Close']
+				</item>
+			</folder>
+			<folder
+			capname="menubar"
+			id="5453fae1-614c-487b-b457-36f5c7491094"
+			isrooted="True"
+			name="MainMenuBar"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="menuitem"
+				id="ccbb2bb4-e39c-4047-9c28-b6990db3a546"
+				name="FileButton"
+				searchtimeout="3000ms">
+					/form[@title='Territory Transfer']/menubar[@name='menuBar']/menuitem[@text='File']
+				</item>
+				<basepath>
+					/form[@title='Territory Transfer']/menubar[@name='menuBar']
+				</basepath>
+			</folder>
+			<folder
+			capname="contextmenu"
+			id="24be097b-7fa8-469c-92d5-b86202cd6c45"
+			isrooted="True"
+			name="FileMenu"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="menuitem"
+				id="ed5ce6bd-d62a-40f2-a831-30ccbb7d24d5"
+				name="Close"
+				searchtimeout="3000ms">
+					/form[@title='Territory Transfer']/contextmenu[@type='JPopupMenu' and @visible='True']/menuitem[@text='Close']
+				</item>
+				<basepath>
+					/form[@title='Territory Transfer']/contextmenu[@type='JPopupMenu' and @visible='True']
+				</basepath>
+			</folder>
+			<folder
+			capname="toolbar"
+			id="a08e654d-03fd-4a29-8155-28a99eeb43b2"
+			isrooted="True"
+			name="RibbonMenu"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="button"
+				id="679eafbe-d4cc-4a6c-8756-16f69a843986"
+				name="HelpTopics"
+				searchtimeout="3000ms">
+					/form[@title='Territory Transfer']/toolbar[@name='toolBar']/button[1]
+				</item>
+				<basepath>
+					/form[@title='Territory Transfer']/toolbar[@name='toolBar']
+				</basepath>
+			</folder>
+			<folder
+			capname="container"
+			id="bdef796a-b1de-4550-8c79-3d85d685eba3"
+			isrooted="True"
+			name="TerritoryTabs"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="tabpage"
+				id="17e25e2e-7da5-4e2e-a146-685674a1825d"
+				name="HeldDispatchTerritoriesTab"
+				searchtimeout="3000ms">
+					/form[@title='Territory Transfer']/container[@type='JPanel']/container/tabpage[@title='Held Dispatch Territories']
+				</item>
+				<item
+				capname="tabpage"
+				id="66010c7a-a6e0-43ed-9c02-5a6f6456c1cf"
+				name="AssignedDispatchTerritoriesTab"
+				searchtimeout="3000ms">
+					/form[@title='Territory Transfer']/container[@type='JPanel']/container/tabpage[@title~'^Assigned\ Dispatch\ Territo']
+				</item>
+				<item
+				capname="tabpage"
+				id="fc3e86cf-8eea-416d-a01c-45605a8adc92"
+				name="AllDispatchTerritoriesTab"
+				searchtimeout="3000ms">
+					/form[@title='Territory Transfer']/container[@type='JPanel']/container/tabpage[@title='All Dispatch Territories']
+				</item>
+				<basepath>
+					/form[@title='Territory Transfer']/container[@type='JPanel']/container
+				</basepath>
+			</folder>
+			<folder
+			capname="container"
+			id="60575807-470a-45c6-90ce-c8f315fbc06f"
+			isrooted="True"
+			name="HeldDispatchTerritories"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="text"
+				id="e945f3ff-4880-4a5d-be7e-b25a2d817b35"
+				name="LogicalPositionText"
+				searchtimeout="3000ms">
+					/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='Held Dispatch Territories']/container[@name='_dispatchTerritory']/text[2]
+				</item>
+				<folder
+				capname="list"
+				id="753fd7dc-7787-4b85-8a74-e671dc60e93d"
+				isrooted="True"
+				name="ReleaseControlList"
+				searchtimeout="3000ms"
+				usecache="False">
+					<item
+					capname="listitem"
+					id="84523126-5e31-42ba-88d3-54489246aa2c"
+					name="ReleaseControlListItemByName"
+					searchtimeout="3000ms">
+						/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='Held Dispatch Territories']/container[@name='_dispatchTerritory']/container/container[@name='viewport']/list[@name='_releaseControlList']/listitem[@text~$TerritoryName]
+					</item>
+					<item
+					capname="listitem"
+					id="179422b2-e423-499c-930a-2043107cc3b8"
+					name="ReleaseControlListItemByIndex"
+					searchtimeout="3000ms">
+						/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='Held Dispatch Territories']/container[@name='_dispatchTerritory']/container/container[@name='viewport']/list[@name='_releaseControlList']/listitem[@index=$TerritoryIndex]
+					</item>
+					<basepath>
+						/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='Held Dispatch Territories']/container[@name='_dispatchTerritory']/container/container[@name='viewport']/list[@name='_releaseControlList']
+					</basepath>
+				</folder>
+				<folder
+				capname="list"
+				id="bc3dedff-f2a4-40ed-8b9f-2e61b894734c"
+				isrooted="True"
+				name="AssignedButNotHeldList"
+				searchtimeout="3000ms"
+				usecache="False">
+					<item
+					capname="listitem"
+					id="cf4aabf3-e100-4519-a7a9-9b34968b657c"
+					name="AssignedButNotHeldListItemByName"
+					searchtimeout="3000ms">
+						/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='Held Dispatch Territories']/container[@name='_dispatchTerritory']/container/container[@name='viewport']/list[@name='assignedTerritoriesList']/listitem[@text~$TerritoryName]
+					</item>
+					<item
+					capname="listitem"
+					id="a4ae4a4c-c0d2-4de4-b54e-523b9162ebc4"
+					name="AssignedButNotHeldListItemByIndex"
+					searchtimeout="3000ms">
+						/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='Held Dispatch Territories']/container[@name='_dispatchTerritory']/container/container[@name='viewport']/list[@name='assignedTerritoriesList']/listitem[@index=$TerritoryIndex]
+					</item>
+					<basepath>
+						/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='Held Dispatch Territories']/container[@name='_dispatchTerritory']/container/container[@name='viewport']/list[@name='assignedTerritoriesList']
+					</basepath>
+				</folder>
+				<folder
+				capname="list"
+				id="8409639b-feb2-4935-82d5-e03f5790a553"
+				isrooted="True"
+				name="HeldList"
+				searchtimeout="3000ms"
+				usecache="False">
+					<item
+					capname="listitem"
+					id="904a8d25-8501-4e53-90e3-ab053c3ac683"
+					name="HeldListItemByName"
+					searchtimeout="3000ms">
+						/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='Held Dispatch Territories']/container[@name='_dispatchTerritory']/container/container[@name='viewport']/list[@name='_heldList']/listitem[@text~$TerritoryName]
+					</item>
+					<item
+					capname="listitem"
+					id="3ce3c937-9998-41ce-83e2-ebfcd7f3cec9"
+					name="HeldListItemByIndex"
+					searchtimeout="3000ms">
+						/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='Held Dispatch Territories']/container[@name='_dispatchTerritory']/container/container[@name='viewport']/list[@name='_heldList']/listitem[@index=$TerritoryIndex]
+					</item>
+					<basepath>
+						/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='Held Dispatch Territories']/container[@name='_dispatchTerritory']/container/container[@name='viewport']/list[@name='_heldList']
+					</basepath>
+				</folder>
+				<item
+				capname="button"
+				id="190184d7-3c73-447d-8ef9-ad5ee60c7306"
+				name="AddButton"
+				searchtimeout="3000ms">
+					/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='Held Dispatch Territories']/container[@name='_dispatchTerritory']/button[@text='Add&gt;']
+				</item>
+				<item
+				capname="button"
+				id="4d20deea-f8c2-416b-85c0-85c14c3cbddd"
+				name="AddAllButton"
+				searchtimeout="3000ms">
+					/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='Held Dispatch Territories']/container[@name='_dispatchTerritory']/button[@text='Add All&gt;&gt;']
+				</item>
+				<item
+				capname="button"
+				id="16afb7f8-ca01-4250-9e16-35745a357971"
+				name="RemoveButton"
+				searchtimeout="3000ms">
+					/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='Held Dispatch Territories']/container[@name='_dispatchTerritory']/button[@text='&lt;Remove']
+				</item>
+				<item
+				capname="button"
+				id="40b8c361-4676-47cb-9707-efeaf6433c18"
+				name="RemoveAllButton"
+				searchtimeout="3000ms">
+					/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='Held Dispatch Territories']/container[@name='_dispatchTerritory']/button[@text='&lt;&lt;Remove All']
+				</item>
+				<item
+				capname="button"
+				id="b54027e5-688d-4e48-a377-68e363af107b"
+				name="ApplyButton"
+				searchtimeout="3000ms">
+					/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='Held Dispatch Territories']/container[@name='_dispatchTerritory']/container[@type='JPanel']/button[@text='Apply']
+				</item>
+				<item
+				capname="button"
+				id="8f1746fe-6b5b-446c-9ff6-85202fe5dfbd"
+				name="ResetButton"
+				searchtimeout="3000ms">
+					/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='Held Dispatch Territories']/container[@name='_dispatchTerritory']/container[@type='JPanel']/button[@text='Reset']
+				</item>
+				<basepath>
+					/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='Held Dispatch Territories']/container[@name='_dispatchTerritory']
+				</basepath>
+			</folder>
+			<folder
+			capname="container"
+			id="67e7373a-7633-4650-b5e7-88cc5af72a0d"
+			isrooted="True"
+			name="AssignedDispatchTerritories"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="text"
+				id="b04be466-18a4-4569-a32b-a768247b7e58"
+				name="LogicalPositionText"
+				searchtimeout="3000ms">
+					/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='Assigned Dispatch Territories']/container[@name='_assignedDispatchTerritory']/text[2]
+				</item>
+				<folder
+				capname="list"
+				id="ea8d31db-e962-473e-bb38-eff6c4929c14"
+				isrooted="True"
+				name="DoNotRequestControlList"
+				searchtimeout="3000ms"
+				usecache="False">
+					<item
+					capname="listitem"
+					id="a15c7742-eb77-447d-bfa0-9a965ddccf39"
+					name="DoNotRequestControlListItemByName"
+					searchtimeout="3000ms">
+						/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='Assigned Dispatch Territories']/container[@name='_assignedDispatchTerritory']/container/container[@name='viewport']/list[@name='_doNotRequestList']/listitem[@text~$TerritoryName]
+					</item>
+					<item
+					capname="listitem"
+					id="2eace472-e9a7-4dbc-a5b7-d1e92b0bbd68"
+					name="DoNotRequestControlListItemByIndex"
+					searchtimeout="3000ms">
+						/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='Assigned Dispatch Territories']/container[@name='_assignedDispatchTerritory']/container/container[@name='viewport']/list[@name='_doNotRequestList']/listitem[@index=$TerritoryIndex]
+					</item>
+					<basepath>
+						/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='Assigned Dispatch Territories']/container[@name='_assignedDispatchTerritory']/container/container[@name='viewport']/list[@name='_doNotRequestList']
+					</basepath>
+				</folder>
+				<folder
+				capname="list"
+				id="fb039330-5682-4222-bbcc-e540a4a20a29"
+				isrooted="True"
+				name="RequestTerritoryTransferList"
+				searchtimeout="3000ms"
+				usecache="False">
+					<item
+					capname="listitem"
+					id="e019e29c-9cac-4198-bf2e-3d1ef0c4a56e"
+					name="RequestTerritoryTransferListItemByName"
+					searchtimeout="3000ms">
+						/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='Assigned Dispatch Territories']/container[@name='_assignedDispatchTerritory']/container/container[@name='viewport']/list[@name='_requestTerritoryTransferList']/listitem[@text~$TerritoryName]
+					</item>
+					<item
+					capname="listitem"
+					id="7cec1ab9-7147-45cd-89d1-d7b30e353d06"
+					name="RequestTerritoryTransferListItemByIndex"
+					searchtimeout="3000ms">
+						/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='Assigned Dispatch Territories']/container[@name='_assignedDispatchTerritory']/container/container[@name='viewport']/list[@name='_requestTerritoryTransferList']/listitem[@index=$TerritoryIndex]
+					</item>
+					<basepath>
+						/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='Assigned Dispatch Territories']/container[@name='_assignedDispatchTerritory']/container/container[@name='viewport']/list[@name='_requestTerritoryTransferList']
+					</basepath>
+				</folder>
+				<folder
+				capname="list"
+				id="4b0f6a96-8678-4e13-963e-2a0f03822fce"
+				isrooted="True"
+				name="HeldList"
+				searchtimeout="3000ms"
+				usecache="False">
+					<item
+					capname="listitem"
+					id="7c1fddd2-c1ce-48e9-a0a5-d579b3ec7b81"
+					name="HeldListItemByName"
+					searchtimeout="3000ms">
+						/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='Assigned Dispatch Territories']/container[@name='_assignedDispatchTerritory']/container/container[@name='viewport']/list[@name='_heldList']/listitem[@text~$TerritoryName]
+					</item>
+					<item
+					capname="listitem"
+					id="281a59ff-c886-4383-848a-84d295fd78ea"
+					name="HeldListItemByIndex"
+					searchtimeout="3000ms">
+						/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='Assigned Dispatch Territories']/container[@name='_assignedDispatchTerritory']/container/container[@name='viewport']/list[@name='_heldList']/listitem[@index=$TerritoryIndex]
+					</item>
+					<basepath>
+						/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='Assigned Dispatch Territories']/container[@name='_assignedDispatchTerritory']/container/container[@name='viewport']/list[@name='_heldList']
+					</basepath>
+				</folder>
+				<item
+				capname="button"
+				id="e21b3b34-7461-4174-886a-18249f6b06a2"
+				name="AddButton"
+				searchtimeout="3000ms">
+					/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='Assigned Dispatch Territories']/container[@name='_assignedDispatchTerritory']/button[@text='Add&gt;']
+				</item>
+				<item
+				capname="button"
+				id="68fdb30b-c3e4-42ba-9b7e-99c2315d3d0b"
+				name="AddAllButton"
+				searchtimeout="3000ms">
+					/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='Assigned Dispatch Territories']/container[@name='_assignedDispatchTerritory']/button[@text='Add All&gt;&gt;']
+				</item>
+				<item
+				capname="button"
+				id="a554378c-2586-4a78-8028-07569f6b3773"
+				name="RemoveButton"
+				searchtimeout="3000ms">
+					/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='Assigned Dispatch Territories']/container[@name='_assignedDispatchTerritory']/button[@text='&lt;Remove']
+				</item>
+				<item
+				capname="button"
+				id="dda0ef6a-f3a1-4d4d-9e69-9f15aad3469e"
+				name="RemoveAllButton"
+				searchtimeout="3000ms">
+					/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='Assigned Dispatch Territories']/container[@name='_assignedDispatchTerritory']/button[@text='&lt;&lt;Remove All']
+				</item>
+				<item
+				capname="button"
+				id="c4ce3ea0-51f2-4650-bfcb-265857ee694e"
+				name="ApplyButton"
+				searchtimeout="3000ms">
+					/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='Assigned Dispatch Territories']/container[@name='_assignedDispatchTerritory']/container[@type='JPanel']/button[@text='Apply']
+				</item>
+				<item
+				capname="button"
+				id="80c328c8-187d-45f3-b875-93da616f57b1"
+				name="ResetButton"
+				searchtimeout="3000ms">
+					/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='Assigned Dispatch Territories']/container[@name='_assignedDispatchTerritory']/container[@type='JPanel']/button[@text='Reset']
+				</item>
+				<basepath>
+					/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='Assigned Dispatch Territories']/container[@name='_assignedDispatchTerritory']
+				</basepath>
+			</folder>
+			<folder
+			capname="container"
+			id="4bdf0d56-49b1-4d20-bb7e-e16a6e283ad0"
+			isrooted="True"
+			name="AllDispatchTerritories"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="text"
+				id="a52d1a9d-6c68-40c9-9a8e-63c7fae9e53a"
+				name="LogicalPositionText"
+				searchtimeout="3000ms">
+					/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='All Dispatch Territories']/container[@name='_allDispatchTerritory']/text[2]
+				</item>
+				<folder
+				capname="unknown"
+				id="8aec1107-cbe5-4ce0-87e3-d8f63e1f6122"
+				isrooted="False"
+				name="Division"
+				searchtimeout="0ms">
+					<item
+					capname="combobox"
+					id="f3ce65e0-64aa-4919-a51f-00ddcc8ddf6c"
+					name="DivisionMenuButton"
+					searchtimeout="3000ms">
+						/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='All Dispatch Territories']/container[@name='_allDispatchTerritory']/combobox[@name='ALL_PAGE_DIVISION_COMBOBOX']
+					</item>
+					<folder
+					capname="list"
+					id="9b7fdacf-c28d-4cf9-a580-6597d52e52a6"
+					isrooted="True"
+					name="DivisionMenuList"
+					searchtimeout="3000ms"
+					usecache="False">
+						<item
+						capname="listitem"
+						id="73d31fa9-2409-425b-bb5e-4accc4531bf8"
+						name="DivisionListItemByName"
+						searchtimeout="3000ms">
+							/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='All Dispatch Territories']/container[@name='_allDispatchTerritory']/../../../contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text=$DivisionName]
+						</item>
+						<item
+						capname="listitem"
+						id="454f9563-4d8f-4526-bc78-31d531454cbc"
+						name="DivisionListItemByIndex"
+						searchtimeout="3000ms">
+							/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='All Dispatch Territories']/container[@name='_allDispatchTerritory']/../../../contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']/listitem[@index=$DivisionIndex]
+						</item>
+						<basepath>
+							/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='All Dispatch Territories']/container[@name='_allDispatchTerritory']/../../../contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']
+						</basepath>
+					</folder>
+				</folder>
+				<folder
+				capname="list"
+				id="b619179c-56a3-490f-a6ba-185b8efda4cc"
+				isrooted="True"
+				name="TerritoriesList"
+				searchtimeout="3000ms"
+				usecache="False">
+					<item
+					capname="listitem"
+					id="282656c4-9c8f-46c3-b1cd-0893bb8f22e4"
+					name="TerritoriesListItemByName"
+					searchtimeout="3000ms">
+						/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='All Dispatch Territories']/container[@name='_allDispatchTerritory']/container/container[@name='viewport']/list[@name='ALL_PAGE_TERRITORIES_JLIST']/listitem[@text~$TerritoryName]
+					</item>
+					<item
+					capname="listitem"
+					id="41a72ef7-cb34-4c52-8861-b95f487c0b7c"
+					name="TerritoriesListItemByIndex"
+					searchtimeout="3000ms">
+						/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='All Dispatch Territories']/container[@name='_allDispatchTerritory']/container/container[@name='viewport']/list[@name='ALL_PAGE_TERRITORIES_JLIST']/listitem[@index=$TerritoryIndex]
+					</item>
+					<basepath>
+						/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='All Dispatch Territories']/container[@name='_allDispatchTerritory']/container/container[@name='viewport']/list[@name='ALL_PAGE_TERRITORIES_JLIST']
+					</basepath>
+				</folder>
+				<folder
+				capname="list"
+				id="0a03e906-9693-465e-9c10-fba3da998ffc"
+				isrooted="True"
+				name="RequestTerritoryTransferList"
+				searchtimeout="3000ms"
+				usecache="False">
+					<item
+					capname="listitem"
+					id="aa269c91-a491-49e3-8776-89f597a3a416"
+					name="RequestTerritoryTransferListItemByName"
+					searchtimeout="3000ms">
+						/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='All Dispatch Territories']/container[@name='_allDispatchTerritory']/container/container[@name='viewport']/list[@name='ALL_PAGE_REQUEST_JLIST']/listitem[@text~$TerritoryName]
+					</item>
+					<item
+					capname="listitem"
+					id="e8a77306-7022-477c-980d-67aba8c80883"
+					name="RequestTerritoryTransferListItemByIndex"
+					searchtimeout="3000ms">
+						/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='All Dispatch Territories']/container[@name='_allDispatchTerritory']/container/container[@name='viewport']/list[@name='ALL_PAGE_REQUEST_JLIST']/listitem[@index=$TerritoryIndex]
+					</item>
+					<basepath>
+						/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='All Dispatch Territories']/container[@name='_allDispatchTerritory']/container/container[@name='viewport']/list[@name='ALL_PAGE_REQUEST_JLIST']
+					</basepath>
+				</folder>
+				<folder
+				capname="list"
+				id="6fbe5d58-91a9-4276-a3d4-c1758a3c044f"
+				isrooted="True"
+				name="HeldList"
+				searchtimeout="3000ms"
+				usecache="False">
+					<item
+					capname="listitem"
+					id="b8915912-4637-4570-a5b7-0eed92e75a89"
+					name="HeldListItemByTerritoryName"
+					searchtimeout="3000ms">
+						/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='All Dispatch Territories']/container[@name='_allDispatchTerritory']/container/container[@name='viewport']/list[@name='ALL_PAGE_HELD_JLIST']/listitem[@text~$TerritoryName]
+					</item>
+					<item
+					capname="listitem"
+					id="4eca8f14-6da0-4923-ba68-fe4c2ec82fdc"
+					name="HeldListItemByTerritoryIndex"
+					searchtimeout="3000ms">
+						/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='All Dispatch Territories']/container[@name='_allDispatchTerritory']/container/container[@name='viewport']/list[@name='ALL_PAGE_HELD_JLIST']/listitem[@index=$TerritoryIndex]
+					</item>
+					<basepath>
+						/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='All Dispatch Territories']/container[@name='_allDispatchTerritory']/container/container[@name='viewport']/list[@name='ALL_PAGE_HELD_JLIST']
+					</basepath>
+				</folder>
+				<item
+				capname="button"
+				id="4a65ac4e-2986-4fa5-a033-8b39f7dd63c9"
+				name="AddButton"
+				searchtimeout="3000ms">
+					/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='All Dispatch Territories']/container[@name='_allDispatchTerritory']/button[@text='Add&gt;']
+				</item>
+				<item
+				capname="button"
+				id="7481e349-951a-4c3c-ab6e-ff23d9345dfc"
+				name="RemoveButton"
+				searchtimeout="3000ms">
+					/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='All Dispatch Territories']/container[@name='_allDispatchTerritory']/button[@text='&lt;Remove']
+				</item>
+				<item
+				capname="button"
+				id="b48e4578-c0d0-41af-8391-3c37ffa612da"
+				name="RemoveAllButton"
+				searchtimeout="3000ms">
+					/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='All Dispatch Territories']/container[@name='_allDispatchTerritory']/button[@text='&lt;&lt;Remove All']
+				</item>
+				<item
+				capname="button"
+				id="41240d65-b19b-434b-8c66-d325bfcfbf29"
+				name="ApplyButton"
+				searchtimeout="3000ms">
+					/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='All Dispatch Territories']/container[@name='_allDispatchTerritory']/container[@type='JPanel']/button[@text='Apply']
+				</item>
+				<item
+				capname="button"
+				id="617fb1b9-a2d0-489b-b442-c1e21ca95b6c"
+				name="ResetButton"
+				searchtimeout="3000ms">
+					/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='All Dispatch Territories']/container[@name='_allDispatchTerritory']/container[@type='JPanel']/button[@text='Reset']
+				</item>
+				<basepath>
+					/form[@title='Territory Transfer']/container[@type='JPanel']/container[@accessiblename='All Dispatch Territories']/container[@name='_allDispatchTerritory']
+				</basepath>
+			</folder>
+			<folder
+			capname="container"
+			id="00b2f244-f345-4c58-ac23-5e3d3060d8e4"
+			isrooted="True"
+			name="SupervisorWindow"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="text"
+				id="981444bc-9409-478c-8073-60e9dc050072"
+				name="LogicalPositionText"
+				searchtimeout="3000ms">
+					/form[@title='Territory Transfer']/container[@name='_panel']/text[@name='_logicalPositionName']
+				</item>
+				<folder
+				capname="list"
+				id="ef4f2c1f-8e1e-445d-b1c5-75b8884390ab"
+				isrooted="True"
+				name="SupervisorDispatchGroupsList"
+				searchtimeout="3000ms"
+				usecache="False">
+					<item
+					capname="listitem"
+					id="b9afba29-a787-4cf4-8aa8-0e720f1a95af"
+					name="SupervisorDispatchGroupListItemByDispatchGroup"
+					refimgid="eaebef03-dceb-4f17-9571-b4c76f8921d8"
+					searchtimeout="3000ms">
+						/form[@title='Territory Transfer']/container[@name='_panel']/container[@name='_supervisorWindowSP']/container[@name='viewport']/list[@name='_supervisorDispGroupsList']/listitem[@text~$DispatchGroup]
+					</item>
+					<item
+					capname="listitem"
+					id="b2a49406-8291-4548-9ee4-eb836dace9eb"
+					name="SupervisorDispatchGroupListItemByDispatchGroupIndex"
+					searchtimeout="3000ms">
+						/form[@title='Territory Transfer']/container[@name='_panel']/container[@name='_supervisorWindowSP']/container[@name='viewport']/list[@name='_supervisorDispGroupsList']/listitem[@index=$DispatchGroupIndex]
+					</item>
+					<basepath>
+						/form[@title='Territory Transfer']/container[@name='_panel']/container[@name='_supervisorWindowSP']/container[@name='viewport']/list[@name='_supervisorDispGroupsList']
+					</basepath>
+				</folder>
+				<folder
+				capname="list"
+				id="31f5268a-d57e-4837-945e-b5303cfe86fd"
+				isrooted="True"
+				name="SignalTechnicianDispatchGroupsList"
+				searchtimeout="3000ms"
+				usecache="False">
+					<item
+					capname="listitem"
+					id="53a610ec-18f3-46cc-b315-7344c441d89c"
+					name="SignalTechnicianGroupListItemByDispatchGroup"
+					refimgid="eaebef03-dceb-4f17-9571-b4c76f8921d8"
+					searchtimeout="3000ms">
+						/form[@title='Territory Transfer']/container[@name='_panel']/container[@name='_signalWindowSP']/container[@name='viewport']/list[@name='_signalTechDispGroupsList']/listitem[@text~$DispatchGroup]
+					</item>
+					<item
+					capname="listitem"
+					id="b3e5cc14-460b-4720-b63f-4b974ee6bc39"
+					name="SignalTechnicianGroupListItemByDispatchGroupIndex"
+					refimgid="eaebef03-dceb-4f17-9571-b4c76f8921d8"
+					searchtimeout="3000ms">
+						/form[@title='Territory Transfer']/container[@name='_panel']/container[@name='_signalWindowSP']/container[@name='viewport']/list[@name='_signalTechDispGroupsList']/listitem[@index=$DispatchGroupIndex]
+					</item>
+					<basepath>
+						/form[@title='Territory Transfer']/container[@name='_panel']/container[@name='_signalWindowSP']/container[@name='viewport']/list[@name='_signalTechDispGroupsList']
+					</basepath>
+				</folder>
+				<folder
+				capname="list"
+				id="4e5d1ef3-676f-424d-8443-f9b1a38f4ede"
+				isrooted="True"
+				name="RequestControlList"
+				searchtimeout="3000ms"
+				usecache="False">
+					<item
+					capname="listitem"
+					id="a2fa360a-57d3-4730-a475-1b427ecddda7"
+					name="RequestControlListItemByDispatchGroup"
+					searchtimeout="3000ms">
+						/form[@title='Territory Transfer']/container[@name='_panel']/container[@name='_requestWindowSP']/container[@name='viewport']/list[@name='_requestTerritoryTransferList']/listitem[@text~$DispatchGroup]
+					</item>
+					<item
+					capname="listitem"
+					id="7eae2efd-a624-42e8-8f7f-41f1ebb41136"
+					name="RequestControlListItemByDispatchGroupIndex"
+					searchtimeout="3000ms">
+						/form[@title='Territory Transfer']/container[@name='_panel']/container[@name='_requestWindowSP']/container[@name='viewport']/list[@name='_requestTerritoryTransferList']/listitem[@index=$DispatchGroupIndex]
+					</item>
+					<basepath>
+						/form[@title='Territory Transfer']/container[@name='_panel']/container[@name='_requestWindowSP']/container[@name='viewport']/list[@name='_requestTerritoryTransferList']
+					</basepath>
+				</folder>
+				<folder
+				capname="list"
+				id="ffc83cd3-9f52-41d1-b9ac-fa22caf30f2a"
+				isrooted="True"
+				name="HeldList"
+				searchtimeout="3000ms"
+				usecache="False">
+					<item
+					capname="listitem"
+					id="61a41401-b7b8-4fba-b945-e60ef5e654c0"
+					name="HeldListItemByDispatchGroup"
+					searchtimeout="3000ms">
+						/form[@title='Territory Transfer']/container[@name='_panel']/container[@name='_heldWindowSP']/container[@name='viewport']/list[@name='_heldList']/listitem[@text~$DispatchGroup]
+					</item>
+					<item
+					capname="listitem"
+					id="98f38c29-5e4e-41df-a0de-f893906dd751"
+					name="HeldListItemByDispatchGroupIndex"
+					searchtimeout="3000ms">
+						/form[@title='Territory Transfer']/container[@name='_panel']/container[@name='_heldWindowSP']/container[@name='viewport']/list[@name='_heldList']/listitem[@index=$DispatchGroupIndex]
+					</item>
+					<basepath>
+						/form[@title='Territory Transfer']/container[@name='_panel']/container[@name='_heldWindowSP']/container[@name='viewport']/list[@name='_heldList']
+					</basepath>
+				</folder>
+				<item
+				capname="button"
+				id="dcd0f960-b4c1-451d-aea3-178208024f7d"
+				name="AddButton"
+				searchtimeout="3000ms">
+					/form[@title='Territory Transfer']/container[@name='_panel']/button[@name='_addBtn']
+				</item>
+				<item
+				capname="button"
+				id="d757c429-2269-495a-96e0-d40a056a1e99"
+				name="AddAllButton"
+				searchtimeout="3000ms">
+					/form[@title='Territory Transfer']/container[@name='_panel']/button[@name='_addAllBtn']
+				</item>
+				<item
+				capname="button"
+				id="0a3b63f0-e347-4629-bda8-a76335a52b23"
+				name="RemoveButton"
+				searchtimeout="3000ms">
+					/form[@title='Territory Transfer']/container[@name='_panel']/button[@name='_removeBtn']
+				</item>
+				<item
+				capname="button"
+				id="b7a7b7f3-2d13-4e68-882e-74ccfec885f2"
+				name="RemoveAllButton"
+				searchtimeout="3000ms">
+					/form[@title='Territory Transfer']/container[@name='_panel']/button[@name='_removeAllBtn']
+				</item>
+				<item
+				capname="button"
+				id="5d8c96dd-4a1c-46da-a7b5-30630d1295e2"
+				name="ReleaseButton"
+				searchtimeout="3000ms">
+					/form[@title='Territory Transfer']/container[@name='_panel']/button[@name='_releaseBtn']
+				</item>
+				<item
+				capname="button"
+				id="15f97e64-770b-4fcf-a892-c7d4ab4d9c7c"
+				name="OkButton"
+				searchtimeout="3000ms">
+					/form[@title='Territory Transfer']/container[@name='_panel']/button[@name='_OKBtn']
+				</item>
+				<item
+				capname="button"
+				id="e4d25536-fd1f-4c63-a207-93c514728d60"
+				name="ApplyButton"
+				searchtimeout="3000ms">
+					/form[@title='Territory Transfer']/container[@name='_panel']/button[@name='_applyBtn']
+				</item>
+				<item
+				capname="button"
+				id="452343d0-8e3f-486e-a262-6ca96fb6909d"
+				name="ResetButton"
+				searchtimeout="3000ms">
+					/form[@title='Territory Transfer']/container[@name='_panel']/button[@name='_resetBtn']
+				</item>
+				<item
+				capname="button"
+				id="65b11df8-30d3-4072-92dd-aadb28ec6484"
+				name="CancelButton"
+				searchtimeout="3000ms">
+					/form[@title='Territory Transfer']/container[@name='_panel']/button[@name='_cancelBtn']
+				</item>
+				<folder
+				capname="form"
+				id="9bf1cf9e-c0b6-4251-881b-5f9ee1edc333"
+				isrooted="True"
+				name="Accept_Control"
+				searchtimeout="3000ms"
+				usecache="False">
+					<folder
+					capname="unknown"
+					id="f9b5f70b-92f3-4652-8e4d-318661ca9a01"
+					isrooted="False"
+					name="WindowsControls"
+					searchtimeout="0ms">
+						<item
+						addcaps="button,javaelement"
+						capname="button"
+						id="37a7f4be-1faa-4b24-8ac5-ea9145f913d1"
+						name="Close"
+						refimgid="241c62e2-aa46-4ebd-9212-daf52513286f"
+						searchtimeout="3000ms">
+							/form[@title='Territory Transfer']/container[@name='_panel']/../../form[@title='Accept Control']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Close']
+						</item>
+					</folder>
+					<folder
+					capname="list"
+					id="f17a1185-6b2e-4167-b47c-7eb36eb61255"
+					isrooted="True"
+					name="NowControllingList"
+					searchtimeout="3000ms"
+					usecache="False">
+						<item
+						capname="listitem"
+						id="3e1b1942-299b-4830-809e-a2e467b4b1c0"
+						name="NowControllingListItemByNowControllingName"
+						refimgid="eaebef03-dceb-4f17-9571-b4c76f8921d8"
+						searchtimeout="3000ms">
+							/form[@title='Territory Transfer']/container[@name='_panel']/../../form[@title='Accept Control']/container[@name='panel1']/container[@name='_scrollPane']/container[@name='viewport']/list[@name='_list']/listitem[@text~$NowControllingName]
+						</item>
+						<item
+						capname="listitem"
+						id="67ba4ff7-422c-46fc-a3bf-e584cb9b882b"
+						name="NowControllingListItemByNowControllingIndex"
+						refimgid="eaebef03-dceb-4f17-9571-b4c76f8921d8"
+						searchtimeout="3000ms">
+							/form[@title='Territory Transfer']/container[@name='_panel']/../../form[@title='Accept Control']/container[@name='panel1']/container[@name='_scrollPane']/container[@name='viewport']/list[@name='_list']/listitem[@index=$NowControllingIndex]
+						</item>
+						<basepath>
+							/form[@title='Territory Transfer']/container[@name='_panel']/../../form[@title='Accept Control']/container[@name='panel1']/container[@name='_scrollPane']/container[@name='viewport']/list[@name='_list']
+						</basepath>
+					</folder>
+					<item
+					addcaps="button,javaelement"
+					capname="button"
+					id="d1736c78-4fc1-48be-9563-645c08f54e58"
+					name="CloseButton"
+					refimgid="241c62e2-aa46-4ebd-9212-daf52513286f"
+					searchtimeout="3000ms">
+						/form[@title='Territory Transfer']/container[@name='_panel']/../../form[@title='Accept Control']/container[@name='panel1']/button[@name='_closeBtn']
+					</item>
+					<basepath>
+						/form[@title='Territory Transfer']/container[@name='_panel']/../../form[@title='Accept Control']
+					</basepath>
+				</folder>
+				<basepath>
+					/form[@title='Territory Transfer']/container[@name='_panel']
+				</basepath>
+			</folder>
+			<item
+			capname="button"
+			id="e1d14ced-a24d-42d7-922b-3ba7dbf28ddf"
+			name="OkButton"
+			searchtimeout="3000ms">
+				/form[@title='Territory Transfer']/container[@type='JPanel']/container[@type='JPanel']/button[@name='_OKBtn']
+			</item>
+			<item
+			capname="button"
+			id="6ea0e5c3-92d4-4d98-bc53-2b0defad24a3"
+			name="CancelButton"
+			searchtimeout="3000ms">
+				/form[@title='Territory Transfer']/container[@type='JPanel']/container[@type='JPanel']/button[@text='Cancel']
+			</item>
+			<item
+			capname="text"
+			id="0dfceac7-d746-4af4-a14e-8c711ca4cc5b"
+			name="Feedback"
+			searchtimeout="3000ms">
+				/form[@title='Territory Transfer']/container[@type='FeedbackBar']/text[@name='messageField']
+			</item>
+			<basepath>
+				/form[@title='Territory Transfer']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="68585377-f9c7-48fb-9681-cf806be69bf8"
+		isrooted="True"
+		name="Dispatcher_Transfer_Report"
+		searchtimeout="3000ms"
+		usecache="True">
+			<folder
+			capname="unknown"
+			id="cc7de0f3-2b74-4455-9153-f7a2f4a5158a"
+			isrooted="False"
+			name="WindowControls"
+			searchtimeout="0ms">
+				<item
+				capname="button"
+				id="bb20a017-0ff2-4373-9630-395129e18a2a"
+				name="Minimize"
+				searchtimeout="3000ms">
+					/form[@title~'^Dispatcher\ Transfer\ Repor']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Minimize']
+				</item>
+				<item
+				capname="button"
+				id="a07b7ab6-6613-4e88-bb96-05ed459e3fc8"
+				name="Maximize"
+				searchtimeout="3000ms">
+					/form[@title~'^Dispatcher\ Transfer\ Repor']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Maximize']
+				</item>
+				<item
+				capname="button"
+				id="fbc19a1b-6ce3-4f02-a954-eee997d19122"
+				name="Close"
+				searchtimeout="3000ms">
+					/form[@title~'^Dispatcher\ Transfer\ Repor']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Close']
+				</item>
+			</folder>
+			<folder
+			capname="menubar"
+			id="ccb74755-c310-4eaa-bd4f-e196e6556d45"
+			isrooted="True"
+			name="MainMenuBar"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="menuitem"
+				id="3bcfc485-fad3-4526-b367-feef6c855726"
+				name="FileButton"
+				searchtimeout="3000ms">
+					/form[@title~'^Dispatcher\ Transfer\ Repor']/menubar[@name='menuBar']/menuitem[@text='File']
+				</item>
+				<basepath>
+					/form[@title~'^Dispatcher\ Transfer\ Repor']/menubar[@name='menuBar']
+				</basepath>
+			</folder>
+			<folder
+			capname="contextmenu"
+			id="674f300c-5689-4676-9471-d5c73816e1a1"
+			isrooted="True"
+			name="FileMenu"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="menuitem"
+				id="4e3a39b3-9b7b-4538-ac3f-3061176d2033"
+				name="Close"
+				searchtimeout="3000ms">
+					/form[@title~'^Dispatcher\ Transfer\ Repor']/contextmenu[@type='JPopupMenu' and @visible='True']/menuitem[@text='Close']
+				</item>
+				<basepath>
+					/form[@title~'^Dispatcher\ Transfer\ Repor']/contextmenu[@type='JPopupMenu' and @visible='True']
+				</basepath>
+			</folder>
+			<folder
+			capname="toolbar"
+			id="d2301229-c5f6-4e35-8d68-6d4cdf45e1bb"
+			isrooted="True"
+			name="RibbonMenu"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="button"
+				id="7d58223d-0955-4654-9768-02b583669ba5"
+				name="HelpTopics"
+				searchtimeout="3000ms">
+					/form[@title~'^Dispatcher\ Transfer\ Repor']/toolbar[@name='toolBar']/button[1]
+				</item>
+				<item
+				capname="button"
+				id="7dc7092b-8343-4a6f-af0e-cd6379568aab"
+				name="PrintTabInformation"
+				searchtimeout="3000ms">
+					/form[@title~'^Dispatcher\ Transfer\ Repor']/toolbar[@name='toolBar']/button[2]
+				</item>
+				<basepath>
+					/form[@title~'^Dispatcher\ Transfer\ Repor']/toolbar[@name='toolBar']
+				</basepath>
+			</folder>
+			<folder
+			capname="container"
+			id="b22ecf56-823c-4a0b-9bb1-2a64f2dfc9e7"
+			isrooted="True"
+			name="AcceptingDispatcher"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="text"
+				id="23782918-2016-4dc3-a651-c35652e55ee7"
+				name="DispatcherNameText"
+				searchtimeout="3000ms">
+					/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_acceptingDispatcherPanel']/text[@name='_dispatcherNameTxt']
+				</item>
+				<item
+				capname="text"
+				id="97a56545-714e-45e2-ab15-c358ce4ed22e"
+				name="InitialsText"
+				searchtimeout="3000ms">
+					/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_acceptingDispatcherPanel']/text[@name='_initialTxt']
+				</item>
+				<item
+				capname="text"
+				id="28eab0c5-cf1c-4c17-9358-a7b741555f68"
+				name="PositionNameText"
+				searchtimeout="3000ms">
+					/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_acceptingDispatcherPanel']/text[@name='_positionNameTxt']
+				</item>
+				<item
+				capname="text"
+				id="87da0680-b080-4dca-8a69-f9ca8740bf0d"
+				name="OfficeNameText"
+				searchtimeout="3000ms">
+					/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_acceptingDispatcherPanel']/text[@name='_officeNameTxt']
+				</item>
+				<basepath>
+					/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_acceptingDispatcherPanel']
+				</basepath>
+			</folder>
+			<folder
+			capname="container"
+			id="10ee8f34-c41b-46ed-aaef-6e0ff0aa3439"
+			isrooted="True"
+			name="ReportGenerationTimestamp"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="text"
+				id="b4a93eac-d36a-4d76-8a2b-b9a600592b96"
+				name="DateText"
+				searchtimeout="3000ms">
+					/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_reportGenerationPanel']/text[@name='_dateTxt']
+				</item>
+				<item
+				capname="text"
+				id="0ef1f7a0-08c5-457b-9c1a-bcbe6ea782f5"
+				name="TimeText"
+				searchtimeout="3000ms">
+					/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_reportGenerationPanel']/text[@name='_timeTxt']
+				</item>
+				<basepath>
+					/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_reportGenerationPanel']
+				</basepath>
+			</folder>
+			<folder
+			capname="container"
+			id="bb5aa566-7238-46f0-9078-d1f842663c93"
+			isrooted="True"
+			name="DispatcherTransferTabs"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="tabpage"
+				id="6a9b17e3-9f08-45c1-b2bf-541653457c7a"
+				name="TerritoryTransferredTab"
+				searchtimeout="3000ms">
+					/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/tabpage[@title='Territory Transferred']
+				</item>
+				<item
+				capname="tabpage"
+				id="52dacaad-bc62-4430-b270-064b39982de5"
+				name="DispatcherMessagesTab"
+				searchtimeout="3000ms">
+					/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/tabpage[@title='Dispatcher Messages']
+				</item>
+				<item
+				capname="tabpage"
+				id="d568ed84-258e-407f-afe2-cbd0ea24a120"
+				name="TaskListTab"
+				searchtimeout="3000ms">
+					/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/tabpage[@title='Task List']
+				</item>
+				<item
+				capname="tabpage"
+				id="96e663a4-84d5-4ffb-99bd-3e9b9161854d"
+				name="LimitSuggestionsTab"
+				searchtimeout="3000ms">
+					/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/tabpage[@title='Limit Suggestions']
+				</item>
+				<item
+				capname="tabpage"
+				id="8bc51091-531d-42ef-a3e8-160796d87226"
+				name="TrainsNeedingBulletinsTab"
+				searchtimeout="3000ms">
+					/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/tabpage[@title='Trains Needing Bulletins']
+				</item>
+				<item
+				capname="tabpage"
+				id="64b8547a-f9e6-4134-963c-c39bf1117c69"
+				name="TrainStatusTab"
+				searchtimeout="3000ms">
+					/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/tabpage[@title='Train Status']
+				</item>
+				<item
+				capname="tabpage"
+				id="c9901e29-4b72-41ca-9206-dd3c2bc4d7dc"
+				name="TrackAuthoritiesTab"
+				searchtimeout="3000ms">
+					/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/tabpage[@title='Track Authorities']
+				</item>
+				<item
+				capname="tabpage"
+				id="45cefb3a-9a06-45d3-8eab-3f2e695bc1f7"
+				name="TagsTab"
+				searchtimeout="3000ms">
+					/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/tabpage[@title='Tags']
+				</item>
+				<item
+				capname="tabpage"
+				id="e6f46b98-5058-4026-b22d-9c3cacf7c42c"
+				name="BulletinsTab"
+				searchtimeout="3000ms">
+					/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/tabpage[@title='Bulletins']
+				</item>
+				<item
+				capname="tabpage"
+				id="21a2143c-bb75-42aa-bb08-65ab5613e77c"
+				name="HelperOpsTab"
+				searchtimeout="3000ms">
+					/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/tabpage[@title='Helper Ops']
+				</item>
+				<basepath>
+					/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']
+				</basepath>
+			</folder>
+			<folder
+			capname="table"
+			id="88664bab-4751-4caf-99a6-61c1e5c21250"
+			isrooted="True"
+			name="TerritoryTransferredTable"
+			searchtimeout="3000ms"
+			usecache="False">
+				<folder
+				capname="row"
+				id="1c9daf23-1a56-4ab4-a0ed-f4cdcf9cd7c7"
+				isrooted="True"
+				name="TerritoryTransferredByRowIndex"
+				searchtimeout="3000ms"
+				usecache="False">
+					<item
+					capname="cell"
+					id="797d473d-91ec-48f5-902f-6b229dd3b5bf"
+					name="Division"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[@name='visComp']/container[@name='viewport']/table[@name='_territoriesTransferredTable']/row[@index=$TerritoryTransferredRowIndex]/cell[@columnindex='0']
+					</item>
+					<item
+					capname="cell"
+					id="a931f7ff-f143-40a9-9ec4-45349793f56f"
+					name="DispatchTerritory"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[@name='visComp']/container[@name='viewport']/table[@name='_territoriesTransferredTable']/row[@index=$TerritoryTransferredRowIndex]/cell[@columnindex='1']
+					</item>
+					<item
+					capname="cell"
+					id="ec51fc53-6117-4404-8498-4fbd9b61b833"
+					name="OfficeName"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[@name='visComp']/container[@name='viewport']/table[@name='_territoriesTransferredTable']/row[@index=$TerritoryTransferredRowIndex]/cell[@columnindex='2']
+					</item>
+					<item
+					capname="cell"
+					id="01c9b3f5-3617-494b-b18c-e08524e9c34e"
+					name="Date"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[@name='visComp']/container[@name='viewport']/table[@name='_territoriesTransferredTable']/row[@index=$TerritoryTransferredRowIndex]/cell[@columnindex='3']
+					</item>
+					<item
+					capname="cell"
+					id="f2796c7b-fe39-4d16-9888-070fdff4aff1"
+					name="Time"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[@name='visComp']/container[@name='viewport']/table[@name='_territoriesTransferredTable']/row[@index=$TerritoryTransferredRowIndex]/cell[@columnindex='4']
+					</item>
+					<item
+					capname="cell"
+					id="6c33ab6d-f878-45ee-8036-daa03a69c829"
+					name="DispatcherName"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[@name='visComp']/container[@name='viewport']/table[@name='_territoriesTransferredTable']/row[@index=$TerritoryTransferredRowIndex]/cell[@columnindex='5']
+					</item>
+					<item
+					capname="cell"
+					id="b1b86102-e721-44c3-a80b-24361a983d16"
+					name="Initals"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[@name='visComp']/container[@name='viewport']/table[@name='_territoriesTransferredTable']/row[@index=$TerritoryTransferredRowIndex]/cell[@columnindex='6']
+					</item>
+					<item
+					capname="cell"
+					id="eb0b6016-22a0-4dc6-98be-afb419d24e17"
+					name="PositionName"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[@name='visComp']/container[@name='viewport']/table[@name='_territoriesTransferredTable']/row[@index=$TerritoryTransferredRowIndex]/cell[@columnindex='7']
+					</item>
+					<basepath>
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[@name='visComp']/container[@name='viewport']/table[@name='_territoriesTransferredTable']/row[@index=$TerritoryTransferredRowIndex]
+					</basepath>
+				</folder>
+				<basepath>
+					/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[@name='visComp']/container[@name='viewport']/table[@name='_territoriesTransferredTable']
+				</basepath>
+			</folder>
+			<folder
+			capname="table"
+			id="e9d9f1df-b233-41d4-9021-bd7b232bab62"
+			isrooted="True"
+			name="DispatcherMessagesTable"
+			searchtimeout="3000ms"
+			usecache="False">
+				<folder
+				capname="row"
+				id="5a19cd6e-ead9-49be-a4d8-a85467923276"
+				isrooted="True"
+				name="DispatcherMessagesByRowIndex"
+				searchtimeout="3000ms"
+				usecache="False">
+					<item
+					capname="cell"
+					id="fe366d4a-fb28-404e-8406-d0b86420db20"
+					name="Division"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[@name='visComp']/container[@name='viewport']/table[@name='_dispMessagesTable']/row[@index=$DispatcherMessagesRowIndex]/cell[@columnindex='0']
+					</item>
+					<item
+					capname="cell"
+					id="d8aefea1-0365-4860-8f78-8c7131b8b9e0"
+					name="DispatchTerritory"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[@name='visComp']/container[@name='viewport']/table[@name='_dispMessagesTable']/row[@index=$DispatcherMessagesRowIndex]/cell[@columnindex='1']
+					</item>
+					<item
+					capname="cell"
+					id="caafa710-be35-4447-8232-d05d6fb6e699"
+					name="DispatcherMessage"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[@name='visComp']/container[@name='viewport']/table[@name='_dispMessagesTable']/row[@index=$DispatcherMessagesRowIndex]/cell[@columnindex='2']
+					</item>
+					<basepath>
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[@name='visComp']/container[@name='viewport']/table[@name='_dispMessagesTable']/row[@index=$DispatcherMessagesRowIndex]
+					</basepath>
+				</folder>
+				<basepath>
+					/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[@name='visComp']/container[@name='viewport']/table[@name='_dispMessagesTable']
+				</basepath>
+			</folder>
+			<folder
+			capname="table"
+			id="5a9406c9-8b04-4abd-bbc7-14a4decdc09b"
+			isrooted="True"
+			name="TaskListTable"
+			searchtimeout="3000ms"
+			usecache="False">
+				<folder
+				capname="row"
+				id="796bbba1-6c83-4acd-833d-63883788ae8d"
+				isrooted="True"
+				name="TaskListByRowIndex"
+				searchtimeout="3000ms"
+				usecache="False">
+					<item
+					capname="cell"
+					id="c50b9748-bd3d-42d9-8691-ba3f65135199"
+					name="TaskDescription"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[3]/container/container[1]/table[@name='summaryListTable']/row[@index=$TaskListRowIndex]/cell[@columnindex='0']
+					</item>
+					<item
+					capname="cell"
+					id="89a3bf1c-db0e-4978-bda7-89456e47998a"
+					name="TaskSource"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[3]/container/container[1]/table[@name='summaryListTable']/row[@index=$TaskListRowIndex]/cell[@columnindex='1']
+					</item>
+					<item
+					capname="cell"
+					id="ebd3b8c6-a9d8-421c-b2b7-c37fd99b958d"
+					name="TrainIdEmployeeName"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[3]/container/container[1]/table[@name='summaryListTable']/row[@index=$TaskListRowIndex]/cell[@columnindex='2']
+					</item>
+					<item
+					capname="cell"
+					id="6bb12810-138a-4991-a6fe-73a635d6e556"
+					name="Division"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[3]/container/container[1]/table[@name='summaryListTable']/row[@index=$TaskListRowIndex]/cell[@columnindex='3']
+					</item>
+					<item
+					capname="cell"
+					id="23db7237-f612-4b1b-8b0d-9160e301dcc7"
+					name="DispatchTerritory"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[3]/container/container[1]/table[@name='summaryListTable']/row[@index=$TaskListRowIndex]/cell[@columnindex='4']
+					</item>
+					<item
+					capname="cell"
+					id="64e40701-16b3-4d89-b95d-dd70a3e97e20"
+					name="Priority"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[3]/container/container[1]/table[@name='summaryListTable']/row[@index=$TaskListRowIndex]/cell[@columnindex='5']
+					</item>
+					<item
+					capname="cell"
+					id="0baa3e1f-ba93-410e-a192-b7b3ebb16da1"
+					name="DateTime"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[3]/container/container[1]/table[@name='summaryListTable']/row[@index=$TaskListRowIndex]/cell[@columnindex='6']
+					</item>
+					<basepath>
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[3]/container/container[1]/table[@name='summaryListTable']/row[@index=$TaskListRowIndex]
+					</basepath>
+				</folder>
+				<basepath>
+					/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[3]/container/container[1]/table[@name='summaryListTable']
+				</basepath>
+			</folder>
+			<folder
+			capname="table"
+			id="62d0e2f7-cac3-4451-ad92-a178daa88d52"
+			isrooted="True"
+			name="LimitSuggestionsTable"
+			searchtimeout="3000ms"
+			usecache="False">
+				<folder
+				capname="row"
+				id="055ad5e7-e4fe-4c1b-8763-33173d9efc1c"
+				isrooted="True"
+				name="LimitSuggestionsByRowIndex"
+				searchtimeout="3000ms"
+				usecache="False">
+					<item
+					capname="cell"
+					id="7b0aa4c1-3e18-4bfe-9d32-71479aa8a0fe"
+					name="TaskDescription"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[4]/container/container[1]/table[@name='summaryListTable']/row[@index=$LimitSuggestionsRowIndex]/cell[@columnindex='0']
+					</item>
+					<item
+					capname="cell"
+					id="a3063155-269d-4806-9589-46e628000a0c"
+					name="TrainId"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[4]/container/container[1]/table[@name='summaryListTable']/row[@index=$LimitSuggestionsRowIndex]/cell[@columnindex='1']
+					</item>
+					<item
+					capname="cell"
+					id="4a55578d-7eb9-4164-be30-646d6854aaf0"
+					name="DateTime"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[4]/container/container[1]/table[@name='summaryListTable']/row[@index=$LimitSuggestionsRowIndex]/cell[@columnindex='2']
+					</item>
+					<item
+					capname="cell"
+					id="78221faf-d65b-43ec-961c-7953e5a03e3f"
+					name="From"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[4]/container/container[1]/table[@name='summaryListTable']/row[@index=$LimitSuggestionsRowIndex]/cell[@columnindex='3']
+					</item>
+					<item
+					capname="cell"
+					id="d478ac04-3099-4fdf-a672-be9281b3384d"
+					name="To"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[4]/container/container[1]/table[@name='summaryListTable']/row[@index=$LimitSuggestionsRowIndex]/cell[@columnindex='4']
+					</item>
+					<item
+					capname="cell"
+					id="13aba68f-37b6-4f8e-b395-38e9948b1b01"
+					name="ClearMain"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[4]/container/container[1]/table[@name='summaryListTable']/row[@index=$LimitSuggestionsRowIndex]/cell[@columnindex='5']
+					</item>
+					<item
+					capname="cell"
+					id="54956439-b3c6-4a83-bf4f-579225f81011"
+					name="HoldMain"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[4]/container/container[1]/table[@name='summaryListTable']/row[@index=$LimitSuggestionsRowIndex]/cell[@columnindex='6']
+					</item>
+					<basepath>
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[4]/container/container[1]/table[@name='summaryListTable']/row[@index=$LimitSuggestionsRowIndex]
+					</basepath>
+				</folder>
+				<basepath>
+					/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[4]/container/container[1]/table[@name='summaryListTable']
+				</basepath>
+			</folder>
+			<folder
+			capname="table"
+			id="84490f0e-e036-4bd3-9d03-f4f8f102e50a"
+			isrooted="True"
+			name="TrainsNeedingBulletinsTable"
+			searchtimeout="3000ms"
+			usecache="False">
+				<folder
+				capname="row"
+				id="e88a92a4-39a9-4281-92ab-6c84848e732a"
+				isrooted="True"
+				name="TrainsNeedingBulletinsByRowIndex"
+				searchtimeout="3000ms"
+				usecache="False">
+					<item
+					capname="cell"
+					id="702c37dd-6f86-4d82-b71a-e281f0073cd6"
+					name="TrainId"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[@name='visComp']/container[@name='viewport']/table[@name='_trainBulletinTable']/row[@index=$TrainsNeedingBulletinsRowIndex]/cell[@columnindex='0']
+					</item>
+					<item
+					capname="cell"
+					id="7d798837-8ea1-46b7-a496-59befe5ba45d"
+					name="BulletinNumbers"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[@name='visComp']/container[@name='viewport']/table[@name='_trainBulletinTable']/row[@index=$TrainsNeedingBulletinsRowIndex]/cell[@columnindex='1']
+					</item>
+					<basepath>
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[@name='visComp']/container[@name='viewport']/table[@name='_trainBulletinTable']/row[@index=$TrainsNeedingBulletinsRowIndex]
+					</basepath>
+				</folder>
+				<basepath>
+					/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[@name='visComp']/container[@name='viewport']/table[@name='_trainBulletinTable']
+				</basepath>
+			</folder>
+			<folder
+			capname="table"
+			id="8bc95646-0224-4026-9a8d-eb79c35f820b"
+			isrooted="True"
+			name="TrainStatusTable"
+			searchtimeout="3000ms"
+			usecache="False">
+				<folder
+				capname="row"
+				id="7b6fcf2b-a78b-452b-8ae5-da95e3685c52"
+				isrooted="True"
+				name="TrainStatusByRowIndex"
+				searchtimeout="3000ms"
+				usecache="False">
+					<basepath>
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[@name='visComp']/container[@name='viewport']/table[@name='_trainStatusSummaryTable']/row[@index=$TrainStatusRowIndex]
+					</basepath>
+				</folder>
+				<basepath>
+					/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[@name='visComp']/container[@name='viewport']/table[@name='_trainStatusSummaryTable']
+				</basepath>
+			</folder>
+			<folder
+			capname="table"
+			id="f3fd476d-a60c-40ef-a66b-f5933967ddd4"
+			isrooted="True"
+			name="TrackAuthoritiesTable"
+			searchtimeout="3000ms"
+			usecache="False">
+				<folder
+				capname="row"
+				id="64363261-d981-41c3-8a41-c9997a1d6071"
+				isrooted="True"
+				name="TrackAuthoritiesByRowIndex"
+				searchtimeout="3000ms"
+				usecache="False">
+					<item
+					capname="cell"
+					id="4d5e1ce9-d642-4b73-89f3-20115aee1a49"
+					name="Number"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[7]/container/container[1]/table[@name='summaryListTable']/row[@index=$TrackAuthoritiesRowIndex]/cell[@columnindex='0']
+					</item>
+					<item
+					capname="cell"
+					id="9c604d0d-79b3-4311-b2b6-9b1490f7face"
+					name="TrainId"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[7]/container/container[1]/table[@name='summaryListTable']/row[@index=$TrackAuthoritiesRowIndex]/cell[@columnindex='1']
+					</item>
+					<item
+					capname="cell"
+					id="41ec7cfc-9543-445a-9cb6-0630b0b13c76"
+					name="Addressee"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[7]/container/container[1]/table[@name='summaryListTable']/row[@index=$TrackAuthoritiesRowIndex]/cell[@columnindex='2']
+					</item>
+					<item
+					capname="cell"
+					id="95d5d255-adfa-4c01-9d14-09a131679c7f"
+					name="Type"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[7]/container/container[1]/table[@name='summaryListTable']/row[@index=$TrackAuthoritiesRowIndex]/cell[@columnindex='3']
+					</item>
+					<item
+					capname="cell"
+					id="9511ffa0-cd70-4023-9037-500c4ef71bda"
+					name="LastOS"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[7]/container/container[1]/table[@name='summaryListTable']/row[@index=$TrackAuthoritiesRowIndex]/cell[@columnindex='4']
+					</item>
+					<item
+					capname="cell"
+					id="b88469e8-edd7-4506-a54f-78e870c0219a"
+					name="FirstPoint"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[7]/container/container[1]/table[@name='summaryListTable']/row[@index=$TrackAuthoritiesRowIndex]/cell[@columnindex='5']
+					</item>
+					<item
+					capname="cell"
+					id="8cbc6e54-a745-4f14-ab13-20da91b9db1d"
+					name="SecondPoint"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[7]/container/container[1]/table[@name='summaryListTable']/row[@index=$TrackAuthoritiesRowIndex]/cell[@columnindex='6']
+					</item>
+					<item
+					capname="cell"
+					id="46b8ba32-30a6-4027-ba6f-50cc40b1c57c"
+					name="Track"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[7]/container/container[1]/table[@name='summaryListTable']/row[@index=$TrackAuthoritiesRowIndex]/cell[@columnindex='7']
+					</item>
+					<item
+					capname="cell"
+					id="3c8e8baf-10f6-4217-ba7c-9e4ef4e6de95"
+					name="EffectiveUntil"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[7]/container/container[1]/table[@name='summaryListTable']/row[@index=$TrackAuthoritiesRowIndex]/cell[@columnindex='8']
+					</item>
+					<basepath>
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[7]/container/container[1]/table[@name='summaryListTable']/row[@index=$TrackAuthoritiesRowIndex]
+					</basepath>
+				</folder>
+				<basepath>
+					/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[7]/container/container[1]/table[@name='summaryListTable']
+				</basepath>
+			</folder>
+			<folder
+			capname="table"
+			id="4a16e34c-ea11-4f9c-b293-2a910f32eb23"
+			isrooted="True"
+			name="TagsTable"
+			searchtimeout="3000ms"
+			usecache="False">
+				<folder
+				capname="row"
+				id="e2c263d2-d96b-466b-83cb-85c97ed35b0c"
+				isrooted="True"
+				name="TagsByRowIndex"
+				searchtimeout="3000ms"
+				usecache="False">
+					<item
+					capname="cell"
+					id="d2088e83-618d-40b4-b6ad-cf6d46256256"
+					name="TagName"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[8]/container/container[1]/table[@name='summaryListTable']/row[@index=$TagsRowIndex]/cell[@columnindex='0']
+					</item>
+					<item
+					capname="cell"
+					id="92301b61-63cf-4877-9860-31b42b39d5e5"
+					name="Type"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[8]/container/container[1]/table[@name='summaryListTable']/row[@index=$TagsRowIndex]/cell[@columnindex='1']
+					</item>
+					<item
+					capname="cell"
+					id="6f0df61c-db4d-4247-9481-658d4b72d698"
+					name="BetweenAt"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[8]/container/container[1]/table[@name='summaryListTable']/row[@index=$TagsRowIndex]/cell[@columnindex='2']
+					</item>
+					<item
+					capname="cell"
+					id="ad891696-c46f-4188-a544-1cfb6cd40236"
+					name="ObjectId"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[8]/container/container[1]/table[@name='summaryListTable']/row[@index=$TagsRowIndex]/cell[@columnindex='3']
+					</item>
+					<item
+					capname="cell"
+					id="9fdbad43-92bb-4033-a196-d1471c05c803"
+					name="And"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[8]/container/container[1]/table[@name='summaryListTable']/row[@index=$TagsRowIndex]/cell[@columnindex='4']
+					</item>
+					<item
+					capname="cell"
+					id="e6fc7731-bdcf-4f69-92f9-e7d580f913c1"
+					name="OnTrack"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[8]/container/container[1]/table[@name='summaryListTable']/row[@index=$TagsRowIndex]/cell[@columnindex='5']
+					</item>
+					<item
+					capname="cell"
+					id="d649abfa-5688-49f0-9ac4-9f4a288b195e"
+					name="PlacedTime"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[8]/container/container[1]/table[@name='summaryListTable']/row[@index=$TagsRowIndex]/cell[@columnindex='6']
+					</item>
+					<item
+					capname="cell"
+					id="6d5edefc-b880-4596-8540-26e7f1bfb879"
+					name="Initals"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[8]/container/container[1]/table[@name='summaryListTable']/row[@index=$TagsRowIndex]/cell[@columnindex='7']
+					</item>
+					<item
+					capname="cell"
+					id="d1eff4a0-044f-45be-8a0e-15da02e42cc4"
+					name="Blocking"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[8]/container/container[1]/table[@name='summaryListTable']/row[@index=$TagsRowIndex]/cell[@columnindex='8']
+					</item>
+					<item
+					capname="cell"
+					id="daa95d10-3b31-4fbf-9ec8-49d829793813"
+					name="EstRemovalTime"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[8]/container/container[1]/table[@name='summaryListTable']/row[@index=$TagsRowIndex]/cell[@columnindex='9']
+					</item>
+					<item
+					capname="cell"
+					id="0d2f1464-fe8a-49d5-b4b2-c78440a2e0a1"
+					name="PlanThrough"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[8]/container/container[1]/table[@name='summaryListTable']/row[@index=$TagsRowIndex]/cell[@columnindex='10']
+					</item>
+					<item
+					capname="cell"
+					id="28ada3be-5b16-4883-b88b-c7acae2a5650"
+					name="Comments"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[8]/container/container[1]/table[@name='summaryListTable']/row[@index=$TagsRowIndex]/cell[@columnindex='11']
+					</item>
+					<item
+					capname="cell"
+					id="a183d1e3-223d-48b3-b9e8-56e5d3e677fb"
+					name="District"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[8]/container/container[1]/table[@name='summaryListTable']/row[@index=$TagsRowIndex]/cell[@columnindex='12']
+					</item>
+					<item
+					capname="cell"
+					id="e6929475-34c4-4763-88c4-b15563a02896"
+					name="Territory"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[8]/container/container[1]/table[@name='summaryListTable']/row[@index=$TagsRowIndex]/cell[@columnindex='13']
+					</item>
+					<basepath>
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[8]/container/container[1]/table[@name='summaryListTable']/row[@index=$TagsRowIndex]
+					</basepath>
+				</folder>
+				<basepath>
+					/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[8]/container/container[1]/table[@name='summaryListTable']
+				</basepath>
+			</folder>
+			<folder
+			capname="table"
+			id="41a27357-72dd-4c58-80b2-3616627f4592"
+			isrooted="True"
+			name="BulletinsTable"
+			searchtimeout="3000ms"
+			usecache="False">
+				<folder
+				capname="row"
+				id="1ef8ef04-64c9-459b-8c0a-2de56cf696e2"
+				isrooted="True"
+				name="BulletinsByRowIndex"
+				searchtimeout="3000ms"
+				usecache="False">
+					<item
+					capname="cell"
+					id="348669ce-4293-4ad5-a913-0457d1b4c152"
+					name="BulletinNumber"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[9]/container/container[1]/table[@name='summaryListTable']/row[@index=$BulletinsRowIndex]/cell[@columnindex='0']
+					</item>
+					<item
+					capname="cell"
+					id="9bf5dbd0-ea4f-4a6f-a16b-a5ddd8f43aca"
+					name="BulletinType"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[9]/container/container[1]/table[@name='summaryListTable']/row[@index=$BulletinsRowIndex]/cell[@columnindex='1']
+					</item>
+					<item
+					capname="cell"
+					id="efe08d23-9872-4b8c-a80c-8747c4042682"
+					name="OkDateTime"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[9]/container/container[1]/table[@name='summaryListTable']/row[@index=$BulletinsRowIndex]/cell[@columnindex='2']
+					</item>
+					<item
+					capname="cell"
+					id="44017797-4f4b-4d49-b1ac-9ca4c8fb1d1a"
+					name="Division"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[9]/container/container[1]/table[@name='summaryListTable']/row[@index=$BulletinsRowIndex]/cell[@columnindex='3']
+					</item>
+					<item
+					capname="cell"
+					id="e46927af-68cf-483d-b5e5-47a70338db6c"
+					name="FirstLimit"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[9]/container/container[1]/table[@name='summaryListTable']/row[@index=$BulletinsRowIndex]/cell[@columnindex='4']
+					</item>
+					<item
+					capname="cell"
+					id="b5f8c966-661f-4ac5-bef4-efe9b84260b4"
+					name="District"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[9]/container/container[1]/table[@name='summaryListTable']/row[@index=$BulletinsRowIndex]/cell[@columnindex='5']
+					</item>
+					<item
+					capname="cell"
+					id="ac97e223-c8ef-45ff-93e2-435613b4bc45"
+					name="DispatcherInitial"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[9]/container/container[1]/table[@name='summaryListTable']/row[@index=$BulletinsRowIndex]/cell[@columnindex='6']
+					</item>
+					<item
+					capname="cell"
+					id="cabcd021-9622-4ef0-b94a-3f02a272d996"
+					name="SecondLimit"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[9]/container/container[1]/table[@name='summaryListTable']/row[@index=$BulletinsRowIndex]/cell[@columnindex='7']
+					</item>
+					<item
+					capname="cell"
+					id="283aed63-bc5c-4635-9479-c8c95eea641d"
+					name="TrackName"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[9]/container/container[1]/table[@name='summaryListTable']/row[@index=$BulletinsRowIndex]/cell[@columnindex='8']
+					</item>
+					<item
+					capname="cell"
+					id="b0cb9bf3-fba8-4dce-94b2-724f6fb3cb29"
+					name="EffectiveDateAndTime"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[9]/container/container[1]/table[@name='summaryListTable']/row[@index=$BulletinsRowIndex]/cell[@columnindex='9']
+					</item>
+					<item
+					capname="cell"
+					id="6b0105ff-d085-4a70-a336-1aa7809f4f76"
+					name="ExpirationDateAndTime"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[9]/container/container[1]/table[@name='summaryListTable']/row[@index=$BulletinsRowIndex]/cell[@columnindex='10']
+					</item>
+					<item
+					capname="cell"
+					id="74239647-81f5-48f1-a60c-effd43d2f745"
+					name="SummaryListText"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[9]/container/container[1]/table[@name='summaryListTable']/row[@index=$BulletinsRowIndex]/cell[@columnindex='11']
+					</item>
+					<basepath>
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[9]/container/container[1]/table[@name='summaryListTable']/row[@index=$BulletinsRowIndex]
+					</basepath>
+				</folder>
+				<basepath>
+					/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[9]/container/container[1]/table[@name='summaryListTable']
+				</basepath>
+			</folder>
+			<folder
+			capname="table"
+			id="d120b2a9-1203-40ee-890a-b1affa307609"
+			isrooted="True"
+			name="HelperOpsTable"
+			searchtimeout="3000ms"
+			usecache="False">
+				<folder
+				capname="row"
+				id="9fa5a756-b6d6-411c-9e82-29dfffe223a3"
+				isrooted="True"
+				name="HelperOpsByRowIndex"
+				searchtimeout="3000ms"
+				usecache="False">
+					<item
+					capname="cell"
+					id="8b9193b4-9856-4b93-a215-74276e668ee4"
+					name="HelperTrainId"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[10]/container/container[1]/table[@name='summaryListTable']/row[@index=$HelperOpsRowIndex]/cell[@columnindex='0']
+					</item>
+					<item
+					capname="cell"
+					id="dd3b1d3f-7097-4f30-9400-d8de09da576d"
+					name="AssignedTrainTo"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[10]/container/container[1]/table[@name='summaryListTable']/row[@index=$HelperOpsRowIndex]/cell[@columnindex='1']
+					</item>
+					<item
+					capname="cell"
+					id="bdd08d5c-ea9b-420b-b1bc-eea8566dea56"
+					name="CutInHelper"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[10]/container/container[1]/table[@name='summaryListTable']/row[@index=$HelperOpsRowIndex]/cell[@columnindex='2']
+					</item>
+					<item
+					capname="cell"
+					id="bc3d8d45-f915-40e6-b695-305ad5af824f"
+					name="CutOutHelper"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[10]/container/container[1]/table[@name='summaryListTable']/row[@index=$HelperOpsRowIndex]/cell[@columnindex='3']
+					</item>
+					<item
+					capname="cell"
+					id="04853f37-85bc-47a5-9056-31e1d0be99ad"
+					name="NextServiceDate"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[10]/container/container[1]/table[@name='summaryListTable']/row[@index=$HelperOpsRowIndex]/cell[@columnindex='4']
+					</item>
+					<item
+					capname="cell"
+					id="0a383c56-4934-4e56-9185-8c80820af3d8"
+					name="CrewExpiration"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[10]/container/container[1]/table[@name='summaryListTable']/row[@index=$HelperOpsRowIndex]/cell[@columnindex='5']
+					</item>
+					<item
+					capname="cell"
+					id="b6199a9c-7b06-47d0-9801-8355b9fb60ad"
+					name="OnDutyStation"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[10]/container/container[1]/table[@name='summaryListTable']/row[@index=$HelperOpsRowIndex]/cell[@columnindex='6']
+					</item>
+					<item
+					capname="cell"
+					id="f0c6d013-7d3b-4d2d-814a-b53ab380f053"
+					name="EngineStatus"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[10]/container/container[1]/table[@name='summaryListTable']/row[@index=$HelperOpsRowIndex]/cell[@columnindex='7']
+					</item>
+					<item
+					capname="cell"
+					id="ab3b787f-6fb4-48ae-91b3-f677f196d359"
+					name="Shucker"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[10]/container/container[1]/table[@name='summaryListTable']/row[@index=$HelperOpsRowIndex]/cell[@columnindex='8']
+					</item>
+					<item
+					capname="cell"
+					id="7a6961cc-d8e9-4b82-bd24-f9839ef464a9"
+					name="FRATestDueDate"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[10]/container/container[1]/table[@name='summaryListTable']/row[@index=$HelperOpsRowIndex]/cell[@columnindex='9']
+					</item>
+					<item
+					capname="cell"
+					id="71848c69-31c0-451b-a286-7e9b308fbb61"
+					name="FRATestDueStation"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[10]/container/container[1]/table[@name='summaryListTable']/row[@index=$HelperOpsRowIndex]/cell[@columnindex='10']
+					</item>
+					<item
+					capname="cell"
+					id="a3cfbee2-db78-481e-832d-bedbe666dadd"
+					name="CutoutHelperETA"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[10]/container/container[1]/table[@name='summaryListTable']/row[@index=$HelperOpsRowIndex]/cell[@columnindex='11']
+					</item>
+					<item
+					capname="cell"
+					id="e6a72641-600e-49dd-b26e-e815ee95ecbc"
+					name="LastFuelingDate"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[10]/container/container[1]/table[@name='summaryListTable']/row[@index=$HelperOpsRowIndex]/cell[@columnindex='12']
+					</item>
+					<item
+					capname="cell"
+					id="ee2ab490-4db5-4816-84b0-0c64438076b5"
+					name="AssignedDivision"
+					searchtimeout="3000ms">
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[10]/container/container[1]/table[@name='summaryListTable']/row[@index=$HelperOpsRowIndex]/cell[@columnindex='13']
+					</item>
+					<basepath>
+						/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[10]/container/container[1]/table[@name='summaryListTable']/row[@index=$HelperOpsRowIndex]
+					</basepath>
+				</folder>
+				<basepath>
+					/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/container[@name='_tabbedPanel']/container[10]/container/container[1]/table[@name='summaryListTable']
+				</basepath>
+			</folder>
+			<item
+			capname="button"
+			id="d99ae952-8fa7-4407-b0b1-1eb79cb9b5ae"
+			name="CloseButton"
+			searchtimeout="3000ms">
+				/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='UIJPanel']/button[@name='_closeBtn']
+			</item>
+			<item
+			capname="text"
+			id="23c024fc-06ca-446f-ab89-ef9d6cbd12b4"
+			name="Feedback"
+			searchtimeout="3000ms">
+				/form[@title~'^Dispatcher\ Transfer\ Repor']/container[@type='FeedbackBar']/text[@name='messageField']
+			</item>
+			<basepath>
+				/form[@title~'^Dispatcher\ Transfer\ Repor']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="e1fe8517-188b-49ea-9d13-814d5f0bd1c8"
+		isrooted="True"
+		name="Control_Request_List"
+		searchtimeout="3000ms"
+		usecache="True">
+			<folder
+			capname="unknown"
+			id="797456b2-2f20-4fc3-a0d7-d7bcdc5d677a"
+			isrooted="False"
+			name="WindowControls"
+			searchtimeout="0ms">
+				<item
+				capname="button"
+				id="a41378ea-f623-4f4a-aa78-0c9ef70e9c1d"
+				name="Minimize"
+				searchtimeout="3000ms">
+					/form[@title='Control Request List']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Minimize']
+				</item>
+				<item
+				capname="button"
+				id="50a0e038-7e96-4f8c-9e8a-6ced45198c77"
+				name="Maximize"
+				searchtimeout="3000ms">
+					/form[@title='Control Request List']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Maximize']
+				</item>
+				<item
+				capname="button"
+				id="bf903ba9-9530-4120-bc83-f730d0947110"
+				name="Close"
+				searchtimeout="3000ms">
+					/form[@title='Control Request List']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Close']
+				</item>
+			</folder>
+			<folder
+			capname="menubar"
+			id="1ef9b569-8f2c-4304-b29a-29d6776b7e80"
+			isrooted="True"
+			name="MainMenuBar"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="menuitem"
+				id="b778f256-5286-45a7-864f-9c74c728dd89"
+				name="FileButton"
+				searchtimeout="3000ms">
+					/form[@title='Control Request List']/menubar[@name='menuBar']/menuitem[@text='File']
+				</item>
+				<basepath>
+					/form[@title='Control Request List']/menubar[@name='menuBar']
+				</basepath>
+			</folder>
+			<folder
+			capname="contextmenu"
+			id="15ea1640-531e-4417-9774-aa6c555cee01"
+			isrooted="True"
+			name="FileMenu"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="menuitem"
+				id="572b04fa-d178-4cef-89a9-54b3f0daceee"
+				name="Close"
+				searchtimeout="3000ms">
+					/form[@title='Control Request List']/contextmenu[@type='JPopupMenu' and @visible='True']/menuitem[@text='Close']
+				</item>
+				<basepath>
+					/form[@title='Control Request List']/contextmenu[@type='JPopupMenu' and @visible='True']
+				</basepath>
+			</folder>
+			<folder
+			capname="toolbar"
+			id="cbb58d24-0e80-4a68-8580-91bec29f3dc3"
+			isrooted="True"
+			name="RibbonMenu"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="button"
+				id="b547b94e-2c5f-4dd0-925a-1b402afac6d6"
+				name="HelpTopics"
+				searchtimeout="3000ms">
+					/form[@title='Control Request List']/toolbar[@name='toolBar']/button[1]
+				</item>
+				<basepath>
+					/form[@title='Control Request List']/toolbar[@name='toolBar']
+				</basepath>
+			</folder>
+			<folder
+			capname="table"
+			id="c369e0cd-a327-4ea0-a1e0-76d2c956fdce"
+			isrooted="True"
+			name="ControlRequestTable"
+			searchtimeout="3000ms"
+			usecache="False">
+				<folder
+				capname="row"
+				id="a6b47dce-4c65-4b36-b128-6947d13dbea9"
+				isrooted="True"
+				name="ControlRequestByRowIndex"
+				searchtimeout="3000ms"
+				usecache="False">
+					<item
+					capname="cell"
+					id="b98abfbc-9a33-4cbc-bc3f-ca7b3acfd8e8"
+					name="ControlPoint"
+					searchtimeout="3000ms">
+						/form[@title='Control Request List']/container[@type='JPanel']/container/container[@type='JScrollPane']/container[@name='viewport']/table[@name='_controlRequestTable']/row[@index=$ControlRequestRowIndex]/cell[@columnindex='0']
+					</item>
+					<item
+					capname="cell"
+					id="d41542f9-df3f-4032-80d5-99867e90e670"
+					name="DeviceId"
+					searchtimeout="3000ms">
+						/form[@title='Control Request List']/container[@type='JPanel']/container/container[@type='JScrollPane']/container[@name='viewport']/table[@name='_controlRequestTable']/row[@index=$ControlRequestRowIndex]/cell[@columnindex='1']
+					</item>
+					<item
+					capname="cell"
+					id="6b6a3a7b-85ec-4b8e-928b-f2be4a41e95a"
+					name="RequestedFunction"
+					searchtimeout="3000ms">
+						/form[@title='Control Request List']/container[@type='JPanel']/container/container[@type='JScrollPane']/container[@name='viewport']/table[@name='_controlRequestTable']/row[@index=$ControlRequestRowIndex]/cell[@columnindex='2']
+					</item>
+					<basepath>
+						/form[@title='Control Request List']/container[@type='JPanel']/container/container[@type='JScrollPane']/container[@name='viewport']/table[@name='_controlRequestTable']/row[@index=$ControlRequestRowIndex]
+					</basepath>
+				</folder>
+				<basepath>
+					/form[@title='Control Request List']/container[@type='JPanel']/container/container[@type='JScrollPane']/container[@name='viewport']/table[@name='_controlRequestTable']
+				</basepath>
+			</folder>
+			<item
+			capname="button"
+			id="dd53b161-1bbd-42c7-8217-a37d55a6efbd"
+			name="TransmitButton"
+			searchtimeout="3000ms">
+				/form[@title='Control Request List']/container[@type='JPanel']/container/button[@text='Transmit']
+			</item>
+			<item
+			capname="button"
+			id="d095eebf-e3fa-471b-b124-03a6fead2b86"
+			name="ClearListButton"
+			searchtimeout="3000ms">
+				/form[@title='Control Request List']/container[@type='JPanel']/container/button[@text='Clear List']
+			</item>
+			<item
+			capname="button"
+			id="7b5800d4-73f8-4aa8-8dc6-6d63e267ec86"
+			name="UndoButton"
+			searchtimeout="3000ms">
+				/form[@title='Control Request List']/container[@type='JPanel']/container/button[@text='Undo']
+			</item>
+			<item
+			capname="text"
+			id="c4c91bdb-ef92-494a-8e58-50d43c86914c"
+			name="Feedback"
+			searchtimeout="3000ms">
+				/form[@title='Control Request List']/container[@type='FeedbackBar']/text[@name='messageField']
+			</item>
+			<basepath>
+				/form[@title='Control Request List']
+			</basepath>
+		</appfolder>
+		<appfolder
+		capname="form"
+		id="18eb6912-0e08-4cf2-aa86-7ae842907016"
+		isrooted="True"
+		name="Open_Trackline"
+		searchtimeout="3000ms"
+		usecache="True">
+			<folder
+			capname="unknown"
+			id="c70cf4a0-dc68-49a4-8c48-64bc988d02a0"
+			isrooted="False"
+			name="WindowControls"
+			searchtimeout="0ms">
+				<item
+				capname="button"
+				id="5669da92-fc5e-4d66-9868-3c0d72d65066"
+				name="Minimize"
+				searchtimeout="3000ms">
+					/form[@title~'^Select\ territories\ to\ ope']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Minimize']
+				</item>
+				<item
+				capname="button"
+				id="a76c7fd2-ac0e-4af7-9226-f8a5f1a73012"
+				name="Maximize"
+				searchtimeout="3000ms">
+					/form[@title~'^Select\ territories\ to\ ope']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Maximize']
+				</item>
+				<item
+				capname="button"
+				id="379313bb-b8d8-4e8c-a33b-455b66ecfa88"
+				name="Close"
+				searchtimeout="3000ms">
+					/form[@title~'^Select\ territories\ to\ ope']/titlebar[@accessiblerole='TitleBar']/button[@accessiblename='Close']
+				</item>
+			</folder>
+			<folder
+			capname="menubar"
+			id="bae5ef12-f7ef-40fa-8c57-489f4e6cb0c9"
+			isrooted="True"
+			name="MainMenuBar"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="menuitem"
+				id="0204cbd1-7df3-4df1-bb02-8139a1fa5fd0"
+				name="FileButton"
+				searchtimeout="3000ms">
+					/form[@title~'^Select\ territories\ to\ ope']/menubar[@name='menuBar']/menuitem[@text='File']
+				</item>
+				<basepath>
+					/form[@title~'^Select\ territories\ to\ ope']/menubar[@name='menuBar']
+				</basepath>
+			</folder>
+			<folder
+			capname="contextmenu"
+			id="c866e677-bec9-474e-aa6f-b579e5fd638f"
+			isrooted="True"
+			name="FileMenu"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="menuitem"
+				id="2a6467a7-20f3-460d-9293-87502d5a43db"
+				name="Close"
+				searchtimeout="3000ms">
+					/form[@title~'^Select\ territories\ to\ ope']/contextmenu[@type='JPopupMenu' and @visible='True']/menuitem[@text='Close']
+				</item>
+				<basepath>
+					/form[@title~'^Select\ territories\ to\ ope']/contextmenu[@type='JPopupMenu' and @visible='True']
+				</basepath>
+			</folder>
+			<folder
+			capname="toolbar"
+			id="a85d030a-5e1c-417c-bceb-4bea903b5b41"
+			isrooted="True"
+			name="RibbonMenu"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="button"
+				id="e78af2d8-79da-4f94-9ff7-fa7e31595ac4"
+				name="HelpTopics"
+				searchtimeout="3000ms">
+					/form[@title~'^Select\ territories\ to\ ope']/toolbar[@name='toolBar']/button[1]
+				</item>
+				<basepath>
+					/form[@title~'^Select\ territories\ to\ ope']/toolbar[@name='toolBar']
+				</basepath>
+			</folder>
+			<folder
+			capname="unknown"
+			id="cd70613c-0fe6-495d-aaaf-78224315c1e5"
+			isrooted="False"
+			name="Division"
+			searchtimeout="0ms">
+				<item
+				capname="combobox"
+				id="5429f72b-e3d9-4a0b-9046-5590e4178bd8"
+				name="DivisionMenuButton"
+				searchtimeout="3000ms">
+					/form[@title~'^Select\ territories\ to\ ope']/container[@type='UIJPanel']/combobox[@type='JComboBox']
+				</item>
+				<folder
+				capname="list"
+				id="736d8df4-9f15-49eb-9a08-dba9daf064d2"
+				isrooted="True"
+				name="DivisionMenuList"
+				searchtimeout="3000ms"
+				usecache="False">
+					<item
+					capname="listitem"
+					id="d19cbff0-7c09-4dad-8673-31cb0d31083b"
+					name="DivisionItemByName"
+					searchtimeout="3000ms">
+						/form[@title~'^Select\ territories\ to\ ope']/contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']/listitem[@text=$DivisionName]
+					</item>
+					<item
+					capname="listitem"
+					id="e55fd254-d9aa-4249-9737-65340c2b2cb9"
+					name="DivisionItemByIndex"
+					searchtimeout="3000ms">
+						/form[@title~'^Select\ territories\ to\ ope']/contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']/listitem[@index=$DivisionIndex]
+					</item>
+					<basepath>
+						/form[@title~'^Select\ territories\ to\ ope']/contextmenu[@name='ComboPopup.popup']/container/container[@name='viewport']/list[@name='ComboBox.list']
+					</basepath>
+				</folder>
+			</folder>
+			<folder
+			capname="list"
+			id="1d64ae76-d6ef-403a-9d35-e15e4a8fb850"
+			isrooted="True"
+			name="AvailableList"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="listitem"
+				id="b3215be7-7eb8-4153-988a-6907d0278157"
+				name="AvailableListItemByName"
+				searchtimeout="3000ms">
+					/form[@title~'^Select\ territories\ to\ ope']/container[@type='UIJPanel']/container/container[@name='viewport']/list[@name='_leftList']/listitem[@text~$TerritoryName]
+				</item>
+				<item
+				capname="listitem"
+				id="5944f668-54d7-4893-b3a3-5ebfb21755d9"
+				name="AvailableListItemByIndex"
+				searchtimeout="3000ms">
+					/form[@title~'^Select\ territories\ to\ ope']/container[@type='UIJPanel']/container/container[@name='viewport']/list[@name='_leftList']/listitem[@index=$TerritoryIndex]
+				</item>
+				<basepath>
+					/form[@title~'^Select\ territories\ to\ ope']/container[@type='UIJPanel']/container/container[@name='viewport']/list[@name='_leftList']
+				</basepath>
+			</folder>
+			<folder
+			capname="list"
+			id="1b48b8d1-c102-4a40-9ada-c6b0fcc3c8ca"
+			isrooted="True"
+			name="SelectedList"
+			searchtimeout="3000ms"
+			usecache="False">
+				<item
+				capname="listitem"
+				id="792fa1bf-b038-48fc-896e-a742ec417955"
+				name="SelectedListItemByName"
+				searchtimeout="3000ms">
+					/form[@title~'^Select\ territories\ to\ ope']/container[@type='UIJPanel']/container/container[@name='viewport']/list[@name='_rightList']/listitem[@text~$TerritoryName]
+				</item>
+				<item
+				capname="listitem"
+				id="cea4e501-d693-4400-ab8e-d36896f60b6b"
+				name="SelectedListItemByIndex"
+				searchtimeout="3000ms">
+					/form[@title~'^Select\ territories\ to\ ope']/container[@type='UIJPanel']/container/container[@name='viewport']/list[@name='_rightList']/listitem[@index=$TerritoryIndex]
+				</item>
+				<basepath>
+					/form[@title~'^Select\ territories\ to\ ope']/container[@type='UIJPanel']/container/container[@name='viewport']/list[@name='_rightList']
+				</basepath>
+			</folder>
+			<item
+			capname="button"
+			id="0ea0c837-e0d6-4078-9bf2-59b9f9dd70dd"
+			name="AddButton"
+			searchtimeout="3000ms">
+				/form[@title~'^Select\ territories\ to\ ope']/container[@type='UIJPanel']/button[@name='toRightButton']
+			</item>
+			<item
+			capname="button"
+			id="7b16d09b-b4e2-4034-97d3-6994c56c9be3"
+			name="RemoveButton"
+			searchtimeout="3000ms">
+				/form[@title~'^Select\ territories\ to\ ope']/container[@type='UIJPanel']/button[@name='toLeftButton']
+			</item>
+			<item
+			capname="button"
+			id="60d987fd-46ed-448c-88c3-97af1ee3949c"
+			name="OkButton"
+			searchtimeout="3000ms">
+				/form[@title~'^Select\ territories\ to\ ope']/container[@type='UIJPanel']/container[@type='JPanel']/button[@name='_okButton']
+			</item>
+			<item
+			capname="button"
+			id="8aca8a91-53ae-4175-b9c9-0e7553fbd239"
+			name="CancelButton"
+			searchtimeout="3000ms">
+				/form[@title~'^Select\ territories\ to\ ope']/container[@type='UIJPanel']/container[@type='JPanel']/button[@text='Cancel']
+			</item>
+			<item
+			capname="text"
+			id="4cde4e4b-1644-4aee-8994-71d810327fb0"
+			name="Feedback"
+			searchtimeout="3000ms">
+				/form[@title~'^Select\ territories\ to\ ope']/container[@type='FeedbackBar']/text[@name='messageField']
+			</item>
+			<basepath>
+				/form[@title~'^Select\ territories\ to\ ope']
+			</basepath>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+		<var
+		id="591d11af-4066-4537-9944-52c47d08afa1"
+		name="TerritoryName">
+		</var>
+		<var
+		id="80191047-ffd6-4a32-8a5b-b7e9063de548"
+		name="TerritoryIndex">
+			0
+		</var>
+		<var
+		id="6241862d-e42b-4d84-9d19-bede9998ff09"
+		name="DivisionName">
+		</var>
+		<var
+		id="49dbde1f-02d5-4cae-9d0a-741011cf101c"
+		name="DivisionIndex">
+			0
+		</var>
+		<var
+		id="828a6472-b185-47c7-8610-89de3c5dd3f4"
+		name="TerritoryTransferredRowIndex">
+			0
+		</var>
+		<var
+		id="d573b576-38c5-4614-ad04-32a28d4d9781"
+		name="DispatcherMessagesRowIndex">
+			0
+		</var>
+		<var
+		id="bc67d66d-51c3-4815-8c0f-8ecfc6ed9685"
+		name="TaskListRowIndex">
+			0
+		</var>
+		<var
+		id="61b8acf3-3dbf-4d8a-b9bc-97ec28940cdc"
+		name="LimitSuggestionsRowIndex">
+			0
+		</var>
+		<var
+		id="b549ec17-4708-4be0-801b-f1e625ac056d"
+		name="TrainsNeedingBulletinsRowIndex">
+			0
+		</var>
+		<var
+		id="37a8ca17-8370-465e-bf9a-6537aadf3fbc"
+		name="TrainStatusRowIndex">
+			0
+		</var>
+		<var
+		id="c5b7d1d7-0bdf-4d36-a4a1-d5d86f2f9e08"
+		name="TagsRowIndex">
+			0
+		</var>
+		<var
+		id="3c9daf01-18b6-4c96-a6f0-89cc64ac2e09"
+		name="TrackAuthoritiesRowIndex">
+			0
+		</var>
+		<var
+		id="69fbb28c-3865-4138-8cef-6746fc4651a6"
+		name="BulletinsRowIndex">
+			0
+		</var>
+		<var
+		id="2eda7244-cfa6-469c-8491-bbde34fd78ad"
+		name="HelperOpsRowIndex">
+			0
+		</var>
+		<var
+		id="687a54a7-d1e9-4138-8841-8473d744ea4e"
+		name="ControlRequestRowIndex">
+			0
+		</var>
+		<var
+		id="1136989b-e13f-4ff1-8550-e2a797266b01"
+		name="DispatchGroup">
+		</var>
+		<var
+		id="ab5fdccc-0837-47f7-93d5-18c9c2bbc426"
+		name="DispatchGroupIndex">
+			0
+		</var>
+		<var
+		id="413d2164-09ed-4e80-9e7d-bde41db28f0e"
+		name="NowControllingName">
+		</var>
+		<var
+		id="209ae0ca-721e-432a-ad6d-12a4048a3e92"
+		name="NowControllingIndex">
+		</var>
+	</variables>
+</repository>

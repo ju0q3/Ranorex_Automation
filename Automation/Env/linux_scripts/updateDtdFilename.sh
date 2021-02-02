@@ -1,0 +1,182 @@
+#!/bin/bash
+
+
+
+# dd / 8/16/2016 - update to linux file
+
+
+
+usage()
+
+{
+
+cat << EOF
+
+
+
+   usage ${0} [options] [branch]
+
+
+
+   Start a unix dynamic view in Windows, synchronizing the regions
+
+   if necessary and optionally mapping a windows drive. The 
+
+   ClearCase view is determined as follows:
+
+     1. If -t option is specified, it is used
+
+     2. If [branch] parameter is specified, the view <user>_cad_<branch>
+
+        is used
+
+     3. Otherwise, the script will try to determine the branch
+
+        assuming that it is running in a snapshot view. This makes it
+
+        convenient to mount a dynamic view that corresponds to a 
+
+        snapshot view.
+
+
+
+   If -d is specified and the drive is currently mapped, but not
+
+   to this view, it will be unmapped then re-mapped to the view
+
+
+
+   Finally, the following vobs will be mounted by default:
+
+     ${DEFAULT_VOBS_TO_MOUNT}
+
+
+
+   Options:
+
+     -v <vtype>         View Type - Label, Developer, Existing 
+
+     -u <user>          Change the default user (${USER})
+
+     -s                 STE number
+
+     -r                 MLBINT Server to connect to for PDS
+
+     -p                 Previous PDS Label
+
+     -h or -?           Show this message and exit
+
+
+
+EOF
+
+}
+
+
+
+typeset ScriptName=$( basename ${0} )
+
+readonly ScriptName
+
+
+
+# These variables are being reset ... 
+
+# These should be read from command line to start this process
+
+# If they remain blank, the process will close and prompt for user input
+
+TAG=
+
+USER=
+
+V_HOST=
+
+LOCATION=
+
+
+# These variables are set to begin and changed as the script moves forward
+
+VERBOSE=true
+
+LABOPT=
+
+#textMode=transparent
+
+
+
+verboseEcho() {
+
+   if [ $VERBOSE == true ]
+
+   then
+
+      echo "$*"
+
+   fi
+
+}
+
+
+
+#
+
+# Get Settings Used for Script
+
+#
+
+
+
+verboseEcho "Get Settings" | tee -a C:\\ste\\regression_test\\Wink_Label.txt
+
+
+
+DB=GA
+
+RESET_TDMS="0"
+
+
+
+while getopts "v:u:s:r:p:d:o:n:h:" OPTION
+
+
+
+   do
+
+      case $OPTION in
+
+         v) LABOPT="   VTYPE" VTYPE="${OPTARG}";;
+
+         u) LABOPT="    USER" USER="${OPTARG}";;
+
+         s) LABOPT="     STE" STE_TAG="${OPTARG}";;
+
+         r) LABOPT="    HOST" V_HOST="${OPTARG}";;
+
+         p) LABOPT="    PREV" V_PREV="${OPTARG}";;
+
+         d) LABOPT="      DB" DB="${OPTARG}";;
+         
+         o) LABOPT="    ORIG" ORIG="${OPTARG}";;
+
+         n) LABOPT="     NEW" NEW="${OPTARG}";;
+
+
+
+         h) usage; exit 1;;
+
+         ?) usage; exit 1;;
+
+      esac
+
+         verboseEcho "          ${LABOPT} ... ${OPTARG}" | tee -a C:\\ste\\regression_test\\Wink_Label.txt
+
+   done
+
+shift $((OPTIND-1)); OPTIND=1;
+
+FILES="${ORIG} ${NEW}"
+
+ssh ${USER}@${V_HOST} cp -n ${FILES}
+
+

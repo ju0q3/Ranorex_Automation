@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="InProgress">
+	<activity
+		result="Success"
+		duration="1.3m"
+		durationms="77389"
+		type="root"
+		rid="9d660f34bb35ee9"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="stelab"
+		rxversion="9.3.1.0"
+		host="GAATLENPTCW473W"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="9/4/2020 11:34:03 AM"
+		timestampiso="2020-09-04T15:34:03"
+		endtime="9/4/2020 11:35:20 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="InputAuxiliaryRightOfWayCondBulletin">
+		<detail>
+			InputAuxiliaryRightOfWayCondBulletin
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.303"
+			timeRelativeToTestModuleStartTime="00:09.303"
+			timeWallClock="11:34:12"
+			time="00:09.303"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>bulletinSeed, district, milepost, instructions, issuedBy, effectiveTimeDifference, untilTimeDifference, expectedFeedback, pressComplete
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.301"
+			timeRelativeToTestModuleStartTime="00:13.301"
+			timeWallClock="11:34:16"
+			time="00:13.301"
+			level="Info"
+			category="TestStep">
+			<message>
+				Selecting District {AGS North}.
+			</message>
+			<metainfo
+				codefile="c:\Ranorex\Automation\PDS_NS\UserCodeCollections\NS_InputBulletins.cs"
+				codeline="52"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.394"
+			timeRelativeToTestModuleStartTime="00:13.394"
+			timeWallClock="11:34:16"
+			time="00:13.394"
+			level="Info"
+			category="User">
+			<message>
+				Test Suite parameter 'RapidClick' not found.  Defaulting to false.  Error : Object reference not set to an instance of an object.
+			</message>
+			<metainfo
+				codefile="c:\Ranorex\Automation\PDS_CORE\Code_Utils\GeneralUtilities.cs"
+				codeline="1404"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:14.878"
+			timeRelativeToTestModuleStartTime="01:14.878"
+			timeWallClock="11:35:17"
+			time="01:14.878"
+			level="Info"
+			category="TestStep">
+			<message>
+				Selecting Bulletin Type {Auxiliary - Right of Way Cond.}.
+			</message>
+			<metainfo
+				codefile="c:\Ranorex\Automation\PDS_NS\UserCodeCollections\NS_InputBulletins.cs"
+				codeline="65"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

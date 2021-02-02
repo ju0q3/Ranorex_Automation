@@ -1,0 +1,742 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{0D4F245A-29D1-4E63-A3E1-5C8D6DBBEFFA}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>OnBoard</RootNamespace>
+    <AssemblyName>OnBoard</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>a3a8c36d-893d-4bd0-9986-a8730b0da96c</projectdefaultrepository>
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Program Files %28x86%29\Ranorex\Studio\Bin\Ranorex.UiaLauncher32.exe</StartProgram>
+    <StartArguments>"C:\Ranorex\PTC_Lab_Automation\OnBoard\bin\Debug\OnBoard.exe" </StartArguments>
+    <StartWorkingDirectory>C:\Ranorex\PTC_Lab_Automation\OnBoard\bin\Debug</StartWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LiteGuard">
+      <HintPath>..\packages\LiteGuard.1.1.0\lib\net35\LiteGuard.dll</HintPath>
+    </Reference>
+    <Reference Include="PrimS.Telnet.NetStandard">
+      <HintPath>..\packages\Telnet.0.8.4\lib\net451\PrimS.Telnet.NetStandard.dll</HintPath>
+    </Reference>
+    <Reference Include="Renci.SshNet">
+      <HintPath>..\..\PTC_Lab_Automation\packages\SSH.NET.2020.0.0-beta1\lib\net40\Renci.SshNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SimpleTcp">
+      <HintPath>..\packages\SuperSimpleTcp.1.1.7\lib\net461\SimpleTcp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>f28797be-00dc-4e3f-b2b2-2128c17b9d27</id>
+    </Compile>
+    <Compile Include="OnBoardRepository.cs">
+      <BoundTo>a3a8c36d-893d-4bd0-9986-a8730b0da96c</BoundTo>
+      <DependentUpon>OnBoardRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>b7a07118-08d5-4cff-86e0-c1fe87fa6d25</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>dc080612-ebcf-4db4-9383-9777824308a1</id>
+    </Compile>
+    <Compile Include="Recording Modules\InitializeLogAgent.cs">
+      <BoundTo>e0fd94e3-31ea-47a5-83f1-9db2d49547a2</BoundTo>
+      <DependentUpon>InitializeLogAgent.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f2a37129-11a3-4e1f-a86a-7e5b199f0e7d</id>
+    </Compile>
+    <Compile Include="Recording Modules\InitializeLogAgent.UserCode.cs">
+      <BoundTo>e0fd94e3-31ea-47a5-83f1-9db2d49547a2</BoundTo>
+      <DependentUpon>InitializeLogAgent.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>3a9ac634-40d3-4dc4-be41-81ece6c9fab3</id>
+    </Compile>
+    <Compile Include="Recording Modules\MainOnBoardLoop.cs">
+      <BoundTo>765e3977-7db1-4102-a38f-bb6f0db1a4ca</BoundTo>
+      <DependentUpon>MainOnBoardLoop.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>99896711-4e17-4c57-96e1-f9a1efa9dcb9</id>
+    </Compile>
+    <Compile Include="Recording Modules\MainOnBoardLoop.UserCode.cs">
+      <BoundTo>765e3977-7db1-4102-a38f-bb6f0db1a4ca</BoundTo>
+      <DependentUpon>MainOnBoardLoop.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>5b8c5fdc-8d11-478b-adac-f4a03d93715c</id>
+    </Compile>
+    <Compile Include="Recording Modules\TestFunc.cs">
+      <DependentUpon>TestFunc.rxrec</DependentUpon>
+      <id>3a3523e1-af41-47e9-9060-b7d4112fe27a</id>
+      <BoundTo>dafadc18-dc09-4ab6-9e49-6f69ac87a912</BoundTo>
+      <RecorderCode>true</RecorderCode>
+    </Compile>
+    <Compile Include="Recording Modules\TestFunc.UserCode.cs">
+      <DependentUpon>TestFunc.rxrec</DependentUpon>
+      <id>77c5356d-1fa5-44af-8458-a1987a25fc7a</id>
+      <BoundTo>dafadc18-dc09-4ab6-9e49-6f69ac87a912</BoundTo>
+      <UserCode>true</UserCode>
+    </Compile>
+    <Compile Include="UserCodeCollections\LogAgentLoop.cs">
+      <id>0b99e567-5eaf-4665-8709-1e59d01a27fd</id>
+    </Compile>
+    <Compile Include="UserCodeCollections\OnBoardFunctions.cs">
+      <id>908e3059-5696-4ef8-a996-c8df92c25bad</id>
+    </Compile>
+    <Compile Include="UserCodeCollections\OnBoardLoop.cs">
+      <id>70ca2177-dc76-4529-8e72-576026c96db9</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>c2c8f5ac-7901-4f78-a0ef-3e12a9e078ef</id>
+    </None>
+    <None Include="License.txt">
+      <id>ff05f987-266b-4b1f-864a-053844068013</id>
+    </None>
+    <None Include="OnBoardRepository.rximg">
+      <BoundTo>a3a8c36d-893d-4bd0-9986-a8730b0da96c</BoundTo>
+      <DependentUpon>OnBoardRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>1114351e-24ac-4c2d-a6ec-96dd3b75bc01</id>
+    </None>
+    <None Include="OnBoardRepository.rxrep">
+      <id>a3a8c36d-893d-4bd0-9986-a8730b0da96c</id>
+      <repoid>0c1e18f6-57bd-4d90-be15-4fabfeb38d3c</repoid>
+      <reporootid>6824b7f7-10cb-4d36-9ff8-1f799e7f6db8</reporootid>
+    </None>
+    <None Include="packages.config">
+      <id>0c32a867-7a09-4b15-b51f-80f937496975</id>
+    </None>
+    <None Include="Recording Modules\InitializeLogAgent.rxrec">
+      <BoundTo>a3a8c36d-893d-4bd0-9986-a8730b0da96c</BoundTo>
+      <id>e0fd94e3-31ea-47a5-83f1-9db2d49547a2</id>
+      <recordtableid>c56b228b-d367-4c20-8f7a-61741ebe7ed8</recordtableid>
+    </None>
+    <None Include="Recording Modules\MainOnBoardLoop.rxrec">
+      <BoundTo>a3a8c36d-893d-4bd0-9986-a8730b0da96c</BoundTo>
+      <id>765e3977-7db1-4102-a38f-bb6f0db1a4ca</id>
+      <recordtableid>d57168d2-534c-4289-96d9-4c48b303f73c</recordtableid>
+    </None>
+    <None Include="Recording Modules\TestFunc.rxrec">
+      <id>dafadc18-dc09-4ab6-9e49-6f69ac87a912</id>
+      <BoundTo>a3a8c36d-893d-4bd0-9986-a8730b0da96c</BoundTo>
+      <recordtableid>b6c07ab7-9387-47f5-b9fa-8f51e7433eb3</recordtableid>
+    </None>
+    <None Include="Tesseract\ambiguous_words.1.html">
+      <id>532508f7-6bb4-402f-ac46-7b3dfe55ac97</id>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\ambiguous_words.exe">
+      <id>810a9b85-875f-485f-98f2-6eeec8f805bb</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\classifier_tester.1.html">
+      <id>2cb75661-6954-4a1d-a12e-47b8edad8d7b</id>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\classifier_tester.exe">
+      <id>da967bfc-40f1-4597-a82b-2460ca4fe8a7</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\cntraining.1.html">
+      <id>c77e9b92-3670-43f1-bd3b-4f261ca2ed1b</id>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\cntraining.exe">
+      <id>8fb0e7f7-9c29-43af-b0a8-3af8e802ab4e</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\combine_lang_model.1.html">
+      <id>efc7c7c0-b0b0-40d4-8d22-48bfcecb6f75</id>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\combine_lang_model.exe">
+      <id>4b70554f-7fd5-424e-ab2e-b8a3a4a948db</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\combine_tessdata.1.html">
+      <id>d6ba1f56-8d32-4238-880f-bab0d531aa36</id>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\combine_tessdata.exe">
+      <id>84dc0ed0-42ae-4887-b222-d8c5c099e43a</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\dawg2wordlist.1.html">
+      <id>e73fbcba-5440-4a2b-b028-f2355f9459a8</id>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\dawg2wordlist.exe">
+      <id>89a20966-97d6-43af-90b8-28d66b347632</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\iconv.dll">
+      <id>58cbd808-7dde-4bab-bd1f-966e6bf5afa2</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\icudt64.dll">
+      <id>0751f850-cc75-4d0d-a570-ae6c4e1e69c0</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\icuin64.dll">
+      <id>21d6c3b2-1943-4626-88ba-8cb58e875bfa</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\icuuc64.dll">
+      <id>1e87d207-8ce3-4435-b569-49b70de161cb</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\libarchive-13.dll">
+      <id>fba81db9-cf1d-4799-a024-1b94ab20fa7b</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\libbz2-1.dll">
+      <id>53f0bc6e-5e99-4114-9c71-ba938315b607</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\libcairo-2.dll">
+      <id>85886222-ce1b-4b51-a59b-d8197da2d72a</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\libcurl-4.dll">
+      <id>e9c15b17-6c50-4eaa-84de-1533ccfbd16e</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\libeay32.dll">
+      <id>a55d5ce2-8745-44b5-ab32-d93945f882c4</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\libexpat-1.dll">
+      <id>07a56958-231a-456e-87f7-94a211d9bca7</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\libffi-6.dll">
+      <id>78cd46ab-d934-47c1-be26-7d94c48ad1e5</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\libfontconfig-1.dll">
+      <id>26f1d1d0-6857-429c-9b79-bbfe29c7f46e</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\libfreetype-6.dll">
+      <id>351cf5a7-4751-4841-8e68-75084a8001d8</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\libgcc_s_sjlj-1.dll">
+      <id>498cddfc-946a-46be-bf7e-647f26c27347</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\libgif-7.dll">
+      <id>65159440-7e2a-4674-b393-f25436619573</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\libglib-2.0-0.dll">
+      <id>1b8c4810-ccf0-4d55-a145-599c6a58c380</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\libgobject-2.0-0.dll">
+      <id>0d62887d-f4c7-4f46-91aa-d4feacca65bc</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\libgomp-1.dll">
+      <id>60488e1d-5896-407b-8b2b-5d1a7c9e8789</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\libharfbuzz-0.dll">
+      <id>522fa45e-8c39-46e7-9d6a-2252a71edeb8</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\libintl-8.dll">
+      <id>2b7b2b3e-310d-4a12-92c6-8dea344bdbcf</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\libjbig-2.dll">
+      <id>fa6e3a39-bb5b-4fed-9296-a581119b1b50</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\libjpeg-8.dll">
+      <id>960e4bb9-f6aa-4cd0-8b3f-f43a7be41471</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\liblept-5.dll">
+      <id>53ac408a-d3a4-42a4-896f-e643205d5afd</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\liblz4-1.dll">
+      <id>48afdedf-1a5d-4105-90b7-278ec78a0467</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\liblzma-5.dll">
+      <id>d7fe9bc3-00f0-4155-a749-0b869011a079</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\libnettle-6.dll">
+      <id>5079c346-a4fe-4981-93bf-f9658d5edac6</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\libnghttp2-14.dll">
+      <id>ed5076e4-20c2-48f4-8eed-aa751944d130</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\libopenjp2.dll">
+      <id>b24eaf35-793e-40eb-8168-525a257b7eb6</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\libpango-1.0-0.dll">
+      <id>4e15225b-6b26-42e8-9a4b-1cd3dd06744f</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\libpangocairo-1.0-0.dll">
+      <id>572f327f-2b20-4947-83cf-5788e3336c0b</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\libpangoft2-1.0-0.dll">
+      <id>be9f429d-b358-44e9-a53c-8178ef847e8b</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\libpangowin32-1.0-0.dll">
+      <id>81990a74-5b59-4617-84ab-8acf0290b0fc</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\libpcre-1.dll">
+      <id>70b72127-912b-4112-9a47-55de84dccf30</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\libpixman-1-0.dll">
+      <id>8dfee586-cea8-48a4-9903-53affba97c76</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\libpng16-16.dll">
+      <id>3881e3ca-e4cf-408b-be96-7d1598790ea3</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\libssh2-1.dll">
+      <id>531935dc-447f-47ce-9875-3aab694ca615</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\libstdc++-6.dll">
+      <id>f9e5cab9-0db1-40a6-80e2-bb1961032a13</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\libtesseract-5.dll">
+      <id>31db0f12-c39c-4933-8d0c-9dedd947eecd</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\libtiff-5.dll">
+      <id>959aaccb-e469-4716-b388-5ddc74ea0701</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\libwebp-7.dll">
+      <id>a0fe73f9-e407-4408-ad34-1677008da8e2</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\libwinpthread-1.dll">
+      <id>d32b31f3-8ef0-4549-938c-a8d3e609c3a4</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\libxml2-2.dll">
+      <id>1a909d92-1814-41a7-8af2-c1427085d221</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\lstmeval.1.html">
+      <id>efcc9f2d-19ac-46a5-a818-cdc4503796a3</id>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\lstmeval.exe">
+      <id>3fc72601-b36a-4f91-9f65-148ce0988311</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\lstmtraining.1.html">
+      <id>8d0f07c0-78a6-4da4-9f76-b878bb04c4e2</id>
+    </None>
+    <None Include="Tesseract\lstmtraining.exe">
+      <id>3f9d5844-8881-456e-b796-014926630db9</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\merge_unicharsets.1.html">
+      <id>e4b731ba-96b7-43f4-a896-8a6ca07d4405</id>
+    </None>
+    <None Include="Tesseract\merge_unicharsets.exe">
+      <id>f7cb61eb-2990-49d6-bdb1-9332bc7294d3</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\mftraining.1.html">
+      <id>52c4c97f-2c63-400e-9fd1-c6f27363d6bd</id>
+    </None>
+    <None Include="Tesseract\mftraining.exe">
+      <id>41d9018b-4f63-404c-ab37-865c99335e17</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\set_unicharset_properties.1.html">
+      <id>842201e6-898e-4a53-9960-bb264f53f021</id>
+    </None>
+    <None Include="Tesseract\set_unicharset_properties.exe">
+      <id>86f64831-94e3-4a28-b436-b761bcb65051</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\shapeclustering.1.html">
+      <id>eb551d1c-b6f2-4480-9a06-65f02e11897c</id>
+    </None>
+    <None Include="Tesseract\shapeclustering.exe">
+      <id>318b8ef6-e214-457c-810d-4fa11fc6b203</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\ssleay32.dll">
+      <id>14dcb427-8d71-4821-b38f-c3939a210174</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\tessdata\configs\alto">
+      <id>99e41459-1d3a-46b3-b5e4-32d99fcf3852</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\tessdata\configs\ambigs.train">
+      <id>160ea1ec-112e-47d3-9e7c-9402cc512230</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\tessdata\configs\api_config">
+      <id>bab871f4-d0f6-4008-b2f0-12786b2c8065</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\tessdata\configs\bigram">
+      <id>901eae84-ed8b-4d46-b972-51c387c13e8d</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\tessdata\configs\box.train">
+      <id>80f8ed46-91db-4ff8-9d5e-b2763023401b</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\tessdata\configs\box.train.stderr">
+      <id>9398aed7-8c43-4f9b-b6f2-f805786817a8</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\tessdata\configs\digits">
+      <id>5b23aee9-e3e0-42bd-b96c-06ed82ad0559</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\tessdata\configs\get.images">
+      <id>e25df277-6ed6-41ca-81ec-1f6039b681a5</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\tessdata\configs\hocr">
+      <id>68bc94a1-d827-467f-be2f-c4a828bcaed9</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\tessdata\configs\inter">
+      <id>4f43f0e7-8b93-4703-940a-55b800d45e47</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\tessdata\configs\kannada">
+      <id>c991b841-0399-4249-b0e8-1fee838237fe</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\tessdata\configs\linebox">
+      <id>8509c7bf-916f-4979-86da-aec94fd1a3c3</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\tessdata\configs\logfile">
+      <id>f564553f-51a8-4b0a-bb78-c0cd7ee9916d</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\tessdata\configs\lstm.train">
+      <id>871544a1-f609-46d4-b8ef-1d22c5b670b8</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\tessdata\configs\lstmbox">
+      <id>b8906463-a7ab-4706-9eb0-ab122122053c</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\tessdata\configs\lstmdebug">
+      <id>d1d90e56-9d7b-4bb5-8c80-310a44336024</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\tessdata\configs\makebox">
+      <id>87087830-d6a8-4589-9e05-fb36543fc0f5</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\tessdata\configs\pdf">
+      <id>25239c4d-bc2f-4700-b982-ae42a5ea1b3d</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\tessdata\configs\quiet">
+      <id>eb7b049b-a5cd-42dd-abc9-27504b2c09ef</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\tessdata\configs\rebox">
+      <id>6e9e8635-f122-4a73-b8b4-4fcf1247f64b</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\tessdata\configs\strokewidth">
+      <id>2e09b623-15eb-447e-a015-3a94a211db28</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\tessdata\configs\tsv">
+      <id>21708b8d-ed92-4b5a-87df-a5e20b3ab207</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\tessdata\configs\txt">
+      <id>2fae5cf8-0a3d-421d-9c23-4513bba24619</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\tessdata\configs\unlv">
+      <id>d45330dd-0d53-4c89-8407-4283b01caf7e</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\tessdata\configs\wordstrbox">
+      <id>f8114b95-fb8d-4a55-832c-63d31c25ff40</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\tessdata\eng.traineddata">
+      <id>a802d1ce-1d19-4f23-a3fb-fc1db7d43934</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\tessdata\eng.user-patterns">
+      <id>a9fc3b02-c8ff-4e82-ad4f-24f84df40b0c</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\tessdata\eng.user-words">
+      <id>c06c74de-0494-4acd-8a21-3b9de480efee</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\tessdata\jaxb-api-2.3.1.jar">
+      <id>29eda934-5376-49c2-9df9-9272eee7b81f</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\tessdata\osd.traineddata">
+      <id>24300aff-79da-486b-bb43-5f2323c6a7d0</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\tessdata\pdf.ttf">
+      <id>e2fd868e-4c8c-4801-b31e-9094e69bbdb0</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\tessdata\piccolo2d-core-3.0.1.jar">
+      <id>72118f3a-1675-4173-97b1-5eef4bf824c8</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\tessdata\piccolo2d-extras-3.0.1.jar">
+      <id>871f55ff-fbfd-4319-854c-e3f384e399c8</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\tessdata\ScrollView.jar">
+      <id>b637ec08-69f2-4625-aeb6-61dd61e167b4</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\tessdata\testconfigs\batch">
+      <id>48ed0236-d8e4-41af-a768-1d5c01486eb5</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\tessdata\testconfigs\batch.nochop">
+      <id>ca415887-d171-40b0-ad4d-fa6996aad836</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\tessdata\testconfigs\matdemo">
+      <id>ded99de1-a93b-4f3a-a376-d0e6bb5874f9</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\tessdata\testconfigs\msdemo">
+      <id>2d0d04d6-dbbb-4216-9bc7-58fa2e90fd93</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\tessdata\testconfigs\nobatch">
+      <id>a6cbe1fc-65df-4726-bdf3-54ad47a1a3e7</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\tessdata\testconfigs\segdemo">
+      <id>9aa27473-682b-40b5-ad7e-37ff87c66843</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\tesseract-uninstall.exe">
+      <id>20386c5e-7205-4f6b-894b-9d38daccbd61</id>
+    </None>
+    <None Include="Tesseract\tesseract.1.html">
+      <id>250a6b3e-9c04-4668-9244-87a8c8711405</id>
+    </None>
+    <None Include="Tesseract\tesseract.exe">
+      <id>ca32ba62-9453-4612-966f-b3a22b2c3f85</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\text2image.1.html">
+      <id>6bbff986-21b8-4eef-ac7d-19b487c84bbb</id>
+    </None>
+    <None Include="Tesseract\text2image.exe">
+      <id>aaf179ad-23c8-4c1d-8729-d04fa8d00b8f</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\unicharambigs.5.html">
+      <id>1f5d5050-ed1c-4cd4-8774-1fe20a3cae2a</id>
+    </None>
+    <None Include="Tesseract\unicharset.5.html">
+      <id>62ee972b-758a-4bb3-b5bf-cb5c78f7360f</id>
+    </None>
+    <None Include="Tesseract\unicharset_extractor.1.html">
+      <id>3bcd26c4-9d5b-49ae-be8f-5f8ed4e98f61</id>
+    </None>
+    <None Include="Tesseract\unicharset_extractor.exe">
+      <id>8d2a7d68-a5f2-413f-93d7-8fec378e2d0c</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\winpath.exe">
+      <id>793a0852-31c4-4cf3-a00f-cbf72623a740</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\wordlist2dawg.1.html">
+      <id>18e9c4f6-699c-458b-ad80-836265febd1a</id>
+    </None>
+    <None Include="Tesseract\wordlist2dawg.exe">
+      <id>40caba17-8313-436e-9ee7-1395bd889d19</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Tesseract\zlib1.dll">
+      <id>c22fa9a8-770c-4cb1-b451-2570e42ee29b</id>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="OnBoard.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>8300c2bc-745b-4838-80c5-0d631543ac69</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Tesseract">
+      <id>5b2187e4-bc62-4f7b-a07a-508eb8605165</id>
+    </Folder>
+    <Folder Include="Tesseract\tessdata">
+      <id>6c54a769-b830-4d66-9ff9-1d7b1d025332</id>
+    </Folder>
+    <Folder Include="Tesseract\tessdata\configs">
+      <id>b9d7adfc-44ba-4365-8198-379d3e05d02b</id>
+    </Folder>
+    <Folder Include="Tesseract\tessdata\testconfigs">
+      <id>f13c67a3-5bb3-44d6-a4a0-e2ec1cf2e80e</id>
+    </Folder>
+    <Folder Include="UserCodeCollections">
+      <id>6a387af9-2e0a-47ad-ad9b-9c6380bb5c50</id>
+    </Folder>
+    <Folder Include="Recording Modules">
+      <id>f3b0c464-c4ea-4106-aac4-5a6f575efa25</id>
+    </Folder>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Automation\PDS_CORE\PDS_CORE.csproj">
+      <Project>{60BC418F-3D95-43EA-80B6-CEA3543ED839}</Project>
+      <Name>PDS_CORE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Automation\PDS_NS\PDS_NS.csproj">
+      <Project>{908DFD02-C599-4E8B-901D-40165C650B65}</Project>
+      <Name>PDS_NS</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

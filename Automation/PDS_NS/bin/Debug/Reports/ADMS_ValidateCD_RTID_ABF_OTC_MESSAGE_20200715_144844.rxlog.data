@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="7.3s"
+		durationms="7303"
+		type="root"
+		rid="507d65c775ee95e"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="stelab"
+		rxversion="9.3.1.0"
+		host="GAATLENPTCW473W"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="7/15/2020 2:48:49 PM"
+		timestampiso="2020-07-15T18:48:49"
+		endtime="7/15/2020 2:48:56 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="ADMS_ValidateCD_RTID_ABF_OTC_MESSAGE">
+		<detail>
+			ADMS_ValidateCD_RTID_ABF_OTC_MESSAGE
+		</detail>
+		<errormessage>
+			Input string was not in a correct format.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.924"
+			timeRelativeToTestModuleStartTime="00:06.924"
+			timeWallClock="14:48:56"
+			time="00:06.924"
+			level="Warn"
+			category="Data"
+			errimg="images_ADMS_Val_697bc9d7\ADMS_Val_697bc9d7_934350f6_trace.jpg"
+			errthumb="images_ADMS_Val_697bc9d7\ADMS_Val_697bc9d7_934350f6_trace_thumb.jpg">
+			<message>
+				The following module variables are not bound to a data column:<br/>trainClearanceNumberTrainSeed, engineNumberTrainSeed, engineNumberEngineSeed, minutesBeforeNow, expectedCount, validateExists
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.208"
+			timeRelativeToTestModuleStartTime="00:07.208"
+			timeWallClock="14:48:56"
+			time="00:07.208"
+			level="Error"
+			category="Module"
+			errimg="images_ADMS_Val_697bc9d7\ADMS_Val_697bc9d7_bd2f9071_trace.jpg"
+			errthumb="images_ADMS_Val_697bc9d7\ADMS_Val_697bc9d7_bd2f9071_trace_thumb.jpg">
+			<message>
+				Input string was not in a correct format.
+			</message>
+			<metainfo
+				stacktrace="   at System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer&amp; number, NumberFormatInfo info, Boolean parseDecimal)&#13;&#10;   at System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)&#13;&#10;   at System.Int32.Parse(String s)&#13;&#10;   at PDS_NS.UserCodeCollections.NS_Oracle.NS_OracleValidation.NS_ValidateCD_RTID_ABF_OTC_MESSAGE_ADMS(String trainClearanceNumberTrainSeed, String engineNumberTrainSeed, String engineNumberEngineSeed, String minutesBeforeNow, String expectedCount, Boolean validateExists) in c:\Ranorex\Automation\PDS_NS\UserCodeCollections\NS_Oracle\NS_OracleValidations.cs:line 373&#13;&#10;   at PDS_NS.Recording_Modules.Database.ADMS_ValidateCD_RTID_ABF_OTC_MESSAGE.Ranorex.Core.Testing.ITestModule.Run() in c:\Ranorex\Automation\PDS_NS\Recording Modules\Database\ADMS_ValidateCD_RTID_ABF_OTC_MESSAGE.cs:line 160&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Ranorex\Automation\PDS_NS\UserCodeCollections\NS_Oracle\NS_OracleValidations.cs"
+				codeline="373"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

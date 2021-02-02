@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="27.58s"
+		durationms="27584"
+		type="root"
+		rid="ef705f3edb8a170"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="stelab"
+		rxversion="9.3.1.0"
+		host="GAATLENPTCW473W"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="9/4/2020 11:40:52 AM"
+		timestampiso="2020-09-04T15:40:52"
+		endtime="9/4/2020 11:41:20 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="InputAuxiliaryRightOfWayCondBulletin">
+		<detail>
+			InputAuxiliaryRightOfWayCondBulletin
+		</detail>
+		<errormessage>
+			Failed to find item 'Bulletins_Repo.Bulletins_Input_Relay.Input.BulletinWorkingAreas.AuxiliaryRightOfWayCond.Milepost.MilepostText'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:07.515"
+			timeRelativeToTestModuleStartTime="00:07.515"
+			timeWallClock="11:41:00"
+			time="00:07.515"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>bulletinSeed, district, milepost, instructions, issuedBy, effectiveTimeDifference, untilTimeDifference, expectedFeedback, pressComplete
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.179"
+			timeRelativeToTestModuleStartTime="00:11.179"
+			timeWallClock="11:41:04"
+			time="00:11.179"
+			level="Info"
+			category="User">
+			<message>
+				Test Suite parameter 'RapidClick' not found.  Defaulting to false.  Error : Object reference not set to an instance of an object.
+			</message>
+			<metainfo
+				codefile="c:\Ranorex\Automation\PDS_CORE\Code_Utils\GeneralUtilities.cs"
+				codeline="1404"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.928"
+			timeRelativeToTestModuleStartTime="00:13.928"
+			timeWallClock="11:41:06"
+			time="00:13.928"
+			level="Info"
+			category="TestStep"
+			errimg="images_InputAux_e3de017c\InputAux_e3de017c_32fcabf8_trace.jpg"
+			errthumb="images_InputAux_e3de017c\InputAux_e3de017c_32fcabf8_trace_thumb.jpg">
+			<message>
+				Selecting District {AGS North}.
+			</message>
+			<metainfo
+				codefile="c:\Ranorex\Automation\PDS_NS\UserCodeCollections\NS_InputBulletins.cs"
+				codeline="52"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.099"
+			timeRelativeToTestModuleStartTime="00:16.099"
+			timeWallClock="11:41:08"
+			time="00:16.099"
+			level="Info"
+			category="TestStep"
+			errimg="images_InputAux_e3de017c\InputAux_e3de017c_07882f70_trace.jpg"
+			errthumb="images_InputAux_e3de017c\InputAux_e3de017c_07882f70_trace_thumb.jpg">
+			<message>
+				Selecting Bulletin Type {Auxiliary - Right of Way Cond}.
+			</message>
+			<metainfo
+				codefile="c:\Ranorex\Automation\PDS_NS\UserCodeCollections\NS_InputBulletins.cs"
+				codeline="65"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:27.469"
+			timeRelativeToTestModuleStartTime="00:27.469"
+			timeWallClock="11:41:20"
+			time="00:27.469"
+			level="Error"
+			category="Module"
+			errimg="images_InputAux_e3de017c\InputAux_e3de017c_9798719a_trace.jpg"
+			errthumb="images_InputAux_e3de017c\InputAux_e3de017c_9798719a_trace_thumb.jpg">
+			<message>
+				Failed to find item 'Bulletins_Repo.Bulletins_Input_Relay.Input.BulletinWorkingAreas.AuxiliaryRightOfWayCond.Milepost.MilepostText'.<br/>No element found for path '/form[@title='Bulletin Items']/container[@name='_mainPanel']/container[@accessiblename='Input']/container[@name='_bulletinItemTab']/container[@name='_basePanel']/container[@name='viewport']/container[@name='_workingAreaPnl' and @visible='True']/combobox[@name='Location_1']' at step 'combobox[@name='Location_1']' after 57 attempts within 9s.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at PDS_NS.Bulletins_RepoFolders.MilepostFolder4.get_MilepostText() in c:\Ranorex\Automation\PDS_NS\Bulletins_Repo.cs:line 17785&#13;&#10;   at PDS_NS.UserCodeCollections.NS_InputBulletins.NS_InputAuxiliaryRightOfWayCondBulletin(String bulletinSeed, String district, String milepost, String instructions, String issuedBy, String effectiveTimeDifference, String untilTimeDifference, String expectedFeedback, Boolean pressComplete) in c:\Ranorex\Automation\PDS_NS\UserCodeCollections\NS_InputBulletins.cs:line 1617&#13;&#10;   at PDS_NS.Recording_Modules.Bulletins.Input.InputAuxiliaryRightOfWayCondBulletin.Ranorex.Core.Testing.ITestModule.Run() in c:\Ranorex\Automation\PDS_NS\Recording Modules\Bulletins\Input\InputAuxiliaryRightOfWayCondBulletin.cs:line 199&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Ranorex\Automation\PDS_NS\UserCodeCollections\NS_InputBulletins.cs"
+				codeline="1617"
+				type="repoitem"
+				path="/form[@title='Bulletin Items']/container[@name='_mainPanel']/container[@accessiblename='Input']/container[@name='_bulletinItemTab']/container[@name='_basePanel']/container[@name='viewport']/container[@name='_workingAreaPnl' and @visible='True']/combobox[@name='Location_1']"
+				itempath="combobox[@name='Location_1']"
+				fullname="Bulletins_Repo.Bulletins_Input_Relay.Input.BulletinWorkingAreas.AuxiliaryRightOfWayCond.Milepost.MilepostText"
+				id="758fc2aa5df447f4afbfe9aac340b1da"
+				timeout="9000"
+				failedStep="combobox[@name='Location_1']"
+				bestPathPrefix="/form[@title='Bulletin Items']/container[@name='_mainPanel']/container[@accessiblename='Input']/container[@name='_bulletinItemTab']/container[@name='_basePanel']/container[@name='viewport']/container[@name='_workingAreaPnl' and @visible='True']"
+				loglvl="Error">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="c56b228b-d367-4c20-8f7a-61741ebe7ed8"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="InitializeLogAgent"
+	namespace="OnBoard.Recording_Modules">
+	</codegen>
+	<variables>
+		<var
+		id="42ce66a7-5b51-4090-b05c-3c053da2d567"
+		name="onBoardLogFilePath">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="LogAgentLoop"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="InitializeLogAgentFunction"
+		namespace="OnBoard.UserCodeCollections"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="8ac487b8-f79c-4014-8b6a-794544ae6205">
+				<argument
+				argname="logFilePath"
+				id="86b961d0-e537-4c75-9004-afddafcf9cfe"
+				variable="onBoardLogFilePath">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="0c1e18f6-57bd-4d90-be15-4fabfeb38d3c"
+	name="OnBoardRepository"
+	relativepath="..\OnBoardRepository.rxrep">
+		<codegen
+		classname="OnBoardRepository"
+		namespace="OnBoard">
+		</codegen>
+		<rootfolder
+		id="6824b7f7-10cb-4d36-9ff8-1f799e7f6db8"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		InitializeLogAgent.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

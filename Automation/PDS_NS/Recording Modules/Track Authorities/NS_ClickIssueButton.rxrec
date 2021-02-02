@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="cac75bed-7bdb-4068-9f00-2feedeb5f08d"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="NS_ClickIssueButton"
+	namespace="PDS_NS.Recording_Modules.Track_Authorities">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="GeneralUtilities"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="LeftClickAndWaitForWithRetry"
+		namespace="PDS_CORE.Code_Utils"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="d693c2a8-f651-408a-995c-c6f1a0f297ca">
+				<argument
+				argname="button"
+				id="60bcbe2e-7325-4bf6-8ebb-c69176553684">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="cd7d775c-7d3b-4b53-ba02-b3133c701c12"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/form[@title~'^Create\ Track\ Authority\ ']/container[@name='MovementAuthorityPanel']/container[@name='ButtonPnl']/button[@name='IssueButton' and @visible='True']
+						</path>
+					</info>
+				</argument>
+				<argument
+				argname="waitFor"
+				id="16644b9d-c204-4cb9-82e9-30c6f0f82799">
+					<argvaluetype>
+						Ranorex.Core.Repository.RepoItemInfo, Ranorex.Core, Culture=neutral
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+					<info
+					id="cfed13df-eeb3-4a6a-9337-3929d6a8fa4c"
+					sourcename="ItemRecorderEditor">
+						<path>
+							/form[@title~'^Communication\ Exchange\ Tr' or @title~'^OK\ Track\ Authority\ ' or @title~'Active\ Track\ Authority\ ' or @title~'^Release\ Pending\ Track\ Aut']
+						</path>
+					</info>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="48711a70-4260-48d9-b9be-f4c41f092706"
+	name="TrackAuthorities_Repo"
+	relativepath="..\..\TrackAuthorities_Repo.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="TrackAuthorities_Repo"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="1a7686ed-edee-41c2-9630-14a987ef7356"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		NS_ClickIssueButton.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="dabc65b0-142c-43b8-bd2c-4f8921b707cc"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="TestPTCConfigurationMenu"
+	namespace="PDS_NS.Recording_Modules.SpecialCaseRecordings">
+	</codegen>
+	<variables>
+		<var
+		id="7503b5a9-5777-48a5-802d-b9f30e52960d"
+		name="Iterations">
+			100
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="TestPTCConfigurationMenu"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="PTCConfigTest"
+		namespace="PDS_NS.Recording_Modules.SpecialCaseRecordings"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="728a4e9f-626d-4ce6-a67b-c06132bd523c">
+				<argument
+				argname="Iterations"
+				id="15f877f0-caaa-428d-9b70-58a9113a11bb"
+				variable="Iterations">
+					<argvaluetype>
+						System.Int32
+					</argvaluetype>
+					<argvalue>
+						100
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="81af6446-71fa-4977-9bd0-411f88dc55ba"
+	name="PDS_NSRepository"
+	relativepath="..\..\PDS_NSRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="PDS_NSRepository"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="b2ba234a-2e7c-4852-8e7f-adb8693853b7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		TestPTCConfigurationMenu.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="ffc24c2d-bfaf-41fa-9c4b-2e6593fe8246"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CalculateDRAs_ShellCommand_NS"
+	namespace="PDS_NS.Recording_Modules.DRA.Maintenance">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="CalculateDRAs_ShellCommand_NS"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="ShellCmd_CalculateDRAs_NS"
+		namespace="PDS_NS.Recording_Modules.DRA.Maintenance"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="734d2043-3e06-4e57-8f17-e093371149cf">
+				<argument
+				argname="shellCmd"
+				id="9bb54abd-bd91-409b-a52b-22e218035cbb">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						DRATool -c recalc_dras
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="81af6446-71fa-4977-9bd0-411f88dc55ba"
+	name="PDS_NSRepository"
+	relativepath="..\..\..\PDS_NSRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="PDS_NSRepository"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="b2ba234a-2e7c-4852-8e7f-adb8693853b7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CalculateDRAs_ShellCommand_NS.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

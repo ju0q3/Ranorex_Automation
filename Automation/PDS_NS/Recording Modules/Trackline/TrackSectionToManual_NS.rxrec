@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="3460eb8d-6954-4caa-b110-39b16cf96c8c"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="TrackSectionToManual_NS"
+	namespace="PDS_NS.Recording_Modules.Trackline">
+	</codegen>
+	<variables>
+		<var
+		id="bf5f9f75-fef5-491f-aea0-6248f0566336"
+		name="deviceID">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="NS_Trackline"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="TrackSectionContextAction"
+		namespace="PDS_NS.UserCodeCollections"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="62dd31e7-5879-4fa0-9f02-ff223a0f2e1b">
+				<argument
+				argname="deviceID"
+				id="fd3d5b3d-87b7-47db-afc4-75d08ba9bff1"
+				variable="deviceID">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+				<argument
+				argname="action"
+				id="b1e35ede-1dd4-4abc-8fbc-49df967d2b6f">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+						MANUAL:TRACK SECTION
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="81af6446-71fa-4977-9bd0-411f88dc55ba"
+	name="PDS_NSRepository"
+	relativepath="..\..\PDS_NSRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="PDS_NSRepository"
+		namespace="PDS_NS">
+		</codegen>
+		<rootfolder
+		id="b2ba234a-2e7c-4852-8e7f-adb8693853b7"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		TrackSectionToManual_NS.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

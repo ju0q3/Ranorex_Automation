@@ -1,0 +1,20 @@
+﻿<repository
+id="e44994df-4fbc-4c80-8a3c-599d87a51678"
+name="Test_ExecutionRepository">
+	<codegen
+	classname="Test_ExecutionRepository"
+	namespace="PTC_Lab_Automation">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="dab857d6-db00-487f-8fdd-61a5ad3edc4e"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

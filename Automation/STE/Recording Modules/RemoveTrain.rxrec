@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="8ee21432-f848-4a57-9193-d23d6a9b1502"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="RemoveTrain"
+	namespace="STE.Recording_Modules">
+	</codegen>
+	<variables>
+		<var
+		id="484d871f-b814-4c2f-adf0-574e31d94d44"
+		name="trainId">
+			1001 25
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="SteOccupancyCollection"
+		enabled="True"
+		isexternaltestmethod="True"
+		methodname="removeVehicle"
+		namespace="STE.Code_Utils"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="ae40c327-d5ff-43fa-a5fe-df2b41e548c5">
+				<argument
+				argname="trainId"
+				id="5e058529-c025-4bc2-b5ca-28efd25d7e82"
+				variable="trainId">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="94979805-1172-497d-81a7-96b90e56bc08"
+	name="STERepository"
+	relativepath="..\STERepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="STERepository"
+		namespace="STE">
+		</codegen>
+		<rootfolder
+		id="b886b4af-b6ad-4b0c-8231-55d5a1273425"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		RemoveTrain.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

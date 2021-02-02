@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="2675022c-7c78-4d03-9fa8-b9afbd623660"
+mode="Global">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="SetReverser"
+	namespace="PTC_Lab_Automation.Recording_Modules.MotionControlActions">
+	</codegen>
+	<variables>
+		<var
+		id="86d490ce-5548-4dd6-83d2-538c3d431d41"
+		name="reverser">
+		</var>
+	</variables>
+	<recorditems>
+		<userrecorditem
+		classname="SetReverser"
+		enabled="True"
+		isexternaltestmethod="False"
+		methodname="SetReverser_MotionControl"
+		namespace="PTC_Lab_Automation.Recording_Modules.MotionControlActions"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<arguments
+			id="a78c6afe-bd03-4d05-837e-2516fc313b8a">
+				<argument
+				argname="reverser"
+				id="3b2c516f-f6fd-4262-b3eb-51692d3a53c8"
+				variable="reverser">
+					<argvaluetype>
+						System.String
+					</argvaluetype>
+					<argvalue>
+					</argvalue>
+				</argument>
+			</arguments>
+		</userrecorditem>
+	</recorditems>
+	<repository
+	id="e44994df-4fbc-4c80-8a3c-599d87a51678"
+	name="Test_ExecutionRepository"
+	relativepath="..\..\Test ExecutionRepository.rxrep">
+		<codegen
+		classname="Test_ExecutionRepository"
+		namespace="PTC_Lab_Automation">
+		</codegen>
+		<rootfolder
+		id="dab857d6-db00-487f-8fdd-61a5ad3edc4e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		SetReverser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
